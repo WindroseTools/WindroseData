@@ -1,0 +1,41 @@
+{
+  "name": "@windrosetools/windrosedata",
+  "version": "0.0.1",
+  "description": "Inofficial data package for the Windrose game.",
+  "keywords": [
+    "windrose",
+    "game",
+    "pc"
+  ],
+  "homepage": "https://github.com/WindroseTools/WindroseData#readme",
+  "bugs": {
+    "url": "https://github.com/WindroseTools/WindroseData/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WindroseTools/WindroseData.git"
+  },
+  "publishConfig": {
+    "@windrosetools:registry": "https://registry.npmjs.org"
+  },
+  "license": "AGPL-3.0",
+  "author": "Windrose Tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "data",
+    "languages",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
