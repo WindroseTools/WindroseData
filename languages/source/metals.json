@@ -1,0 +1,11 @@
+{
+    "copperIngot": {
+        "demo": {
+            "name": "Copper Ingot",
+            "description": [
+                "Used for crafting tools and armor.",
+                "Smelted in a Smelting Furnace."
+            ]
+        }
+    }
+}
