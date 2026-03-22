@@ -1,0 +1,57 @@
+{
+    "copperAxe": {
+        "demo": {
+            "id": "copperAxe",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 5,
+                "wood": 5
+            }
+        }
+    },
+    "copperPickaxe": {
+        "demo": {
+            "id": "copperPickaxe",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 5,
+                "wood": 5
+            }
+        }
+    },
+    "stoneAxe": {
+        "demo": {
+            "id": "stoneAxe",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "stone": 3,
+                "wood": 3
+            }
+        }
+    },
+    "stonePickaxe": {
+        "demo": {
+            "id": "stonePickaxe",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "stone": 3,
+                "wood": 3
+            }
+        }
+    },
+    "shovel": {
+        "demo": {
+            "id": "shovel",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 3,
+                "wood": 10
+            }
+        }
+    }
+}

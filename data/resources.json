@@ -1,0 +1,64 @@
+{
+    "stone": {
+        "demo": {
+            "id": "stone",
+            "rarity": "common",
+            "stackLimit": 40
+        }
+    },
+    "wood": {
+        "demo": {
+            "id": "wood",
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "clay": {
+        "demo": {
+            "id": "clay",
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "copperOre": {
+        "demo": {
+            "id": "copperOre",
+            "rarity": "common",
+            "stackLimit": 1
+        }
+    },
+    "ash": {
+        "demo": {
+            "id": "ash",
+            "rarity": "uncommon",
+            "stackLimit": 100
+        }
+    },
+    "plantFiber": {
+        "demo": {
+            "id": "plantFiber",
+            "rarity": "common",
+            "stackLimit": 100
+        }
+    },
+    "copperPot": {
+        "demo": {
+            "id": "copperPot",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 5
+            }
+        }
+    },
+    "clayPot": {
+        "demo": {
+            "id": "clayPot",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "clay": 6
+            }
+        }
+    }
+}
