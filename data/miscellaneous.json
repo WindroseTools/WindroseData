@@ -1,0 +1,52 @@
+{
+    "fastTravelBell": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 10,
+                "rope": 3
+            }
+        }
+    },
+    "lamp": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 1,
+            "required": {
+                "copperIngot": 4,
+                "rope": 1
+            }
+        }
+    },
+    "insigniaOfABlackbeardCrewman": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 1
+        }
+    },
+    "insigniaOfABlackbeardSergeant": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 1
+        }
+    },
+    "insigniaOfABlackbeardLieutenant": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 1
+        }
+    },
+    "medicine": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 1
+        }
+    },
+    "ancientIncenseBurner": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 1
+        }
+    }
+}

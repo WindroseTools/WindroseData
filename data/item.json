@@ -1,0 +1,44 @@
+{
+    "masterCombatRepairKit": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 1,
+            "required": {
+                "wood": 10,
+                "steelNails": 1,
+                "rumBottle": 1
+            }
+        }
+    },
+    "combatRepairKit": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "wood": 4,
+                "nails": 12,
+                "rumBottle": 1
+            }
+        }
+    },
+    "repairKit": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 10,
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "gunroomGrog": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 1,
+            "required": {
+                "rumBottle": 1,
+                "whiskey": 1,
+                "cayennePepper": 2
+            }
+        }
+    }
+}

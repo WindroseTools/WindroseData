@@ -1,0 +1,34 @@
+{
+    "homewardJourney": {
+        "demo": {
+            "id": "homewardJourney",
+            "rarity": "rare",
+            "stackLimit": 1,
+            "required": {
+                "alchemicalBase": 3,
+                "rumBottle": 2,
+                "feather": 4,
+                "undeadEssence": 1
+            }
+        }
+    },
+    "undeadEssence": {
+        "demo": {
+            "id": "undeadEssence",
+            "rarity": "rare",
+            "stackLimit": 1
+        }
+    },
+    "elixirOfFirmHand": {
+        "demo": {
+            "id": "elixirOfFirmHand",
+            "rarity": "rare",
+            "stackLimit": 1,
+            "required": {
+                "alchemicalBase": 1,
+                "boarTusk": 1,
+                "pearl": 1
+            }
+        }
+    }
+}

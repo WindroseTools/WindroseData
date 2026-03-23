@@ -1,0 +1,25 @@
+{
+    "tornSailclothBag": {
+        "demo": {
+            "id": "tornSailclothBag",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "coarseFabric": 2,
+                "rope": 1
+            }
+        }
+    },
+    "sailorBackpack": {
+        "demo": {
+            "id": "sailorBackpack",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "tornSailclothBag": 1,
+                "roughHide": 5,
+                "copperIngot": 2
+            }
+        }
+    }
+}

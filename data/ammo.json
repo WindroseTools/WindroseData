@@ -1,0 +1,22 @@
+{
+    "copperBullet": {
+        "demo": {
+            "id": "copperBullet",
+            "rarity": "uncommon",
+            "stackLimit": 20,
+            "required": {
+                "copperIngot": 0.2
+            }
+        }
+    },
+    "stoneBullet": {
+        "demo": {
+            "id": "stoneBullet",
+            "rarity": "uncommon",
+            "stackLimit": 20,
+            "required": {
+                "stone": 0.6
+            }
+        }
+    }
+}

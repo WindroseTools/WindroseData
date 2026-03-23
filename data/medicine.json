@@ -1,0 +1,33 @@
+{
+    "bandage": {
+        "demo": {
+            "id": "bandage",
+            "rarity": "uncommon",
+            "stackLimit": 10,
+            "required": {
+                "coarseFabric": 1
+            }
+        }
+    },
+    "minorHealingPotion": {
+        "demo": {
+            "id": "minorHealingPotion",
+            "rarity": "uncommon",
+            "stackLimit": 10,
+            "required": {
+                "alchemicalBase": 1
+            }
+        }
+    },
+    "greatHealingPotion": {
+        "demo": {
+            "id": "greatHealingPotion",
+            "rarity": "epic",
+            "stackLimit": 1,
+            "required": {
+                "alchemicalBase": 1,
+                "healingHerbs": 3
+            }
+        }
+    }
+}

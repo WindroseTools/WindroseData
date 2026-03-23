@@ -60,5 +60,105 @@
                 "clay": 6
             }
         }
+    },
+    "coarseFabric": {
+        "demo": {
+            "id": "coarseFabric",
+            "rarity": "uncommon",
+            "stackLimit": 40,
+            "required": {
+                "plantFiber": 3
+            }
+        }
+    },
+    "rope": {
+        "demo": {
+            "id": "rope",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "plantFiber": 3
+            }
+        }
+    },
+    "nails": {
+        "demo": {
+            "id": "nails",
+            "rarity": "uncommon",
+            "stackLimit": 100,
+            "required": {
+                "copperIngot": 0.2
+            }
+        }
+    },
+    "clayBottle": {
+        "demo": {
+            "id": "clayBottle",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "required": {
+                "clay": 1
+            }
+        }
+    },
+    "alchemicalBase": {
+        "demo": {
+            "id": "alchemicalBase",
+            "rarity": "uncommon",
+            "stackLimit": 40,
+            "required": {
+                "clayBottle": 1,
+                "mistyOrchid": 1
+            }
+        }
+    },
+    "mistyOrchid": {
+        "demo": {
+            "id": "mistyOrchid",
+            "rarity": "common",
+            "stackLimit": 1
+        }
+    },
+    "healingHerbs": {
+        "demo": {
+            "id": "healingHerbs",
+            "rarity": "rare",
+            "stackLimit": 1
+        }
+    },
+    "feather": {
+        "demo": {
+            "id": "feather",
+            "rarity": "common",
+            "stackLimit": 1
+        }
+    },
+    "boarTusk": {
+        "demo": {
+            "id": "boarTusk",
+            "rarity": "common",
+            "stackLimit": 1
+        }
+    },
+    "pearl": {
+        "demo": {
+            "id": "pearl",
+            "rarity": "common",
+            "stackLimit": 1
+        }
+    },
+    "whiskey": {
+        "demo": {
+            "id": "whiskey",
+            "rarity": "epic",
+            "stackLimit": 1
+        }
+    },
+    "salt": {
+        "demo": {
+            "id": "salt",
+            "rarity": "rare",
+            "stackLimit": 1
+        }
     }
 }
