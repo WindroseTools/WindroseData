@@ -23,7 +23,7 @@ export function loadVersionedData<
     TResult,
 >(
     dataByKey: Record<K, Partial<Record<VersionKey, TRaw>>>,
-    createEntry: (id: K, data: TRaw) => TResult,
+    createEntry: (id: K, data: TRaw, version: VersionKey) => TResult,
 ): MultiVersion<K, TResult> {
     const orderedVersions = (Object.entries(versions) as Array<[VersionKey, { index: number }]> )
         .map(([version, data]) => ({ version, index: data.index }))
@@ -43,7 +43,7 @@ export function loadVersionedData<
                 continue;
             }
 
-            versionEntries[id] = createEntry(id, entriesByVersion[fallback.version]!);
+            versionEntries[id] = createEntry(id, entriesByVersion[fallback.version]!, version);
         }
 
         resolvedByVersion[version] = versionEntries;
