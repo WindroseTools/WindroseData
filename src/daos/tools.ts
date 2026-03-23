@@ -1,7 +1,8 @@
 import toolsData from "../../data/tools.json";
 import { Rarity } from "../types/Rarity";
+import "./resources";
 import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
-import { RequirementEntry, RequirementResolver, RequirementUtils } from "./requirements";
+import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ToolKey = keyof typeof toolsData;
 type ToolData<TRequired = number> = {
@@ -28,7 +29,11 @@ export class Tool {
         this.required = data.required;
     }
 
-    static loadToolsByVersion(resolvers: RequirementResolver[] = RequirementUtils.defaultRequirementResolvers): ToolsByVersion {
+    static loadToolsByVersion(): ToolsByVersion {
+        const resolvers = [
+            ...RequirementUtils.createDefaultRequirementResolvers(),
+        ];
+
         return loadVersionedData(
             toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolRawData>>>,
             (id, data, version) => {

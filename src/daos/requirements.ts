@@ -1,6 +1,4 @@
 import { VersionKey } from "./versions";
-import { Metals } from "./metals";
-import { Resources } from "./resources";
 
 export type ResolvedRequirement = {
     type: string;
@@ -9,6 +7,11 @@ export type ResolvedRequirement = {
 
 export type RequirementResolver = (id: string, version: VersionKey) => ResolvedRequirement | undefined;
 
+type RequirementLookupContext = {
+    getMetal?: (id: string, version: VersionKey) => unknown;
+    getResource?: (id: string, version: VersionKey) => unknown;
+};
+
 export type RequirementEntry = {
     id: string;
     amount: number;
@@ -16,30 +19,41 @@ export type RequirementEntry = {
 };
 
 export class RequirementUtils {
-    static readonly defaultRequirementResolvers: RequirementResolver[] = [
-        (id, version) => {
-            const metal = Metals[version][id as keyof typeof Metals[typeof version]];
-            if (!metal) {
-                return undefined;
-            }
+    private static lookupContext: RequirementLookupContext = {};
 
-            return {
-                type: "metal",
-                value: metal,
-            };
-        },
-        (id, version) => {
-            const resource = Resources[version][id as keyof typeof Resources[typeof version]];
-            if (!resource) {
-                return undefined;
-            }
+    static registerLookupContext(context: RequirementLookupContext): void {
+        RequirementUtils.lookupContext = {
+            ...RequirementUtils.lookupContext,
+            ...context,
+        };
+    }
 
-            return {
-                type: "resource",
-                value: resource,
-            };
-        },
-    ];
+    static createDefaultRequirementResolvers(): RequirementResolver[] {
+        return [
+            (id, version) => {
+                const metal = RequirementUtils.lookupContext.getMetal?.(id, version);
+                if (!metal) {
+                    return undefined;
+                }
+
+                return {
+                    type: "metal",
+                    value: metal,
+                };
+            },
+            (id, version) => {
+                const resource = RequirementUtils.lookupContext.getResource?.(id, version);
+                if (!resource) {
+                    return undefined;
+                }
+
+                return {
+                    type: "resource",
+                    value: resource,
+                };
+            },
+        ];
+    }
 
     static resolveRequirement(
         id: string,

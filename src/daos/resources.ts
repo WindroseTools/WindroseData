@@ -1,7 +1,8 @@
 import resourcesData from "../../data/resources.json";
 import { Rarity } from "../types/Rarity";
+import "./metals";
 import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
-import { RequirementEntry, RequirementResolver, RequirementUtils } from "./requirements";
+import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ResourceKey = keyof typeof resourcesData;
 type ResourceData<TRequired = number> = {
@@ -11,6 +12,10 @@ type ResourceData<TRequired = number> = {
 };
 type ResourceRawData = ResourceData<number>;
 type ResourceResolvedData = ResourceData<RequirementEntry>;
+type ResolvedResourcePayload = {
+	id: ResourceKey;
+	data: ResourceRawData;
+};
 
 type ResourcesByVersion = MultiVersion<ResourceKey, Resource>;
 
@@ -27,17 +32,53 @@ export class Resource {
 		this.required = data.required;
 	}
 
-	static loadResourcesByVersion(resolvers: RequirementResolver[] = RequirementUtils.defaultRequirementResolvers): ResourcesByVersion {
-		return loadVersionedData(
+	static loadResourcesByVersion(): ResourcesByVersion {
+		const rawByVersion = loadVersionedData(
 			resourcesData as Record<ResourceKey, Partial<Record<VersionKey, ResourceRawData>>>,
-			(id, data, version) => {
-				const required = data.required
-					? RequirementUtils.resolveRequiredEntries(data.required, version, resolvers)
+			(id, data) => ({
+				id,
+				data: { ...data },
+			}),
+		) as MultiVersion<ResourceKey, ResolvedResourcePayload>;
+
+		const resourcesByVersion = {} as ResourcesByVersion;
+
+		for (const version of Object.keys(rawByVersion) as VersionKey[]) {
+			const entries = rawByVersion[version];
+			const resourceEntries: Partial<Record<ResourceKey, Resource>> = {};
+
+			for (const [id, payload] of Object.entries(entries) as Array<[ResourceKey, ResolvedResourcePayload]>) {
+				const { required: _required, ...baseData } = payload.data;
+				resourceEntries[id] = new Resource(payload.id, baseData);
+			}
+
+			resourcesByVersion[version] = resourceEntries;
+		}
+
+		RequirementUtils.registerLookupContext({
+			getResource: (id, version) => resourcesByVersion[version][id as ResourceKey],
+		});
+
+		const resolvers = [
+			...RequirementUtils.createDefaultRequirementResolvers(),
+		];
+
+		for (const version of Object.keys(rawByVersion) as VersionKey[]) {
+			const entries = rawByVersion[version];
+
+			for (const [id, payload] of Object.entries(entries) as Array<[ResourceKey, ResolvedResourcePayload]>) {
+				const required = payload.data.required
+					? RequirementUtils.resolveRequiredEntries(payload.data.required, version, resolvers)
 					: undefined;
 
-				return new Resource(id, { ...data, required });
-			},
-		) as ResourcesByVersion;
+				const resource = resourcesByVersion[version][id];
+				if (resource) {
+					resource.required = required;
+				}
+			}
+		}
+
+		return resourcesByVersion;
 	}
 }
 

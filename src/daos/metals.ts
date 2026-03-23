@@ -1,6 +1,7 @@
 import metalsData from "../../data/metals.json";
 import { Rarity } from "../types/Rarity";
 import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
+import { RequirementUtils } from "./requirements";
 
 type MetalKey = keyof typeof metalsData;
 type MetalData = {
@@ -22,10 +23,16 @@ export class Metal {
     }
 
     static loadMetalsByVersion(): MetalsByVersion {
-        return loadVersionedData(
+        const metalsByVersion = loadVersionedData(
             metalsData as Record<MetalKey, Partial<Record<VersionKey, MetalData>>>,
             (id, data) => new Metal(id, { ...data }),
         ) as MetalsByVersion;
+
+        RequirementUtils.registerLookupContext({
+            getMetal: (id, version) => metalsByVersion[version][id as MetalKey],
+        });
+
+        return metalsByVersion;
     }
 }
 
