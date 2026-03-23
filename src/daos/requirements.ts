@@ -1,5 +1,6 @@
 import { VersionKey } from "./versions";
 import { Metals } from "./metals";
+import { Resources } from "./resources";
 
 export type ResolvedRequirement = {
     type: string;
@@ -25,6 +26,17 @@ export class RequirementUtils {
             return {
                 type: "metal",
                 value: metal,
+            };
+        },
+        (id, version) => {
+            const resource = Resources[version][id as keyof typeof Resources[typeof version]];
+            if (!resource) {
+                return undefined;
+            }
+
+            return {
+                type: "resource",
+                value: resource,
             };
         },
     ];
