@@ -1,4 +1,6 @@
 // DAOs
+export { Metal, Metals } from "./daos/metals";
+export { versions } from "./daos/versions";
 
 // Types
 export { Rarity } from "./types/Rarity";
