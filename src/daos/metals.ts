@@ -4,7 +4,6 @@ import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
 
 type MetalKey = keyof typeof metalsData;
 type MetalData = {
-    id: string;
     rarity: Rarity;
     stackLimit: number;
 };
@@ -12,16 +11,20 @@ type MetalData = {
 type MetalsByVersion = MultiVersion<MetalKey, Metal>;
 
 export class Metal {
-    constructor (
-        public id: string,
-        public rarity: Rarity,
-        public stackLimit: number,
-    ) {}
+    public id: string;
+    public rarity: Rarity;
+    public stackLimit: number;
+
+    constructor(id: string, data: MetalData) {
+        this.id = id;
+        this.rarity = data.rarity;
+        this.stackLimit = data.stackLimit;
+    }
 
     static loadMetalsByVersion(): MetalsByVersion {
         return loadVersionedData(
             metalsData as Record<MetalKey, Partial<Record<VersionKey, MetalData>>>,
-            (id, data) => new Metal(id, data.rarity as Rarity, data.stackLimit),
+            (id, data) => new Metal(id, { ...data }),
         ) as MetalsByVersion;
     }
 }

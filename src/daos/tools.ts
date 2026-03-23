@@ -4,31 +4,37 @@ import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
 import { RequirementEntry, RequirementResolver, RequirementUtils } from "./requirements";
 
 type ToolKey = keyof typeof toolsData;
-type ToolData = {
-    id: string;
+type ToolData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
-    required: Record<string, number>;
+    required: Record<string, TRequired>;
 };
-export type ToolRequirement = RequirementEntry;
+
+type ToolRawData = ToolData<number>;
+type ToolResolvedData = ToolData<RequirementEntry>;
 
 type ToolsByVersion = MultiVersion<ToolKey, Tool>;
 
 export class Tool {
-    constructor (
-        public id: string,
-        public rarity: Rarity,
-        public stackLimit: number,
-        public required: Record<string, ToolRequirement>,
-    ) {}
+    public id: string;
+    public rarity: Rarity;
+    public stackLimit: number;
+    public required: Record<string, RequirementEntry>;
+
+    constructor(id: string, data: ToolResolvedData) {
+        this.id = id;
+        this.rarity = data.rarity;
+        this.stackLimit = data.stackLimit;
+        this.required = data.required;
+    }
 
     static loadToolsByVersion(resolvers: RequirementResolver[] = RequirementUtils.defaultRequirementResolvers): ToolsByVersion {
         return loadVersionedData(
-            toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolData>>>,
+            toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolRawData>>>,
             (id, data, version) => {
                 const required = RequirementUtils.resolveRequiredEntries(data.required, version, resolvers);
 
-                return new Tool(id, data.rarity as Rarity, data.stackLimit, required);
+                return new Tool(id, { ...data, required });
             },
         ) as ToolsByVersion;
     }
