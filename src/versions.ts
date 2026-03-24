@@ -9,6 +9,9 @@ export const versions = {
         index: 1,
         startDate: new Date("2024-07-01T00:00:00Z"), // Placeholder
         endDate: new Date("2024-07-31T23:59:59Z"), // Placeholder
+    },
+    "latest": {
+        index: 1000
     }
 };
 
