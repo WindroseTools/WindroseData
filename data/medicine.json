@@ -1,7 +1,6 @@
 {
     "bandage": {
         "demo": {
-            "id": "bandage",
             "rarity": "uncommon",
             "stackLimit": 10,
             "required": {
@@ -11,7 +10,6 @@
     },
     "minorHealingPotion": {
         "demo": {
-            "id": "minorHealingPotion",
             "rarity": "uncommon",
             "stackLimit": 10,
             "required": {
@@ -21,9 +19,8 @@
     },
     "greatHealingPotion": {
         "demo": {
-            "id": "greatHealingPotion",
             "rarity": "epic",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "alchemicalBase": 1,
                 "healingHerbs": 3

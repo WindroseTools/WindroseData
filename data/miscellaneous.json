@@ -2,7 +2,7 @@
     "fastTravelBell": {
         "demo": {
             "rarity": "rare",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "copperIngot": 10,
                 "rope": 3
@@ -22,19 +22,19 @@
     "insigniaOfABlackbeardCrewman": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "insigniaOfABlackbeardSergeant": {
         "demo": {
             "rarity": "rare",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "insigniaOfABlackbeardLieutenant": {
         "demo": {
             "rarity": "epic",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "medicine": {

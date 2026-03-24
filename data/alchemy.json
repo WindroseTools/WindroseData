@@ -1,9 +1,8 @@
 {
     "homewardJourney": {
         "demo": {
-            "id": "homewardJourney",
             "rarity": "rare",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "alchemicalBase": 3,
                 "rumBottle": 2,
@@ -14,16 +13,14 @@
     },
     "undeadEssence": {
         "demo": {
-            "id": "undeadEssence",
             "rarity": "rare",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "elixirOfFirmHand": {
         "demo": {
-            "id": "elixirOfFirmHand",
             "rarity": "rare",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "alchemicalBase": 1,
                 "boarTusk": 1,

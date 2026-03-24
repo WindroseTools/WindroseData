@@ -1,49 +1,42 @@
 {
     "stone": {
         "demo": {
-            "id": "stone",
             "rarity": "common",
             "stackLimit": 40
         }
     },
     "wood": {
         "demo": {
-            "id": "wood",
             "rarity": "common",
             "stackLimit": 50
         }
     },
     "clay": {
         "demo": {
-            "id": "clay",
             "rarity": "common",
             "stackLimit": 50
         }
     },
     "copperOre": {
         "demo": {
-            "id": "copperOre",
             "rarity": "common",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "ash": {
         "demo": {
-            "id": "ash",
             "rarity": "uncommon",
             "stackLimit": 100
         }
     },
     "plantFiber": {
         "demo": {
-            "id": "plantFiber",
             "rarity": "common",
             "stackLimit": 100
         }
     },
     "copperPot": {
         "demo": {
-            "id": "copperPot",
             "rarity": "uncommon",
             "stackLimit": 1,
             "required": {
@@ -53,7 +46,6 @@
     },
     "clayPot": {
         "demo": {
-            "id": "clayPot",
             "rarity": "uncommon",
             "stackLimit": 1,
             "required": {
@@ -63,7 +55,6 @@
     },
     "coarseFabric": {
         "demo": {
-            "id": "coarseFabric",
             "rarity": "uncommon",
             "stackLimit": 40,
             "required": {
@@ -73,7 +64,6 @@
     },
     "rope": {
         "demo": {
-            "id": "rope",
             "rarity": "uncommon",
             "stackLimit": 1,
             "required": {
@@ -83,7 +73,6 @@
     },
     "nails": {
         "demo": {
-            "id": "nails",
             "rarity": "uncommon",
             "stackLimit": 100,
             "required": {
@@ -93,9 +82,8 @@
     },
     "clayBottle": {
         "demo": {
-            "id": "clayBottle",
             "rarity": "uncommon",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "clay": 1
             }
@@ -103,7 +91,6 @@
     },
     "alchemicalBase": {
         "demo": {
-            "id": "alchemicalBase",
             "rarity": "uncommon",
             "stackLimit": 40,
             "required": {
@@ -114,51 +101,56 @@
     },
     "mistyOrchid": {
         "demo": {
-            "id": "mistyOrchid",
             "rarity": "common",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "healingHerbs": {
         "demo": {
-            "id": "healingHerbs",
             "rarity": "rare",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "feather": {
         "demo": {
-            "id": "feather",
             "rarity": "common",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "boarTusk": {
         "demo": {
-            "id": "boarTusk",
             "rarity": "common",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "pearl": {
         "demo": {
-            "id": "pearl",
             "rarity": "common",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "whiskey": {
         "demo": {
-            "id": "whiskey",
             "rarity": "epic",
-            "stackLimit": 1
+            "stackLimit": 0
         }
     },
     "salt": {
         "demo": {
-            "id": "salt",
             "rarity": "rare",
-            "stackLimit": 1
+            "stackLimit": 0
+        }
+    },
+    "charcoal": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "steelNails": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0
         }
     }
 }

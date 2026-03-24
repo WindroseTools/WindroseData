@@ -1,7 +1,6 @@
 {
     "copperIngot": {
         "demo": {
-            "id": "copperIngot",
             "rarity": "uncommon",
             "stackLimit": 40
         }

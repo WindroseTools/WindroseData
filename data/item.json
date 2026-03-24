@@ -2,7 +2,7 @@
     "masterCombatRepairKit": {
         "demo": {
             "rarity": "epic",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "wood": 10,
                 "steelNails": 1,
@@ -13,7 +13,7 @@
     "combatRepairKit": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "wood": 4,
                 "nails": 12,
@@ -33,7 +33,7 @@
     "gunroomGrog": {
         "demo": {
             "rarity": "epic",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "rumBottle": 1,
                 "whiskey": 1,
