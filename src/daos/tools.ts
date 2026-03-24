@@ -1,7 +1,7 @@
 import toolsData from "../../data/tools.json";
 import { Rarity } from "../types/Rarity";
 import "./resources";
-import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
+import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ToolKey = keyof typeof toolsData;

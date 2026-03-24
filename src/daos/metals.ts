@@ -1,6 +1,6 @@
 import metalsData from "../../data/metals.json";
 import { Rarity } from "../types/Rarity";
-import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
+import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementUtils } from "./requirements";
 
 type MetalKey = keyof typeof metalsData;

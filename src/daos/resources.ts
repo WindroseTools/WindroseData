@@ -1,7 +1,7 @@
 import resourcesData from "../../data/resources.json";
 import { Rarity } from "../types/Rarity";
 import "./metals";
-import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
+import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ResourceKey = keyof typeof resourcesData;

@@ -1,4 +1,4 @@
-import { VersionKey } from "./versions";
+import { VersionKey } from "../versions";
 
 export type ResolvedRequirement = {
     type: string;
