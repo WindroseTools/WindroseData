@@ -1,7 +1,7 @@
 // DAOs
-export { Metal, Metals } from "./daos/metals";
-export { Resource, Resources } from "./daos/resources";
-export { Tool, Tools } from "./daos/tools";
+export { Metal, Metals } from "./daos/metal";
+export { Resource, Resources } from "./daos/resource";
+export { Tool, Tools } from "./daos/tool";
 export { RequirementUtils } from "./daos/requirements";
 export { versions } from "./versions";
 

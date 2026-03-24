@@ -1,4 +1,4 @@
-import metalsData from "../../data/metals.json";
+import metalsData from "../../data/metal.json";
 import { Rarity } from "../types/Rarity";
 import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementUtils } from "./requirements";

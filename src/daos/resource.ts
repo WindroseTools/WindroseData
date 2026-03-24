@@ -1,6 +1,6 @@
-import resourcesData from "../../data/resources.json";
+import resourcesData from "../../data/resource.json";
 import { Rarity } from "../types/Rarity";
-import "./metals";
+import "./metal";
 import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 

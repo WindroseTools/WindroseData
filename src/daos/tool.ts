@@ -1,6 +1,6 @@
-import toolsData from "../../data/tools.json";
+import toolsData from "../../data/tool.json";
 import { Rarity } from "../types/Rarity";
-import "./resources";
+import "./resource";
 import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
