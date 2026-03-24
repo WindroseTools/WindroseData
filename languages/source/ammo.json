@@ -1,0 +1,27 @@
+{
+    "copperBullet": {
+        "demo": {
+            "name": "Copper Bullet",
+            "description": [
+                "A plain copper ball. No promises it will fly true, but it is decent enough."
+            ]
+        }
+    },
+    "stoneBullet": {
+        "demo": {
+            "name": "Stone Bullet",
+            "description": [
+                "A lump of stone that only just passes for a ball. You will only hit true at close range."
+            ]
+        }
+    },
+    "homemadeGunpowder": {
+        "demo": {
+            "name": "Homemade Gunpowder",
+            "description": [
+                "Low-quality homemade gunpowder. Use with caution.",
+                "Ground on millstones from ash and sulfur."
+            ]
+        }
+    }
+}

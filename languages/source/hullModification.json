@@ -1,0 +1,10 @@
+{
+    "hullBracing": {
+        "demo": {
+            "name": "Hull Bracing",
+            "description": [
+                "Standard timber bracing added to steady the hull under strain."
+            ]
+        }
+    }
+}

@@ -1,8 +1,8 @@
 // Source
-import metals from '../languages/source/metals.json';
+import metal from '../languages/source/metal.json';
 
 type LanguageData = {
-    metals: typeof metals;
+    metal: typeof metal;
 };
 
 type LanguagesType = {
@@ -11,6 +11,6 @@ type LanguagesType = {
 
 export const Languages: LanguagesType = {
     EN: {
-        metals: metals,
+        metal: metal,
     }
 };

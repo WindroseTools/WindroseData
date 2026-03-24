@@ -1,0 +1,29 @@
+{
+    "homewardJourney": {
+        "demo": {
+            "name": "Homeward Journey",
+            "description": [
+                "A light drink with a slightly sweet taste.",
+                "Too bad it isn't easy to make -- rare ingredients are required."
+            ]
+        }
+    },
+    "undeadEssence": {
+        "demo": {
+            "name": "Undead Essence",
+            "description": [
+                "Rumored to be used not only in alchemy, but also in the creation of enhanced weapons.",
+                "A strange substance, slightly cold to the touch."
+            ]
+        }
+    },
+    "elixirOfFirmHand": {
+        "demo": {
+            "name": "Elixir of Firm Hand",
+            "description": [
+                "An orange elixir with heavy sediment at the bottom, with almost no taste or smell.",
+                "Drink it and your body swells with strength, your jaw clenches, and speech comes hard, but your sabre arm will thank you."
+            ]
+        }
+    }
+}
