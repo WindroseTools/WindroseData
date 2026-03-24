@@ -1,0 +1,44 @@
+{
+    "copperAxe": {
+        "demo": {
+            "name": "Copper Axe",
+            "description": [
+                "A decent alternative to a stone axe.",
+                "But it won't cut through hardwood."
+            ]
+        }
+    },
+    "copperPickaxe": {
+        "demo": {
+            "name": "Copper Pickaxe",
+            "description": [
+                "A decent alternative to a stone pickaxe.",
+                "But it'll struggle with tougher stone."
+            ]
+        }
+    },
+    "stoneAxe": {
+        "demo": {
+            "name": "Stone Axe",
+            "description": [
+                "Chops? Chops. Chop-chop."
+            ]
+        }
+    },
+    "stonePickaxe": {
+        "demo": {
+            "name": "Stone Pickaxe",
+            "description": [
+                "Chips? Chips. Chip-chip."
+            ]
+        }
+    },
+    "shovel": {
+        "demo": {
+            "name": "Shovel",
+            "description": [
+                "Perfect for digging up treasure, leveling ground, or piling up a mound."
+            ]
+        }
+    }
+}

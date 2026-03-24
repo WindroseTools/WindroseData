@@ -1,0 +1,39 @@
+{
+    "bandage": {
+        "demo": {
+            "name": "Bandage",
+            "description": [
+                "A rough scrap of cloth soaked in seawater."
+            ],
+            "comment": [
+                "This rag will keep you from bleeding out.",
+                "Appreciate the effort - and try not to die before the next port.",
+                "- Doctor Galen Skelton"
+            ]
+        }
+    },
+    "minorHealingPotion": {
+        "demo": {
+            "name": "Minor Healing Potion",
+            "description": [
+                "Quickly mends small cuts and dulls the pain, giving you strength to fight... or flee."
+            ],
+            "comment": [
+                "Do not trust potions blindly.",
+                "Bed rest and peace and quiet are just as necessary for healing.",
+                "- Doctor Galen Skelton"
+            ]
+        }
+    },
+    "greatHealingPotion": {
+        "demo": {
+            "name": "Great Healing Potion",
+            "description": [
+                "Restores your strength and heals even the deepest wounds."
+            ],
+            "comment": [
+                "They say this mixture hauls sailors straight out of Davy Jones' locker."
+            ]
+        }
+    }
+}
