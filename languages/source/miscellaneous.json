@@ -1,0 +1,147 @@
+{
+    "fastTravelBell": {
+        "demo": {
+            "name": "Fast Travel Bell",
+            "description": [
+                "Used to build fast-travel points."
+            ]
+        }
+    },
+    "lamp": {
+        "demo": {
+            "name": "Lamp",
+            "description": [
+                "A lamp that will illuminate even the deepest darkness."
+            ]
+        }
+    },
+    "insigniaOfABlackbeardCrewman": {
+        "demo": {
+            "name": "Insignia of a Blackbeard Crewman",
+            "description": [
+                "Blackbeard's sailors' special insignia.",
+                "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
+            ]
+        }
+    },
+    "insigniaOfABlackbeardSergeant": {
+        "demo": {
+            "name": "Insignia of a Blackbeard Sergeant",
+            "description": [
+                "Blackbeard's sergeants' special insignia.",
+                "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
+            ]
+        }
+    },
+    "insigniaOfABlackbeardLieutenant": {
+        "demo": {
+            "name": "Insignia of a Blackbeard Lieutenant",
+            "description": [
+                "Blackbeard's lieutenants' special insignia.",
+                "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
+            ]
+        }
+    },
+    "medicine": {
+        "demo": {
+            "name": "Medicine",
+            "description": [
+                "A crate with securely packed goods for easy transportation by sea.",
+                "Can be sold for piastres."
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "ancientIncenseBurner": {
+        "demo": {
+            "name": "Ancient Incense Burner",
+            "description": [
+                "A rare artifact of an ancient people, preserved against all odds."
+            ]
+        }
+    },
+    "spirits": {
+        "demo": {
+            "name": "Spirits",
+            "description": [
+                "A crate with securely packed goods for easy transportation by sea.",
+                "Can be sold for piastres."
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "closedScallopShell": {
+        "demo": {
+            "name": "Closed Scallop Shell",
+            "description": [
+                "It might contain a pearl."
+            ]
+        }
+    },
+    "provisions": {
+        "demo": {
+            "name": "Provisions",
+            "description": [
+                "A crate with securely packed goods for easy transportation by sea.",
+                "Can be sold for piastres."
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "boneBeads": {
+        "demo": {
+            "name": "Bone Beads",
+            "description": [
+                "A simple decoration of ancient peoples, made from bone and nuts."
+            ]
+        }
+    },
+    "woodenTalisman": {
+        "demo": {
+            "name": "Wooden Talisman",
+            "description": [
+                "A fish-shaped amulet. Ancient fishermen wore it to bring a richer catch."
+            ]
+        }
+    },
+    "clayVase": {
+        "demo": {
+            "name": "Clay Vase",
+            "description": [
+                "A vase with a wavy pattern.",
+                "Corn seeds are stuck in the cracks."
+            ]
+        }
+    },
+    "navalSupplies": {
+        "demo": {
+            "name": "Naval Supplies",
+            "description": [
+                "A crate with securely packed goods for easy transportation by sea.",
+                "Can be sold for piastres."
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "tumbagaIngot": {
+        "demo": {
+            "name": "Tumbaga Ingot",
+            "description": [
+                "An ancient alloy of copper and gold, discovered by the native peoples in ages past.",
+                "Required to ascend equipment."
+            ]
+        }
+    }
+}

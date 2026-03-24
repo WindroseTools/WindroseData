@@ -1,0 +1,300 @@
+{
+    "stone": {
+        "demo": {
+            "name": "Stone",
+            "description": [
+                "A building material."
+            ]
+        }
+    },
+    "wood": {
+        "demo": {
+            "name": "Wood",
+            "description": [
+                "A building material."
+            ]
+        }
+    },
+    "clay": {
+        "demo": {
+            "name": "Clay",
+            "description": [
+                "Needed for construction and pottery."
+            ]
+        }
+    },
+    "copperOre": {
+        "demo": {
+            "name": "Copper Ore",
+            "description": [
+                "Used to craft Copper Ingots."
+            ]
+        }
+    },
+    "ash": {
+        "demo": {
+            "name": "Ash",
+            "description": [
+                "Useful for crafting gunpowder."
+            ]
+        }
+    },
+    "plantFiber": {
+        "demo": {
+            "name": "Plant Fiber",
+            "description": [
+                "Used for making fabric."
+            ]
+        }
+    },
+    "copperPot": {
+        "demo": {
+            "name": "Copper Pot",
+            "description": [
+                "Not a helmet. Do not wear on head.",
+                "Essential for alchemy and cooking."
+            ]
+        }
+    },
+    "clayPot": {
+        "demo": {
+            "name": "Clay Pot",
+            "description": [
+                "Not a helmet. Do not wear on head.",
+                "Essential for alchemy and cooking."
+            ]
+        }
+    },
+    "coarseFabric": {
+        "demo": {
+            "name": "Coarse Fabric",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "rope": {
+        "demo": {
+            "name": "Rope",
+            "description": [
+                "An adventurer's best friend."
+            ]
+        }
+    },
+    "nails": {
+        "demo": {
+            "name": "Nails",
+            "description": [
+                "Can be salvaged from ship and boat wrecks along the shore."
+            ]
+        }
+    },
+    "clayBottle": {
+        "demo": {
+            "name": "Clay Bottle",
+            "description": [
+                "A container for alchemical decoctions."
+            ]
+        }
+    },
+    "alchemicalBase": {
+        "demo": {
+            "name": "Alchemical Base",
+            "description": [
+                "Alchemical ingredient made from misty orchids."
+            ]
+        }
+    },
+    "mistyOrchid": {
+        "demo": {
+            "name": "Misty Orchid",
+            "description": [
+                "Alchemical ingredient."
+            ]
+        }
+    },
+    "healingHerbs": {
+        "demo": {
+            "name": "Healing Herbs",
+            "description": [
+                "A bundle of aromatic herbs said to hold vital powers."
+            ]
+        }
+    },
+    "feather": {
+        "demo": {
+            "name": "Feather",
+            "description": [
+                "A hat decoration and alchemical ingredient."
+            ]
+        }
+    },
+    "boarTusk": {
+        "demo": {
+            "name": "Boar Tusk",
+            "description": [
+                "Alchemical ingredient."
+            ]
+        }
+    },
+    "pearl": {
+        "demo": {
+            "name": "Pearl",
+            "description": [
+                "An alchemical ingredient.",
+                "However, this small, round, sturdy item may be useful elsewhere."
+            ]
+        }
+    },
+    "whiskey": {
+        "demo": {
+            "name": "Whiskey",
+            "description": [
+                "A harsh grain spirit imported from Scotland and Ireland.",
+                "Rare in the Caribbean, and therefore especially prized as a trade good and an ingredient in special recipes."
+            ]
+        }
+    },
+    "salt": {
+        "demo": {
+            "name": "Salt",
+            "description": [
+                "Often found in ship holds across the archipelago.",
+                "Cooking ingredient."
+            ]
+        }
+    },
+    "charcoal": {
+        "demo": {
+            "name": "Charcoal",
+            "description": [
+                "Charcoal. Fuel for ore smelting."
+            ]
+        }
+    },
+    "steelNails": {
+        "demo": {
+            "name": "Steel Nails",
+            "description": [
+                "High-quality nails brought from the homeland.",
+                "The most reliable way to get them is to seize them from other ships - or salvage them from wreckage."
+            ],
+            "comment": [
+                "As reliable as a captain's word."
+            ]
+        }
+    },
+    "roughHide": {
+        "demo": {
+            "name": "Rough Hide",
+            "description": [
+                "Future boots or a fine hat."
+            ]
+        }
+    },
+    "shrubSeeds": {
+        "demo": {
+            "name": "Shrub Seeds",
+            "description": [
+                "Used to grow shrubs."
+            ]
+        }
+    },
+    "dodoEgg": {
+        "demo": {
+            "name": "Dodo Egg",
+            "description": [
+                "An ordinary egg from an extraordinary bird.",
+                "A tasty and useful find from dodo nests, though they defend their clutch fiercely."
+            ]
+        }
+    },
+    "animalFat": {
+        "demo": {
+            "name": "Animal Fat",
+            "description": [
+                "Required for crafting lamps."
+            ]
+        }
+    },
+    "ficusSeeds": {
+        "demo": {
+            "name": "Ficus Seeds",
+            "description": [
+                "Used to grow ficus."
+            ]
+        }
+    },
+    "meat": {
+        "demo": {
+            "name": "Meat",
+            "description": [
+                "A fatty cut of meat, fit to be turned into a juicy steak."
+            ]
+        }
+    },
+    "birdMeat": {
+        "demo": {
+            "name": "Bird Meat",
+            "description": [
+                "Dodo tastes like chicken!"
+            ]
+        }
+    },
+    "crabMeat": {
+        "demo": {
+            "name": "Crab Meat",
+            "description": [
+                "Crabs scuttle all over the beaches."
+            ]
+        }
+    },
+    "palmSeeds": {
+        "demo": {
+            "name": "Palm Seeds",
+            "description": [
+                "Used to grow a palm."
+            ]
+        }
+    },
+    "cayennePepperSeeds": {
+        "demo": {
+            "name": "Cayenne Pepper Seeds",
+            "description": [
+                "Used to grow peppers."
+            ]
+        }
+    },
+    "sweetPotato": {
+        "demo": {
+            "name": "Sweet Potato",
+            "description": [
+                "A tasty root crop."
+            ]
+        }
+    },
+    "batataSeeds": {
+        "demo": {
+            "name": "Batata Seeds",
+            "description": [
+                "Used to grow sweet potatoes."
+            ]
+        }
+    },
+    "coffeeBeans": {
+        "demo": {
+            "name": "Coffee Beans",
+            "description": [
+                "Fragrant beans"
+            ]
+        }
+    },
+    "tritonsHorn": {
+        "demo": {
+            "name": "Tritons Horn",
+            "description": [
+                "A beautiful shell."
+            ]
+        }
+    }
+}
