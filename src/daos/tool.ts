@@ -1,7 +1,8 @@
 import toolsData from "../../data/tool.json";
 import { Rarity } from "../types/Rarity";
 import "./resource";
-import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, VersionKey } from "../versions";
+import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ToolKey = keyof typeof toolsData;
@@ -30,18 +31,37 @@ export class Tool {
     }
 
     static loadToolsByVersion(): ToolsByVersion {
+        const rawByVersion = createVersionedRawStore(
+            toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolRawData>>>,
+        );
+        const toolsByVersion = instantiateVersionedEntries(
+            rawByVersion,
+            (id, data) => {
+                const { required: _required, ...baseData } = data;
+
+                return new Tool(id, { ...baseData, required: {} });
+            },
+        ) as ToolsByVersion;
+
+        RequirementUtils.registerLookupContext({
+            getTool: (id, version) => toolsByVersion[version][id as ToolKey],
+        });
+
         const resolvers = [
             ...RequirementUtils.createDefaultRequirementResolvers(),
         ];
 
-        return loadVersionedData(
-            toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolRawData>>>,
-            (id, data, version) => {
-                const required = RequirementUtils.resolveRequiredEntries(data.required, version, resolvers);
-
-                return new Tool(id, { ...data, required });
+        resolveVersionedRequirements(
+            rawByVersion,
+            toolsByVersion,
+            (data) => data.required,
+            (tool, required) => {
+                tool.required = required ?? {};
             },
-        ) as ToolsByVersion;
+            resolvers,
+        );
+
+        return toolsByVersion;
     }
 }
 

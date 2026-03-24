@@ -1,6 +1,7 @@
 import metalsData from "../../data/metal.json";
 import { Rarity } from "../types/Rarity";
-import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, VersionKey } from "../versions";
+import { createVersionedRawStore, instantiateVersionedEntries } from "./helpers";
 import { RequirementUtils } from "./requirements";
 
 type MetalKey = keyof typeof metalsData;
@@ -23,8 +24,11 @@ export class Metal {
     }
 
     static loadMetalsByVersion(): MetalsByVersion {
-        const metalsByVersion = loadVersionedData(
+        const rawByVersion = createVersionedRawStore(
             metalsData as Record<MetalKey, Partial<Record<VersionKey, MetalData>>>,
+        );
+        const metalsByVersion = instantiateVersionedEntries(
+            rawByVersion,
             (id, data) => new Metal(id, { ...data }),
         ) as MetalsByVersion;
 

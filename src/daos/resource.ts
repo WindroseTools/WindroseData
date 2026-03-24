@@ -1,7 +1,8 @@
 import resourcesData from "../../data/resource.json";
 import { Rarity } from "../types/Rarity";
 import "./metal";
-import { loadVersionedData, MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, VersionKey } from "../versions";
+import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ResourceKey = keyof typeof resourcesData;
@@ -12,10 +13,6 @@ type ResourceData<TRequired = number> = {
 };
 type ResourceRawData = ResourceData<number>;
 type ResourceResolvedData = ResourceData<RequirementEntry>;
-type ResolvedResourcePayload = {
-	id: ResourceKey;
-	data: ResourceRawData;
-};
 
 type ResourcesByVersion = MultiVersion<ResourceKey, Resource>;
 
@@ -33,27 +30,17 @@ export class Resource {
 	}
 
 	static loadResourcesByVersion(): ResourcesByVersion {
-		const rawByVersion = loadVersionedData(
+		const rawByVersion = createVersionedRawStore(
 			resourcesData as Record<ResourceKey, Partial<Record<VersionKey, ResourceRawData>>>,
-			(id, data) => ({
-				id,
-				data: { ...data },
-			}),
-		) as MultiVersion<ResourceKey, ResolvedResourcePayload>;
+		);
+		const resourcesByVersion = instantiateVersionedEntries(
+			rawByVersion,
+			(id, data) => {
+				const { required: _required, ...baseData } = data;
 
-		const resourcesByVersion = {} as ResourcesByVersion;
-
-		for (const version of Object.keys(rawByVersion) as VersionKey[]) {
-			const entries = rawByVersion[version];
-			const resourceEntries: Partial<Record<ResourceKey, Resource>> = {};
-
-			for (const [id, payload] of Object.entries(entries) as Array<[ResourceKey, ResolvedResourcePayload]>) {
-				const { required: _required, ...baseData } = payload.data;
-				resourceEntries[id] = new Resource(payload.id, baseData);
-			}
-
-			resourcesByVersion[version] = resourceEntries;
-		}
+				return new Resource(id, baseData);
+			},
+		) as ResourcesByVersion;
 
 		RequirementUtils.registerLookupContext({
 			getResource: (id, version) => resourcesByVersion[version][id as ResourceKey],
@@ -63,20 +50,15 @@ export class Resource {
 			...RequirementUtils.createDefaultRequirementResolvers(),
 		];
 
-		for (const version of Object.keys(rawByVersion) as VersionKey[]) {
-			const entries = rawByVersion[version];
-
-			for (const [id, payload] of Object.entries(entries) as Array<[ResourceKey, ResolvedResourcePayload]>) {
-				const required = payload.data.required
-					? RequirementUtils.resolveRequiredEntries(payload.data.required, version, resolvers)
-					: undefined;
-
-				const resource = resourcesByVersion[version][id];
-				if (resource) {
-					resource.required = required;
-				}
-			}
-		}
+		resolveVersionedRequirements(
+			rawByVersion,
+			resourcesByVersion,
+			(data) => data.required,
+			(resource, required) => {
+				resource.required = required;
+			},
+			resolvers,
+		);
 
 		return resourcesByVersion;
 	}

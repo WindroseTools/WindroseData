@@ -1,0 +1,60 @@
+import hullModificationData from "../../data/hullModification.json";
+import { Rarity } from "../types/Rarity";
+import { MultiVersion, VersionKey } from "../versions";
+import "./resource";
+import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
+import { RequirementEntry, RequirementUtils } from "./requirements";
+
+type HullModificationKey = keyof typeof hullModificationData;
+type HullModificationData<TRequired = number> = {
+    rarity: Rarity;
+    required: Record<string, TRequired>;
+};
+
+type HullModificationRawData = HullModificationData<number>;
+type HullModificationResolvedData = HullModificationData<RequirementEntry>;
+type HullModificationsByVersion = MultiVersion<HullModificationKey, HullModification>;
+
+export class HullModification {
+    public id: string;
+    public rarity: Rarity;
+    public required: Record<string, RequirementEntry>;
+
+    constructor(id: string, data: HullModificationResolvedData) {
+        this.id = id;
+        this.rarity = data.rarity;
+        this.required = data.required;
+    }
+
+    static loadHullModificationsByVersion(): HullModificationsByVersion {
+        const rawByVersion = createVersionedRawStore(
+            hullModificationData as Record<HullModificationKey, Partial<Record<VersionKey, HullModificationRawData>>>,
+        );
+        const hullModificationsByVersion = instantiateVersionedEntries(
+            rawByVersion,
+            (id, data) => {
+                const { required: _required, ...baseData } = data;
+
+                return new HullModification(id, { ...baseData, required: {} });
+            },
+        ) as HullModificationsByVersion;
+
+        RequirementUtils.registerLookupContext({
+            getHullModification: (id, version) => hullModificationsByVersion[version][id as HullModificationKey],
+        });
+
+        resolveVersionedRequirements(
+            rawByVersion,
+            hullModificationsByVersion,
+            (data) => data.required,
+            (hullModification, required) => {
+                hullModification.required = required ?? {};
+            },
+            RequirementUtils.createDefaultRequirementResolvers(),
+        );
+
+        return hullModificationsByVersion;
+    }
+}
+
+export const HullModifications: HullModificationsByVersion = HullModification.loadHullModificationsByVersion();
