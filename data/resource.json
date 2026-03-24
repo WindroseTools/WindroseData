@@ -38,7 +38,7 @@
     "copperPot": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "copperIngot": 5
             }
@@ -47,7 +47,7 @@
     "clayPot": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "clay": 6
             }
@@ -65,7 +65,7 @@
     "rope": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 1,
+            "stackLimit": 0,
             "required": {
                 "plantFiber": 3
             }
@@ -144,12 +144,99 @@
     "charcoal": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 0
+            "stackLimit": 0,
+            "required": {
+                "wood": 1
+            }
         }
     },
     "steelNails": {
         "demo": {
             "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "roughHide": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "shrubSeeds": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "dodoEgg": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "animalFat": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "ficusSeeds": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "meat": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "birdMeat": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 40
+        }
+    },
+    "crabMeat": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "palmSeeds": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "cayennePepperSeeds": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "sweetPotato": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "batataSeeds": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "coffeeBeans": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "tritonsHorn": {
+        "demo": {
+            "rarity": "common",
             "stackLimit": 0
         }
     }

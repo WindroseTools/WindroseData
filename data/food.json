@@ -4,5 +4,124 @@
             "rarity": "common",
             "stackLimit": 50
         }
+    },
+    "banana": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "coconut": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "rumBottle": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 20
+        }
+    },
+    "coconutMilkWithBananas": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "coconut": 1,
+                "banana": 2
+            }
+        }
+    },
+    "spicyChickenWithSweetPotato": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "required": {
+                "birdMeat": 2,
+                "cayennePepper": 4,
+                "sweetPotato": 4
+            }
+        }
+    },
+    "baconAndEggs": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "meat": 1,
+                "dodoEgg": 1
+            }
+        }
+    },
+    "boiledCrab": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "crabMeat": 1
+            }
+        }
+    },
+    "spicyBreadedKebab": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "required": {
+                "birdMeat": 2,
+                "dodoEgg": 1,
+                "cayennePepper": 3
+            }
+        }
+    },
+    "skeweredMeat": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "meat": 1
+            }
+        }
+    },
+    "spicySkeweredCrab": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "crabMeat": 1,
+                "cayennePepper": 2
+            }
+        }
+    },
+    "heartyEggBroth": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "required": {
+                "sweetPotato": 4,
+                "dodoEgg": 1,
+                "birdMeat": 2
+            }
+        }
+    },
+    "dodoBroth": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "birdMeat": 1
+            }
+        }
+    },
+    "coconutSoup": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {
+                "coconut": 1,
+                "sweetPotato": 2,
+                "meat": 1
+            }
+        }
     }
 }

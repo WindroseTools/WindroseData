@@ -1,0 +1,11 @@
+{
+    "12Pounders": {
+        "demo": {
+            "rarity": "uncommon",
+            "required": {
+                "copperIngot": 10,
+                "wood": 10
+            }
+        }
+    }
+}

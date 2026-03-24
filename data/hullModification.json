@@ -1,0 +1,12 @@
+{
+    "hullBracing": {
+        "demo": {
+            "rarity": "uncommon",
+            "required": {
+                "wood": 30,
+                "copperIngot": 5,
+                "nails": 5
+            }
+        }
+    }
+}

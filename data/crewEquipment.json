@@ -1,0 +1,12 @@
+{
+    "boardingPartyGear": {
+        "demo": {
+            "rarity": "uncommon",
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 7,
+                "coarseFabric": 7
+            }
+        }
+    }
+}

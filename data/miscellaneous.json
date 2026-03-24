@@ -48,5 +48,53 @@
             "rarity": "epic",
             "stackLimit": 1
         }
+    },
+    "spirits": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 1
+        }
+    },
+    "closedScallopShell": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "provisions": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "boneBeads": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "woodenTalisman": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "clayVase": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "navalSupplies": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 1
+        }
+    },
+    "tumbagaIngot": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0
+        }
     }
 }

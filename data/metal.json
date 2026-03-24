@@ -2,7 +2,11 @@
     "copperIngot": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 40
+            "stackLimit": 40,
+            "required": {
+                "copperOre": 6,
+                "charcoal": 1
+            }
         }
     }
 }
