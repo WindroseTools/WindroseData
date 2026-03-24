@@ -23,5 +23,14 @@
                 "Ground on millstones from ash and sulfur."
             ]
         }
+    },
+    "ironBullet": {
+        "demo": {
+            "name": "Iron Bullet",
+            "description": [
+                "A well-made iron bullet with good ballistics.",
+                "Where you fire, it flies."
+            ]
+        }
     }
 }

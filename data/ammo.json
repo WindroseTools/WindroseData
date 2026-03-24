@@ -22,5 +22,11 @@
             "rarity": "uncommon",
             "stackLimit": 0
         }
+    },
+    "ironBullet": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
     }
 }
