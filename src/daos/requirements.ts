@@ -42,12 +42,18 @@ export type RequirementEntry = {
 
 export class RequirementUtils {
     private static lookupContext: RequirementLookupContext = {};
+    private static trackedRequirementEntries: Array<{
+        version: VersionKey;
+        entries: Record<string, RequirementEntry>;
+    }> = [];
 
     static registerLookupContext(context: RequirementLookupContext): void {
         RequirementUtils.lookupContext = {
             ...RequirementUtils.lookupContext,
             ...context,
         };
+
+        RequirementUtils.refreshTrackedRequirementEntries();
     }
 
     static createDefaultRequirementResolvers(): RequirementResolver[] {
@@ -300,7 +306,22 @@ export class RequirementUtils {
             };
         }
 
+        RequirementUtils.trackedRequirementEntries.push({
+            version,
+            entries: resolvedRequired,
+        });
+
         return resolvedRequired;
+    }
+
+    private static refreshTrackedRequirementEntries(): void {
+        const resolvers = RequirementUtils.createDefaultRequirementResolvers();
+
+        for (const tracked of RequirementUtils.trackedRequirementEntries) {
+            for (const entry of Object.values(tracked.entries)) {
+                entry.resolved = RequirementUtils.resolveRequirement(entry.id, tracked.version, resolvers);
+            }
+        }
     }
 
     private static isCircularDependencyNode(value: unknown): value is CircularDependencyNode {

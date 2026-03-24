@@ -1,7 +1,6 @@
 import buildingElementData from "../../data/buildingElement.json";
 import { BEType } from "../types/BuildingElement";
 import { MultiVersion, VersionKey } from "../versions";
-import "./miscellaneous";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 

@@ -1,6 +1,5 @@
 import resourcesData from "../../data/resource.json";
 import { Rarity } from "../types/Rarity";
-import "./metal";
 import { MultiVersion, VersionKey } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";

@@ -1,7 +1,6 @@
 import backpackData from "../../data/backpack.json";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, VersionKey } from "../versions";
-import "./resource";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
