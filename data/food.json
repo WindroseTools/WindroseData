@@ -14,7 +14,7 @@
     "coconut": {
         "demo": {
             "rarity": "common",
-            "stackLimit": 0
+            "stackLimit": 50
         }
     },
     "rumBottle": {
