@@ -1,0 +1,146 @@
+{
+    "bonfire": {
+        "demo": {
+            "type": "essential",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "floorStandingTorch": {
+        "demo": {
+            "type": "torch",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "tent": {
+        "demo": {
+            "type": "essential",
+            "required": {
+                "plantFiber": 10,
+                "wood": 4
+            }
+        }
+    },
+    "fastTravelPoint": {
+        "demo": {
+            "type": "essential",
+            "limit": 10,
+            "required": {
+                "fastTravelBell": 1,
+                "wood": 20
+            }
+        }
+    },
+    "wharf": {
+        "demo": {
+            "type": "essential",
+            "required": {
+                "wood": 10,
+                "coarseFabric": 10
+            }
+        }
+    },
+    "workbench": {
+        "demo": {
+            "type": "crafting",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "sawhorse": {
+        "demo": {
+            "type": "crafting",
+            "required": {
+                "wood": 20,
+                "copperIngot": 10
+            }
+        }
+    },
+    "cookingFire": {
+        "demo": {
+            "type": "cooking",
+            "required": {
+                "wood": 3,
+                "stone": 3
+            }
+        }
+    },
+    "cuttingTable": {
+        "demo": {
+            "type": "cooking",
+            "required": {
+                "wood": 10,
+                "copperIngot": 2
+            }
+        }
+    },
+    "armorAndClothingWorkshop": {
+        "demo": {
+            "type": "personalEquipment",
+            "required": {
+                "wood": 5,
+                "coarseFabric": 10
+            }
+        }
+    },
+    "weaponsmithWorkshop": {
+        "demo": {
+            "type": "personalEquipment",
+            "required": {
+                "wood": 10,
+                "copperIngot": 5
+            }
+        }
+    },
+    "shipwrightsWorkshop": {
+        "demo": {
+            "type": "shipEquipment",
+            "required": {
+                "wood": 15,
+                "coarseFabric": 10,
+                "copperIngot": 5
+            }
+        }
+    },
+    "alchemyTable": {
+        "demo": {
+            "type": "alchemy",
+            "required": {
+                "wood": 5,
+                "clayPot": 2
+            }
+        }
+    },
+    "stoveAndPot": {
+        "demo": {
+            "type": "alchemy",
+            "required": {
+                "stone": 5,
+                "clay": 5,
+                "copperPot": 1
+            }
+        }
+    },
+    "charcoalKiln": {
+        "demo": {
+            "type": "refining",
+            "required": {
+                "wood": 25,
+                "clay": 20
+            }
+        }
+    },
+    "smeltingFurnace": {
+        "demo": {
+            "type": "refining",
+            "required": {
+                "clay": 15,
+                "stone": 30
+            }
+        }
+    }
+}
