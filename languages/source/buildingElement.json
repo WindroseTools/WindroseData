@@ -1,0 +1,1493 @@
+{
+    "bonfire": {
+        "demo": {
+            "name": "Bonfire",
+            "description": [
+                "This is the heart of your camp - without it, most workbenches and crafting stations won't function.",
+                "This is the place where you can rest and get Rested effect that improves your Stamina Recovery Rate"
+            ]
+        }
+    },
+    "floorStandingTorch": {
+        "demo": {
+            "name": "Floor-Standing Torch",
+            "description": [
+                "Perfect for exploring dark caves."
+            ]
+        }
+    },
+    "tent": {
+        "demo": {
+            "name": "Tent",
+            "description": [
+                "Exploring unknown islands is always more pleasant when you have a tent to rest in."
+            ]
+        }
+    },
+    "fastTravelPoint": {
+        "demo": {
+            "name": "Fast Travel Point",
+            "description": [
+                "Allows you to move quickly between the points.",
+                "Only 10 Fast Travel Points can be placed in the world.",
+                "Can't be built close to trading posts."
+            ]
+        }
+    },
+    "wharf": {
+        "demo": {
+            "name": "Wharf",
+            "description": [
+                "Allows you to manage your fleet, build ships, and repair them."
+            ]
+        }
+    },
+    "workbench": {
+        "demo": {
+            "name": "Workbench",
+            "description": [
+                "Allows you to craft tools and various items."
+            ]
+        }
+    },
+    "sawhorse": {
+        "demo": {
+            "name": "Sawhorse",
+            "description": [
+                "Workbench upgrade."
+            ]
+        }
+    },
+    "cookingFire": {
+        "demo": {
+            "name": "Cooking Fire",
+            "description": [
+                "Used to cook a variety of meals."
+            ]
+        }
+    },
+    "cuttingTable": {
+        "demo": {
+            "name": "Cutting Table",
+            "description": [
+                "Cooking Fire upgrade."
+            ]
+        }
+    },
+    "armorAndClothingWorkshop": {
+        "demo": {
+            "name": "Armor and Clothing Workshop",
+            "description": [
+                "Allows to make equipment."
+            ]
+        }
+    },
+    "weaponsmithWorkshop": {
+        "demo": {
+            "name": "Weaponsmith Workshop",
+            "description": [
+                "Allows you to craft and upgrade weapons."
+            ]
+        }
+    },
+    "shipwrightsWorkshop": {
+        "demo": {
+            "name": "Shipwright's Workshop",
+            "description": [
+                "Allows you to craft and upgrade ship equipment."
+            ]
+        }
+    },
+    "alchemyTable": {
+        "demo": {
+            "name": "Alchemy Table",
+            "description": [
+                "Allows you to make potions and elixirs."
+            ]
+        }
+    },
+    "stoveAndPot": {
+        "demo": {
+            "name": "Stove and Pot",
+            "description": [
+                "Alchemy table upgrade."
+            ]
+        }
+    },
+    "charcoalKiln": {
+        "demo": {
+            "name": "Charcoal Kiln",
+            "description": [
+                "Used to produce charcoal from wood."
+            ]
+        }
+    },
+    "smeltingFurnace": {
+        "demo": {
+            "name": "Smelting Furnace",
+            "description": [
+                "Used to smelt raw ore into ingots."
+            ]
+        }
+    },
+    "simpleBed": {
+        "demo": {
+            "name": "Simple Bed",
+            "description": [
+                "A basic sleeping spot. Better than nothing."
+            ]
+        }
+    },
+    "storageBasket": {
+        "demo": {
+            "name": "Storage Basket",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "woodenChest": {
+        "demo": {
+            "name": "Wooden Chest",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "storageBarrel": {
+        "demo": {
+            "name": "Storage Barrel",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "storageCrate": {
+        "demo": {
+            "name": "Storage Crate",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "storageBale": {
+        "demo": {
+            "name": "Storage Bale",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "storageSack": {
+        "demo": {
+            "name": "Storage Sack",
+            "description": [
+                "Allows you to store your belongings."
+            ]
+        }
+    },
+    "labelCookedFood": {
+        "demo": {
+            "name": "Label: Cooked Food",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "foundationSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pier": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largePier": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stoneFoundation": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stoneBlock": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "cleanStoneBlock": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeFloorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "floorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularFloorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeFloorPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "floorPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularFloorPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallLeaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallLeaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallBark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallBark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallStone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallStone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeWallStoneAndTimber": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallStoneAndTimber": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "leftPanelPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "rightPanelPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "leftPanelStoneAndTimber": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "rightPanelStoneAndTimber": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "inclinedWallStone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "cornerWallStone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reversedCornerWallStone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall45Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall45Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall45Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall45Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall45Planks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall45Planks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall26Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall26Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall26Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall26Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall64Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall64Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall64Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall64Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularWall64Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularWall64Bark": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeRoof45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roof45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roofRidge45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roofCorner45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseRoofCorner45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "triangularRoof45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseTriangularRoof45Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeRoof26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roof26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roofRidge26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "longRoofRidge26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roofCorner26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseRoofCorner26Leaves": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pillarSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largePillarSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pillarLog": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pierPile": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam90Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeBeam90Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam90Log": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam45Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeBeam45Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam45Log": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam26Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeBeam26Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam26Log": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam64Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeBeam64Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "beam64Log": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "cornerSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "narrowWindowWithTopSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "ovalWindowWithTopSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "longWindowWithTopSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "smallWindowSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "partialLongWindowSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "longWindowSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "windowWithTopSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "doubleSashedWindowWithTopSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "narrowWindowWithTopPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "doubleSashedWindowWithTopPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "squareWindowPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "doorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "windowedDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "doubleDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "archedDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "windowedDoubleDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "archedDoubleDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeDoubleDoorSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "doorPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stair45Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stair26Sticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stair26Planks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "rampPlanks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stair45Stone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "stairCorner45Stone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "reverseStairCorner45Stone": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "palisadeLog": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "gateLog": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "fenceSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "dodoTrophy": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "boarTrophy": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "squareStoolSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "tripodStoolSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roundStoolSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "benchSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "benchWithBackrestSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roundStoolLog": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "benchLog": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "squareElegantStool": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roundElegantStool": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "elegantBench": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "elegantBenchWithBackrest": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "elegantChair": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "elegantArmchair": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "tableSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "roundTableSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "rectangularTableSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "smallShelfSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "shelfSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeShelfSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "cabinetSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "fiberCabinetSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "simpleClosetSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "canopyBedSticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "canopyWithNetting": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeCanopy": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pierCanopy": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "canopySticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "archedCanopySticks": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallTorch": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wallLamp": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "tableLamp": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "tableLampOutwardFacing": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "bowlWood": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "mugWood": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "bucketWood": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "jugThinClay": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "jugClay": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "jugWideClay": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "standWithHerbs": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "basketOfPeppers": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pileOfDishes": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pierFlagpole": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pierWinch": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "pierCrane": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "ropeCoil": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeRopeCoil": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "fishingBarrel": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "largeFishingBarrel": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "wineBarrels": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "bottleCrate": {
+        "demo": {
+            "name": "",
+            "description": [
+                ""
+            ]
+        }
+    }
+}
