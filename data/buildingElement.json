@@ -2,6 +2,7 @@
     "bonfire": {
         "demo": {
             "type": "essential",
+            "comfort": 1,
             "required": {
                 "wood": 5
             }
@@ -18,6 +19,7 @@
     "tent": {
         "demo": {
             "type": "essential",
+            "revivalPoint": true,
             "required": {
                 "plantFiber": 10,
                 "wood": 4
@@ -37,6 +39,8 @@
     "wharf": {
         "demo": {
             "type": "essential",
+            "requiresBonfire": true,
+            "requiresShoreline": true,
             "required": {
                 "wood": 10,
                 "coarseFabric": 10
@@ -46,6 +50,7 @@
     "workbench": {
         "demo": {
             "type": "crafting",
+            "requiresBonfire": true,
             "required": {
                 "wood": 5
             }
@@ -54,6 +59,7 @@
     "sawhorse": {
         "demo": {
             "type": "crafting",
+            "requiresBonfire": true,
             "required": {
                 "wood": 20,
                 "copperIngot": 10
@@ -63,6 +69,7 @@
     "cookingFire": {
         "demo": {
             "type": "cooking",
+            "requiresBonfire": true,
             "required": {
                 "wood": 3,
                 "stone": 3
@@ -72,6 +79,7 @@
     "cuttingTable": {
         "demo": {
             "type": "cooking",
+            "requiresBonfire": true,
             "required": {
                 "wood": 10,
                 "copperIngot": 2
@@ -81,6 +89,8 @@
     "armorAndClothingWorkshop": {
         "demo": {
             "type": "personalEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
             "required": {
                 "wood": 5,
                 "coarseFabric": 10
@@ -90,6 +100,8 @@
     "weaponsmithWorkshop": {
         "demo": {
             "type": "personalEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
             "required": {
                 "wood": 10,
                 "copperIngot": 5
@@ -99,6 +111,8 @@
     "shipwrightsWorkshop": {
         "demo": {
             "type": "shipEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
             "required": {
                 "wood": 15,
                 "coarseFabric": 10,
@@ -109,6 +123,8 @@
     "alchemyTable": {
         "demo": {
             "type": "alchemy",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
             "required": {
                 "wood": 5,
                 "clayPot": 2
@@ -118,6 +134,7 @@
     "stoveAndPot": {
         "demo": {
             "type": "alchemy",
+            "requiresBonfire": true,
             "required": {
                 "stone": 5,
                 "clay": 5,
@@ -128,6 +145,7 @@
     "charcoalKiln": {
         "demo": {
             "type": "refining",
+            "workingRestriction": "placementOutside",
             "required": {
                 "wood": 25,
                 "clay": 20
@@ -137,6 +155,7 @@
     "smeltingFurnace": {
         "demo": {
             "type": "refining",
+            "workingRestriction": "placementOutside",
             "required": {
                 "clay": 15,
                 "stone": 30
@@ -146,6 +165,8 @@
     "simpleBed": {
         "demo": {
             "type": "bed",
+            "workingRestriction": "roofRequired",
+            "comfort": 1,
             "required": {
                 "plantFiber": 5,
                 "wood": 3
@@ -155,6 +176,7 @@
     "storageBasket": {
         "demo": {
             "type": "storage",
+            "capacity": 16,
             "required": {
                 "wood": 3,
                 "plantFiber": 5
@@ -164,6 +186,7 @@
     "woodenChest": {
         "demo": {
             "type": "storage",
+            "capacity": 28,
             "required": {
                 "wood": 10,
                 "nails": 5
@@ -173,6 +196,7 @@
     "storageBarrel": {
         "demo": {
             "type": "storage",
+            "capacity": 28,
             "required": {
                 "wood": 10,
                 "nails": 5
@@ -182,6 +206,7 @@
     "storageCrate": {
         "demo": {
             "type": "storage",
+            "capacity": 28,
             "required": {
                 "wood": 10,
                 "nails": 5
@@ -191,6 +216,7 @@
     "storageBale": {
         "demo": {
             "type": "storage",
+            "capacity": 28,
             "required": {
                 "coarseFabric": 10,
                 "rope": 5
@@ -200,6 +226,7 @@
     "storageSack": {
         "demo": {
             "type": "storage",
+            "capacity": 28,
             "required": {
                 "coarseFabric": 10,
                 "rope": 5
@@ -1102,6 +1129,9 @@
     "dodoTrophy": {
         "demo": {
             "type": "trophy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "dodoHead": 1
@@ -1111,6 +1141,9 @@
     "boarTrophy": {
         "demo": {
             "type": "trophy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "boarHead": 1
@@ -1120,6 +1153,8 @@
     "squareStoolSticks": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1128,6 +1163,8 @@
     "tripodStoolSticks": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1136,6 +1173,8 @@
     "roundStoolSticks": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1144,6 +1183,8 @@
     "benchSticks": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1152,6 +1193,8 @@
     "benchWithBackrestSticks": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1160,6 +1203,8 @@
     "roundStoolLog": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5
             }
@@ -1168,6 +1213,8 @@
     "benchLog": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5
             }
@@ -1176,6 +1223,8 @@
     "squareElegantStool": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1185,6 +1234,8 @@
     "roundElegantStool": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1194,6 +1245,8 @@
     "elegantBench": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1203,6 +1256,8 @@
     "elegantBenchWithBackrest": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1212,6 +1267,8 @@
     "elegantChair": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1221,6 +1278,8 @@
     "elegantArmchair": {
         "demo": {
             "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "roughHide": 2
@@ -1230,6 +1289,8 @@
     "tableSticks": {
         "demo": {
             "type": "table",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1238,6 +1299,8 @@
     "roundTableSticks": {
         "demo": {
             "type": "table",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1246,6 +1309,8 @@
     "rectangularTableSticks": {
         "demo": {
             "type": "table",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1254,6 +1319,8 @@
     "smallShelfSticks": {
         "demo": {
             "type": "shelf",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1262,6 +1329,8 @@
     "shelfSticks": {
         "demo": {
             "type": "shelf",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1270,6 +1339,8 @@
     "largeShelfSticks": {
         "demo": {
             "type": "shelf",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1278,6 +1349,8 @@
     "cabinetSticks": {
         "demo": {
             "type": "wardrobe",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1286,6 +1359,8 @@
     "fiberCabinetSticks": {
         "demo": {
             "type": "wardrobe",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1294,6 +1369,8 @@
     "simpleClosetSticks": {
         "demo": {
             "type": "wardrobe",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 10
             }
@@ -1302,6 +1379,9 @@
     "canopyBedSticks": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 2,
                 "coarseFabric": 2
@@ -1311,6 +1391,9 @@
     "canopyWithNetting": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 2,
                 "coarseFabric": 2
@@ -1320,6 +1403,9 @@
     "largeCanopy": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 2,
                 "coarseFabric": 2
@@ -1329,6 +1415,9 @@
     "pierCanopy": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "coarseFabric": 5
@@ -1338,6 +1427,9 @@
     "canopySticks": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 5
             }
@@ -1346,6 +1438,9 @@
     "archedCanopySticks": {
         "demo": {
             "type": "canopy",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 5
             }
@@ -1354,6 +1449,9 @@
     "wallTorch": {
         "demo": {
             "type": "torch",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
             "required": {
                 "wood": 2
             }
@@ -1362,6 +1460,8 @@
     "wallLamp": {
         "demo": {
             "type": "lamp",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 3,
                 "animalFat": 2
@@ -1371,6 +1471,8 @@
     "tableLamp": {
         "demo": {
             "type": "lamp",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 3,
                 "animalFat": 2
@@ -1380,6 +1482,8 @@
     "tableLampOutwardFacing": {
         "demo": {
             "type": "lamp",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 3,
                 "animalFat": 2
@@ -1389,6 +1493,8 @@
     "bowlWood": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 3
             }
@@ -1397,6 +1503,8 @@
     "mugWood": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 3
             }
@@ -1405,6 +1513,8 @@
     "bucketWood": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 3
             }
@@ -1413,6 +1523,8 @@
     "jugThinClay": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 2
             }
@@ -1421,6 +1533,8 @@
     "jugClay": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 2
             }
@@ -1429,6 +1543,8 @@
     "jugWideClay": {
         "demo": {
             "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 2
             }
@@ -1437,6 +1553,8 @@
     "standWithHerbs": {
         "demo": {
             "type": "supply",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "clay": 3,
                 "plantFiber": 3
@@ -1446,6 +1564,8 @@
     "basketOfPeppers": {
         "demo": {
             "type": "supply",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 2,
                 "cayennePepper": 3
@@ -1455,6 +1575,8 @@
     "pileOfDishes": {
         "demo": {
             "type": "supply",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "plantFiber": 5
             }
@@ -1463,6 +1585,8 @@
     "pierFlagpole": {
         "demo": {
             "type": "pierDecoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 10,
                 "coarseFabric": 1,
@@ -1473,6 +1597,8 @@
     "pierWinch": {
         "demo": {
             "type": "pierDecoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 5,
                 "rope": 1
@@ -1482,6 +1608,8 @@
     "pierCrane": {
         "demo": {
             "type": "pierDecoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 10,
                 "rope": 1
@@ -1491,6 +1619,8 @@
     "ropeCoil": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "rope": 1
             }
@@ -1499,6 +1629,8 @@
     "largeRopeCoil": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "rope": 2
             }
@@ -1507,6 +1639,8 @@
     "fishingBarrel": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 4,
                 "rope": 2
@@ -1516,6 +1650,8 @@
     "largeFishingBarrel": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 4,
                 "rope": 2
@@ -1525,6 +1661,8 @@
     "wineBarrels": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 10,
                 "copperIngot": 2
@@ -1534,6 +1672,8 @@
     "bottleCrate": {
         "demo": {
             "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
             "required": {
                 "wood": 2,
                 "rumBottle": 4
