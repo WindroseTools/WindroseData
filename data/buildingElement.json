@@ -1098,5 +1098,446 @@
                 "plantFiber": 1
             }
         }
+    },
+    "dodoTrophy": {
+        "demo": {
+            "type": "trophy",
+            "required": {
+                "wood": 5,
+                "dodoHead": 1
+            }
+        }
+    },
+    "boarTrophy": {
+        "demo": {
+            "type": "trophy",
+            "required": {
+                "wood": 5,
+                "boarHead": 1
+            }
+        }
+    },
+    "squareStoolSticks": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "tripodStoolSticks": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "roundStoolSticks": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "benchSticks": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "benchWithBackrestSticks": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "roundStoolLog": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "benchLog": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "squareElegantStool": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "roundElegantStool": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "elegantBench": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "elegantBenchWithBackrest": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "elegantChair": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "elegantArmchair": {
+        "demo": {
+            "type": "seating",
+            "required": {
+                "wood": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "tableSticks": {
+        "demo": {
+            "type": "table",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "roundTableSticks": {
+        "demo": {
+            "type": "table",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "rectangularTableSticks": {
+        "demo": {
+            "type": "table",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "smallShelfSticks": {
+        "demo": {
+            "type": "shelf",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "shelfSticks": {
+        "demo": {
+            "type": "shelf",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "largeShelfSticks": {
+        "demo": {
+            "type": "shelf",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "cabinetSticks": {
+        "demo": {
+            "type": "wardrobe",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "fiberCabinetSticks": {
+        "demo": {
+            "type": "wardrobe",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "simpleClosetSticks": {
+        "demo": {
+            "type": "wardrobe",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "canopyBedSticks": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "canopyWithNetting": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "largeCanopy": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "pierCanopy": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 5,
+                "coarseFabric": 5
+            }
+        }
+    },
+    "canopySticks": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "archedCanopySticks": {
+        "demo": {
+            "type": "canopy",
+            "required": {
+                "wood": 5
+            }
+        }
+    },
+    "wallTorch": {
+        "demo": {
+            "type": "torch",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "wallLamp": {
+        "demo": {
+            "type": "lamp",
+            "required": {
+                "clay": 3,
+                "animalFat": 2
+            }
+        }
+    },
+    "tableLamp": {
+        "demo": {
+            "type": "lamp",
+            "required": {
+                "clay": 3,
+                "animalFat": 2
+            }
+        }
+    },
+    "tableLampOutwardFacing": {
+        "demo": {
+            "type": "lamp",
+            "required": {
+                "clay": 3,
+                "animalFat": 2
+            }
+        }
+    },
+    "bowlWood": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "mugWood": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "bucketWood": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "jugThinClay": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "clay": 2
+            }
+        }
+    },
+    "jugClay": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "clay": 2
+            }
+        }
+    },
+    "jugWideClay": {
+        "demo": {
+            "type": "dish",
+            "required": {
+                "clay": 2
+            }
+        }
+    },
+    "standWithHerbs": {
+        "demo": {
+            "type": "supply",
+            "required": {
+                "clay": 3,
+                "plantFiber": 3
+            }
+        }
+    },
+    "basketOfPeppers": {
+        "demo": {
+            "type": "supply",
+            "required": {
+                "wood": 2,
+                "cayennePepper": 3
+            }
+        }
+    },
+    "pileOfDishes": {
+        "demo": {
+            "type": "supply",
+            "required": {
+                "plantFiber": 5
+            }
+        }
+    },
+    "pierFlagpole": {
+        "demo": {
+            "type": "pierDecoration",
+            "required": {
+                "wood": 10,
+                "coarseFabric": 1,
+                "rope": 1
+            }
+        }
+    },
+    "pierWinch": {
+        "demo": {
+            "type": "pierDecoration",
+            "required": {
+                "wood": 5,
+                "rope": 1
+            }
+        }
+    },
+    "pierCrane": {
+        "demo": {
+            "type": "pierDecoration",
+            "required": {
+                "wood": 10,
+                "rope": 1
+            }
+        }
+    },
+    "ropeCoil": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "rope": 1
+            }
+        }
+    },
+    "largeRopeCoil": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "rope": 2
+            }
+        }
+    },
+    "fishingBarrel": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "wood": 4,
+                "rope": 2
+            }
+        }
+    },
+    "largeFishingBarrel": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "wood": 4,
+                "rope": 2
+            }
+        }
+    },
+    "wineBarrels": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "wood": 10,
+                "copperIngot": 2
+            }
+        }
+    },
+    "bottleCrate": {
+        "demo": {
+            "type": "decoration",
+            "required": {
+                "wood": 2,
+                "rumBottle": 4
+            }
+        }
     }
 }
