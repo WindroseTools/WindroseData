@@ -142,5 +142,961 @@
                 "stone": 30
             }
         }
+    },
+    "simpleBed": {
+        "demo": {
+            "type": "bed",
+            "required": {
+                "plantFiber": 5,
+                "wood": 3
+            }
+        }
+    },
+    "storageBasket": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "wood": 3,
+                "plantFiber": 5
+            }
+        }
+    },
+    "woodenChest": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "wood": 10,
+                "nails": 5
+            }
+        }
+    },
+    "storageBarrel": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "wood": 10,
+                "nails": 5
+            }
+        }
+    },
+    "storageCrate": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "wood": 10,
+                "nails": 5
+            }
+        }
+    },
+    "storageBale": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "coarseFabric": 10,
+                "rope": 5
+            }
+        }
+    },
+    "storageSack": {
+        "demo": {
+            "type": "storage",
+            "required": {
+                "coarseFabric": 10,
+                "rope": 5
+            }
+        }
+    },
+    "labelCookedFood": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "foundationSticks": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "plantFiber": 3
+            }
+        }
+    },
+    "pier": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "largePier": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "wood": 16
+            }
+        }
+    },
+    "stoneFoundation": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "stone": 3
+            }
+        }
+    },
+    "stoneBlock": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "stone": 1
+            }
+        }
+    },
+    "cleanStoneBlock": {
+        "demo": {
+            "type": "foundation",
+            "required": {
+                "stone": 1
+            }
+        }
+    },
+    "largeFloorSticks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "floorSticks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularFloorSticks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeFloorPlanks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "floorPlanks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "triangularFloorPlanks": {
+        "demo": {
+            "type": "floor",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "largeWallLeaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "wallLeaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeWallSticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "wallSticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeWallBark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "wallBark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeWallStone": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 3
+            }
+        }
+    },
+    "wallStone": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "largeWallPlanks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "wallPlanks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "largeWallStoneAndTimber": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2,
+                "wood": 1
+            }
+        }
+    },
+    "wallStoneAndTimber": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 1,
+                "wood": 1
+            }
+        }
+    },
+    "leftPanelPlanks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 4
+            }
+        }
+    },
+    "rightPanelPlanks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 4
+            }
+        }
+    },
+    "leftPanelStoneAndTimber": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2,
+                "wood": 2
+            }
+        }
+    },
+    "rightPanelStoneAndTimber": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2,
+                "wood": 2
+            }
+        }
+    },
+    "inclinedWallStone": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "cornerWallStone": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "reversedCornerWallStone": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "triangularWall45Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall45Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall45Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall45Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall45Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall45Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall45Planks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "reverseTriangularWall45Planks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "triangularWall26Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall26Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall26Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall26Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall26Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall26Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall64Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall64Leaves": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall64Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall64Sticks": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularWall64Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularWall64Bark": {
+        "demo": {
+            "type": "wall",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeRoof45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "roof45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "roofRidge45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "roofCorner45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseRoofCorner45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "triangularRoof45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseTriangularRoof45Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeRoof26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 2
+            }
+        }
+    },
+    "roof26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "roofRidge26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "longRoofRidge26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "roofCorner26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "reverseRoofCorner26Leaves": {
+        "demo": {
+            "type": "roof",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "pillarSticks": {
+        "demo": {
+            "type": "pillar",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largePillarSticks": {
+        "demo": {
+            "type": "pillar",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "pillarLog": {
+        "demo": {
+            "type": "pillar",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "pierPile": {
+        "demo": {
+            "type": "pillar",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "beam90Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeBeam90Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam90Log": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam45Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeBeam45Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam45Log": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam26Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeBeam26Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam26Log": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam64Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "largeBeam64Sticks": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "beam64Log": {
+        "demo": {
+            "type": "beam",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "cornerSticks": {
+        "demo": {
+            "type": "corner",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "narrowWindowWithTopSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "ovalWindowWithTopSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "longWindowWithTopSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "smallWindowSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "partialLongWindowSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "longWindowSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "windowWithTopSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "doubleSashedWindowWithTopSticks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "narrowWindowWithTopPlanks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "wood": 15
+            }
+        }
+    },
+    "doubleSashedWindowWithTopPlanks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "wood": 15
+            }
+        }
+    },
+    "squareWindowPlanks": {
+        "demo": {
+            "type": "window",
+            "required": {
+                "wood": 10
+            }
+        }
+    },
+    "doorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "windowedDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "doubleDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "archedDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "windowedDoubleDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "archedDoubleDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "largeDoubleDoorSticks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "plantFiber": 15
+            }
+        }
+    },
+    "doorPlanks": {
+        "demo": {
+            "type": "door",
+            "required": {
+                "wood": 10
+            }
+        }
+    },
+    "stair45Sticks": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "stair26Sticks": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "plantFiber": 1
+            }
+        }
+    },
+    "stair26Planks": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "rampPlanks": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "stair45Stone": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "stairCorner45Stone": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "reverseStairCorner45Stone": {
+        "demo": {
+            "type": "stair",
+            "required": {
+                "stone": 2
+            }
+        }
+    },
+    "palisadeLog": {
+        "demo": {
+            "type": "fence",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "gateLog": {
+        "demo": {
+            "type": "fence",
+            "required": {
+                "wood": 4,
+                "nails": 4
+            }
+        }
+    },
+    "fenceSticks": {
+        "demo": {
+            "type": "fence",
+            "required": {
+                "plantFiber": 1
+            }
+        }
     }
 }
