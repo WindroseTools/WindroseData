@@ -196,31 +196,31 @@
     },
     "foundationSticks": {
         "demo": {
-            "name": "",
+            "name": "Foundation (Sticks)",
             "description": [
-                ""
+                "A foundation made of sticks"
             ]
         }
     },
     "pier": {
         "demo": {
-            "name": "",
+            "name": "Pier",
             "description": [
-                ""
+                "A section of the pier built to withstand both storms and a captain's temper."
             ]
         }
     },
     "largePier": {
         "demo": {
-            "name": "",
+            "name": "Large Pier",
             "description": [
-                ""
+                "A pier large enough to fit the whole crew, a few barrels of rum, and just a little room left for adventure."
             ]
         }
     },
     "stoneFoundation": {
         "demo": {
-            "name": "",
+            "name": "Foundation (Stone)",
             "description": [
                 ""
             ]
@@ -228,617 +228,617 @@
     },
     "stoneBlock": {
         "demo": {
-            "name": "",
+            "name": "Block (Stone)",
             "description": [
-                ""
+                "A block made of small stones"
             ]
         }
     },
     "cleanStoneBlock": {
         "demo": {
-            "name": "",
+            "name": "Block (Stone)",
             "description": [
-                ""
+                "Block of large stones."
             ]
         }
     },
     "largeFloorSticks": {
         "demo": {
-            "name": "",
+            "name": "Large Floor (Sticks)",
             "description": [
-                ""
+                "A large floor section made of sticks"
             ]
         }
     },
     "floorSticks": {
         "demo": {
-            "name": "",
+            "name": "Floor (Sticks)",
             "description": [
-                ""
+                "A floor made of sticks"
             ]
         }
     },
     "triangularFloorSticks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Floor (Sticks)",
             "description": [
-                ""
+                "A triangular floor section made of sticks for more complex structures"
             ]
         }
     },
     "largeFloorPlanks": {
         "demo": {
-            "name": "",
+            "name": "Large Floor (Planks)",
             "description": [
-                ""
+                "A large floor section made of planks"
             ]
         }
     },
     "floorPlanks": {
         "demo": {
-            "name": "",
+            "name": "Floor (Planks)",
             "description": [
-                ""
+                "A floor section made of planks"
             ]
         }
     },
     "triangularFloorPlanks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Floor (Planks)",
             "description": [
-                ""
+                "A triangular floor section made of planks"
             ]
         }
     },
     "largeWallLeaves": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Leaves)",
             "description": [
-                ""
+                "A large wall made of leaves"
             ]
         }
     },
     "wallLeaves": {
         "demo": {
-            "name": "",
+            "name": "Wall (Leaves)",
             "description": [
-                ""
+                "A wall made of leaves"
             ]
         }
     },
     "largeWallSticks": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Sticks)",
             "description": [
-                ""
+                "A large wall made of sticks"
             ]
         }
     },
     "wallSticks": {
         "demo": {
-            "name": "",
+            "name": "Wall (Sticks)",
             "description": [
-                ""
+                "A wall made of sticks"
             ]
         }
     },
     "largeWallBark": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Bark)",
             "description": [
-                ""
+                "A large wall made of bark"
             ]
         }
     },
     "wallBark": {
         "demo": {
-            "name": "",
+            "name": "Wall (Bark)",
             "description": [
-                ""
+                "A wall made of bark"
             ]
         }
     },
     "largeWallStone": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Stone)",
             "description": [
-                ""
+                "A large wall made of stone"
             ]
         }
     },
     "wallStone": {
         "demo": {
-            "name": "",
+            "name": "Wall (Stone)",
             "description": [
-                ""
+                "A wall made of stone"
             ]
         }
     },
     "largeWallPlanks": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Planks)",
             "description": [
-                ""
+                "A large wall made of timber"
             ]
         }
     },
     "wallPlanks": {
         "demo": {
-            "name": "",
+            "name": "Wall (Planks)",
             "description": [
-                ""
+                "A wall made of planks"
             ]
         }
     },
     "largeWallStoneAndTimber": {
         "demo": {
-            "name": "",
+            "name": "Large Wall (Stone and Timber)",
             "description": [
-                ""
+                "A large wall made of stone and timber"
             ]
         }
     },
     "wallStoneAndTimber": {
         "demo": {
-            "name": "",
+            "name": "Wall (Stone and Timber)",
             "description": [
-                ""
+                "A wall made of stone and timber"
             ]
         }
     },
     "leftPanelPlanks": {
         "demo": {
-            "name": "",
+            "name": "Left Panel (Planks)",
             "description": [
-                ""
+                "A left panel made of planks"
             ]
         }
     },
     "rightPanelPlanks": {
         "demo": {
-            "name": "",
+            "name": "Right Panel (Planks)",
             "description": [
-                ""
+                "A right panel made of planks"
             ]
         }
     },
     "leftPanelStoneAndTimber": {
         "demo": {
-            "name": "",
+            "name": "Left Panel (Stone and Timber)",
             "description": [
-                ""
+                "A left panel made of stone and timber"
             ]
         }
     },
     "rightPanelStoneAndTimber": {
         "demo": {
-            "name": "",
+            "name": "Right Panel (Stone and Timber)",
             "description": [
-                ""
+                "A right panel made of stone and timber"
             ]
         }
     },
     "inclinedWallStone": {
         "demo": {
-            "name": "",
+            "name": "Inclined Wall (Stone)",
             "description": [
-                ""
+                "An inclined Wall made of stone at a 64° angle"
             ]
         }
     },
     "cornerWallStone": {
         "demo": {
-            "name": "",
+            "name": "Corner Wall (Stone)",
             "description": [
-                ""
+                "A corner wall made of stone at 64°"
             ]
         }
     },
     "reversedCornerWallStone": {
         "demo": {
-            "name": "",
+            "name": "Reversed Corner Wall (Stone)",
             "description": [
-                ""
+                "A reverse corner wall made of stone at 64°"
             ]
         }
     },
     "triangularWall45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 45° (Leaves)",
             "description": [
-                ""
+                "A triangular wall made of leaves at 45°"
             ]
         }
     },
     "reverseTriangularWall45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 45° (Leaves)",
             "description": [
-                ""
+                "A reverse triangular wall made of leaves at 45°"
             ]
         }
     },
     "triangularWall45Sticks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 45° (Sticks)",
             "description": [
-                ""
+                "A triangular wall made of sticks at 45°"
             ]
         }
     },
     "reverseTriangularWall45Sticks": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 45° (Sticks)",
             "description": [
-                ""
+                "A reverse triangular wall made of sticks at 45°"
             ]
         }
     },
     "triangularWall45Bark": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 45° (Bark)",
             "description": [
-                ""
+                "A triangular wall made of bark at 45°"
             ]
         }
     },
     "reverseTriangularWall45Bark": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 45° (Bark)",
             "description": [
-                ""
+                "A reverse triangular wall made of bark at 45°"
             ]
         }
     },
     "triangularWall45Planks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 45° (Planks)",
             "description": [
-                ""
+                "A triangular wall made of planks at 45°"
             ]
         }
     },
     "reverseTriangularWall45Planks": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 45° (Planks)",
             "description": [
-                ""
+                "A reverse triangular wall made of planks at 45°"
             ]
         }
     },
     "triangularWall26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 26° (Leaves)",
             "description": [
-                ""
+                "A triangular wall made of leaves at 26°"
             ]
         }
     },
     "reverseTriangularWall26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 26° (Leaves)",
             "description": [
-                ""
+                "A reverse triangular wall made of leaves at 26°"
             ]
         }
     },
     "triangularWall26Sticks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 26° (Sticks)",
             "description": [
-                ""
+                "A triangular wall made of sticks at 26°"
             ]
         }
     },
     "reverseTriangularWall26Sticks": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 26° (Sticks)",
             "description": [
-                ""
+                "A reverse triangular wall made of sticks at 26°"
             ]
         }
     },
     "triangularWall26Bark": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 26° (Bark)",
             "description": [
-                ""
+                "A triangular wall made of bark at 26°"
             ]
         }
     },
     "reverseTriangularWall26Bark": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 26° (Bark)",
             "description": [
-                ""
+                "A reverse triangular wall made of bark at 26°"
             ]
         }
     },
     "triangularWall64Leaves": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 64° (Leaves)",
             "description": [
-                ""
+                "A triangular wall made of leaves at 64°"
             ]
         }
     },
     "reverseTriangularWall64Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 64° (Leaves)",
             "description": [
-                ""
+                "A reverse triangular wall made of leaves at 64°"
             ]
         }
     },
     "triangularWall64Sticks": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 64° (Sticks)",
             "description": [
-                ""
+                "A triangular wall made of sticks at 64°"
             ]
         }
     },
     "reverseTriangularWall64Sticks": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 64° (Sticks)",
             "description": [
-                ""
+                "A reverse triangular wall made of sticks at 64°"
             ]
         }
     },
     "triangularWall64Bark": {
         "demo": {
-            "name": "",
+            "name": "Triangular Wall 64° (Bark)",
             "description": [
-                ""
+                "A triangular wall made of bark at 64°"
             ]
         }
     },
     "reverseTriangularWall64Bark": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Wall 64° (Bark)",
             "description": [
-                ""
+                "A reverse triangular wall made of bark at 64°"
             ]
         }
     },
     "largeRoof45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Large Roof 45° (Leaves)",
             "description": [
-                ""
+                "A roof made of leaves at 45°"
             ]
         }
     },
     "roof45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof 45° (Leaves)",
             "description": [
-                ""
+                "A roof made of leaves at 45°"
             ]
         }
     },
     "roofRidge45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof Ridge 45° (Leaves)",
             "description": [
-                ""
+                "A roof ridge made of leaves at 45°"
             ]
         }
     },
     "roofCorner45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof Corner 45° (Leaves)",
             "description": [
-                ""
+                "A roof corner made of leaves at 45°"
             ]
         }
     },
     "reverseRoofCorner45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Roof Corner 45° (Leaves)",
             "description": [
-                ""
+                "A reverse roof corner made of leaves at 45°"
             ]
         }
     },
     "triangularRoof45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Triangular Roof 45° (Leaves)",
             "description": [
-                ""
+                "A triangular roof made of leaves at 45°"
             ]
         }
     },
     "reverseTriangularRoof45Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Triangular Roof 45° (Leaves)",
             "description": [
-                ""
+                "A reverse triangular roof made of leaves at 45°"
             ]
         }
     },
     "largeRoof26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Large Roof 26° (Leaves)",
             "description": [
-                ""
+                "A large roof made of leaves at 26°"
             ]
         }
     },
     "roof26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof 26° (Leaves)",
             "description": [
-                ""
+                "A roof made of leaves at 26°"
             ]
         }
     },
     "roofRidge26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof Ridge 26° (Leaves)",
             "description": [
-                ""
+                "A roof ridge made of leaves at 26°"
             ]
         }
     },
     "longRoofRidge26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Long Roof Ridge 26° (Leaves)",
             "description": [
-                ""
+                "A long roof ridge made of leaves at 26°"
             ]
         }
     },
     "roofCorner26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Roof Corner 26° (Leaves)",
             "description": [
-                ""
+                "A roof corner made of leaves at 26°"
             ]
         }
     },
     "reverseRoofCorner26Leaves": {
         "demo": {
-            "name": "",
+            "name": "Reverse Roof Corner 26° (Leaves)",
             "description": [
-                ""
+                "A reverse roof corner made of leaves at 26°"
             ]
         }
     },
     "pillarSticks": {
         "demo": {
-            "name": "",
+            "name": "Pillar (Sticks)",
             "description": [
-                ""
+                "A pillar made of sticks"
             ]
         }
     },
     "largePillarSticks": {
         "demo": {
-            "name": "",
+            "name": "Large Pillar (Sticks)",
             "description": [
-                ""
+                "A large pillar made of sticks"
             ]
         }
     },
     "pillarLog": {
         "demo": {
-            "name": "",
+            "name": "Pillar (Log)",
             "description": [
-                ""
+                "A log pillar"
             ]
         }
     },
     "pierPile": {
         "demo": {
-            "name": "",
+            "name": "Pier Pile",
             "description": [
-                ""
+                "A sturdy wooden support that holds the pier firm even in a powerful storm."
             ]
         }
     },
     "beam90Sticks": {
         "demo": {
-            "name": "",
+            "name": "Beam 90° (Sticks)",
             "description": [
-                ""
+                "A horizontal beam made of sticks"
             ]
         }
     },
     "largeBeam90Sticks": {
         "demo": {
-            "name": "",
+            "name": "Large Beam 90° (Sticks)",
             "description": [
-                ""
+                "A large horizontal beam made of sticks"
             ]
         }
     },
     "beam90Log": {
         "demo": {
-            "name": "",
+            "name": "Beam 90° (Log)",
             "description": [
-                ""
+                "A horizontal log beam."
             ]
         }
     },
     "beam45Sticks": {
         "demo": {
-            "name": "",
+            "name": "Beam 45° (Sticks)",
             "description": [
-                ""
+                "A stick beam at 45°"
             ]
         }
     },
     "largeBeam45Sticks": {
         "demo": {
-            "name": "",
+            "name": "Large Beam 45° (Sticks)",
             "description": [
-                ""
+                "A large stick beam at 45°"
             ]
         }
     },
     "beam45Log": {
         "demo": {
-            "name": "",
+            "name": "Beam 45° (Log)",
             "description": [
-                ""
+                "A log beam at 45°"
             ]
         }
     },
     "beam26Sticks": {
         "demo": {
-            "name": "",
+            "name": "Beam 26° (Sticks)",
             "description": [
-                ""
+                "A stick beam at 26°"
             ]
         }
     },
     "largeBeam26Sticks": {
         "demo": {
-            "name": "",
+            "name": "Large Beam 26° (Sticks)",
             "description": [
-                ""
+                "A large stick beam at 26°"
             ]
         }
     },
     "beam26Log": {
         "demo": {
-            "name": "",
+            "name": "Beam 26° (Log)",
             "description": [
-                ""
+                "A log beam at 26°"
             ]
         }
     },
     "beam64Sticks": {
         "demo": {
-            "name": "",
+            "name": "Beam 64° (Sticks)",
             "description": [
-                ""
+                "A stick beam at 64°"
             ]
         }
     },
     "largeBeam64Sticks": {
         "demo": {
-            "name": "",
+            "name": "Large Beam 64° (Sticks)",
             "description": [
-                ""
+                "A large stick beam at 64°"
             ]
         }
     },
     "beam64Log": {
         "demo": {
-            "name": "",
+            "name": "Beam 64° (Log)",
             "description": [
-                ""
+                "A log beam at 64°"
             ]
         }
     },
     "cornerSticks": {
         "demo": {
-            "name": "",
+            "name": "Corner (Sticks)",
             "description": [
-                ""
+                "Corner piece made of sticks."
             ]
         }
     },
