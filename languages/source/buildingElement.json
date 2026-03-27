@@ -1076,417 +1076,419 @@
     },
     "dodoTrophy": {
         "demo": {
-            "name": "",
+            "name": "Trophy Dodo",
             "description": [
-                ""
+                "A symbol of loss, reminding us that some creatures will never be seen again."
             ]
         }
     },
     "boarTrophy": {
         "demo": {
-            "name": "",
+            "name": "Trophy Boar",
             "description": [
-                ""
+                "Looks at you disapprovingly every time you pass by."
             ]
         }
     },
     "squareStoolSticks": {
         "demo": {
-            "name": "",
+            "name": "Square Stool (Sticks)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "tripodStoolSticks": {
         "demo": {
-            "name": "",
+            "name": "Tripod Stool (Sticks)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "roundStoolSticks": {
         "demo": {
-            "name": "",
+            "name": "Round Stool (Sticks)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "benchSticks": {
         "demo": {
-            "name": "",
+            "name": "Bench (Sticks)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "benchWithBackrestSticks": {
         "demo": {
-            "name": "",
+            "name": "Bench with Backrest (Sticks)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "roundStoolLog": {
         "demo": {
-            "name": "",
+            "name": "Round Stool (Log)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "benchLog": {
         "demo": {
-            "name": "",
+            "name": "Bench (Log)",
             "description": [
-                ""
+                "Primitive furniture."
             ]
         }
     },
     "squareElegantStool": {
         "demo": {
-            "name": "",
+            "name": "Square Elegant Stool",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
     "roundElegantStool": {
         "demo": {
-            "name": "",
+            "name": "Round Elegant Stool",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
     "elegantBench": {
         "demo": {
-            "name": "",
+            "name": "Elegant Bench",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
     "elegantBenchWithBackrest": {
         "demo": {
-            "name": "",
+            "name": "Elegant Bench with Backrest",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
     "elegantChair": {
         "demo": {
-            "name": "",
+            "name": "Elegant Chair",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
     "elegantArmchair": {
         "demo": {
-            "name": "",
+            "name": "Elegant Armchair",
             "description": [
-                ""
+                "Elegant furniture in a sophisticated, classical style."
             ]
         }
     },
-    "tableSticks": {
+    "squareTableSticks": {
         "demo": {
-            "name": "",
+            "name": "Square Table (Sticks)",
             "description": [
-                ""
+                "Big enough for a treasure map and a mug of grog."
             ]
         }
     },
     "roundTableSticks": {
         "demo": {
-            "name": "",
+            "name": "Round Table (Sticks)",
             "description": [
-                ""
+                "Big enough for a treasure map and a mug of grog."
             ]
         }
     },
     "rectangularTableSticks": {
         "demo": {
-            "name": "",
+            "name": "Rectangular Table (Sticks)",
             "description": [
-                ""
+                "Big enough for a treasure map and a mug of grog."
             ]
         }
     },
     "smallShelfSticks": {
         "demo": {
-            "name": "",
+            "name": "Small Shelf (Sticks)",
             "description": [
-                ""
+                "Shelves crudely nailed together for storing food and rum."
             ]
         }
     },
     "shelfSticks": {
         "demo": {
-            "name": "",
+            "name": "Shelf (Sticks)",
             "description": [
-                ""
+                "Shelves crudely nailed together for storing food and rum."
             ]
         }
     },
     "largeShelfSticks": {
         "demo": {
-            "name": "",
+            "name": "Large Shelf (Sticks)",
             "description": [
-                ""
+                "Shelves crudely nailed together for storing food and rum."
             ]
         }
     },
     "cabinetSticks": {
         "demo": {
-            "name": "",
+            "name": "Cabinet (Sticks)",
             "description": [
-                ""
+                "A flimsy structure, bound to collapse in the first storm."
             ]
         }
     },
     "fiberCabinetSticks": {
         "demo": {
-            "name": "",
+            "name": "Fiber Cabinet (Sticks)",
             "description": [
-                ""
+                "A flimsy structure, bound to collapse in the first storm."
             ]
         }
     },
     "simpleClosetSticks": {
         "demo": {
-            "name": "",
+            "name": "Simple Closet (Sticks)",
             "description": [
-                ""
+                "A flimsy structure, bound to collapse in the first storm."
             ]
         }
     },
-    "canopyBedSticks": {
+    "fabricCanopy": {
         "demo": {
-            "name": "",
+            "name": "Fabric Canopy",
             "description": [
-                ""
+                "A canopy made of whatever was at hand."
             ]
         }
     },
     "canopyWithNetting": {
         "demo": {
-            "name": "",
+            "name": "Canopy with Netting",
             "description": [
-                ""
+                "A canopy made of whatever was at hand."
             ]
         }
     },
     "largeCanopy": {
         "demo": {
-            "name": "",
+            "name": "Large Canopy",
             "description": [
-                ""
+                "A large canopy made of whatever was at hand."
             ]
         }
     },
     "pierCanopy": {
         "demo": {
-            "name": "",
+            "name": "Pier Canopy",
             "description": [
-                ""
+                "Take shelter from the sun and boatswain's attitude under this canopy."
             ]
         }
     },
     "canopySticks": {
         "demo": {
-            "name": "",
+            "name": "Canopy (Sticks)",
             "description": [
-                ""
+                "A canopy made of sticks."
             ]
         }
     },
     "archedCanopySticks": {
         "demo": {
-            "name": "",
+            "name": "Arched Canopy (Sticks)",
             "description": [
-                ""
+                "Arched canopy made of sticks"
             ]
         }
     },
     "wallTorch": {
         "demo": {
-            "name": "",
+            "name": "Wall Torch",
             "description": [
-                ""
+                "Banishes darkness - and attracts moths."
             ]
         }
     },
     "wallLamp": {
         "demo": {
-            "name": "",
+            "name": "Wall Lamp",
             "description": [
-                ""
+                "Makes any place cozier."
             ]
         }
     },
     "tableLamp": {
         "demo": {
-            "name": "",
+            "name": "Table Lamp",
             "description": [
-                ""
+                "Makes any place cozier."
             ]
         }
     },
     "tableLampOutwardFacing": {
         "demo": {
-            "name": "",
+            "name": "Table Lamp (Outward Facing)",
             "description": [
-                ""
+                "Makes any place cozier."
             ]
         }
     },
     "bowlWood": {
         "demo": {
-            "name": "",
+            "name": "Wooden Bowl",
             "description": [
-                ""
+                "A simple handmade wooden vessel."
             ]
         }
     },
     "mugWood": {
         "demo": {
-            "name": "",
+            "name": "Wooden Mug",
             "description": [
-                ""
+                "A simple handmade wooden vessel."
             ]
         }
     },
     "bucketWood": {
         "demo": {
-            "name": "",
+            "name": "Wooden Bucket",
             "description": [
-                ""
+                "A simple handmade wooden vessel."
             ]
         }
     },
     "jugThinClay": {
         "demo": {
-            "name": "",
+            "name": "Thin Clay Jug",
             "description": [
-                ""
+                "Keeps drinks cool even on the hottest day."
             ]
         }
     },
     "jugClay": {
         "demo": {
-            "name": "",
+            "name": "Clay Jug",
             "description": [
-                ""
+                "A clay jug wrapped in cloth.",
+                "Keeps drinks cool even on the hottest day."
             ]
         }
     },
     "jugWideClay": {
         "demo": {
-            "name": "",
+            "name": "Wide Clay Jug",
             "description": [
-                ""
+                "A wide clay jug.",
+                "Keeps drinks cool even on the hottest day."
             ]
         }
     },
     "standWithHerbs": {
         "demo": {
-            "name": "",
+            "name": "Stand with Herbs",
             "description": [
-                ""
+                "Preserves filled with the warmth of summer and the aroma of ripe fruit."
             ]
         }
     },
     "basketOfPeppers": {
         "demo": {
-            "name": "",
+            "name": "Basket of Peppers",
             "description": [
-                ""
+                "A strategic reserve, essential during storms and sieges."
             ]
         }
     },
     "pileOfDishes": {
         "demo": {
-            "name": "",
+            "name": "Pile of Dishes",
             "description": [
-                ""
+                "A strategic reserve, essential during storms and sieges."
             ]
         }
     },
     "pierFlagpole": {
         "demo": {
-            "name": "",
+            "name": "Pier Flagpole",
             "description": [
-                ""
+                "Even the seagulls are impressed with the height of this flagpole."
             ]
         }
     },
     "pierWinch": {
         "demo": {
-            "name": "",
+            "name": "Pier Winch",
             "description": [
-                ""
+                "A winch that makes even the hardest work seem easy."
             ]
         }
     },
     "pierCrane": {
         "demo": {
-            "name": "",
+            "name": "Pier Crane",
             "description": [
-                ""
+                "A reliable crane to lift and move even the heaviest objects."
             ]
         }
     },
     "ropeCoil": {
         "demo": {
-            "name": "",
+            "name": "Rope Coil",
             "description": [
-                ""
+                "An unassuming but strong rope."
             ]
         }
     },
     "largeRopeCoil": {
         "demo": {
-            "name": "",
+            "name": "Large Rope Coil",
             "description": [
-                ""
+                "A coil of heavy-duty rope for demanding applications."
             ]
         }
     },
     "fishingBarrel": {
         "demo": {
-            "name": "",
+            "name": "Fishing Barrel",
             "description": [
-                ""
+                "Once useful, these items now serve as decorations."
             ]
         }
     },
     "largeFishingBarrel": {
         "demo": {
-            "name": "",
+            "name": "Large Fishing Barrel",
             "description": [
-                ""
+                "Once useful, these items now serve as decorations."
             ]
         }
     },
     "wineBarrels": {
         "demo": {
-            "name": "",
+            "name": "Wine Barrels",
             "description": [
-                ""
+                "Once useful, these items now serve as decorations."
             ]
         }
     },
     "bottleCrate": {
         "demo": {
-            "name": "",
+            "name": "Bottle Crate",
             "description": [
-                ""
+                "Once useful, these items now serve as decorations."
             ]
         }
     }

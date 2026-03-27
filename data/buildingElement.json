@@ -1288,7 +1288,7 @@
             }
         }
     },
-    "tableSticks": {
+    "squareTableSticks": {
         "demo": {
             "type": "table",
             "requiresBonfire": true,
@@ -1378,7 +1378,7 @@
             }
         }
     },
-    "canopyBedSticks": {
+    "fabricCanopy": {
         "demo": {
             "type": "canopy",
             "requiresBonfire": true,
