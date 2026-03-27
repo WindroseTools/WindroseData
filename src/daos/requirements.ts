@@ -1,27 +1,27 @@
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 
 export type ResolvedRequirement = {
     type: string;
     value: unknown;
 };
 
-export type RequirementResolver = (id: string, version: VersionKey) => ResolvedRequirement | undefined;
+export type RequirementResolver = (id: string, version: Version) => ResolvedRequirement | undefined;
 
 type RequirementLookupContext = {
-    getMetal?: (id: string, version: VersionKey) => unknown;
-    getResource?: (id: string, version: VersionKey) => unknown;
-    getTool?: (id: string, version: VersionKey) => unknown;
-    getAlchemy?: (id: string, version: VersionKey) => unknown;
-    getAmmo?: (id: string, version: VersionKey) => unknown;
-    getBackpack?: (id: string, version: VersionKey) => unknown;
-    getBuildingElement?: (id: string, version: VersionKey) => unknown;
-    getCannon?: (id: string, version: VersionKey) => unknown;
-    getCrewEquipment?: (id: string, version: VersionKey) => unknown;
-    getFood?: (id: string, version: VersionKey) => unknown;
-    getHullModification?: (id: string, version: VersionKey) => unknown;
-    getItem?: (id: string, version: VersionKey) => unknown;
-    getMedicine?: (id: string, version: VersionKey) => unknown;
-    getMiscellaneous?: (id: string, version: VersionKey) => unknown;
+    getMetal?: (id: string, version: Version) => unknown;
+    getResource?: (id: string, version: Version) => unknown;
+    getTool?: (id: string, version: Version) => unknown;
+    getAlchemy?: (id: string, version: Version) => unknown;
+    getAmmo?: (id: string, version: Version) => unknown;
+    getBackpack?: (id: string, version: Version) => unknown;
+    getBuildingElement?: (id: string, version: Version) => unknown;
+    getCannon?: (id: string, version: Version) => unknown;
+    getCrewEquipment?: (id: string, version: Version) => unknown;
+    getFood?: (id: string, version: Version) => unknown;
+    getHullModification?: (id: string, version: Version) => unknown;
+    getItem?: (id: string, version: Version) => unknown;
+    getMedicine?: (id: string, version: Version) => unknown;
+    getMiscellaneous?: (id: string, version: Version) => unknown;
 };
 
 type CircularDependencyNode = {
@@ -43,7 +43,7 @@ export type RequirementEntry = {
 export class RequirementUtils {
     private static lookupContext: RequirementLookupContext = {};
     private static trackedRequirementEntries: Array<{
-        version: VersionKey;
+        version: Version;
         entries: Record<string, RequirementEntry>;
     }> = [];
 
@@ -216,10 +216,10 @@ export class RequirementUtils {
     }
 
     static assertNoCircularDependencies(collections: CircularDependencyCollection[]): void {
-        const versions = new Set<VersionKey>();
+        const versions = new Set<Version>();
 
         for (const collection of collections) {
-            for (const version of Object.keys(collection.entriesByVersion) as VersionKey[]) {
+            for (const version of Object.keys(collection.entriesByVersion) as Version[]) {
                 versions.add(version);
             }
         }
@@ -278,7 +278,7 @@ export class RequirementUtils {
 
     static resolveRequirement(
         id: string,
-        version: VersionKey,
+        version: Version,
         resolvers: RequirementResolver[],
     ): ResolvedRequirement | undefined {
         for (const resolver of resolvers) {
@@ -293,7 +293,7 @@ export class RequirementUtils {
 
     static resolveRequiredEntries(
         required: Record<string, number>,
-        version: VersionKey,
+        version: Version,
         resolvers: RequirementResolver[],
     ): Record<string, RequirementEntry> {
         const resolvedRequired: Record<string, RequirementEntry> = {};

@@ -16,7 +16,7 @@ export { Miscellanies, Miscellaneous } from "./daos/miscellaneous";
 export { Resource, Resources } from "./daos/resource";
 export { Tool, Tools } from "./daos/tool";
 export { RequirementUtils } from "./daos/requirements";
-export { versions } from "./versions";
+export { Versions, Version } from "./versions";
 
 // Types
 export { Rarity } from "./types/Rarity";

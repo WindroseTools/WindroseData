@@ -1,6 +1,6 @@
 import backpackData from "../../data/backpack.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Backpack {
 
     static loadBackpacksByVersion(): BackpacksByVersion {
         const rawByVersion = createVersionedRawStore(
-            backpackData as Record<BackpackKey, Partial<Record<VersionKey, BackpackRawData>>>,
+            backpackData as Record<BackpackKey, Partial<Record<Version, BackpackRawData>>>,
         );
         const backpacksByVersion = instantiateVersionedEntries(
             rawByVersion,

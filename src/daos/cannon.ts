@@ -1,6 +1,6 @@
 import cannonData from "../../data/cannon.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -27,7 +27,7 @@ export class Cannon {
 
     static loadCannonsByVersion(): CannonsByVersion {
         const rawByVersion = createVersionedRawStore(
-            cannonData as Record<CannonKey, Partial<Record<VersionKey, CannonRawData>>>,
+            cannonData as Record<CannonKey, Partial<Record<Version, CannonRawData>>>,
         );
         const cannonsByVersion = instantiateVersionedEntries(
             rawByVersion,

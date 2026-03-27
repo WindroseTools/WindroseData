@@ -1,6 +1,6 @@
 import foodData from "../../data/food.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Food {
 
     static loadFoodItemsByVersion(): FoodItemsByVersion {
         const rawByVersion = createVersionedRawStore(
-            foodData as Record<FoodKey, Partial<Record<VersionKey, FoodRawData>>>,
+            foodData as Record<FoodKey, Partial<Record<Version, FoodRawData>>>,
         );
         const foodItemsByVersion = instantiateVersionedEntries(
             rawByVersion,

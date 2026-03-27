@@ -1,6 +1,6 @@
 import crewEquipmentData from "../../data/crewEquipment.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -27,7 +27,7 @@ export class CrewEquipment {
 
     static loadCrewEquipmentByVersion(): CrewEquipmentsByVersion {
         const rawByVersion = createVersionedRawStore(
-            crewEquipmentData as Record<CrewEquipmentKey, Partial<Record<VersionKey, CrewEquipmentRawData>>>,
+            crewEquipmentData as Record<CrewEquipmentKey, Partial<Record<Version, CrewEquipmentRawData>>>,
         );
         const crewEquipmentByVersion = instantiateVersionedEntries(
             rawByVersion,

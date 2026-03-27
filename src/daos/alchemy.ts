@@ -1,6 +1,6 @@
 import alchemyData from "../../data/alchemy.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Alchemy {
 
     static loadAlchemyByVersion(): AlchemyByVersion {
         const rawByVersion = createVersionedRawStore(
-            alchemyData as Record<AlchemyKey, Partial<Record<VersionKey, AlchemyRawData>>>,
+            alchemyData as Record<AlchemyKey, Partial<Record<Version, AlchemyRawData>>>,
         );
         const alchemyByVersion = instantiateVersionedEntries(
             rawByVersion,

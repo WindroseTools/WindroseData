@@ -1,6 +1,6 @@
 import itemData from "../../data/item.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Item {
 
     static loadItemsByVersion(): ItemsByVersion {
         const rawByVersion = createVersionedRawStore(
-            itemData as Record<ItemKey, Partial<Record<VersionKey, ItemRawData>>>,
+            itemData as Record<ItemKey, Partial<Record<Version, ItemRawData>>>,
         );
         const itemsByVersion = instantiateVersionedEntries(
             rawByVersion,

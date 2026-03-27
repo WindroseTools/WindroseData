@@ -1,6 +1,6 @@
 import medicineData from "../../data/medicine.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Medicine {
 
     static loadMedicinesByVersion(): MedicinesByVersion {
         const rawByVersion = createVersionedRawStore(
-            medicineData as Record<MedicineKey, Partial<Record<VersionKey, MedicineRawData>>>,
+            medicineData as Record<MedicineKey, Partial<Record<Version, MedicineRawData>>>,
         );
         const medicinesByVersion = instantiateVersionedEntries(
             rawByVersion,

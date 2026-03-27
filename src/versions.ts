@@ -1,5 +1,5 @@
 
-export const versions = {
+export const Versions = {
     "demo": {
         index: 0,
         startDate: new Date("2024-06-01T00:00:00Z"), // Placeholder
@@ -15,9 +15,9 @@ export const versions = {
     }
 };
 
-export type VersionKey = keyof typeof versions;
+export type Version = keyof typeof Versions;
 export type MultiVersion<K extends string, TValue> = {
-    [V in VersionKey]: Partial<Record<K, TValue>>;
+    [V in Version]: Partial<Record<K, TValue>>;
 };
 
 export function loadVersionedData<
@@ -25,10 +25,10 @@ export function loadVersionedData<
     TRaw,
     TResult,
 >(
-    dataByKey: Record<K, Partial<Record<VersionKey, TRaw>>>,
-    createEntry: (id: K, data: TRaw, version: VersionKey) => TResult,
+    dataByKey: Record<K, Partial<Record<Version, TRaw>>>,
+    createEntry: (id: K, data: TRaw, version: Version) => TResult,
 ): MultiVersion<K, TResult> {
-    const orderedVersions = (Object.entries(versions) as Array<[VersionKey, { index: number }]> )
+    const orderedVersions = (Object.entries(Versions) as Array<[Version, { index: number }]> )
         .map(([version, data]) => ({ version, index: data.index }))
         .sort((a, b) => a.index - b.index);
 
@@ -37,7 +37,7 @@ export function loadVersionedData<
     for (const { version, index } of orderedVersions) {
         const versionEntries: Partial<Record<K, TResult>> = {};
 
-        for (const [id, entriesByVersion] of Object.entries(dataByKey) as Array<[K, Partial<Record<VersionKey, TRaw>>]>) {
+        for (const [id, entriesByVersion] of Object.entries(dataByKey) as Array<[K, Partial<Record<Version, TRaw>>]>) {
             const fallback = [...orderedVersions]
                 .reverse()
                 .find((candidate) => candidate.index <= index && entriesByVersion[candidate.version] !== undefined);

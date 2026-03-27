@@ -1,6 +1,6 @@
 import resourcesData from "../../data/resource.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Resource {
 
 	static loadResourcesByVersion(): ResourcesByVersion {
 		const rawByVersion = createVersionedRawStore(
-			resourcesData as Record<ResourceKey, Partial<Record<VersionKey, ResourceRawData>>>,
+			resourcesData as Record<ResourceKey, Partial<Record<Version, ResourceRawData>>>,
 		);
 		const resourcesByVersion = instantiateVersionedEntries(
 			rawByVersion,

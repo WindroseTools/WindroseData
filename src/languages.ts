@@ -16,7 +16,7 @@ import tool from "../languages/source/tool.json";
 // DE
 //import deMetal from "../languages/de/de_metal.json";
 
-import { loadVersionedData, MultiVersion, VersionKey } from "./versions";
+import { loadVersionedData, MultiVersion, Version } from "./versions";
 
 const enLanguageEntries = {
     ...alchemy,
@@ -57,7 +57,7 @@ export type LanguageSet = {
 };
 
 export function loadLanguagesByVersion(
-    entries: Record<LanguageKey, Partial<Record<VersionKey, LanguageData>>>,
+    entries: Record<LanguageKey, Partial<Record<Version, LanguageData>>>,
 ): LanguagesByVersion {
     return loadVersionedData(
         entries,
@@ -67,6 +67,6 @@ export function loadLanguagesByVersion(
 
 export const Languages: LanguageSet = {
     EN: loadLanguagesByVersion(
-        enLanguageEntries as Record<LanguageKey, Partial<Record<VersionKey, LanguageData>>>,
+        enLanguageEntries as Record<LanguageKey, Partial<Record<Version, LanguageData>>>,
     ),
 };

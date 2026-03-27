@@ -1,6 +1,6 @@
 import ammoData from "../../data/ammo.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Ammo {
 
     static loadAmmoByVersion(): AmmoByVersion {
         const rawByVersion = createVersionedRawStore(
-            ammoData as Record<AmmoKey, Partial<Record<VersionKey, AmmoRawData>>>,
+            ammoData as Record<AmmoKey, Partial<Record<Version, AmmoRawData>>>,
         );
         const ammoByVersion = instantiateVersionedEntries(
             rawByVersion,

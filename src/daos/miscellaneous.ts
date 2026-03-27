@@ -1,6 +1,6 @@
 import miscellaneousData from "../../data/miscellaneous.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -30,7 +30,7 @@ export class Miscellanies {
 
     static loadMiscellaneousItemsByVersion(): MiscellaneousItemsByVersion {
         const rawByVersion = createVersionedRawStore(
-            miscellaneousData as Record<MiscellaneousKey, Partial<Record<VersionKey, MiscellaneousRawData>>>,
+            miscellaneousData as Record<MiscellaneousKey, Partial<Record<Version, MiscellaneousRawData>>>,
         );
         const miscellaneousItemsByVersion = instantiateVersionedEntries(
             rawByVersion,

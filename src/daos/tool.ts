@@ -1,6 +1,6 @@
 import toolsData from "../../data/tool.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -31,7 +31,7 @@ export class Tool {
 
     static loadToolsByVersion(): ToolsByVersion {
         const rawByVersion = createVersionedRawStore(
-            toolsData as Record<ToolKey, Partial<Record<VersionKey, ToolRawData>>>,
+            toolsData as Record<ToolKey, Partial<Record<Version, ToolRawData>>>,
         );
         const toolsByVersion = instantiateVersionedEntries(
             rawByVersion,

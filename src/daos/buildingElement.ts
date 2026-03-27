@@ -1,6 +1,6 @@
 import buildingElementData from "../../data/buildingElement.json";
 import { BEType, MountingRestriction, WorkingRestriction } from "../types/BuildingElement";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -51,7 +51,7 @@ export class BuildingElement {
 
     static loadBuildingElementsByVersion(): BuildingElementsByVersion {
         const rawByVersion = createVersionedRawStore(
-            buildingElementData as Record<BuildingElementKey, Partial<Record<VersionKey, BuildingElementRawData>>>,
+            buildingElementData as Record<BuildingElementKey, Partial<Record<Version, BuildingElementRawData>>>,
         );
         const buildingElementsByVersion = instantiateVersionedEntries(
             rawByVersion,

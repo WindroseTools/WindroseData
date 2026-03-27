@@ -1,6 +1,6 @@
 import hullModificationData from "../../data/hullModification.json";
 import { Rarity } from "../types/Rarity";
-import { MultiVersion, VersionKey } from "../versions";
+import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
@@ -27,7 +27,7 @@ export class HullModification {
 
     static loadHullModificationsByVersion(): HullModificationsByVersion {
         const rawByVersion = createVersionedRawStore(
-            hullModificationData as Record<HullModificationKey, Partial<Record<VersionKey, HullModificationRawData>>>,
+            hullModificationData as Record<HullModificationKey, Partial<Record<Version, HullModificationRawData>>>,
         );
         const hullModificationsByVersion = instantiateVersionedEntries(
             rawByVersion,
