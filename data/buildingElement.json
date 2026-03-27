@@ -1104,6 +1104,7 @@
     "palisadeLog": {
         "demo": {
             "type": "fence",
+            "requiresBonfire": true,
             "required": {
                 "wood": 1
             }
@@ -1112,6 +1113,7 @@
     "gateLog": {
         "demo": {
             "type": "fence",
+            "requiresBonfire": true,
             "required": {
                 "wood": 4,
                 "nails": 4

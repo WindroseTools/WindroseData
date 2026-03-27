@@ -844,183 +844,183 @@
     },
     "narrowWindowWithTopSticks": {
         "demo": {
-            "name": "",
+            "name": "Narrow Window (with Top) (Sticks)",
             "description": [
-                ""
+                "A narrow window made of sticks"
             ]
         }
     },
     "ovalWindowWithTopSticks": {
         "demo": {
-            "name": "",
+            "name": "Oval Window (with Top) (Sticks)",
             "description": [
-                ""
+                "An oval window made of sticks"
             ]
         }
     },
-    "longWindowWithTopSticks": {
+    "ovalLongWindowWithTopSticks": {
         "demo": {
-            "name": "",
+            "name": "Oval Long Window (with Top) (Sticks)",
             "description": [
-                ""
+                "A long oval window made of sticks"
             ]
         }
     },
     "smallWindowSticks": {
         "demo": {
-            "name": "",
+            "name": "Small Window (Sticks)",
             "description": [
-                ""
-            ]
-        }
-    },
-    "partialLongWindowSticks": {
-        "demo": {
-            "name": "",
-            "description": [
-                ""
+                "A small window made of sticks"
             ]
         }
     },
     "longWindowSticks": {
         "demo": {
-            "name": "",
+            "name": "Long Window (Sticks)",
             "description": [
-                ""
+                "A long window made of sticks"
+            ]
+        }
+    },
+    "longOvalWindowSticks": {
+        "demo": {
+            "name": "Long Oval Window (Sticks)",
+            "description": [
+                "A long oval window made of sticks"
             ]
         }
     },
     "windowWithTopSticks": {
         "demo": {
-            "name": "",
+            "name": "Window (with Top) (Sticks)",
             "description": [
-                ""
+                "A round window made of sticks"
             ]
         }
     },
     "doubleSashedWindowWithTopSticks": {
         "demo": {
-            "name": "",
+            "name": "Double-Sashed Window (with Top) (Sticks)",
             "description": [
-                ""
+                "A square window made of sticks"
             ]
         }
     },
     "narrowWindowWithTopPlanks": {
         "demo": {
-            "name": "",
+            "name": "Narrow Window (with Top) (Planks)",
             "description": [
-                ""
+                "A narrow window with a net"
             ]
         }
     },
     "doubleSashedWindowWithTopPlanks": {
         "demo": {
-            "name": "",
+            "name": "Double-Sashed Window (with Top) (Planks)",
             "description": [
-                ""
+                "A middle-sized window made of planks with sashes"
             ]
         }
     },
     "squareWindowPlanks": {
         "demo": {
-            "name": "",
+            "name": "Square Window (Planks)",
             "description": [
-                ""
+                "A glassed-in window made of planks"
             ]
         }
     },
     "doorSticks": {
         "demo": {
-            "name": "",
+            "name": "Door (Sticks)",
             "description": [
-                ""
+                "A stick door with a window"
             ]
         }
     },
     "windowedDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Windowed Door (Sticks)",
             "description": [
-                ""
+                "A stick door with a large window"
             ]
         }
     },
     "doubleDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Double Door (Sticks)",
             "description": [
-                ""
+                "A double door made of sticks with a window"
             ]
         }
     },
     "archedDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Arched Door (Sticks)",
             "description": [
-                ""
+                "A stick door with an arched top"
             ]
         }
     },
     "windowedDoubleDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Windowed Double Door (Sticks)",
             "description": [
-                ""
+                "A double door made of sticks with a large window"
             ]
         }
     },
     "archedDoubleDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Arched Double Door (Sticks)",
             "description": [
-                ""
+                "A double door made of sticks with an arched top"
             ]
         }
     },
     "largeDoubleDoorSticks": {
         "demo": {
-            "name": "",
+            "name": "Large Double Door (Sticks)",
             "description": [
-                ""
+                "A massive double door made of sticks with a large window"
             ]
         }
     },
     "doorPlanks": {
         "demo": {
-            "name": "",
+            "name": "Door (Planks)",
             "description": [
-                ""
+                "A door made of planks"
             ]
         }
     },
     "stair45Sticks": {
         "demo": {
-            "name": "",
+            "name": "Stairs 45° (Sticks)",
             "description": [
-                ""
+                "Stairs made of sticks at 45°"
             ]
         }
     },
     "stair26Sticks": {
         "demo": {
-            "name": "",
+            "name": "Stairs 26° (Sticks)",
             "description": [
-                ""
+                "Stairs made of sticks at 26°"
             ]
         }
     },
     "stair26Planks": {
         "demo": {
-            "name": "",
+            "name": "Stairs 26° (Planks)",
             "description": [
-                ""
+                "Stairs made of planks at 26°"
             ]
         }
     },
     "rampPlanks": {
         "demo": {
-            "name": "",
+            "name": "Ramp (Planks)",
             "description": [
                 ""
             ]
@@ -1028,31 +1028,31 @@
     },
     "stair45Stone": {
         "demo": {
-            "name": "",
+            "name": "Stairs 45° (Stone)",
             "description": [
-                ""
+                "Stairs made of stone at 45°"
             ]
         }
     },
     "stairCorner45Stone": {
         "demo": {
-            "name": "",
+            "name": "Stair Corner 45° (Stone)",
             "description": [
-                ""
+                "A stair corner made of stone at 45°"
             ]
         }
     },
     "reverseStairCorner45Stone": {
         "demo": {
-            "name": "",
+            "name": "Reverse Stair Corner 45° (Stone)",
             "description": [
-                ""
+                "A reverse stair corner made of stone at 45°"
             ]
         }
     },
     "palisadeLog": {
         "demo": {
-            "name": "",
+            "name": "Palisade (Logs)",
             "description": [
                 ""
             ]
@@ -1060,7 +1060,7 @@
     },
     "gateLog": {
         "demo": {
-            "name": "",
+            "name": "Gate (Logs)",
             "description": [
                 ""
             ]
@@ -1068,9 +1068,9 @@
     },
     "fenceSticks": {
         "demo": {
-            "name": "",
+            "name": "Fence (Sticks)",
             "description": [
-                ""
+                "A long fence made of sticks"
             ]
         }
     },
