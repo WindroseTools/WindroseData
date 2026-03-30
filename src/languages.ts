@@ -2,6 +2,7 @@
 import alchemy from "../languages/source/alchemy.json";
 import ammo from "../languages/source/ammo.json";
 import backpack from "../languages/source/backpack.json";
+import buildingElements from "../languages/source/buildingElement.json";
 import cannon from "../languages/source/cannon.json";
 import crewEquipment from "../languages/source/crewEquipment.json";
 import food from "../languages/source/food.json";
@@ -22,6 +23,7 @@ const enLanguageEntries = {
     ...alchemy,
     ...ammo,
     ...backpack,
+    ...buildingElements,
     ...cannon,
     ...crewEquipment,
     ...food,
