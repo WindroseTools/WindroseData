@@ -17,6 +17,8 @@ export { Resource, Resources } from "./daos/resource";
 export { Tool, Tools } from "./daos/tool";
 export { RequirementUtils } from "./daos/requirements";
 export { Versions, Version, MultiVersion, loadVersionedData } from "./versions";
+export { UnifiedItems } from "./unifiedItems";
+export type { UnifiedItem, UnifiedItemsByVersion } from "./unifiedItems";
 
 export { createVersionedRawStore, instantiateVersionedEntries } from "./daos/helpers";
 
