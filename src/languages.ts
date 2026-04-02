@@ -42,7 +42,7 @@ const deLanguageEntries = {
 
 type ENLanguageKey = keyof typeof enLanguageEntries;
 type DELanguageKey = keyof typeof deLanguageEntries;
-type LanguageKey = ENLanguageKey | DELanguageKey;
+export type LanguageKey = ENLanguageKey | DELanguageKey;
 
 export type LanguageData = {
     name: string;
