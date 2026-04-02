@@ -10,19 +10,12 @@ import { Item, Items } from "./daos/item";
 import { Medicine, Medicines } from "./daos/medicine";
 import { Metal, Metals } from "./daos/metal";
 import { Miscellanies, Miscellaneous } from "./daos/miscellaneous";
-import { RequirementEntry } from "./daos/requirements";
 import { Resource, Resources } from "./daos/resource";
 import { Tool, Tools } from "./daos/tool";
-import { Rarity } from "./types/Rarity";
 import { Version, Versions } from "./versions";
 
-type UnifiedItemWithOptionalRequired = {
-    rarity?: Rarity;
-    required?: Record<string, RequirementEntry>;
-};
-
-export type UnifiedItem = 
-    (Alchemy
+type AllDaoTypes =
+    | Alchemy
     | Ammo
     | Backpack
     | BuildingElement
@@ -35,7 +28,14 @@ export type UnifiedItem =
     | Metal
     | Miscellanies
     | Resource
-    | Tool) & UnifiedItemWithOptionalRequired;
+    | Tool;
+
+type AllKeysOf<U> = U extends unknown ? keyof U : never;
+type ValueForKey<U, K extends PropertyKey> = U extends unknown ? (K extends keyof U ? U[K] : never) : never;
+
+export type UnifiedItem =
+    { [K in keyof AllDaoTypes]: ValueForKey<AllDaoTypes, K> } &
+    { [K in Exclude<AllKeysOf<AllDaoTypes>, keyof AllDaoTypes>]?: ValueForKey<AllDaoTypes, K> };
 
 export type UnifiedItemsByVersion = Record<Version, Record<string, UnifiedItem | undefined>>;
 
