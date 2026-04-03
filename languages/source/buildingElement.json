@@ -194,6 +194,78 @@
             ]
         }
     },
+    "labelFoodIngredients": {
+        "demo": {
+            "name": "Label: Food Ingredients",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelClothing": {
+        "demo": {
+            "name": "Label: Clothing",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelWeapons": {
+        "demo": {
+            "name": "Label: Weapons",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelAlchemy": {
+        "demo": {
+            "name": "Label: Alchemy",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelOre": {
+        "demo": {
+            "name": "Label: Ore",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelWood": {
+        "demo": {
+            "name": "Label: Wood",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelShip": {
+        "demo": {
+            "name": "Label: Ship",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelTreasure": {
+        "demo": {
+            "name": "Label: Treasure",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
+    "labelTrade": {
+        "demo": {
+            "name": "Label: Trade",
+            "description": [
+                "A sign for organized captains who want to remember which treasure is stashed in which chest."
+            ]
+        }
+    },
     "foundationSticks": {
         "demo": {
             "name": "Foundation (Sticks)",

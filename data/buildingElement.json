@@ -241,6 +241,78 @@
             }
         }
     },
+    "labelFoodIngredients": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelClothing": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelWeapons": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelAlchemy": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelOre": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelWood": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelShip": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelTreasure": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
+    "labelTrade": {
+        "demo": {
+            "type": "label",
+            "required": {
+                "wood": 1
+            }
+        }
+    },
     "foundationSticks": {
         "demo": {
             "type": "foundation",
