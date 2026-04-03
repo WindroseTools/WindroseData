@@ -11,11 +11,93 @@ The repository hosts data and translations for most things in the game and is cu
 Before using its important to understand that both the data and translations are structured in a **version historic** way, so each data object and translation contains its own history across the various versions. This offers the big feature of being able to load the data and translation for a specific game version on the fly via the npm package (see below).
 
 ## How to Use
-### Raw Data
-
 
 ### Package
+Based on the data is the `windrosedata` npm package available, featuring access to the data with full types support and autocompletion.
 
+**Installing the Package**
+```
+npm i @windrosetools/windrosedata
+```
+
+### Data
+#### UnifiedItem
+In general all elements like items, ammunition, metals, building elements and more can be accessed via the `UnifiedItems` dao.
+It exposes all shared properties as mandatory and those who might appear only on some types as optional fields.
+
+```typescript
+import { UnifiedItems, Version } from "@windrosetools/windrosedata";
+
+const version: Version = "demo";
+const resolvedItem = UnifiedItems[version]["homewardJourney"];
+console.log(resolvedItem);
+
+// Logs
+Alchemy { // The returned element is using it's own correct type
+  id: 'homewardJourney',
+  rarity: 'rare',
+  stackLimit: 0,
+  required: {
+    alchemicalBase: { id: 'alchemicalBase', amount: 3, resolved: [Object] },
+    rumBottle: { id: 'rumBottle', amount: 2, resolved: [Object] },
+    feather: { id: 'feather', amount: 4, resolved: [Object] },
+    undeadEssence: { id: 'undeadEssence', amount: 1, resolved: [Object] }
+  }
+}
+// Each resolved value represents the resolved required material, so you don't need to look them up yourself.
+
+const { id, rarity, requiresBonfire } = resolvedItem!;
+console.log("id: %s, rarity: %s, requiresBonfire: %s", id, rarity, requiresBonfire);
+// id: homewardJourney, rarity: rare, requiresBonfire: undefined - requiresBonfire is an optional property of UnifiedItem that is set for some building elements for example as such it appears, but is undefined in this case.
+```
+
+#### Direct
+In addition to that can each type of element of course also be directly accessed by its corresponding dao.
+
+```typescript
+import { Alchemies, Version } from "@windrosetools/windrosedata";
+
+const version: Version = "demo";
+const data = Alchemies[version]["homewardJourney"];
+console.log(data);
+
+// Logs
+Alchemy {
+  id: 'homewardJourney',
+  rarity: 'rare',
+  stackLimit: 0,
+  required: {
+    alchemicalBase: { id: 'alchemicalBase', amount: 3, resolved: [Object] },
+    rumBottle: { id: 'rumBottle', amount: 2, resolved: [Object] },
+    feather: { id: 'feather', amount: 4, resolved: [Object] },
+    undeadEssence: { id: 'undeadEssence', amount: 1, resolved: [Object] }
+  }
+}
+```
+### Translation
+Based on the example above the translation data for homewardJourney can be easily retrieved by the following way:
+
+```typescript
+import { Alchemies, Languages, Version } from "@windrosetools/windrosedata";
+
+const version: Version = "demo";
+const data = Alchemies[version]["homewardJourney"];
+    
+const translation = Languages["EN"][version]["homewardJourney"]; // type of LanguageData
+console.log(translation);
+
+// Logs
+{
+  name: 'Homeward Journey',
+  description: [
+    'A light drink with a slightly sweet taste.',
+    "Too bad it isn't easy to make -- rare ingredients are required."
+  ],
+  comment: [
+    "To leave a midnight tavern and wake up in a sweat-soaked bed with no idea how you got there - that's magic practiced only by Tortuga's most seasoned 'wizards.'"
+  ]
+}
+```
 
 ## Contribute
 If you like the project please give it a ⭐ here on Github.
@@ -30,3 +112,6 @@ If you have noticed a wrong or outdated informations please open an [Issue](http
 ### Adding or updating informations
 If you want to add to or update informations of the dataset, the general open source approach of a Pull Request is used.\
 Which consists of creating a **Fork**, adding/updating the code in the forked repository and then creating a **Pull Request** in this repository to merge the changes of your fork into this one. Pull Requests need to made against the **nightly** branch!
+
+## Questions
+If you have any questions regarding the data or on one of the points above please use the [Windrose Tools Discord](). 
