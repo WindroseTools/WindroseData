@@ -1,14 +1,14 @@
 # Windrose Data
-Welcome to the inofficial data repository for the Windrose game.
+Welcome to the inofficial data repository for Windrose.
 
 The repository hosts data and translations for most things in the game and is currently in the build-up, but will in the end feature information like required materials for **tools**, **building structures/elements** and various other information specific to the type of data.
 
 > [!NOTE]
 > The current release, 0.0.X, is based on the **demo** version of the game and acts as a starting point.\
-> With the Early Access release the data will receive an bigger update and starts the regular version schema of 0.1.X.
+> With the Early Access release will the data receive a bigger update and starts the regular version schema of 0.1.X.
 
 ## Data Structure Concept
-Before using its important to understand that both the data and translations are structured in a **version historic** way, so each data object and translation contains its own history across the various versions. This offers the big feature of being able to load the data and translation for a specific game version on the fly via the npm package (see below).
+Before using it, its important to understand that both the data and translations are structured in a **version historic** way, so each data object and translation contains its own history across the various versions. This offers the big feature of being able to load the data and translation for a specific game version on the fly via the npm package (see below).
 
 ## How to Use
 
@@ -22,8 +22,8 @@ npm i @windrosetools/windrosedata
 
 ### Data
 #### UnifiedItem
-In general all elements like items, ammunition, metals, building elements and more can be accessed via the `UnifiedItems` dao.
-It exposes all shared properties as mandatory and those who might appear only on some types as optional fields.
+In general are all elements like items, ammunition, metals, building elements and more accessible via the `UnifiedItems` dao.
+It exposes all shared properties as mandatory and those who appear only on some daos as optional fields.
 
 ```typescript
 import { UnifiedItems, Version } from "@windrosetools/windrosedata";
@@ -44,11 +44,14 @@ Alchemy { // The returned element is using it's own correct type
     undeadEssence: { id: 'undeadEssence', amount: 1, resolved: [Object] }
   }
 }
-// Each resolved value represents the resolved required material, so you don't need to look them up yourself.
+// Each resolved value represents the resolved required material, so you don't need
+// to look them up yourself.
 
 const { id, rarity, requiresBonfire } = resolvedItem!;
 console.log("id: %s, rarity: %s, requiresBonfire: %s", id, rarity, requiresBonfire);
-// id: homewardJourney, rarity: rare, requiresBonfire: undefined - requiresBonfire is an optional property of UnifiedItem that is set for some building elements for example as such it appears, but is undefined in this case.
+// id: homewardJourney, rarity: rare, requiresBonfire: undefined - requiresBonfire is an optional 
+// property of UnifiedItem that is set for some building elements for example as such it appears,
+// but is undefined in this case.
 ```
 
 #### Direct
@@ -104,13 +107,13 @@ If you like the project please give it a ⭐ here on Github.
 
 As the game is quite big every contribution is appreciated to make the data as complete as possible!
 
-There are several ways to contribute to the project:
+There are several ways to contribute to the project.
 
-### Reporting wrong or outdated informations
-If you have noticed a wrong or outdated informations please open an [Issue](https://github.com/WindroseTools/WindroseData) so it can be checked and corrected quickly.
+### Reporting wrong or outdated information
+If you have noticed a wrong or outdated information please open an [Issue](https://github.com/WindroseTools/WindroseData/issues) so it can be checked and corrected quickly.
 
-### Adding or updating informations
-If you want to add to or update informations of the dataset, the general open source approach of a Pull Request is used.\
+### Adding or updating information
+If you want to add to or update information of the dataset, the general open source approach of a Pull Request is used.\
 Which consists of creating a **Fork**, adding/updating the code in the forked repository and then creating a **Pull Request** in this repository to merge the changes of your fork into this one. Pull Requests need to made against the **nightly** branch!
 
 ## Questions
