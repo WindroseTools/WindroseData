@@ -117,4 +117,4 @@ If you want to add to or update information of the dataset, the general open sou
 Which consists of creating a **Fork**, adding/updating the code in the forked repository and then creating a **Pull Request** in this repository to merge the changes of your fork into this one. Pull Requests need to made against the **nightly** branch!
 
 ## Questions
-If you have any questions regarding the data or on one of the points above please use the [Windrose Tools Discord](). 
+If you have any questions regarding the data or on one of the points above please use the [Windrose Tools Discord](https://discord.gg/7mYQ5fPtE3).
