@@ -3,15 +3,18 @@ import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries } from "./helpers";
-import { RequirementUtils } from "./requirements";
+import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type MetalKey = keyof typeof metalsData;
-type MetalData = {
+type MetalData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
-    station?: Station
+    station?: Station;
+    required?: Record<string, TRequired>;
 };
 
+type MetalRawData = MetalData<number>;
+type MetalResolvedData = MetalData<RequirementEntry>;
 type MetalsByVersion = MultiVersion<MetalKey, Metal>;
 
 export class Metal {
@@ -19,21 +22,27 @@ export class Metal {
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
+    public required?: Record<string, RequirementEntry>;
 
-    constructor(id: string, data: MetalData) {
+    constructor(id: string, data: MetalResolvedData) {
         this.id = id;
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;
+        this.required = data.required;
     }
 
     static loadMetalsByVersion(): MetalsByVersion {
         const rawByVersion = createVersionedRawStore(
-            metalsData as Record<MetalKey, Partial<Record<Version, MetalData>>>,
+            metalsData as Record<MetalKey, Partial<Record<Version, MetalRawData>>>,
         );
         const metalsByVersion = instantiateVersionedEntries(
             rawByVersion,
-            (id, data) => new Metal(id, { ...data }),
+            (id, data) => {
+                const { required: _required, ...baseData } = data;
+
+                return new Metal(id, baseData);
+            },
         ) as MetalsByVersion;
 
         RequirementUtils.registerLookupContext({
