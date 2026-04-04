@@ -127,6 +127,9 @@
             "type": "shipEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
+            "level": {
+                "1": {}
+            },
             "required": {
                 "wood": 15,
                 "coarseFabric": 10,

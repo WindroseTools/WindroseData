@@ -2,6 +2,10 @@
     "boardingPartyGear": {
         "demo": {
             "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 7,
                 "roughHide": 7,

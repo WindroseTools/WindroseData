@@ -2,6 +2,10 @@
     "hullBracing": {
         "demo": {
             "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
             "required": {
                 "wood": 30,
                 "copperIngot": 5,
