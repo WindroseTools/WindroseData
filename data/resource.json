@@ -84,6 +84,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 1
+            },
             "required": {
                 "clay": 1
             }
@@ -93,6 +97,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 40,
+            "station": {
+                "id": "alchemyTable",
+                "level": 1
+            },
             "required": {
                 "clayBottle": 1,
                 "mistyOrchid": 1

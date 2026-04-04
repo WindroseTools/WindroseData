@@ -12,6 +12,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 10,
+            "station": {
+                "id": "alchemyTable",
+                "level": 1
+            },
             "required": {
                 "alchemicalBase": 1
             }
@@ -21,6 +25,10 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 2
+            },
             "required": {
                 "alchemicalBase": 1,
                 "healingHerbs": 3

@@ -34,6 +34,10 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 2
+            },
             "required": {
                 "rumBottle": 1,
                 "whiskey": 1,
