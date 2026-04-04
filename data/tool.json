@@ -3,6 +3,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 5,
                 "wood": 5
@@ -13,6 +17,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 5,
                 "wood": 5
@@ -23,6 +31,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "stone": 3,
                 "wood": 3
@@ -33,6 +44,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "stone": 3,
                 "wood": 3
@@ -43,6 +57,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 3,
                 "wood": 10

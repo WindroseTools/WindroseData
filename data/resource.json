@@ -39,6 +39,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 5
             }
@@ -48,6 +52,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "clay": 6
             }
@@ -57,6 +65,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 40,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "plantFiber": 3
             }
@@ -66,6 +77,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "plantFiber": 3
             }
@@ -75,6 +89,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 100,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 0.2
             }

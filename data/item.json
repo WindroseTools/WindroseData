@@ -3,6 +3,10 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench",
+                "level": 2
+            },
             "required": {
                 "wood": 10,
                 "steelNails": 1,
@@ -14,6 +18,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "wood": 4,
                 "nails": 12,
@@ -25,6 +33,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 10,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "wood": 2
             }

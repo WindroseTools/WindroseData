@@ -3,6 +3,10 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 10,
                 "rope": 3

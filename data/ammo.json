@@ -3,6 +3,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 20,
+            "station": {
+                "id": "workbench",
+                "level": 1
+            },
             "required": {
                 "copperIngot": 0.2
             }
@@ -12,6 +16,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 20,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "stone": 0.6
             }

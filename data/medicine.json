@@ -3,6 +3,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 10,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "coarseFabric": 1
             }

@@ -3,6 +3,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench"
+            },
             "required": {
                 "coarseFabric": 2,
                 "rope": 1
@@ -13,6 +16,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 2
+            },
             "required": {
                 "tornSailclothBag": 1,
                 "roughHide": 5,

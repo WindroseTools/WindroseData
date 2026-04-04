@@ -50,7 +50,14 @@
     "workbench": {
         "demo": {
             "type": "crafting",
-            "requiresBonfire": true,
+            "level": {
+                "1": {
+                    "requiresBonfire": true
+                },
+                "2": {
+                    "requiredAddons": ["sawhorse"]
+                }
+            },
             "required": {
                 "wood": 5
             }
@@ -71,7 +78,7 @@
             "type": "cooking",
             "level": {
                 "1": {
-                    "requiredAddons": ["bonfire"]
+                    "requiresBonfire": true
                 },
                 "2": {
                     "requiredAddons": ["cuttingTable"]
