@@ -69,7 +69,14 @@
     "cookingFire": {
         "demo": {
             "type": "cooking",
-            "requiresBonfire": true,
+            "level": {
+                "1": {
+                    "requiredAddons": ["bonfire"]
+                },
+                "2": {
+                    "requiredAddons": ["cuttingTable"]
+                }
+            },
             "required": {
                 "wood": 3,
                 "stone": 3

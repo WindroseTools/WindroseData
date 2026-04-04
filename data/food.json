@@ -27,6 +27,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
             "required": {
                 "coconut": 1,
                 "banana": 2
@@ -37,6 +41,10 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
             "required": {
                 "birdMeat": 2,
                 "cayennePepper": 4,
@@ -48,6 +56,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
             "required": {
                 "meat": 1,
                 "dodoEgg": 1
@@ -58,6 +70,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire"
+            },
             "required": {
                 "crabMeat": 1
             }
@@ -67,6 +82,10 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
             "required": {
                 "birdMeat": 2,
                 "dodoEgg": 1,
@@ -78,6 +97,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire"
+            },
             "required": {
                 "meat": 1
             }
@@ -87,6 +109,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
             "required": {
                 "crabMeat": 1,
                 "cayennePepper": 2
@@ -97,6 +123,10 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
             "required": {
                 "sweetPotato": 4,
                 "dodoEgg": 1,
@@ -108,6 +138,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire"
+            },
             "required": {
                 "birdMeat": 1
             }
@@ -117,6 +150,10 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
             "required": {
                 "coconut": 1,
                 "sweetPotato": 2,

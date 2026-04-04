@@ -153,6 +153,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
+            "station": {
+                "id": "charcoalKiln"
+            },
             "required": {
                 "wood": 1
             }

@@ -3,6 +3,9 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 40,
+            "station": {
+                "id": "smeltingFurnace"
+            },
             "required": {
                 "copperOre": 6,
                 "charcoal": 1
