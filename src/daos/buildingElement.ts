@@ -1,5 +1,6 @@
 import buildingElementData from "../../data/buildingElement.json";
 import { BEType, MountingRestriction, WorkingRestriction } from "../types/BuildingElement";
+import { Levels } from "../types/Common";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
@@ -16,6 +17,7 @@ type BuildingElementData<TRequired = number> = {
     mountingRestriction?: MountingRestriction;
     capacity?: number;
     comfort?: number;
+    levels?: Levels;
 };
 
 type BuildingElementRawData = BuildingElementData<number>;
@@ -34,6 +36,7 @@ export class BuildingElement {
     public mountingRestriction?: MountingRestriction;
     public capacity?: number;
     public comfort?: number;
+    public levels?: Levels;
 
     constructor(id: string, data: BuildingElementResolvedData) {
         this.id = id;
@@ -47,6 +50,7 @@ export class BuildingElement {
         this.mountingRestriction = data.mountingRestriction ?? "none";
         this.capacity = data.capacity;
         this.comfort = data.comfort;
+        this.levels = data.levels;
     }
 
     static loadBuildingElementsByVersion(): BuildingElementsByVersion {

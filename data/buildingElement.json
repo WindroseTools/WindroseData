@@ -50,7 +50,7 @@
     "workbench": {
         "demo": {
             "type": "crafting",
-            "level": {
+            "levels": {
                 "1": {
                     "requiresBonfire": true
                 },
@@ -76,7 +76,7 @@
     "cookingFire": {
         "demo": {
             "type": "cooking",
-            "level": {
+            "levels": {
                 "1": {
                     "requiresBonfire": true
                 },
@@ -127,7 +127,7 @@
             "type": "shipEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
-            "level": {
+            "levels": {
                 "1": {}
             },
             "required": {
@@ -146,7 +146,7 @@
                 "wood": 5,
                 "clayPot": 2
             },
-            "level": {
+            "levels": {
                 "1": {},
                 "2": {
                     "requiredAddons": ["stoveAndPot"]
