@@ -1,4 +1,5 @@
 import hullModificationData from "../../data/hullModification.json";
+import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -7,6 +8,7 @@ import { RequirementEntry, RequirementUtils } from "./requirements";
 type HullModificationKey = keyof typeof hullModificationData;
 type HullModificationData<TRequired = number> = {
     rarity: Rarity;
+    station?: Station;
     required: Record<string, TRequired>;
 };
 
@@ -17,11 +19,13 @@ type HullModificationsByVersion = MultiVersion<HullModificationKey, HullModifica
 export class HullModification {
     public id: string;
     public rarity: Rarity;
+    public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: HullModificationResolvedData) {
         this.id = id;
         this.rarity = data.rarity;
+        this.station = data.station;
         this.required = data.required;
     }
 

@@ -1,4 +1,5 @@
 import medicineData from "../../data/medicine.json";
+import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -8,6 +9,7 @@ type MedicineKey = keyof typeof medicineData;
 type MedicineData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
+    station?: Station;
     required: Record<string, TRequired>;
 };
 
@@ -19,12 +21,14 @@ export class Medicine {
     public id: string;
     public rarity: Rarity;
     public stackLimit: number;
+    public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: MedicineResolvedData) {
         this.id = id;
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
+        this.station = data.station;
         this.required = data.required;
     }
 

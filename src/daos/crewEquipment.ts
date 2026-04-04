@@ -1,4 +1,5 @@
 import crewEquipmentData from "../../data/crewEquipment.json";
+import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -7,6 +8,7 @@ import { RequirementEntry, RequirementUtils } from "./requirements";
 type CrewEquipmentKey = keyof typeof crewEquipmentData;
 type CrewEquipmentData<TRequired = number> = {
     rarity: Rarity;
+    station?: Station;
     required: Record<string, TRequired>;
 };
 
@@ -17,11 +19,13 @@ type CrewEquipmentsByVersion = MultiVersion<CrewEquipmentKey, CrewEquipment>;
 export class CrewEquipment {
     public id: string;
     public rarity: Rarity;
+    public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: CrewEquipmentResolvedData) {
         this.id = id;
         this.rarity = data.rarity;
+        this.station = data.station;
         this.required = data.required;
     }
 

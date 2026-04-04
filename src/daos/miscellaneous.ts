@@ -1,4 +1,5 @@
 import miscellaneousData from "../../data/miscellaneous.json";
+import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -8,6 +9,7 @@ type MiscellaneousKey = keyof typeof miscellaneousData;
 type MiscellaneousData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
+    station?: Station;
     required?: Record<string, TRequired>;
 };
 
@@ -19,12 +21,14 @@ export class Miscellanies {
     public id: string;
     public rarity: Rarity;
     public stackLimit: number;
+    public station?: Station;
     public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: MiscellaneousResolvedData) {
         this.id = id;
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
+        this.station = data.station;
         this.required = data.required;
     }
 
