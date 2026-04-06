@@ -18,12 +18,14 @@ type HullModificationsByVersion = MultiVersion<HullModificationKey, HullModifica
 
 export class HullModification {
     public id: string;
+    public dataType: "hullModification";
     public rarity: Rarity;
     public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: HullModificationResolvedData) {
         this.id = id;
+        this.dataType = "hullModification";
         this.rarity = data.rarity;
         this.station = data.station;
         this.required = data.required;

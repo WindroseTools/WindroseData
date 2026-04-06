@@ -19,6 +19,7 @@ type AlchemyByVersion = MultiVersion<AlchemyKey, Alchemy>;
 
 export class Alchemy {
     public id: string;
+    public dataType: "alchemy";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Alchemy {
 
     constructor(id: string, data: AlchemyResolvedData) {
         this.id = id;
+        this.dataType = "alchemy";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

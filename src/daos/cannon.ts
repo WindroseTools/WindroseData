@@ -18,12 +18,14 @@ type CannonsByVersion = MultiVersion<CannonKey, Cannon>;
 
 export class Cannon {
     public id: string;
+    public dataType: "cannon";
     public rarity: Rarity;
     public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: CannonResolvedData) {
         this.id = id;
+        this.dataType = "cannon";
         this.rarity = data.rarity;
         this.station = data.station;
         this.required = data.required;

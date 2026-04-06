@@ -20,6 +20,7 @@ type ToolsByVersion = MultiVersion<ToolKey, Tool>;
 
 export class Tool {
     public id: string;
+    public dataType: "tool";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -27,6 +28,7 @@ export class Tool {
 
     constructor(id: string, data: ToolResolvedData) {
         this.id = id;
+        this.dataType = "tool";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

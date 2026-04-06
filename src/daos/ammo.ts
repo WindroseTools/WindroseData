@@ -19,6 +19,7 @@ type AmmoByVersion = MultiVersion<AmmoKey, Ammo>;
 
 export class Ammo {
     public id: string;
+    public dataType: "ammo";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Ammo {
 
     constructor(id: string, data: AmmoResolvedData) {
         this.id = id;
+        this.dataType = "ammo";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

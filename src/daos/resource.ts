@@ -19,6 +19,7 @@ type ResourcesByVersion = MultiVersion<ResourceKey, Resource>;
 
 export class Resource {
 	public id: string;
+	public dataType: "resource";
 	public rarity: Rarity;
 	public stackLimit: number;
 	public station?: Station;
@@ -26,6 +27,7 @@ export class Resource {
 
 	constructor(id: string, data: ResourceResolvedData) {
 		this.id = id;
+		this.dataType = "resource";
 		this.rarity = data.rarity;
 		this.stackLimit = data.stackLimit;
 		this.station = data.station;

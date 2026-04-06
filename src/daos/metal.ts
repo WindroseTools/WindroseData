@@ -19,6 +19,7 @@ type MetalsByVersion = MultiVersion<MetalKey, Metal>;
 
 export class Metal {
     public id: string;
+    public dataType: "metal";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Metal {
 
     constructor(id: string, data: MetalResolvedData) {
         this.id = id;
+        this.dataType = "metal";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

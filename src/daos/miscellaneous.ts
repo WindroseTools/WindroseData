@@ -19,6 +19,7 @@ type MiscellaneousItemsByVersion = MultiVersion<MiscellaneousKey, Miscellanies>;
 
 export class Miscellanies {
     public id: string;
+    public dataType: "miscellaneous";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Miscellanies {
 
     constructor(id: string, data: MiscellaneousResolvedData) {
         this.id = id;
+        this.dataType = "miscellaneous";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

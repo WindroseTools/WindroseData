@@ -19,6 +19,7 @@ type ItemsByVersion = MultiVersion<ItemKey, Item>;
 
 export class Item {
     public id: string;
+    public dataType: "item";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Item {
 
     constructor(id: string, data: ItemResolvedData) {
         this.id = id;
+        this.dataType = "item";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

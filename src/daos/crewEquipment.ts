@@ -18,12 +18,14 @@ type CrewEquipmentsByVersion = MultiVersion<CrewEquipmentKey, CrewEquipment>;
 
 export class CrewEquipment {
     public id: string;
+    public dataType: "crewEquipment";
     public rarity: Rarity;
     public station?: Station;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: CrewEquipmentResolvedData) {
         this.id = id;
+        this.dataType = "crewEquipment";
         this.rarity = data.rarity;
         this.station = data.station;
         this.required = data.required;

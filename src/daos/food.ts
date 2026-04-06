@@ -19,6 +19,7 @@ type FoodItemsByVersion = MultiVersion<FoodKey, Food>;
 
 export class Food {
     public id: string;
+    public dataType: "food";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Food {
 
     constructor(id: string, data: FoodResolvedData) {
         this.id = id;
+        this.dataType = "food";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

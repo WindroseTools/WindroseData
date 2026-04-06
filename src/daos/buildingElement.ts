@@ -26,6 +26,7 @@ type BuildingElementsByVersion = MultiVersion<BuildingElementKey, BuildingElemen
 
 export class BuildingElement {
     public id: string;
+    public dataType: "buildingElement";
     public type: BEType;
     public limit?: number;
     public required: Record<string, RequirementEntry>;
@@ -40,6 +41,7 @@ export class BuildingElement {
 
     constructor(id: string, data: BuildingElementResolvedData) {
         this.id = id;
+        this.dataType = "buildingElement";
         this.type = data.type;
         this.limit = data.limit;
         this.required = data.required;

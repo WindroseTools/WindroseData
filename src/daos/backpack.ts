@@ -19,6 +19,7 @@ type BackpacksByVersion = MultiVersion<BackpackKey, Backpack>;
 
 export class Backpack {
     public id: string;
+    public dataType: "backpack";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Backpack {
 
     constructor(id: string, data: BackpackResolvedData) {
         this.id = id;
+        this.dataType = "backpack";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

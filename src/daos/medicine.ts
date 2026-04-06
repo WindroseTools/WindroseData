@@ -19,6 +19,7 @@ type MedicinesByVersion = MultiVersion<MedicineKey, Medicine>;
 
 export class Medicine {
     public id: string;
+    public dataType: "medicine";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -26,6 +27,7 @@ export class Medicine {
 
     constructor(id: string, data: MedicineResolvedData) {
         this.id = id;
+        this.dataType = "medicine";
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;
