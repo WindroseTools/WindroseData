@@ -287,5 +287,21 @@
                 "A beautiful shell."
             ]
         }
+    },
+    "boarHead": {
+        "demo": {
+            "name": "Boar Head",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "dodoHead": {
+        "demo": {
+            "name": "Dodo Head",
+            "description": [
+                ""
+            ]
+        }
     }
 }

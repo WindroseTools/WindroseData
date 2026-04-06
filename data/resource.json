@@ -262,5 +262,17 @@
             "rarity": "common",
             "stackLimit": 0
         }
+    },
+    "boarHead": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "dodoHead": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
     }
 }
