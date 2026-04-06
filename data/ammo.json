@@ -1,4 +1,10 @@
 {
+    "pearl": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
     "copperBullet": {
         "demo": {
             "rarity": "uncommon",

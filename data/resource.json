@@ -149,12 +149,6 @@
             "stackLimit": 0
         }
     },
-    "pearl": {
-        "demo": {
-            "rarity": "common",
-            "stackLimit": 0
-        }
-    },
     "whiskey": {
         "demo": {
             "rarity": "epic",

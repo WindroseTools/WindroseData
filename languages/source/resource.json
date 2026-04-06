@@ -137,15 +137,6 @@
             ]
         }
     },
-    "pearl": {
-        "demo": {
-            "name": "Pearl",
-            "description": [
-                "An alchemical ingredient.",
-                "However, this small, round, sturdy item may be useful elsewhere."
-            ]
-        }
-    },
     "whiskey": {
         "demo": {
             "name": "Whiskey",
