@@ -35,5 +35,11 @@
                 "pearl": 1
             }
         }
+    },
+    "elixirOfPrecision": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0
+        }
     }
 }

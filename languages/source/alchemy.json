@@ -32,5 +32,19 @@
                 "- Doctor Galen Skelton"
             ]
         }
+    },
+    "elixirOfPrecision": {
+        "demo": {
+            "name": "Elixir of Precision",
+            "description": [
+                "A murky green draught steeped in wolf fangs.",
+                "They say that if, after a hard night, you place a dog's fang under your tongue before sleep, your hands won't shake come morning.",
+                "The buccaneers of the archipelago took the idea further and brewed this elixir, hoping to save on bullets."
+            ],
+            "comment": [
+                "If you missed, it wasn't the target - it was bait!",
+                "- Marcel Boucher, buccaneer"
+            ]
+        }
     }
 }
