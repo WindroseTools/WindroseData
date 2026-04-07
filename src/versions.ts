@@ -2,8 +2,8 @@
 export const Versions = {
     "demo": {
         index: 0,
-        startDate: new Date("2024-06-01T00:00:00Z"), // Placeholder
-        endDate: new Date("2024-06-30T23:59:59Z"), // Placeholder
+        startDate: new Date("2026-02-17T00:00:00Z"), // Placeholder
+        endDate: new Date("2026-12-30T23:59:59Z"), // Placeholder
     },
     "latest": {
         index: 1000
