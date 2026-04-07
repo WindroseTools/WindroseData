@@ -5,11 +5,6 @@ export const Versions = {
         startDate: new Date("2024-06-01T00:00:00Z"), // Placeholder
         endDate: new Date("2024-06-30T23:59:59Z"), // Placeholder
     },
-    "EA0.0.1": {
-        index: 1,
-        startDate: new Date("2024-07-01T00:00:00Z"), // Placeholder
-        endDate: new Date("2024-07-31T23:59:59Z"), // Placeholder
-    },
     "latest": {
         index: 1000
     }
