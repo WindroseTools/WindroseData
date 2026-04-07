@@ -8,5 +8,5 @@ export type BEType = (typeof BETypes)[number];
 export const WorkingRestrictions = ["none", "roofRequired", "placementOutside"] as const;
 export type WorkingRestriction = (typeof WorkingRestrictions)[number];
 
-export const MountingRestrictions = ["none", "wallOnly"] as const;
+export const MountingRestrictions = ["none", "wallOnly", "ceilingOnly"] as const;
 export type MountingRestriction = (typeof MountingRestrictions)[number];

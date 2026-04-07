@@ -1563,5 +1563,61 @@
                 "Once useful, these items now serve as decorations."
             ]
         }
+    },
+    "shellDecorationsWall1": {
+        "demo": {
+            "name": "Shell Decorations (Wall) 1",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsWall2": {
+        "demo": {
+            "name": "Shell Decorations (Wall) 2",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsWall3": {
+        "demo": {
+            "name": "Shell Decorations (Wall) 3",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsWall4": {
+        "demo": {
+            "name": "Shell Decorations (Wall) 4",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsWall5": {
+        "demo": {
+            "name": "Shell Decorations (Wall) 5",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsCeiling1": {
+        "demo": {
+            "name": "Shell Decorations (Ceiling) 1",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
+    },
+    "shellDecorationsCeiling2": {
+        "demo": {
+            "name": "Shell Decorations (Ceiling) 2",
+            "description": [
+                "Artfully crafted decorations made from marine treasures."
+            ]
+        }
     }
 }

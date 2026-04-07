@@ -1776,5 +1776,82 @@
                 "rumBottle": 4
             }
         }
+    },
+    "shellDecorationsWall1": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsWall2": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsWall3": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsWall4": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsWall5": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsCeiling1": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
+    },
+    "shellDecorationsCeiling2": {
+        "demo": {
+            "type": "shellDecoration",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "tritonsHorn": 10
+            }
+        }
     }
 }
