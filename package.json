@@ -17,8 +17,7 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "license": "AGPL-3.0",
   "author": "Windrose Tools",

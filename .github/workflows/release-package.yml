@@ -17,5 +17,7 @@ jobs:
         with:
           registry-url: https://registry.npmjs.org
 
+      - run: npm install -g npm@latest
+      - run: npm --version
       - run: npm ci
       - run: npm publish --provenance --access public
