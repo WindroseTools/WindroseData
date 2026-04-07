@@ -16,7 +16,9 @@
     "url": "git+https://github.com/WindroseTools/WindroseData.git"
   },
   "publishConfig": {
-    "@windrosetools:registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "provenance": true
   },
   "license": "AGPL-3.0",
   "author": "Windrose Tools",
