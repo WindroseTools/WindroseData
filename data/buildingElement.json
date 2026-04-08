@@ -1853,5 +1853,21 @@
                 "tritonsHorn": 10
             }
         }
+    },
+    "hut": {
+        "demo": {
+            "type": "prebuiltStructure",
+            "required": {
+                "plantFiber": 22
+            }
+        }
+    },
+    "hutFrame": {
+        "demo": {
+            "type": "prebuiltStructure",
+            "required": {
+                "plantFiber": 22
+            }
+        }
     }
 }

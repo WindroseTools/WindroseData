@@ -1619,5 +1619,21 @@
                 "Artfully crafted decorations made from marine treasures."
             ]
         }
+    },
+    "hut": {
+        "demo": {
+            "name": "Hut",
+            "description": [
+                ""
+            ]
+        }
+    },
+    "hutFrame": {
+        "demo": {
+            "name": "Hut Frame",
+            "description": [
+                ""
+            ]
+        }
     }
 }
