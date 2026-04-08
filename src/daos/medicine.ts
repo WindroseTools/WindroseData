@@ -1,5 +1,6 @@
 import medicineData from "../../data/medicine.json";
 import { Station } from "../types/Common";
+import { Effect } from "../types/Effect";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -11,6 +12,7 @@ type MedicineData<TRequired = number> = {
     stackLimit: number;
     station?: Station;
     required: Record<string, TRequired>;
+    effects?: Effect[];
 };
 
 type MedicineRawData = MedicineData<number>;
@@ -24,6 +26,7 @@ export class Medicine {
     public stackLimit: number;
     public station?: Station;
     public required: Record<string, RequirementEntry>;
+    public effects?: Effect[];
 
     constructor(id: string, data: MedicineResolvedData) {
         this.id = id;
@@ -32,6 +35,7 @@ export class Medicine {
         this.stackLimit = data.stackLimit;
         this.station = data.station;
         this.required = data.required;
+        this.effects = data.effects;
     }
 
     static loadMedicinesByVersion(): MedicinesByVersion {

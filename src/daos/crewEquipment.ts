@@ -1,5 +1,6 @@
 import crewEquipmentData from "../../data/crewEquipment.json";
 import { Station } from "../types/Common";
+import { Effect } from "../types/Effect";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -10,6 +11,7 @@ type CrewEquipmentData<TRequired = number> = {
     rarity: Rarity;
     station?: Station;
     required: Record<string, TRequired>;
+    effects?: Effect[];
 };
 
 type CrewEquipmentRawData = CrewEquipmentData<number>;
@@ -22,6 +24,7 @@ export class CrewEquipment {
     public rarity: Rarity;
     public station?: Station;
     public required: Record<string, RequirementEntry>;
+    public effects?: Effect[];
 
     constructor(id: string, data: CrewEquipmentResolvedData) {
         this.id = id;
@@ -29,6 +32,7 @@ export class CrewEquipment {
         this.rarity = data.rarity;
         this.station = data.station;
         this.required = data.required;
+        this.effects = data.effects;
     }
 
     static loadCrewEquipmentByVersion(): CrewEquipmentsByVersion {
