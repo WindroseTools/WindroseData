@@ -1,4 +1,5 @@
 import hullModificationData from "../../data/hullModification.json";
+import { ArmorLevels } from "../types/Armor";
 import { Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
@@ -9,6 +10,7 @@ type HullModificationKey = keyof typeof hullModificationData;
 type HullModificationData<TRequired = number> = {
     rarity: Rarity;
     station?: Station;
+    levels: ArmorLevels;
     required: Record<string, TRequired>;
 };
 
@@ -21,6 +23,7 @@ export class HullModification {
     public dataType: "hullModification";
     public rarity: Rarity;
     public station?: Station;
+    public levels: ArmorLevels;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: HullModificationResolvedData) {
@@ -28,6 +31,7 @@ export class HullModification {
         this.dataType = "hullModification";
         this.rarity = data.rarity;
         this.station = data.station;
+        this.levels = data.levels;
         this.required = data.required;
     }
 

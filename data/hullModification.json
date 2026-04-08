@@ -6,6 +6,11 @@
                 "id": "shipwrightsWorkshop",
                 "level": 1
             },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
             "required": {
                 "wood": 30,
                 "copperIngot": 5,
