@@ -65,7 +65,7 @@
     },
     "gunroomGrog": {
         "demo": {
-            "rarity": "epic",
+            "rarity": "rare",
             "stackLimit": 0,
             "station": {
                 "id": "alchemyTable",
