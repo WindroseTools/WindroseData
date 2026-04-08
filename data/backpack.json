@@ -6,6 +6,7 @@
             "station": {
                 "id": "workbench"
             },
+            "additionalSlots": 4,
             "required": {
                 "coarseFabric": 2,
                 "rope": 1
@@ -20,6 +21,7 @@
                 "id": "workbench",
                 "level": 2
             },
+            "additionalSlots": 8,
             "required": {
                 "tornSailclothBag": 1,
                 "roughHide": 5,

@@ -10,6 +10,7 @@ type BackpackData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
     station?: Station;
+    additionalSlots: number;
     required: Record<string, TRequired>;
 };
 
@@ -23,6 +24,7 @@ export class Backpack {
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
+    public additionalSlots: number;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: BackpackResolvedData) {
@@ -31,6 +33,7 @@ export class Backpack {
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;
+        this.additionalSlots = data.additionalSlots;
         this.required = data.required;
     }
 
