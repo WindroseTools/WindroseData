@@ -46,8 +46,9 @@ export type LanguageKey = ENLanguageKey | DELanguageKey;
 
 export type LanguageData = {
     name: string;
-    description: string[];
+    description: string[][];
     comment?: string[];
+    usesIcon?: boolean;
     [key: string]: unknown;
 };
 
