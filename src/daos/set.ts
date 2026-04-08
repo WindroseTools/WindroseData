@@ -2,6 +2,7 @@ import setsData from "../../data/set.json";
 import { Effect } from "../types/Effect";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries } from "./helpers";
+import { RequirementUtils } from "./requirements";
 
 type SetKey = keyof typeof setsData;
 type SetData = {
@@ -36,6 +37,14 @@ export class Set {
                 return new Set(id, { ...baseData, pieces: [] });
             },
         ) as SetsByVersion;
+
+        RequirementUtils.registerLookupContext({
+            getSet: (id, version) => setsByVersion[version][id as SetKey],
+        });
+
+        const resolvers = [
+            ...RequirementUtils.createDefaultRequirementResolvers(),
+        ];
 
         return setsByVersion;
     }
