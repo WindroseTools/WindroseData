@@ -1,5 +1,5 @@
 import toolsData from "../../data/tool.json";
-import { Station } from "../types/Common";
+import { Damages, Station } from "../types/Common";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -10,6 +10,8 @@ type ToolData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
     station?: Station;
+    damages: Damages;
+    attackScore: number;
     required: Record<string, TRequired>;
 };
 
@@ -24,6 +26,8 @@ export class Tool {
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
+    public damages: Damages;
+    public attackScore: number;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: ToolResolvedData) {
@@ -32,6 +36,8 @@ export class Tool {
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;
+        this.damages = data.damages;
+        this.attackScore = data.attackScore;
         this.required = data.required;
     }
 
