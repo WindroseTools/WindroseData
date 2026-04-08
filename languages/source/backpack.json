@@ -2,17 +2,17 @@
     "tornSailclothBag": {
         "demo": {
             "name": "Torn Sailcloth Bag",
-            "description": [
+            "description": [[
                 "Full of holes, but quite spacious."
-            ]
+            ]]
         }
     },
     "sailorBackpack": {
         "demo": {
             "name": "Sailor Backpack",
-            "description": [
+            "description": [[
                 "Capable of holding a week's worth of provisions and two bottles of rum."
-            ]
+            ]]
         }
     }
 }

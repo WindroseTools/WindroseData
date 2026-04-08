@@ -2,1638 +2,1638 @@
     "bonfire": {
         "demo": {
             "name": "Bonfire",
-            "description": [
+            "description": [[
                 "This is the heart of your camp - without it, most workbenches and crafting stations won't function.",
                 "This is the place where you can rest and get Rested effect that improves your Stamina Recovery Rate"
-            ]
+            ]]
         }
     },
     "floorStandingTorch": {
         "demo": {
             "name": "Floor-Standing Torch",
-            "description": [
+            "description": [[
                 "Perfect for exploring dark caves."
-            ]
+            ]]
         }
     },
     "tent": {
         "demo": {
             "name": "Tent",
-            "description": [
+            "description": [[
                 "Exploring unknown islands is always more pleasant when you have a tent to rest in."
-            ]
+            ]]
         }
     },
     "fastTravelPoint": {
         "demo": {
             "name": "Fast Travel Point",
-            "description": [
+            "description": [[
                 "Allows you to move quickly between the points.",
                 "Only 10 Fast Travel Points can be placed in the world.",
                 "Can't be built close to trading posts."
-            ]
+            ]]
         }
     },
     "wharf": {
         "demo": {
             "name": "Wharf",
-            "description": [
+            "description": [[
                 "Allows you to manage your fleet, build ships, and repair them."
-            ]
+            ]]
         }
     },
     "workbench": {
         "demo": {
             "name": "Workbench",
-            "description": [
+            "description": [[
                 "Allows you to craft tools and various items."
-            ]
+            ]]
         }
     },
     "sawhorse": {
         "demo": {
             "name": "Sawhorse",
-            "description": [
+            "description": [[
                 "Workbench upgrade."
-            ]
+            ]]
         }
     },
     "cookingFire": {
         "demo": {
             "name": "Cooking Fire",
-            "description": [
+            "description": [[
                 "Used to cook a variety of meals."
-            ]
+            ]]
         }
     },
     "cuttingTable": {
         "demo": {
             "name": "Cutting Table",
-            "description": [
+            "description": [[
                 "Cooking Fire upgrade."
-            ]
+            ]]
         }
     },
     "armorAndClothingWorkshop": {
         "demo": {
             "name": "Armor and Clothing Workshop",
-            "description": [
+            "description": [[
                 "Allows to make equipment."
-            ]
+            ]]
         }
     },
     "weaponsmithWorkshop": {
         "demo": {
             "name": "Weaponsmith Workshop",
-            "description": [
+            "description": [[
                 "Allows you to craft and upgrade weapons."
-            ]
+            ]]
         }
     },
     "shipwrightsWorkshop": {
         "demo": {
             "name": "Shipwright's Workshop",
-            "description": [
+            "description": [[
                 "Allows you to craft and upgrade ship equipment."
-            ]
+            ]]
         }
     },
     "alchemyTable": {
         "demo": {
             "name": "Alchemy Table",
-            "description": [
+            "description": [[
                 "Allows you to make potions and elixirs."
-            ]
+            ]]
         }
     },
     "stoveAndPot": {
         "demo": {
             "name": "Stove and Pot",
-            "description": [
+            "description": [[
                 "Alchemy table upgrade."
-            ]
+            ]]
         }
     },
     "charcoalKiln": {
         "demo": {
             "name": "Charcoal Kiln",
-            "description": [
+            "description": [[
                 "Used to produce charcoal from wood."
-            ]
+            ]]
         }
     },
     "smeltingFurnace": {
         "demo": {
             "name": "Smelting Furnace",
-            "description": [
+            "description": [[
                 "Used to smelt raw ore into ingots."
-            ]
+            ]]
         }
     },
     "simpleBed": {
         "demo": {
             "name": "Simple Bed",
-            "description": [
+            "description": [[
                 "A basic sleeping spot. Better than nothing."
-            ]
+            ]]
         }
     },
     "storageBasket": {
         "demo": {
             "name": "Storage Basket",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "woodenChest": {
         "demo": {
             "name": "Wooden Chest",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "storageBarrel": {
         "demo": {
             "name": "Storage Barrel",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "storageCrate": {
         "demo": {
             "name": "Storage Crate",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "storageBale": {
         "demo": {
             "name": "Storage Bale",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "storageSack": {
         "demo": {
             "name": "Storage Sack",
-            "description": [
+            "description": [[
                 "Allows you to store your belongings."
-            ]
+            ]]
         }
     },
     "labelCookedFood": {
         "demo": {
             "name": "Label: Cooked Food",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelFoodIngredients": {
         "demo": {
             "name": "Label: Food Ingredients",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelClothing": {
         "demo": {
             "name": "Label: Clothing",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelWeapons": {
         "demo": {
             "name": "Label: Weapons",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelAlchemy": {
         "demo": {
             "name": "Label: Alchemy",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelOre": {
         "demo": {
             "name": "Label: Ore",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelWood": {
         "demo": {
             "name": "Label: Wood",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelShip": {
         "demo": {
             "name": "Label: Ship",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelTreasure": {
         "demo": {
             "name": "Label: Treasure",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "labelTrade": {
         "demo": {
             "name": "Label: Trade",
-            "description": [
+            "description": [[
                 "A sign for organized captains who want to remember which treasure is stashed in which chest."
-            ]
+            ]]
         }
     },
     "foundationSticks": {
         "demo": {
             "name": "Foundation (Sticks)",
-            "description": [
+            "description": [[
                 "A foundation made of sticks"
-            ]
+            ]]
         }
     },
     "pier": {
         "demo": {
             "name": "Pier",
-            "description": [
+            "description": [[
                 "A section of the pier built to withstand both storms and a captain's temper."
-            ]
+            ]]
         }
     },
     "largePier": {
         "demo": {
             "name": "Large Pier",
-            "description": [
+            "description": [[
                 "A pier large enough to fit the whole crew, a few barrels of rum, and just a little room left for adventure."
-            ]
+            ]]
         }
     },
     "stoneFoundation": {
         "demo": {
             "name": "Foundation (Stone)",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "stoneBlock": {
         "demo": {
             "name": "Block (Stone)",
-            "description": [
+            "description": [[
                 "A block made of small stones"
-            ]
+            ]]
         }
     },
     "cleanStoneBlock": {
         "demo": {
             "name": "Block (Stone)",
-            "description": [
+            "description": [[
                 "Block of large stones."
-            ]
+            ]]
         }
     },
     "largeFloorSticks": {
         "demo": {
             "name": "Large Floor (Sticks)",
-            "description": [
+            "description": [[
                 "A large floor section made of sticks"
-            ]
+            ]]
         }
     },
     "floorSticks": {
         "demo": {
             "name": "Floor (Sticks)",
-            "description": [
+            "description": [[
                 "A floor made of sticks"
-            ]
+            ]]
         }
     },
     "triangularFloorSticks": {
         "demo": {
             "name": "Triangular Floor (Sticks)",
-            "description": [
+            "description": [[
                 "A triangular floor section made of sticks for more complex structures"
-            ]
+            ]]
         }
     },
     "largeFloorPlanks": {
         "demo": {
             "name": "Large Floor (Planks)",
-            "description": [
+            "description": [[
                 "A large floor section made of planks"
-            ]
+            ]]
         }
     },
     "floorPlanks": {
         "demo": {
             "name": "Floor (Planks)",
-            "description": [
+            "description": [[
                 "A floor section made of planks"
-            ]
+            ]]
         }
     },
     "triangularFloorPlanks": {
         "demo": {
             "name": "Triangular Floor (Planks)",
-            "description": [
+            "description": [[
                 "A triangular floor section made of planks"
-            ]
+            ]]
         }
     },
     "largeWallLeaves": {
         "demo": {
             "name": "Large Wall (Leaves)",
-            "description": [
+            "description": [[
                 "A large wall made of leaves"
-            ]
+            ]]
         }
     },
     "wallLeaves": {
         "demo": {
             "name": "Wall (Leaves)",
-            "description": [
+            "description": [[
                 "A wall made of leaves"
-            ]
+            ]]
         }
     },
     "largeWallSticks": {
         "demo": {
             "name": "Large Wall (Sticks)",
-            "description": [
+            "description": [[
                 "A large wall made of sticks"
-            ]
+            ]]
         }
     },
     "wallSticks": {
         "demo": {
             "name": "Wall (Sticks)",
-            "description": [
+            "description": [[
                 "A wall made of sticks"
-            ]
+            ]]
         }
     },
     "largeWallBark": {
         "demo": {
             "name": "Large Wall (Bark)",
-            "description": [
+            "description": [[
                 "A large wall made of bark"
-            ]
+            ]]
         }
     },
     "wallBark": {
         "demo": {
             "name": "Wall (Bark)",
-            "description": [
+            "description": [[
                 "A wall made of bark"
-            ]
+            ]]
         }
     },
     "largeWallStone": {
         "demo": {
             "name": "Large Wall (Stone)",
-            "description": [
+            "description": [[
                 "A large wall made of stone"
-            ]
+            ]]
         }
     },
     "wallStone": {
         "demo": {
             "name": "Wall (Stone)",
-            "description": [
+            "description": [[
                 "A wall made of stone"
-            ]
+            ]]
         }
     },
     "largeWallPlanks": {
         "demo": {
             "name": "Large Wall (Planks)",
-            "description": [
+            "description": [[
                 "A large wall made of timber"
-            ]
+            ]]
         }
     },
     "wallPlanks": {
         "demo": {
             "name": "Wall (Planks)",
-            "description": [
+            "description": [[
                 "A wall made of planks"
-            ]
+            ]]
         }
     },
     "largeWallStoneAndTimber": {
         "demo": {
             "name": "Large Wall (Stone and Timber)",
-            "description": [
+            "description": [[
                 "A large wall made of stone and timber"
-            ]
+            ]]
         }
     },
     "wallStoneAndTimber": {
         "demo": {
             "name": "Wall (Stone and Timber)",
-            "description": [
+            "description": [[
                 "A wall made of stone and timber"
-            ]
+            ]]
         }
     },
     "leftPanelPlanks": {
         "demo": {
             "name": "Left Panel (Planks)",
-            "description": [
+            "description": [[
                 "A left panel made of planks"
-            ]
+            ]]
         }
     },
     "rightPanelPlanks": {
         "demo": {
             "name": "Right Panel (Planks)",
-            "description": [
+            "description": [[
                 "A right panel made of planks"
-            ]
+            ]]
         }
     },
     "leftPanelStoneAndTimber": {
         "demo": {
             "name": "Left Panel (Stone and Timber)",
-            "description": [
+            "description": [[
                 "A left panel made of stone and timber"
-            ]
+            ]]
         }
     },
     "rightPanelStoneAndTimber": {
         "demo": {
             "name": "Right Panel (Stone and Timber)",
-            "description": [
+            "description": [[
                 "A right panel made of stone and timber"
-            ]
+            ]]
         }
     },
     "inclinedWallStone": {
         "demo": {
             "name": "Inclined Wall (Stone)",
-            "description": [
+            "description": [[
                 "An inclined Wall made of stone at a 64° angle"
-            ]
+            ]]
         }
     },
     "cornerWallStone": {
         "demo": {
             "name": "Corner Wall (Stone)",
-            "description": [
+            "description": [[
                 "A corner wall made of stone at 64°"
-            ]
+            ]]
         }
     },
     "reversedCornerWallStone": {
         "demo": {
             "name": "Reversed Corner Wall (Stone)",
-            "description": [
+            "description": [[
                 "A reverse corner wall made of stone at 64°"
-            ]
+            ]]
         }
     },
     "triangularWall45Leaves": {
         "demo": {
             "name": "Triangular Wall 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A triangular wall made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall45Leaves": {
         "demo": {
             "name": "Reverse Triangular Wall 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "triangularWall45Sticks": {
         "demo": {
             "name": "Triangular Wall 45° (Sticks)",
-            "description": [
+            "description": [[
                 "A triangular wall made of sticks at 45°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall45Sticks": {
         "demo": {
             "name": "Reverse Triangular Wall 45° (Sticks)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of sticks at 45°"
-            ]
+            ]]
         }
     },
     "triangularWall45Bark": {
         "demo": {
             "name": "Triangular Wall 45° (Bark)",
-            "description": [
+            "description": [[
                 "A triangular wall made of bark at 45°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall45Bark": {
         "demo": {
             "name": "Reverse Triangular Wall 45° (Bark)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of bark at 45°"
-            ]
+            ]]
         }
     },
     "triangularWall45Planks": {
         "demo": {
             "name": "Triangular Wall 45° (Planks)",
-            "description": [
+            "description": [[
                 "A triangular wall made of planks at 45°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall45Planks": {
         "demo": {
             "name": "Reverse Triangular Wall 45° (Planks)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of planks at 45°"
-            ]
+            ]]
         }
     },
     "triangularWall26Leaves": {
         "demo": {
             "name": "Triangular Wall 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A triangular wall made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall26Leaves": {
         "demo": {
             "name": "Reverse Triangular Wall 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "triangularWall26Sticks": {
         "demo": {
             "name": "Triangular Wall 26° (Sticks)",
-            "description": [
+            "description": [[
                 "A triangular wall made of sticks at 26°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall26Sticks": {
         "demo": {
             "name": "Reverse Triangular Wall 26° (Sticks)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of sticks at 26°"
-            ]
+            ]]
         }
     },
     "triangularWall26Bark": {
         "demo": {
             "name": "Triangular Wall 26° (Bark)",
-            "description": [
+            "description": [[
                 "A triangular wall made of bark at 26°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall26Bark": {
         "demo": {
             "name": "Reverse Triangular Wall 26° (Bark)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of bark at 26°"
-            ]
+            ]]
         }
     },
     "triangularWall64Leaves": {
         "demo": {
             "name": "Triangular Wall 64° (Leaves)",
-            "description": [
+            "description": [[
                 "A triangular wall made of leaves at 64°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall64Leaves": {
         "demo": {
             "name": "Reverse Triangular Wall 64° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of leaves at 64°"
-            ]
+            ]]
         }
     },
     "triangularWall64Sticks": {
         "demo": {
             "name": "Triangular Wall 64° (Sticks)",
-            "description": [
+            "description": [[
                 "A triangular wall made of sticks at 64°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall64Sticks": {
         "demo": {
             "name": "Reverse Triangular Wall 64° (Sticks)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of sticks at 64°"
-            ]
+            ]]
         }
     },
     "triangularWall64Bark": {
         "demo": {
             "name": "Triangular Wall 64° (Bark)",
-            "description": [
+            "description": [[
                 "A triangular wall made of bark at 64°"
-            ]
+            ]]
         }
     },
     "reverseTriangularWall64Bark": {
         "demo": {
             "name": "Reverse Triangular Wall 64° (Bark)",
-            "description": [
+            "description": [[
                 "A reverse triangular wall made of bark at 64°"
-            ]
+            ]]
         }
     },
     "largeRoof45Leaves": {
         "demo": {
             "name": "Large Roof 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "roof45Leaves": {
         "demo": {
             "name": "Roof 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "roofRidge45Leaves": {
         "demo": {
             "name": "Roof Ridge 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof ridge made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "roofCorner45Leaves": {
         "demo": {
             "name": "Roof Corner 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof corner made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "reverseRoofCorner45Leaves": {
         "demo": {
             "name": "Reverse Roof Corner 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse roof corner made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "triangularRoof45Leaves": {
         "demo": {
             "name": "Triangular Roof 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A triangular roof made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "reverseTriangularRoof45Leaves": {
         "demo": {
             "name": "Reverse Triangular Roof 45° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse triangular roof made of leaves at 45°"
-            ]
+            ]]
         }
     },
     "largeRoof26Leaves": {
         "demo": {
             "name": "Large Roof 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A large roof made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "roof26Leaves": {
         "demo": {
             "name": "Roof 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "roofRidge26Leaves": {
         "demo": {
             "name": "Roof Ridge 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof ridge made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "longRoofRidge26Leaves": {
         "demo": {
             "name": "Long Roof Ridge 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A long roof ridge made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "roofCorner26Leaves": {
         "demo": {
             "name": "Roof Corner 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A roof corner made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "reverseRoofCorner26Leaves": {
         "demo": {
             "name": "Reverse Roof Corner 26° (Leaves)",
-            "description": [
+            "description": [[
                 "A reverse roof corner made of leaves at 26°"
-            ]
+            ]]
         }
     },
     "pillarSticks": {
         "demo": {
             "name": "Pillar (Sticks)",
-            "description": [
+            "description": [[
                 "A pillar made of sticks"
-            ]
+            ]]
         }
     },
     "largePillarSticks": {
         "demo": {
             "name": "Large Pillar (Sticks)",
-            "description": [
+            "description": [[
                 "A large pillar made of sticks"
-            ]
+            ]]
         }
     },
     "pillarLog": {
         "demo": {
             "name": "Pillar (Log)",
-            "description": [
+            "description": [[
                 "A log pillar"
-            ]
+            ]]
         }
     },
     "pierPile": {
         "demo": {
             "name": "Pier Pile",
-            "description": [
+            "description": [[
                 "A sturdy wooden support that holds the pier firm even in a powerful storm."
-            ]
+            ]]
         }
     },
     "beam90Sticks": {
         "demo": {
             "name": "Beam 90° (Sticks)",
-            "description": [
+            "description": [[
                 "A horizontal beam made of sticks"
-            ]
+            ]]
         }
     },
     "largeBeam90Sticks": {
         "demo": {
             "name": "Large Beam 90° (Sticks)",
-            "description": [
+            "description": [[
                 "A large horizontal beam made of sticks"
-            ]
+            ]]
         }
     },
     "beam90Log": {
         "demo": {
             "name": "Beam 90° (Log)",
-            "description": [
+            "description": [[
                 "A horizontal log beam."
-            ]
+            ]]
         }
     },
     "beam45Sticks": {
         "demo": {
             "name": "Beam 45° (Sticks)",
-            "description": [
+            "description": [[
                 "A stick beam at 45°"
-            ]
+            ]]
         }
     },
     "largeBeam45Sticks": {
         "demo": {
             "name": "Large Beam 45° (Sticks)",
-            "description": [
+            "description": [[
                 "A large stick beam at 45°"
-            ]
+            ]]
         }
     },
     "beam45Log": {
         "demo": {
             "name": "Beam 45° (Log)",
-            "description": [
+            "description": [[
                 "A log beam at 45°"
-            ]
+            ]]
         }
     },
     "beam26Sticks": {
         "demo": {
             "name": "Beam 26° (Sticks)",
-            "description": [
+            "description": [[
                 "A stick beam at 26°"
-            ]
+            ]]
         }
     },
     "largeBeam26Sticks": {
         "demo": {
             "name": "Large Beam 26° (Sticks)",
-            "description": [
+            "description": [[
                 "A large stick beam at 26°"
-            ]
+            ]]
         }
     },
     "beam26Log": {
         "demo": {
             "name": "Beam 26° (Log)",
-            "description": [
+            "description": [[
                 "A log beam at 26°"
-            ]
+            ]]
         }
     },
     "beam64Sticks": {
         "demo": {
             "name": "Beam 64° (Sticks)",
-            "description": [
+            "description": [[
                 "A stick beam at 64°"
-            ]
+            ]]
         }
     },
     "largeBeam64Sticks": {
         "demo": {
             "name": "Large Beam 64° (Sticks)",
-            "description": [
+            "description": [[
                 "A large stick beam at 64°"
-            ]
+            ]]
         }
     },
     "beam64Log": {
         "demo": {
             "name": "Beam 64° (Log)",
-            "description": [
+            "description": [[
                 "A log beam at 64°"
-            ]
+            ]]
         }
     },
     "cornerSticks": {
         "demo": {
             "name": "Corner (Sticks)",
-            "description": [
+            "description": [[
                 "Corner piece made of sticks."
-            ]
+            ]]
         }
     },
     "narrowWindowWithTopSticks": {
         "demo": {
             "name": "Narrow Window (with Top) (Sticks)",
-            "description": [
+            "description": [[
                 "A narrow window made of sticks"
-            ]
+            ]]
         }
     },
     "ovalWindowWithTopSticks": {
         "demo": {
             "name": "Oval Window (with Top) (Sticks)",
-            "description": [
+            "description": [[
                 "An oval window made of sticks"
-            ]
+            ]]
         }
     },
     "ovalLongWindowWithTopSticks": {
         "demo": {
             "name": "Oval Long Window (with Top) (Sticks)",
-            "description": [
+            "description": [[
                 "A long oval window made of sticks"
-            ]
+            ]]
         }
     },
     "smallWindowSticks": {
         "demo": {
             "name": "Small Window (Sticks)",
-            "description": [
+            "description": [[
                 "A small window made of sticks"
-            ]
+            ]]
         }
     },
     "longWindowSticks": {
         "demo": {
             "name": "Long Window (Sticks)",
-            "description": [
+            "description": [[
                 "A long window made of sticks"
-            ]
+            ]]
         }
     },
     "longOvalWindowSticks": {
         "demo": {
             "name": "Long Oval Window (Sticks)",
-            "description": [
+            "description": [[
                 "A long oval window made of sticks"
-            ]
+            ]]
         }
     },
     "windowWithTopSticks": {
         "demo": {
             "name": "Window (with Top) (Sticks)",
-            "description": [
+            "description": [[
                 "A round window made of sticks"
-            ]
+            ]]
         }
     },
     "doubleSashedWindowWithTopSticks": {
         "demo": {
             "name": "Double-Sashed Window (with Top) (Sticks)",
-            "description": [
+            "description": [[
                 "A square window made of sticks"
-            ]
+            ]]
         }
     },
     "narrowWindowWithTopPlanks": {
         "demo": {
             "name": "Narrow Window (with Top) (Planks)",
-            "description": [
+            "description": [[
                 "A narrow window with a net"
-            ]
+            ]]
         }
     },
     "doubleSashedWindowWithTopPlanks": {
         "demo": {
             "name": "Double-Sashed Window (with Top) (Planks)",
-            "description": [
+            "description": [[
                 "A middle-sized window made of planks with sashes"
-            ]
+            ]]
         }
     },
     "squareWindowPlanks": {
         "demo": {
             "name": "Square Window (Planks)",
-            "description": [
+            "description": [[
                 "A glassed-in window made of planks"
-            ]
+            ]]
         }
     },
     "doorSticks": {
         "demo": {
             "name": "Door (Sticks)",
-            "description": [
+            "description": [[
                 "A stick door with a window"
-            ]
+            ]]
         }
     },
     "windowedDoorSticks": {
         "demo": {
             "name": "Windowed Door (Sticks)",
-            "description": [
+            "description": [[
                 "A stick door with a large window"
-            ]
+            ]]
         }
     },
     "doubleDoorSticks": {
         "demo": {
             "name": "Double Door (Sticks)",
-            "description": [
+            "description": [[
                 "A double door made of sticks with a window"
-            ]
+            ]]
         }
     },
     "archedDoorSticks": {
         "demo": {
             "name": "Arched Door (Sticks)",
-            "description": [
+            "description": [[
                 "A stick door with an arched top"
-            ]
+            ]]
         }
     },
     "windowedDoubleDoorSticks": {
         "demo": {
             "name": "Windowed Double Door (Sticks)",
-            "description": [
+            "description": [[
                 "A double door made of sticks with a large window"
-            ]
+            ]]
         }
     },
     "archedDoubleDoorSticks": {
         "demo": {
             "name": "Arched Double Door (Sticks)",
-            "description": [
+            "description": [[
                 "A double door made of sticks with an arched top"
-            ]
+            ]]
         }
     },
     "largeDoubleDoorSticks": {
         "demo": {
             "name": "Large Double Door (Sticks)",
-            "description": [
+            "description": [[
                 "A massive double door made of sticks with a large window"
-            ]
+            ]]
         }
     },
     "doorPlanks": {
         "demo": {
             "name": "Door (Planks)",
-            "description": [
+            "description": [[
                 "A door made of planks"
-            ]
+            ]]
         }
     },
     "stair45Sticks": {
         "demo": {
             "name": "Stairs 45° (Sticks)",
-            "description": [
+            "description": [[
                 "Stairs made of sticks at 45°"
-            ]
+            ]]
         }
     },
     "stair26Sticks": {
         "demo": {
             "name": "Stairs 26° (Sticks)",
-            "description": [
+            "description": [[
                 "Stairs made of sticks at 26°"
-            ]
+            ]]
         }
     },
     "stair26Planks": {
         "demo": {
             "name": "Stairs 26° (Planks)",
-            "description": [
+            "description": [[
                 "Stairs made of planks at 26°"
-            ]
+            ]]
         }
     },
     "rampPlanks": {
         "demo": {
             "name": "Ramp (Planks)",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "stair45Stone": {
         "demo": {
             "name": "Stairs 45° (Stone)",
-            "description": [
+            "description": [[
                 "Stairs made of stone at 45°"
-            ]
+            ]]
         }
     },
     "stairCorner45Stone": {
         "demo": {
             "name": "Stair Corner 45° (Stone)",
-            "description": [
+            "description": [[
                 "A stair corner made of stone at 45°"
-            ]
+            ]]
         }
     },
     "reverseStairCorner45Stone": {
         "demo": {
             "name": "Reverse Stair Corner 45° (Stone)",
-            "description": [
+            "description": [[
                 "A reverse stair corner made of stone at 45°"
-            ]
+            ]]
         }
     },
     "palisadeLog": {
         "demo": {
             "name": "Palisade (Logs)",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "gateLog": {
         "demo": {
             "name": "Gate (Logs)",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "fenceSticks": {
         "demo": {
             "name": "Fence (Sticks)",
-            "description": [
+            "description": [[
                 "A long fence made of sticks"
-            ]
+            ]]
         }
     },
     "dodoTrophy": {
         "demo": {
             "name": "Trophy Dodo",
-            "description": [
+            "description": [[
                 "A symbol of loss, reminding us that some creatures will never be seen again."
-            ]
+            ]]
         }
     },
     "boarTrophy": {
         "demo": {
             "name": "Trophy Boar",
-            "description": [
+            "description": [[
                 "Looks at you disapprovingly every time you pass by."
-            ]
+            ]]
         }
     },
     "squareStoolSticks": {
         "demo": {
             "name": "Square Stool (Sticks)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "tripodStoolSticks": {
         "demo": {
             "name": "Tripod Stool (Sticks)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "roundStoolSticks": {
         "demo": {
             "name": "Round Stool (Sticks)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "benchSticks": {
         "demo": {
             "name": "Bench (Sticks)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "benchWithBackrestSticks": {
         "demo": {
             "name": "Bench with Backrest (Sticks)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "roundStoolLog": {
         "demo": {
             "name": "Round Stool (Log)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "benchLog": {
         "demo": {
             "name": "Bench (Log)",
-            "description": [
+            "description": [[
                 "Primitive furniture."
-            ]
+            ]]
         }
     },
     "squareElegantStool": {
         "demo": {
             "name": "Square Elegant Stool",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "roundElegantStool": {
         "demo": {
             "name": "Round Elegant Stool",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "elegantBench": {
         "demo": {
             "name": "Elegant Bench",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "elegantBenchWithBackrest": {
         "demo": {
             "name": "Elegant Bench with Backrest",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "elegantChair": {
         "demo": {
             "name": "Elegant Chair",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "elegantArmchair": {
         "demo": {
             "name": "Elegant Armchair",
-            "description": [
+            "description": [[
                 "Elegant furniture in a sophisticated, classical style."
-            ]
+            ]]
         }
     },
     "squareTableSticks": {
         "demo": {
             "name": "Square Table (Sticks)",
-            "description": [
+            "description": [[
                 "Big enough for a treasure map and a mug of grog."
-            ]
+            ]]
         }
     },
     "roundTableSticks": {
         "demo": {
             "name": "Round Table (Sticks)",
-            "description": [
+            "description": [[
                 "Big enough for a treasure map and a mug of grog."
-            ]
+            ]]
         }
     },
     "rectangularTableSticks": {
         "demo": {
             "name": "Rectangular Table (Sticks)",
-            "description": [
+            "description": [[
                 "Big enough for a treasure map and a mug of grog."
-            ]
+            ]]
         }
     },
     "smallShelfSticks": {
         "demo": {
             "name": "Small Shelf (Sticks)",
-            "description": [
+            "description": [[
                 "Shelves crudely nailed together for storing food and rum."
-            ]
+            ]]
         }
     },
     "shelfSticks": {
         "demo": {
             "name": "Shelf (Sticks)",
-            "description": [
+            "description": [[
                 "Shelves crudely nailed together for storing food and rum."
-            ]
+            ]]
         }
     },
     "largeShelfSticks": {
         "demo": {
             "name": "Large Shelf (Sticks)",
-            "description": [
+            "description": [[
                 "Shelves crudely nailed together for storing food and rum."
-            ]
+            ]]
         }
     },
     "cabinetSticks": {
         "demo": {
             "name": "Cabinet (Sticks)",
-            "description": [
+            "description": [[
                 "A flimsy structure, bound to collapse in the first storm."
-            ]
+            ]]
         }
     },
     "fiberCabinetSticks": {
         "demo": {
             "name": "Fiber Cabinet (Sticks)",
-            "description": [
+            "description": [[
                 "A flimsy structure, bound to collapse in the first storm."
-            ]
+            ]]
         }
     },
     "simpleClosetSticks": {
         "demo": {
             "name": "Simple Closet (Sticks)",
-            "description": [
+            "description": [[
                 "A flimsy structure, bound to collapse in the first storm."
-            ]
+            ]]
         }
     },
     "fabricCanopy": {
         "demo": {
             "name": "Fabric Canopy",
-            "description": [
+            "description": [[
                 "A canopy made of whatever was at hand."
-            ]
+            ]]
         }
     },
     "canopyWithNetting": {
         "demo": {
             "name": "Canopy with Netting",
-            "description": [
+            "description": [[
                 "A canopy made of whatever was at hand."
-            ]
+            ]]
         }
     },
     "largeCanopy": {
         "demo": {
             "name": "Large Canopy",
-            "description": [
+            "description": [[
                 "A large canopy made of whatever was at hand."
-            ]
+            ]]
         }
     },
     "pierCanopy": {
         "demo": {
             "name": "Pier Canopy",
-            "description": [
+            "description": [[
                 "Take shelter from the sun and boatswain's attitude under this canopy."
-            ]
+            ]]
         }
     },
     "canopySticks": {
         "demo": {
             "name": "Canopy (Sticks)",
-            "description": [
+            "description": [[
                 "A canopy made of sticks."
-            ]
+            ]]
         }
     },
     "archedCanopySticks": {
         "demo": {
             "name": "Arched Canopy (Sticks)",
-            "description": [
+            "description": [[
                 "Arched canopy made of sticks"
-            ]
+            ]]
         }
     },
     "wallTorch": {
         "demo": {
             "name": "Wall Torch",
-            "description": [
+            "description": [[
                 "Banishes darkness - and attracts moths."
-            ]
+            ]]
         }
     },
     "wallLamp": {
         "demo": {
             "name": "Wall Lamp",
-            "description": [
+            "description": [[
                 "Makes any place cozier."
-            ]
+            ]]
         }
     },
     "tableLamp": {
         "demo": {
             "name": "Table Lamp",
-            "description": [
+            "description": [[
                 "Makes any place cozier."
-            ]
+            ]]
         }
     },
     "tableLampOutwardFacing": {
         "demo": {
             "name": "Table Lamp (Outward Facing)",
-            "description": [
+            "description": [[
                 "Makes any place cozier."
-            ]
+            ]]
         }
     },
     "bowlWood": {
         "demo": {
             "name": "Wooden Bowl",
-            "description": [
+            "description": [[
                 "A simple handmade wooden vessel."
-            ]
+            ]]
         }
     },
     "mugWood": {
         "demo": {
             "name": "Wooden Mug",
-            "description": [
+            "description": [[
                 "A simple handmade wooden vessel."
-            ]
+            ]]
         }
     },
     "bucketWood": {
         "demo": {
             "name": "Wooden Bucket",
-            "description": [
+            "description": [[
                 "A simple handmade wooden vessel."
-            ]
+            ]]
         }
     },
     "jugThinClay": {
         "demo": {
             "name": "Thin Clay Jug",
-            "description": [
+            "description": [[
                 "Keeps drinks cool even on the hottest day."
-            ]
+            ]]
         }
     },
     "jugClay": {
         "demo": {
             "name": "Clay Jug",
-            "description": [
+            "description": [[
                 "A clay jug wrapped in cloth.",
                 "Keeps drinks cool even on the hottest day."
-            ]
+            ]]
         }
     },
     "jugWideClay": {
         "demo": {
             "name": "Wide Clay Jug",
-            "description": [
+            "description": [[
                 "A wide clay jug.",
                 "Keeps drinks cool even on the hottest day."
-            ]
+            ]]
         }
     },
     "standWithHerbs": {
         "demo": {
             "name": "Stand with Herbs",
-            "description": [
+            "description": [[
                 "Preserves filled with the warmth of summer and the aroma of ripe fruit."
-            ]
+            ]]
         }
     },
     "basketOfPeppers": {
         "demo": {
             "name": "Basket of Peppers",
-            "description": [
+            "description": [[
                 "A strategic reserve, essential during storms and sieges."
-            ]
+            ]]
         }
     },
     "pileOfDishes": {
         "demo": {
             "name": "Pile of Dishes",
-            "description": [
+            "description": [[
                 "A strategic reserve, essential during storms and sieges."
-            ]
+            ]]
         }
     },
     "pierFlagpole": {
         "demo": {
             "name": "Pier Flagpole",
-            "description": [
+            "description": [[
                 "Even the seagulls are impressed with the height of this flagpole."
-            ]
+            ]]
         }
     },
     "pierWinch": {
         "demo": {
             "name": "Pier Winch",
-            "description": [
+            "description": [[
                 "A winch that makes even the hardest work seem easy."
-            ]
+            ]]
         }
     },
     "pierCrane": {
         "demo": {
             "name": "Pier Crane",
-            "description": [
+            "description": [[
                 "A reliable crane to lift and move even the heaviest objects."
-            ]
+            ]]
         }
     },
     "ropeCoil": {
         "demo": {
             "name": "Rope Coil",
-            "description": [
+            "description": [[
                 "An unassuming but strong rope."
-            ]
+            ]]
         }
     },
     "largeRopeCoil": {
         "demo": {
             "name": "Large Rope Coil",
-            "description": [
+            "description": [[
                 "A coil of heavy-duty rope for demanding applications."
-            ]
+            ]]
         }
     },
     "fishingBarrel": {
         "demo": {
             "name": "Fishing Barrel",
-            "description": [
+            "description": [[
                 "Once useful, these items now serve as decorations."
-            ]
+            ]]
         }
     },
     "largeFishingBarrel": {
         "demo": {
             "name": "Large Fishing Barrel",
-            "description": [
+            "description": [[
                 "Once useful, these items now serve as decorations."
-            ]
+            ]]
         }
     },
     "wineBarrels": {
         "demo": {
             "name": "Wine Barrels",
-            "description": [
+            "description": [[
                 "Once useful, these items now serve as decorations."
-            ]
+            ]]
         }
     },
     "bottleCrate": {
         "demo": {
             "name": "Bottle Crate",
-            "description": [
+            "description": [[
                 "Once useful, these items now serve as decorations."
-            ]
+            ]]
         }
     },
     "shellDecorationsWall1": {
         "demo": {
             "name": "Shell Decorations (Wall) 1",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsWall2": {
         "demo": {
             "name": "Shell Decorations (Wall) 2",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsWall3": {
         "demo": {
             "name": "Shell Decorations (Wall) 3",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsWall4": {
         "demo": {
             "name": "Shell Decorations (Wall) 4",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsWall5": {
         "demo": {
             "name": "Shell Decorations (Wall) 5",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsCeiling1": {
         "demo": {
             "name": "Shell Decorations (Ceiling) 1",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "shellDecorationsCeiling2": {
         "demo": {
             "name": "Shell Decorations (Ceiling) 2",
-            "description": [
+            "description": [[
                 "Artfully crafted decorations made from marine treasures."
-            ]
+            ]]
         }
     },
     "hut": {
         "demo": {
             "name": "Hut",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "hutFrame": {
         "demo": {
             "name": "Hut Frame",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     }
 }

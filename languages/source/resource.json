@@ -2,174 +2,174 @@
     "stone": {
         "demo": {
             "name": "Stone",
-            "description": [
+            "description": [[
                 "A building material."
-            ]
+            ]]
         }
     },
     "wood": {
         "demo": {
             "name": "Wood",
-            "description": [
+            "description": [[
                 "A building material."
-            ]
+            ]]
         }
     },
     "clay": {
         "demo": {
             "name": "Clay",
-            "description": [
+            "description": [[
                 "Needed for construction and pottery."
-            ]
+            ]]
         }
     },
     "copperOre": {
         "demo": {
             "name": "Copper Ore",
-            "description": [
+            "description": [[
                 "Used to craft Copper Ingots."
-            ]
+            ]]
         }
     },
     "ash": {
         "demo": {
             "name": "Ash",
-            "description": [
+            "description": [[
                 "Useful for crafting gunpowder."
-            ]
+            ]]
         }
     },
     "plantFiber": {
         "demo": {
             "name": "Plant Fiber",
-            "description": [
+            "description": [[
                 "Used for making fabric."
-            ]
+            ]]
         }
     },
     "copperPot": {
         "demo": {
             "name": "Copper Pot",
-            "description": [
+            "description": [[
                 "Not a helmet. Do not wear on head.",
                 "Essential for alchemy and cooking."
-            ]
+            ]]
         }
     },
     "clayPot": {
         "demo": {
             "name": "Clay Pot",
-            "description": [
+            "description": [[
                 "Not a helmet. Do not wear on head.",
                 "Essential for alchemy and cooking."
-            ]
+            ]]
         }
     },
     "coarseFabric": {
         "demo": {
             "name": "Coarse Fabric",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "rope": {
         "demo": {
             "name": "Rope",
-            "description": [
+            "description": [[
                 "An adventurer's best friend."
-            ]
+            ]]
         }
     },
     "nails": {
         "demo": {
             "name": "Nails",
-            "description": [
+            "description": [[
                 "Can be salvaged from ship and boat wrecks along the shore."
-            ]
+            ]]
         }
     },
     "clayBottle": {
         "demo": {
             "name": "Clay Bottle",
-            "description": [
+            "description": [[
                 "A container for alchemical decoctions."
-            ]
+            ]]
         }
     },
     "alchemicalBase": {
         "demo": {
             "name": "Alchemical Base",
-            "description": [
+            "description": [[
                 "Alchemical ingredient made from misty orchids."
-            ]
+            ]]
         }
     },
     "mistyOrchid": {
         "demo": {
             "name": "Misty Orchid",
-            "description": [
+            "description": [[
                 "Alchemical ingredient."
-            ]
+            ]]
         }
     },
     "healingHerbs": {
         "demo": {
             "name": "Healing Herbs",
-            "description": [
+            "description": [[
                 "A bundle of aromatic herbs said to hold vital powers."
-            ]
+            ]]
         }
     },
     "feather": {
         "demo": {
             "name": "Feather",
-            "description": [
+            "description": [[
                 "A hat decoration and alchemical ingredient."
-            ]
+            ]]
         }
     },
     "boarTusk": {
         "demo": {
             "name": "Boar Tusk",
-            "description": [
+            "description": [[
                 "Alchemical ingredient."
-            ]
+            ]]
         }
     },
     "whiskey": {
         "demo": {
             "name": "Whiskey",
-            "description": [
+            "description": [[
                 "A harsh grain spirit imported from Scotland and Ireland.",
                 "Rare in the Caribbean, and therefore especially prized as a trade good and an ingredient in special recipes."
-            ]
+            ]]
         }
     },
     "salt": {
         "demo": {
             "name": "Salt",
-            "description": [
+            "description": [[
                 "Often found in ship holds across the archipelago.",
                 "Cooking ingredient."
-            ]
+            ]]
         }
     },
     "charcoal": {
         "demo": {
             "name": "Charcoal",
-            "description": [
+            "description": [[
                 "Charcoal. Fuel for ore smelting."
-            ]
+            ]]
         }
     },
     "steelNails": {
         "demo": {
             "name": "Steel Nails",
-            "description": [
+            "description": [[
                 "High-quality nails brought from the homeland.",
                 "The most reliable way to get them is to seize them from other ships - or salvage them from wreckage."
-            ],
+            ]],
             "comment": [
                 "As reliable as a captain's word."
             ]
@@ -178,130 +178,130 @@
     "roughHide": {
         "demo": {
             "name": "Rough Hide",
-            "description": [
+            "description": [[
                 "Future boots or a fine hat."
-            ]
+            ]]
         }
     },
     "shrubSeeds": {
         "demo": {
             "name": "Shrub Seeds",
-            "description": [
+            "description": [[
                 "Used to grow shrubs."
-            ]
+            ]]
         }
     },
     "dodoEgg": {
         "demo": {
             "name": "Dodo Egg",
-            "description": [
+            "description": [[
                 "An ordinary egg from an extraordinary bird.",
                 "A tasty and useful find from dodo nests, though they defend their clutch fiercely."
-            ]
+            ]]
         }
     },
     "animalFat": {
         "demo": {
             "name": "Animal Fat",
-            "description": [
+            "description": [[
                 "Required for crafting lamps."
-            ]
+            ]]
         }
     },
     "ficusSeeds": {
         "demo": {
             "name": "Ficus Seeds",
-            "description": [
+            "description": [[
                 "Used to grow ficus."
-            ]
+            ]]
         }
     },
     "meat": {
         "demo": {
             "name": "Meat",
-            "description": [
+            "description": [[
                 "A fatty cut of meat, fit to be turned into a juicy steak."
-            ]
+            ]]
         }
     },
     "birdMeat": {
         "demo": {
             "name": "Bird Meat",
-            "description": [
+            "description": [[
                 "Dodo tastes like chicken!"
-            ]
+            ]]
         }
     },
     "crabMeat": {
         "demo": {
             "name": "Crab Meat",
-            "description": [
+            "description": [[
                 "Crabs scuttle all over the beaches."
-            ]
+            ]]
         }
     },
     "palmSeeds": {
         "demo": {
             "name": "Palm Seeds",
-            "description": [
+            "description": [[
                 "Used to grow a palm."
-            ]
+            ]]
         }
     },
     "cayennePepperSeeds": {
         "demo": {
             "name": "Cayenne Pepper Seeds",
-            "description": [
+            "description": [[
                 "Used to grow peppers."
-            ]
+            ]]
         }
     },
     "sweetPotato": {
         "demo": {
             "name": "Sweet Potato",
-            "description": [
+            "description": [[
                 "A tasty root crop."
-            ]
+            ]]
         }
     },
     "batataSeeds": {
         "demo": {
             "name": "Batata Seeds",
-            "description": [
+            "description": [[
                 "Used to grow sweet potatoes."
-            ]
+            ]]
         }
     },
     "coffeeBeans": {
         "demo": {
             "name": "Coffee Beans",
-            "description": [
+            "description": [[
                 "Fragrant beans"
-            ]
+            ]]
         }
     },
     "tritonsHorn": {
         "demo": {
             "name": "Tritons Horn",
-            "description": [
+            "description": [[
                 "A beautiful shell."
-            ]
+            ]]
         }
     },
     "boarHead": {
         "demo": {
             "name": "Boar Head",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     },
     "dodoHead": {
         "demo": {
             "name": "Dodo Head",
-            "description": [
+            "description": [[
                 ""
-            ]
+            ]]
         }
     }
 }

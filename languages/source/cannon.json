@@ -2,9 +2,9 @@
     "12Pounders": {
         "demo": {
             "name": "12-Pounders",
-            "description": [
+            "description": [[
                 "Reliable cannons suited to a wide range of naval engagements."
-            ]
+            ]]
         }
     }
 }

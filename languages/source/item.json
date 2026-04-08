@@ -2,10 +2,10 @@
     "masterCombatRepairKit": {
         "demo": {
             "name": "Master Combat Repair Kit",
-            "description": [
+            "description": [[
                 "An improved repair kit designed for work under fire.",
                 "Includes tools, materials, and strong spirits - for cleaning wounds and steadying the hands of those making repairs at the worst possible moment."
-            ],
+            ]],
             "comment": [
                 "We will make our repairs and carry on."
             ]
@@ -14,10 +14,10 @@
     "combatRepairKit": {
         "demo": {
             "name": "Combat Repair Kit",
-            "description": [
+            "description": [[
                 "Everything needed to patch up a ship and keep fighting.",
                 "Includes tools, materials, and strong spirits - for cleaning wounds and steadying the hands of those making repairs at the worst possible moment."
-            ],
+            ]],
             "comment": [
                 "Just because it's full of holes doesn't mean it's worthless."
             ]
@@ -26,10 +26,10 @@
     "repairKit": {
         "demo": {
             "name": "Repair Kit",
-            "description": [
+            "description": [[
                 "A repair kit for work done outside of combat.",
                 "Effective only when you're not under enemy fire."
-            ],
+            ]],
             "comment": [
                 "Holding together... looks like."
             ]
@@ -38,10 +38,10 @@
     "gunroomGrog": {
         "demo": {
             "name": "Gunroom Grog",
-            "description": [
+            "description": [[
                 "Rum and whiskey cut with cayenne pepper.",
                 "Burns hard, keeps the blood moving, and pushes men through moments better left unremembered."
-            ],
+            ]],
             "comment": [
                 "Explains many decisions."
             ]

@@ -2,11 +2,11 @@
     "cayennePepper": {
         "demo": {
             "name": "Cayenne Pepper",
-            "description": [
+            "description": [[
                 "Large, crisp peppers used to season many a dish.",
                 "They make the flavor richer - and the bite hotter.",
                 "Just don't overdo it."
-            ],
+            ]],
             "comment": [
                 "Burns like a sea witch's poison."
             ]
@@ -15,26 +15,26 @@
     "banana": {
         "demo": {
             "name": "Banana",
-            "description": [
+            "description": [[
                 "A sweet fruit. Found in the Coastal Jungle."
-            ]
+            ]]
         }
     },
     "coconut": {
         "demo": {
             "name": "Coconut",
-            "description": [
+            "description": [[
                 "Found on the beach, and on palm trees along the shore in the Coastal Jungle."
-            ]
+            ]]
         }
     },
     "rumBottle": {
         "demo": {
             "name": "Rum Bottle",
-            "description": [
+            "description": [[
                 "The finest seasoning for any pirate dish.",
                 "Carried by pirates."
-            ],
+            ]],
             "comment": [
                 "We ran out of rum today.",
                 "The crew sobered up a bit... What a damned mess.",
@@ -46,10 +46,10 @@
     "coconutMilkWithBananas": {
         "demo": {
             "name": "Coconut Milk with Bananas",
-            "description": [
+            "description": [[
                 "A refreshing drink of coconut milk and ripe bananas.",
                 "Quenches thirst and lends strength for long fights beneath a scorching sun."
-            ],
+            ]],
             "comment": [
                 "A sip of pure paradise."
             ]
@@ -58,10 +58,10 @@
     "spicyChickenWithSweetPotato": {
         "demo": {
             "name": "Spicy \"Chicken\" with Sweet Potato",
-            "description": [
+            "description": [[
                 "A hearty, spicy dish of meat, hot spices, and sweet potato.",
                 "Warms you up and restores your strength."
-            ],
+            ]],
             "comment": [
                 "One bite and your chest will blaze, your weariness burning to ash.",
                 "Your throat may suffer in the process."
@@ -71,9 +71,9 @@
     "baconAndEggs": {
         "demo": {
             "name": "Bacon and Eggs",
-            "description": [
+            "description": [[
                 "A hearty breakfast of fresh eggs and smoked bacon - the perfect start to a day in the Paradise Archipelago."
-            ],
+            ]],
             "comment": [
                 "A rare breakfast for a sailor, especially at sea."
             ]
@@ -82,9 +82,9 @@
     "boiledCrab": {
         "demo": {
             "name": "Boiled Crab",
-            "description": [
+            "description": [[
                 "A simple, but exquisite delicacy."
-            ],
+            ]],
             "comment": [
                 "Five minutes ago, it was scuttling along the shore..."
             ]
@@ -93,9 +93,9 @@
     "spicyBreadedKebab": {
         "demo": {
             "name": "Spicy Breaded Kebab",
-            "description": [
+            "description": [[
                 "Tastes like chicken."
-            ],
+            ]],
             "comment": [
                 "A true sailor eats meat off the fire, drinks rum straight from the bottle, and sleeps with a knife under his pillow."
             ]
@@ -104,9 +104,9 @@
     "skeweredMeat": {
         "demo": {
             "name": "Skewered Meat",
-            "description": [
+            "description": [[
                 "Meat with a hint of smoke."
-            ],
+            ]],
             "comment": [
                 "Perfect food - no fork, no knife, no manners required.",
                 "- \"No-Hands\" Flynn, carpenter"
@@ -116,9 +116,9 @@
     "spicySkeweredCrab": {
         "demo": {
             "name": "Spicy Skewered Crab",
-            "description": [
+            "description": [[
                 "Crisp, spiced, and hearty enough to satisfy your hunger and lift your mood."
-            ],
+            ]],
             "comment": [
                 "If your tongue isn't numb, the cook went easy on the spices."
             ]
@@ -127,9 +127,9 @@
     "heartyEggBroth": {
         "demo": {
             "name": "Hearty Egg Broth",
-            "description": [
+            "description": [[
                 "A hearty stew cooked when the hold is full of supplies and the crew's been at sea for less than a week."
-            ],
+            ]],
             "comment": [
                 "If there's only one sweet potato left in the galley, we're nearing either a port or a mutiny.",
                 "- ship's cook \"One-Eyed\" Axel"
@@ -139,10 +139,10 @@
     "dodoBroth": {
         "demo": {
             "name": "Dodo Broth",
-            "description": [
+            "description": [[
                 "A delicate, crystal-clear broth made from dodo meat.",
                 "Served to the stick, the wounded... and sailors after a wild night at the tavern."
-            ],
+            ]],
             "comment": [
                 "The tempting smell of a boiling pot has brought more people back from the brink of death than any potion ever could.",
                 "- ship's cook \"One-Eyed\" Axel"
@@ -152,9 +152,9 @@
     "coconutSoup": {
         "demo": {
             "name": "Coconut Soup",
-            "description": [
+            "description": [[
                 "This thick coconut-milk soup brings hot shores to mind - even in a storm."
-            ],
+            ]],
             "comment": [
                 "Tastes like a paradise island that we will never reach.",
                 "- \"Cooked Compass\" Billy, navigator"

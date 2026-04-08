@@ -2,10 +2,10 @@
     "boardingPartyGear": {
         "demo": {
             "name": "Boarding Party Gear",
-            "description": [
+            "description": [[
                 "Equipment reserved for close-quarters combat.",
                 "Better gear means better-armed boarders - and fewer chances left to the enemy once the clash starts."
-            ]
+            ]]
         }
     }
 }

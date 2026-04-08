@@ -2,44 +2,44 @@
     "pearl": {
         "demo": {
             "name": "Pearl",
-            "description": [
+            "description": [[
                 "An alchemical ingredient.",
                 "However, this small, round, sturdy item may be useful elsewhere."
-            ]
+            ]]
         }
     },
     "copperBullet": {
         "demo": {
             "name": "Copper Bullet",
-            "description": [
+            "description": [[
                 "A plain copper ball. No promises it will fly true, but it is decent enough."
-            ]
+            ]]
         }
     },
     "stoneBullet": {
         "demo": {
             "name": "Stone Bullet",
-            "description": [
+            "description": [[
                 "A lump of stone that only just passes for a ball. You will only hit true at close range."
-            ]
+            ]]
         }
     },
     "homemadeGunpowder": {
         "demo": {
             "name": "Homemade Gunpowder",
-            "description": [
+            "description": [[
                 "Low-quality homemade gunpowder. Use with caution.",
                 "Ground on millstones from ash and sulfur."
-            ]
+            ]]
         }
     },
     "ironBullet": {
         "demo": {
             "name": "Iron Bullet",
-            "description": [
+            "description": [[
                 "A well-made iron bullet with good ballistics.",
                 "Where you fire, it flies."
-            ]
+            ]]
         }
     }
 }
