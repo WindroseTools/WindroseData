@@ -2,11 +2,17 @@
     "cayennePepper": {
         "demo": {
             "name": "Cayenne Pepper",
-            "description": [[
-                "Large, crisp peppers used to season many a dish.",
-                "They make the flavor richer - and the bite hotter.",
-                "Just don't overdo it."
-            ]],
+            "description": [
+                [
+                    "Large, crisp peppers used to season many a dish.",
+                    "They make the flavor richer - and the bite hotter.",
+                    "Just don't overdo it."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ],
             "comment": [
                 "Burns like a sea witch's poison."
             ]
@@ -15,17 +21,29 @@
     "banana": {
         "demo": {
             "name": "Banana",
-            "description": [[
-                "A sweet fruit. Found in the Coastal Jungle."
-            ]]
+            "description": [
+                [
+                    "A sweet fruit. Found in the Coastal Jungle."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ]
         }
     },
     "coconut": {
         "demo": {
             "name": "Coconut",
-            "description": [[
-                "Found on the beach, and on palm trees along the shore in the Coastal Jungle."
-            ]]
+            "description": [
+                [
+                    "Found on the beach, and on palm trees along the shore in the Coastal Jungle."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ]
         }
     },
     "rumBottle": {
@@ -46,10 +64,16 @@
     "coconutMilkWithBananas": {
         "demo": {
             "name": "Coconut Milk with Bananas",
-            "description": [[
-                "A refreshing drink of coconut milk and ripe bananas.",
-                "Quenches thirst and lends strength for long fights beneath a scorching sun."
-            ]],
+            "description": [
+                [
+                    "A refreshing drink of coconut milk and ripe bananas.",
+                    "Quenches thirst and lends strength for long fights beneath a scorching sun."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "A sip of pure paradise."
             ]
@@ -58,10 +82,16 @@
     "spicyChickenWithSweetPotato": {
         "demo": {
             "name": "Spicy \"Chicken\" with Sweet Potato",
-            "description": [[
-                "A hearty, spicy dish of meat, hot spices, and sweet potato.",
-                "Warms you up and restores your strength."
-            ]],
+            "description": [
+                [
+                    "A hearty, spicy dish of meat, hot spices, and sweet potato.",
+                    "Warms you up and restores your strength."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
             "comment": [
                 "One bite and your chest will blaze, your weariness burning to ash.",
                 "Your throat may suffer in the process."
@@ -71,9 +101,15 @@
     "baconAndEggs": {
         "demo": {
             "name": "Bacon and Eggs",
-            "description": [[
-                "A hearty breakfast of fresh eggs and smoked bacon - the perfect start to a day in the Paradise Archipelago."
-            ]],
+            "description": [
+                [
+                    "A hearty breakfast of fresh eggs and smoked bacon - the perfect start to a day in the Paradise Archipelago."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "A rare breakfast for a sailor, especially at sea."
             ]
@@ -82,9 +118,15 @@
     "boiledCrab": {
         "demo": {
             "name": "Boiled Crab",
-            "description": [[
-                "A simple, but exquisite delicacy."
-            ]],
+            "description": [
+                [
+                    "A simple, but exquisite delicacy."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "Five minutes ago, it was scuttling along the shore..."
             ]
@@ -93,9 +135,15 @@
     "spicyBreadedKebab": {
         "demo": {
             "name": "Spicy Breaded Kebab",
-            "description": [[
-                "Tastes like chicken."
-            ]],
+            "description": [
+                [
+                    "Tastes like chicken."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
             "comment": [
                 "A true sailor eats meat off the fire, drinks rum straight from the bottle, and sleeps with a knife under his pillow."
             ]
@@ -104,9 +152,15 @@
     "skeweredMeat": {
         "demo": {
             "name": "Skewered Meat",
-            "description": [[
-                "Meat with a hint of smoke."
-            ]],
+            "description": [
+                [
+                    "Meat with a hint of smoke."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "Perfect food - no fork, no knife, no manners required.",
                 "- \"No-Hands\" Flynn, carpenter"
@@ -116,9 +170,15 @@
     "spicySkeweredCrab": {
         "demo": {
             "name": "Spicy Skewered Crab",
-            "description": [[
-                "Crisp, spiced, and hearty enough to satisfy your hunger and lift your mood."
-            ]],
+            "description": [
+                [
+                    "Crisp, spiced, and hearty enough to satisfy your hunger and lift your mood."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "If your tongue isn't numb, the cook went easy on the spices."
             ]
@@ -127,9 +187,14 @@
     "heartyEggBroth": {
         "demo": {
             "name": "Hearty Egg Broth",
-            "description": [[
-                "A hearty stew cooked when the hold is full of supplies and the crew's been at sea for less than a week."
-            ]],
+            "description": [
+                [
+                    "A hearty stew cooked when the hold is full of supplies and the crew's been at sea for less than a week."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]],
             "comment": [
                 "If there's only one sweet potato left in the galley, we're nearing either a port or a mutiny.",
                 "- ship's cook \"One-Eyed\" Axel"
@@ -139,10 +204,16 @@
     "dodoBroth": {
         "demo": {
             "name": "Dodo Broth",
-            "description": [[
-                "A delicate, crystal-clear broth made from dodo meat.",
-                "Served to the stick, the wounded... and sailors after a wild night at the tavern."
-            ]],
+            "description": [
+                [
+                    "A delicate, crystal-clear broth made from dodo meat.",
+                    "Served to the stick, the wounded... and sailors after a wild night at the tavern."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "The tempting smell of a boiling pot has brought more people back from the brink of death than any potion ever could.",
                 "- ship's cook \"One-Eyed\" Axel"
@@ -152,9 +223,15 @@
     "coconutSoup": {
         "demo": {
             "name": "Coconut Soup",
-            "description": [[
-                "This thick coconut-milk soup brings hot shores to mind - even in a storm."
-            ]],
+            "description": [
+                [
+                    "This thick coconut-milk soup brings hot shores to mind - even in a storm."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
             "comment": [
                 "Tastes like a paradise island that we will never reach.",
                 "- \"Cooked Compass\" Billy, navigator"
