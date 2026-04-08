@@ -11,6 +11,11 @@
                 "roughHide": 7,
                 "coarseFabric": 7
             },
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
             "effects": [
                 {
                     "type": "crewBoardingPowerIncrease"

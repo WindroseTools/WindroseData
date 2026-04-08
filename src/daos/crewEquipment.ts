@@ -1,4 +1,5 @@
 import crewEquipmentData from "../../data/crewEquipment.json";
+import { CannonLevels } from "../types/Cannon";
 import { Station } from "../types/Common";
 import { Effect } from "../types/Effect";
 import { Rarity } from "../types/Rarity";
@@ -12,6 +13,7 @@ type CrewEquipmentData<TRequired = number> = {
     station?: Station;
     required: Record<string, TRequired>;
     effects?: Effect[];
+    levels: CannonLevels;
 };
 
 type CrewEquipmentRawData = CrewEquipmentData<number>;
@@ -25,6 +27,7 @@ export class CrewEquipment {
     public station?: Station;
     public required: Record<string, RequirementEntry>;
     public effects?: Effect[];
+    public levels: CannonLevels;
 
     constructor(id: string, data: CrewEquipmentResolvedData) {
         this.id = id;
@@ -33,6 +36,7 @@ export class CrewEquipment {
         this.station = data.station;
         this.required = data.required;
         this.effects = data.effects;
+        this.levels = data.levels;
     }
 
     static loadCrewEquipmentByVersion(): CrewEquipmentsByVersion {
