@@ -5,6 +5,7 @@ import backpack from "../languages/source/backpack.json";
 import buildingElements from "../languages/source/buildingElement.json";
 import cannon from "../languages/source/cannon.json";
 import crewEquipment from "../languages/source/crewEquipment.json";
+import effects from "../languages/source/effects.json";
 import food from "../languages/source/food.json";
 import hullModification from "../languages/source/hullModification.json";
 import item from "../languages/source/item.json";
@@ -26,6 +27,7 @@ const enLanguageEntries = {
     ...buildingElements,
     ...cannon,
     ...crewEquipment,
+    ...effects,
     ...food,
     ...hullModification,
     ...item,
