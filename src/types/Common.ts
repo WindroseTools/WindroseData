@@ -16,3 +16,9 @@ export const StatAffinityDamageTypeMap: Record<StatAffinity, DamageType> = {
     "agility": "slash",
     "precision": "pierce"
 }
+
+export type Damages = Damage[];
+export type Damage = {
+    "type": DamageType,
+    "amount": number
+}

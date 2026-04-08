@@ -27,7 +27,7 @@ export { populateEffectTranslation } from "./utils";
 export { Rarity } from "./types/Rarity";
 export type { RequirementEntry, ResolvedRequirement } from "./daos/requirements";
 export type { Effect, EffectType } from "./types/Effect";
-export type { Station, StatAffinity, StatAffinityClass, DamageType } from "./types/Common";
+export type { Station, StatAffinity, StatAffinityClass, DamageType, Damages, Damage } from "./types/Common";
 
 // Constants
 export { Rarities } from "./types/Rarity";
