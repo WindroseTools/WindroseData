@@ -2,154 +2,154 @@
     "healOverTime": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Restores {{healAmount}} Health over time."
-            ]
+            ]]
         }
     },
     "instantPercentageHeal": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Instantly restores {{healAmountPercentage}}% Health."
-            ]
+            ]]
         }
     },
     "durationSeconds": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Lasts for {{duration}}s."
-            ]
+            ]]
         }
     },
     "durationSecondsInterruptOnDamage": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Lasts for {{duration}}s. Taking Damage interrupts the effect."
-            ]
+            ]]
         }
     },
     "durationMinutes": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Lasts for {{duration}} min."
-            ]
+            ]]
         }
     },
     "returnToLastRevivalPoint": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Returns you to the last revival point."
-            ]
+            ]]
         }
     },
     "percentageMeleeDamageIncrease": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Increases Melee Damage by {{damageIncreasePercent}}%."
-            ]
+            ]]
         }
     },
     "percentageRangedDamageIncrease": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Increases Ranged Damage by {{damageIncreasePercent}}%."
-            ]
+            ]]
         }
     },
     "ballisticsMediocre": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Mediocre ballistics"
-            ]
+            ]]
         }
     },
     "ballisticsPoor": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Poor ballistics"
-            ]
+            ]]
         }
     },
     "ballisticsGood": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Good ballistics"
-            ]
+            ]]
         }
     },
     "crewBoardingPowerIncrease": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Increases power of your crew while boarding other ships"
-            ]
+            ]]
         }
     },
     "percentageShipHealOverTime": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Restores {{healPercent}} Ship Health over {{duration}} Seconds."
-            ]
+            ]]
         }
     },
     "percentageReloadSpeedIncreaseForMinutes": {
         "demo": {
             "name": "",
-            "description": [
+            "description": [[
                 "Increases Reload Speed by {{reloadSpeedIncreasePercent}}% for {{duration}} min."
-            ]
+            ]]
         }
     },
     "statPointIncreaseStrength": {
         "demo": {
             "name": "{{pointAmount}} Strength",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     },
     "statPointIncreaseAgility": {
         "demo": {
             "name": "{{pointAmount}} Agility",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     },
     "statPointIncreasePrecision": {
         "demo": {
             "name": "{{pointAmount}} Precision",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     },
     "statPointIncreaseMastery": {
         "demo": {
             "name": "{{pointAmount}} Mastery",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     },
     "statPointIncreaseVitality": {
         "demo": {
             "name": "{{pointAmount}} Vitality",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     },
     "statPointIncreaseEndurance": {
         "demo": {
             "name": "{{pointAmount}} Endurance",
-            "description": [],
+            "description": [[]],
             "usesIcon": true
         }
     }
