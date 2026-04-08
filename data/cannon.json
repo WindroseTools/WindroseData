@@ -6,6 +6,15 @@
                 "id": "shipwrightsWorkshop",
                 "level": 1
             },
+            "damage": 0,
+            "reloadTime": 0,
+            "range": "B",
+            "accuracy": "B",
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
             "required": {
                 "copperIngot": 10,
                 "wood": 10
