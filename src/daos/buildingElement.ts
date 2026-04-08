@@ -1,6 +1,5 @@
 import buildingElementData from "../../data/buildingElement.json";
-import { BEType, MountingRestriction, WorkingRestriction } from "../types/BuildingElement";
-import { Levels } from "../types/Common";
+import { BEType, BuildingLevels, MountingRestriction, WorkingRestriction } from "../types/BuildingElement";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
@@ -17,7 +16,7 @@ type BuildingElementData<TRequired = number> = {
     mountingRestriction?: MountingRestriction;
     capacity?: number;
     comfort?: number;
-    levels?: Levels;
+    levels?: BuildingLevels;
 };
 
 type BuildingElementRawData = BuildingElementData<number>;
@@ -37,7 +36,7 @@ export class BuildingElement {
     public mountingRestriction?: MountingRestriction;
     public capacity?: number;
     public comfort?: number;
-    public levels?: Levels;
+    public levels?: BuildingLevels;
 
     constructor(id: string, data: BuildingElementResolvedData) {
         this.id = id;
