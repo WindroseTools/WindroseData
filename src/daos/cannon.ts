@@ -1,6 +1,7 @@
 import cannonData from "../../data/cannon.json";
-import { AccuracyGrade, CannonLevels, RangeGrade } from "../types/Cannon";
+import { AccuracyGrade, RangeGrade } from "../types/Cannon";
 import { Station } from "../types/Common";
+import { AttackLevels } from "../types/Level";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -14,7 +15,7 @@ type CannonData<TRequired = number> = {
     reloadTime: number;
     range: RangeGrade;
     accuracy: AccuracyGrade;
-    levels: CannonLevels;
+    levels: AttackLevels;
     required: Record<string, TRequired>;
 };
 
@@ -31,7 +32,7 @@ export class Cannon {
     public reloadTime: number;
     public range: RangeGrade;
     public accuracy: AccuracyGrade;
-    public levels: CannonLevels;
+    public levels: AttackLevels;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: CannonResolvedData) {
