@@ -34,7 +34,13 @@
             "required": {
                 "coconut": 1,
                 "banana": 2
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseStrength",
+                    "pointAmount": 5
+                }
+            ]
         }
     },
     "spicyChickenWithSweetPotato": {
@@ -49,7 +55,13 @@
                 "birdMeat": 2,
                 "cayennePepper": 4,
                 "sweetPotato": 4
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 10
+                }
+            ]
         }
     },
     "baconAndEggs": {
@@ -63,7 +75,13 @@
             "required": {
                 "meat": 1,
                 "dodoEgg": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 5
+                }
+            ]
         }
     },
     "boiledCrab": {
@@ -90,7 +108,13 @@
                 "birdMeat": 2,
                 "dodoEgg": 1,
                 "cayennePepper": 3
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseStrength",
+                    "pointAmount": 10
+                }
+            ]
         }
     },
     "skeweredMeat": {
@@ -116,7 +140,13 @@
             "required": {
                 "crabMeat": 1,
                 "cayennePepper": 2
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseStrength",
+                    "pointAmount": 5
+                }
+            ]
         }
     },
     "heartyEggBroth": {
@@ -131,7 +161,13 @@
                 "sweetPotato": 4,
                 "dodoEgg": 1,
                 "birdMeat": 2
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseAgility",
+                    "pointAmount": 10
+                }
+            ]
         }
     },
     "dodoBroth": {
@@ -158,7 +194,13 @@
                 "coconut": 1,
                 "sweetPotato": 2,
                 "meat": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseAgility",
+                    "pointAmount": 5
+                }
+            ]
         }
     }
 }

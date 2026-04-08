@@ -110,5 +110,47 @@
                 "Increases Reload Speed by {{reloadSpeedIncreasePercent}}% for {{duration}} min."
             ]
         }
+    },
+    "statPointIncreaseStrength": {
+        "demo": {
+            "name": "{{pointAmount}} Strength",
+            "description": [],
+            "usesIcon": true
+        }
+    },
+    "statPointIncreaseAgility": {
+        "demo": {
+            "name": "{{pointAmount}} Agility",
+            "description": [],
+            "usesIcon": true
+        }
+    },
+    "statPointIncreasePrecision": {
+        "demo": {
+            "name": "{{pointAmount}} Precision",
+            "description": [],
+            "usesIcon": true
+        }
+    },
+    "statPointIncreaseMastery": {
+        "demo": {
+            "name": "{{pointAmount}} Mastery",
+            "description": [],
+            "usesIcon": true
+        }
+    },
+    "statPointIncreaseVitality": {
+        "demo": {
+            "name": "{{pointAmount}} Vitality",
+            "description": [],
+            "usesIcon": true
+        }
+    },
+    "statPointIncreaseEndurance": {
+        "demo": {
+            "name": "{{pointAmount}} Endurance",
+            "description": [],
+            "usesIcon": true
+        }
     }
 }
