@@ -21,6 +21,7 @@ export { UnifiedItems } from "./unifiedItems";
 export type { UnifiedItem, UnifiedItemsByVersion } from "./unifiedItems";
 
 export { createVersionedRawStore, instantiateVersionedEntries } from "./daos/helpers";
+export { populateEffectTranslation } from "./utils";
 
 // Types
 export { Rarity } from "./types/Rarity";
@@ -29,4 +30,4 @@ export type { RequirementEntry, ResolvedRequirement } from "./daos/requirements"
 // Constants
 export { Rarities } from "./types/Rarity";
 
-export { Languages } from "./languages";
+export { Languages, LanguageData } from "./languages";
