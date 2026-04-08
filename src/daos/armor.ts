@@ -1,6 +1,6 @@
 import armorsData from "../../data/armor.json";
-import { ArmorLevels } from "../types/Armor";
 import { Station } from "../types/Common";
+import { DefenseLevels } from "../types/Level";
 import { Rarity } from "../types/Rarity";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
@@ -12,7 +12,7 @@ type ArmorData<TRequired = number> = {
     stackLimit: number;
     station?: Station;
     set?: string;
-    levels: ArmorLevels;
+    levels: DefenseLevels;
     required: Record<string, TRequired>;
 };
 
@@ -28,7 +28,7 @@ export class Armor {
     public stackLimit: number;
     public station?: Station;
     public set?: string;
-    public levels: ArmorLevels;
+    public levels: DefenseLevels;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: ArmorResolvedData) {
