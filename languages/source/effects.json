@@ -1,0 +1,66 @@
+{
+    "healOverTime": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Restores {{healAmount}} Health over time."
+            ]
+        }
+    },
+    "instantPercentageHeal": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Instantly restores {{healAmountPercentage}}% Health."
+            ]
+        }
+    },
+    "durationSeconds": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Lasts for {{duration}}s."
+            ]
+        }
+    },
+    "durationSecondsInterruptOnDamage": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Lasts for {{duration}}s. Taking Damage interrupts the effect."
+            ]
+        }
+    },
+    "durationMinutes": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Lasts for {{duration}} min."
+            ]
+        }
+    },
+    "returnToLastRevivalPoint": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Returns you to the last revival point."
+            ]
+        }
+    },
+    "percentageMeleeDamageIncrease": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Increases Melee Damage by {{damageIncreasePercent}}%."
+            ]
+        }
+    },
+    "percentageRangedDamageIncrease": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Increases Ranged Damage by {{damageIncreasePercent}}%."
+            ]
+        }
+    }
+}

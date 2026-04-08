@@ -12,7 +12,12 @@
                 "rumBottle": 2,
                 "feather": 4,
                 "undeadEssence": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "returnToLastRevivalPoint"
+                }
+            ]
         }
     },
     "undeadEssence": {
@@ -33,13 +38,33 @@
                 "alchemicalBase": 1,
                 "boarTusk": 1,
                 "pearl": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "percentageMeleeDamageIncrease",
+                    "damageIncreasePercent": 10
+                },
+                {
+                    "type": "durationMinutes",
+                    "duration": 15
+                }
+            ]
         }
     },
     "elixirOfPrecision": {
         "demo": {
             "rarity": "rare",
-            "stackLimit": 0
+            "stackLimit": 0,
+            "effects": [
+                {
+                    "type": "percentageRangedDamageIncrease",
+                    "damageIncreasePercent": 10
+                },
+                {
+                    "type": "durationMinutes",
+                    "duration": 15
+                }
+            ]
         }
     }
 }
