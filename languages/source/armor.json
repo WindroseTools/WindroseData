@@ -1,0 +1,172 @@
+{
+    "headband": {
+        "demo": {
+            "name": "Headband",
+            "description": [[
+                "These rags were once fine clothes."
+            ]]
+        }
+    },
+    "tornDoublet": {
+        "demo": {
+            "name": "Torn Doublet",
+            "description": [[
+                "These rags were once fine clothes."
+            ]]
+        }
+    },
+    "tornPants": {
+        "demo": {
+            "name": "Torn Pants",
+            "description": [[
+                "These rags were once fine clothes."
+            ]]
+        }
+    },
+    "tornGloves": {
+        "demo": {
+            "name": "Torn Gloves",
+            "description": [[
+                "These rags were once fine clothes."
+            ]]
+        }
+    },
+    "tornBoots": {
+        "demo": {
+            "name": "Torn Boots",
+            "description": [[
+                "These rags were once fine clothes."
+            ]]
+        }
+    },
+    "survivorsBoots": {
+        "demo": {
+            "name": "Survivor's Boots",
+            "description": [[
+                "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
+            ]]
+        }
+    },
+    "survivorsGloves": {
+        "demo": {
+            "name": "Survivor's Gloves",
+            "description": [[
+                "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
+            ]]
+        }
+    },
+    "survivorsBandana": {
+        "demo": {
+            "name": "Survivor's Bandana",
+            "description": [[
+                "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
+            ]]
+        }
+    },
+    "survivorsPants": {
+        "demo": {
+            "name": "Survivor's Pants",
+            "description": [[
+                "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
+            ]]
+        }
+    },
+    "survivorsJacket": {
+        "demo": {
+            "name": "Survivor's Jacket",
+            "description": [[
+                "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
+            ]]
+        }
+    },
+    "marksmansTricorn": {
+        "demo": {
+            "name": "Marksman's Tricorn",
+            "description": [[
+                "Tortuga's marksmen favor attire made of light fabric.",
+                "It allows easier movement across rough terrain and steadier shots at moving targets."
+            ]]
+        }
+    },
+    "marksmansPants": {
+        "demo": {
+            "name": "Marksman's Pants",
+            "description": [[
+                "Tortuga's marksmen favor attire made of light fabric.",
+                "It allows easier movement across rough terrain and steadier shots at moving targets."
+            ]]
+        }
+    },
+    "marksmansDoublet": {
+        "demo": {
+            "name": "Marksman's Doublet",
+            "description": [[
+                "Tortuga's marksmen favor attire made of light fabric.",
+                "It allows easier movement across rough terrain and steadier shots at moving targets."
+            ]]
+        }
+    },
+    "flibustiersBoots": {
+        "demo": {
+            "name": "Flibustier's Boots",
+            "description": [[
+                "This outfit, sewn from coarse fabric, isn't about protection - it's about speed.",
+                "It allows swift movement and easy use of the blade."
+            ]]
+        }
+    },
+    "flibustiersGloves": {
+        "demo": {
+            "name": "Flibustier's Gloves",
+            "description": [[
+                "This outfit, sewn from coarse fabric, isn't about protection - it's about speed.",
+                "It allows swift movement and easy use of the blade."
+            ]]
+        }
+    },
+    "privateersHat": {
+        "demo": {
+            "name": "Privateer's Hat",
+            "description": [[
+                "An elegant attire worn by captains.",
+                "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
+            ]]
+        }
+    },
+    "privateersDoublet": {
+        "demo": {
+            "name": "Privateer's Doublet",
+            "description": [[
+                "An elegant attire worn by captains.",
+                "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
+            ]]
+        }
+    },
+    "privateersPants": {
+        "demo": {
+            "name": "Privateer's Pants",
+            "description": [[
+                "An elegant attire worn by captains.",
+                "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
+            ]]
+        }
+    },
+    "privateersGloves": {
+        "demo": {
+            "name": "Privateer's Gloves",
+            "description": [[
+                "An elegant attire worn by captains.",
+                "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
+            ]]
+        }
+    },
+    "privateersBoots": {
+        "demo": {
+            "name": "Privateer's Boots",
+            "description": [[
+                "An elegant attire worn by captains.",
+                "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
+            ]]
+        }
+    }
+}

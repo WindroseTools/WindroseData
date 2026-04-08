@@ -176,5 +176,21 @@
                 "Increases one-handed weapon Damage by {{damageIncreasePercent}}%."
             ]]
         }
+    },
+    "percentageCriticalHitChanceIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increase Critical Hit Chance by {{criticalHitChanceIncreasePercent}}%."
+            ]]
+        }
+    },
+    "percentageCriticalDamageIncreaseForNearbyEnemies": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Critical Damage by {{criticalDamageIncreasePercent}}% for each nearby enemy, up to {{maxIncreasePercent}}%."
+            ]]
+        }
     }
 }

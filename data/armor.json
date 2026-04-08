@@ -1,0 +1,322 @@
+{
+    "headband": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0,
+            "levels": {
+                "1": {
+                    "defenseScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "tornDoublet": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0,
+            "levels": {
+                "1": {
+                    "defenseScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "tornPants": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0,
+            "levels": {
+                "1": {
+                    "defenseScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "tornGloves": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0,
+            "levels": {
+                "1": {
+                    "defenseScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "tornBoots": {
+        "demo": {
+            "rarity": "common",
+            "stackLimit": 0,
+            "levels": {
+                "1": {
+                    "defenseScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "survivorsBoots": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 1,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "survivorsGloves": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 1,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "survivorsBandana": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 1,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "survivorsPants": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 1,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "survivorsJacket": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 1,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "marksmansTricorn": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "marksmansRig",
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "coarseFabric": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "marksmansPants": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "marksmansRig",
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "coarseFabric": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "marksmansDoublet": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "marksmansRig",
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "coarseFabric": 5,
+                "roughHide": 2
+            }
+        }
+    },
+    "flibustiersBoots": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "flibustiersAttire",
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "flibustiersGloves": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "flibustiersAttire",
+            "station": {
+                "id": "armorAndClothingWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {
+                "roughHide": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "privateersHat": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "privateersRegalia",
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {}
+        }
+    },
+    "privateersDoublet": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "privateersRegalia",
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {}
+        }
+    },
+    "privateersPants": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "privateersRegalia",
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {}
+        }
+    },
+    "privateersGloves": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "privateersRegalia",
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {}
+        }
+    },
+    "privateersBoots": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "set": "privateersRegalia",
+            "levels": {
+                "1": {
+                    "defenseScore": 100
+                }
+            },
+            "required": {}
+        }
+    }
+}

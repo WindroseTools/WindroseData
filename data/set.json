@@ -36,5 +36,25 @@
                 ]
             }
         }
+    },
+    "privateersRegalia": {
+        "demo": {
+            "pieces": ["privateersHat","privateersDoublet","privateersPants","privateersGloves","privateersBoots"],
+            "pieceBonuses": {
+                "2": [
+                    {
+                        "type": "percentageCriticalHitChanceIncrease",
+                        "criticalHitChanceIncreasePercent": 10
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "percentageCriticalDamageIncreaseForNearbyEnemies",
+                        "criticalDamageIncreasePercent": 10,
+                        "maxIncreasePercent": 30
+                    }
+                ]
+            }
+        }
     }
 }
