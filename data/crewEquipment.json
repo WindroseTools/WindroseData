@@ -10,7 +10,12 @@
                 "copperIngot": 7,
                 "roughHide": 7,
                 "coarseFabric": 7
-            }
+            },
+            "effects": [
+                {
+                    "type": "crewBoardingPowerIncrease"
+                }
+            ]
         }
     }
 }

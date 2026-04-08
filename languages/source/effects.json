@@ -62,5 +62,53 @@
                 "Increases Ranged Damage by {{damageIncreasePercent}}%."
             ]
         }
+    },
+    "ballisticsMediocre": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Mediocre ballistics"
+            ]
+        }
+    },
+    "ballisticsPoor": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Poor ballistics"
+            ]
+        }
+    },
+    "ballisticsGood": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Good ballistics"
+            ]
+        }
+    },
+    "crewBoardingPowerIncrease": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Increases power of your crew while boarding other ships"
+            ]
+        }
+    },
+    "percentageShipHealOverTime": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Restores {{healPercent}} Ship Health over {{duration}} Seconds."
+            ]
+        }
+    },
+    "percentageReloadSpeedIncreaseForMinutes": {
+        "demo": {
+            "name": "",
+            "description": [
+                "Increases Reload Speed by {{reloadSpeedIncreasePercent}}% for {{duration}} min."
+            ]
+        }
     }
 }

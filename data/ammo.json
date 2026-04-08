@@ -15,7 +15,12 @@
             },
             "required": {
                 "copperIngot": 0.2
-            }
+            },
+            "effects": [
+                {
+                    "type": "ballisticsMediocre"
+                }
+            ]
         }
     },
     "stoneBullet": {
@@ -27,7 +32,12 @@
             },
             "required": {
                 "stone": 0.6
-            }
+            },
+            "effects": [
+                {
+                    "type": "ballisticsPoor"
+                }
+            ]
         }
     },
     "homemadeGunpowder": {
@@ -39,7 +49,16 @@
     "ironBullet": {
         "demo": {
             "rarity": "uncommon",
-            "stackLimit": 0
+            "stackLimit": 0,
+            "effects": [
+                {
+                    "type": "percentageRangedDamageIncrease",
+                    "damageIncreasePercent": 10
+                },
+                {
+                    "type": "ballisticsGood"
+                }
+            ]
         }
     }
 }

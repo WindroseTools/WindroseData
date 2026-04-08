@@ -11,7 +11,14 @@
                 "wood": 10,
                 "steelNails": 1,
                 "rumBottle": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "percentageShipHealOverTime",
+                    "healPercent": 80,
+                    "duration": 10
+                }
+            ]
         }
     },
     "combatRepairKit": {
@@ -26,7 +33,14 @@
                 "wood": 4,
                 "nails": 12,
                 "rumBottle": 1
-            }
+            },
+            "effects": [
+                {
+                    "type": "percentageShipHealOverTime",
+                    "healPercent": 40,
+                    "duration": 10
+                }
+            ]
         }
     },
     "repairKit": {
@@ -39,7 +53,14 @@
             },
             "required": {
                 "wood": 2
-            }
+            },
+            "effects": [
+                {
+                    "type": "percentageShipHealOverTime",
+                    "healPercent": 45,
+                    "duration": 30
+                }
+            ]
         }
     },
     "gunroomGrog": {
@@ -54,7 +75,14 @@
                 "rumBottle": 1,
                 "whiskey": 1,
                 "cayennePepper": 2
-            }
+            },
+            "effects": [
+                {
+                    "type": "percentageReloadSpeedIncreaseForMinutes",
+                    "reloadSpeedIncreasePercent": 15,
+                    "duration": 5
+                }
+            ]
         }
     }
 }
