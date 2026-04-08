@@ -152,5 +152,29 @@
             "description": [[]],
             "usesIcon": true
         }
+    },
+    "percentageStaminaReductionForSprintingJumpDash": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Sprinting, Jump, and Dash consume {{percentageReduction}}% less Stamina."
+            ]]
+        }
+    },
+    "percentageReducedAttackStaminaConsumption": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Attacks consume {{percentageReduction}}% less Stamina."
+            ]]
+        }
+    },
+    "percentageOneHandWeaponDamageIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases one-handed weapon Damage by {{damageIncreasePercent}}%."
+            ]]
+        }
     }
 }

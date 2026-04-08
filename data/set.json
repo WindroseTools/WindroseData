@@ -1,0 +1,40 @@
+{
+    "marksmansRig": {
+        "demo": {
+            "pieces": [],
+            "pieceBonuses": {
+                "2": [
+                    {
+                        "type": "percentageStaminaReductionForSprintingJumpDash",
+                        "percentageReduction": 30
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "percentageRangedDamageIncrease",
+                        "damageIncreasePercent": 15
+                    }
+                ]
+            }
+        }
+    },
+    "flibustiersAttire": {
+        "demo": {
+            "pieces": [],
+            "pieceBonuses": {
+                "2": [
+                    {
+                        "type": "percentageReducedAttackStaminaConsumption",
+                        "percentageReduction": 20
+                    }
+                ],
+                "4": [
+                    {
+                        "type": "percentageOneHandWeaponDamageIncrease",
+                        "damageIncreasePercent": 15
+                    }
+                ]
+            }
+        }
+    }
+}
