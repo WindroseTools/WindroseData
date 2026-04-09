@@ -1,0 +1,11 @@
+{
+    "minorProspectorRing": {
+        "demo": {
+            "name": "Minor Prospector Ring",
+            "description": [[
+                "Reminds its wearer of riches buried below.",
+                "Funny how you don't tire so quickly when treasure's this close?!"
+            ]]
+        }
+    }
+}

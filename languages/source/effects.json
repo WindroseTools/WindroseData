@@ -267,5 +267,13 @@
                 "Increases Critical Damage by {{criticalDamageIncreasePercent}}%."
             ]]
         }
+    },
+    "percentageReducedStaminaConsumptionForResourceGathering": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Resource gathering consumes {{percentReduction}}% less Stamina"
+            ]]
+        }
     }
 }
