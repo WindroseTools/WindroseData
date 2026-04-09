@@ -237,5 +237,24 @@
                 "- \"Cooked Compass\" Billy, navigator"
             ]
         }
+    },
+    "coffee": {
+        "demo": {
+            "name": "Coffee",
+            "description": [
+                [
+                    "All-purpose human fuel.",
+                    "Helps you last a few hours past sundown - and keeps you from putting a bullet in your head come morning."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "Love is like coffee: it can be sweet, it can be bitter, and in large doses, it can be lethal.",
+                "- Doctor Galen Skelton"
+            ]
+        }
     }
 }

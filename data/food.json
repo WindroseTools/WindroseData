@@ -202,5 +202,18 @@
                 }
             ]
         }
+    },
+    "coffee": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "required": {},
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 20
+                }
+            ]
+        }
     }
 }
