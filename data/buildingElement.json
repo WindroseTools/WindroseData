@@ -105,6 +105,9 @@
             "type": "personalEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
+            "levels": {
+                "1": {}
+            },
             "required": {
                 "wood": 5,
                 "coarseFabric": 10
@@ -116,6 +119,9 @@
             "type": "personalEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
+            "levels": {
+                "1": {}
+            },
             "required": {
                 "wood": 10,
                 "copperIngot": 5
