@@ -1,0 +1,20 @@
+{
+    "minorNecklaceOfVitality": {
+        "demo": {
+            "name": "Minor Necklace of Vitality",
+            "description": [[
+                "Priests of ancient people once wore necklaces like these as a mark of devotion to a fertility god."
+            ]]
+        }
+    },
+    "minorAmuletOfStamina": {
+        "demo": {
+            "name": "Minor Amulet of Stamina",
+            "description": [[
+                "Once, a brave warrior who had a similar amulet challenged a monster.",
+                "He fought it for three days and three nights and finally won.",
+                "Some say he collapsed from exhaustion, dead atop the beast's corpse."
+            ]]
+        }
+    }
+}

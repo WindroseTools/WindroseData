@@ -1,0 +1,28 @@
+{
+    "minorNecklaceOfVitality": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {},
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 4
+                }
+            ]
+        }
+    },
+    "minorAmuletOfStamina": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "required": {},
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 4
+                }
+            ]
+        }
+    }
+}
