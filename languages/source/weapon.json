@@ -1,0 +1,145 @@
+{
+    "wornOutPistol": {
+        "demo": {
+            "name": "Worn-Out Pistol",
+            "description": [[
+                "You can fire it... if you're truly desperate."
+            ]],
+            "comment": [
+                "There's a pirate superstition: if the pistol doesn't explode in your hands, it's a sign of good luck."
+            ]
+        }
+    },
+    "brokenBlade": {
+        "demo": {
+            "name": "Broken Blade",
+            "description": [[
+                "At least it's still sharp..."
+            ]],
+            "comment": [
+                "Every good story begins with a hero who's lost everything and finds himself sitting by a wrecked ship."
+            ]
+        }
+    },
+    "reliableSaber": {
+        "demo": {
+            "name": "Sturdy Saber",
+            "description": [[
+                "A simple, sturdy saber with no frills.",
+                "Its blade is scored with jagged notches from countless skirmishes - and more than once it's spared its owner a mortal wound."
+            ]],
+            "comment": [
+                "A simple weapon for hard times."
+            ]
+        }
+    },
+    "blankSaber": {
+        "demo": {
+            "name": "Sturdy Saber",
+            "description": [[
+                "A simple, sturdy saber with no frills.",
+                "Its blade is scored with jagged notches from countless skirmishes - and more than once it's spared its owner a mortal wound."
+            ]],
+            "comment": [
+                "A simple weapon for hard times."
+            ]
+        }
+    },
+    "executioner": {
+        "demo": {
+            "name": "Executioner",
+            "description": [[
+                "The blade of this halberd bears the memory of every criminal executed for the glory of the Spanish Crown."
+            ]],
+            "comment": [
+                "Takes their head off in one swing! Well... sometimes two."
+            ]
+        }
+    },
+    "rapierOfAThousandCuts": {
+        "demo": {
+            "name": "Rapier of a Thousand Cuts",
+            "description": [[
+                "An expensive Spanish rapier with a silver hilt.",
+                "Its thin blade deals dozens of small wounds - each one slowly draining the life from its victim and leaving them to bleed out."
+            ]],
+            "comment": [
+                "You ask how he died? Two ways. Gradually, then suddenly."
+            ]
+        }
+    },
+    "razor": {
+        "demo": {
+            "name": "Razor",
+            "description": [[
+                "Nassau pirates prefer swift and brutal weapons.",
+                "This saber, razor-sharp and battle-hardened, is getting their highest praise."
+            ]],
+            "comment": [
+                "Feints, eh? Blade to the throat - then overboard.",
+                "- Israel Hands"
+            ]
+        }
+    },
+    "reliableMusket": {
+        "demo": {
+            "name": "Reliable Musket",
+            "description": [[
+                "It won't win any prizes for accuracy, but it never misfires - even in the foulest weather."
+            ]],
+            "comment": [
+                "Pirate wisdom says: You won't miss if you shoot at point-blank range."
+            ]
+        }
+    },
+    "club": {
+        "demo": {
+            "name": "Club",
+            "description": [[
+                "Sturdy and very heavy.",
+                "What else do you need from a club?"
+            ]],
+            "comment": [
+                "An excellent way to get your point across - straight into your opponent's head."
+            ]
+        }
+    },
+    "rapier": {
+        "demo": {
+            "name": "Rapier",
+            "description": [[
+                "A balanced rapier without excess.",
+                "Its guard is studded with chips... jagged notches from hundreds of parried blows.",
+                "Still, it's beautiful."
+            ]],
+            "comment": [
+                "When fencing becomes a language of its own."
+            ]
+        }
+    },
+    "saber": {
+        "demo": {
+            "name": "Saber",
+            "description": [[
+                "A simple saber, well-suited to hacking down foes on cramped ship decks."
+            ]],
+            "comment": [
+                "It doesn't sparkle, it doesn't sing, and it doesn't promise victory.",
+                "It just cuts."
+            ]
+        }
+    },
+    "pistol": {
+        "demo": {
+            "name": "Pistol",
+            "description": [[
+                "What's better than one shot? Two shots!",
+                "It fires gentle, with hardly any kick.",
+                "Just make sure you reload in time."
+            ]],
+            "comment": [
+                "There are many like it, but this one is mine."
+            ]
+        }
+    }
+}

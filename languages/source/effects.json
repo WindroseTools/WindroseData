@@ -192,5 +192,48 @@
                 "Increases Critical Damage by {{criticalDamageIncreasePercent}}% for each nearby enemy, up to {{maxIncreasePercent}}%."
             ]]
         }
+    },
+    "posturePointsIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Posture Points by {{pointAmount}}."
+            ]]
+        }
+    },
+    "rageStackOnEnemyKill": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Killing enemies grants stacks of Rage effect.",
+                "Each stack increases your Critical Hit Chance by {{critHitChanceIncreasePerStack}}%, up to {{maxCritHitChanceIncrease}}%."
+            ]]
+        }
+    },
+    "bleedingStackUponDamageDealt": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Dealing Damage applies Bleeding.",
+                "Stacks up to {{maxStacks}} times",
+                "Each stack deals {{damagePerSecondPerStack}} Damage per second."
+            ]]
+        }
+    },
+    "baseCriticalHitChanceIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases base Critical Hit Chance by {{criticalHitChanceIncreasePercent}}%."
+            ]]
+        }
+    },
+    "fasterReloadThanOtherMuskets": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Reloads faster than other muskets."
+            ]]
+        }
     }
 }

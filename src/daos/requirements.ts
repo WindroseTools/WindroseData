@@ -24,6 +24,7 @@ type RequirementLookupContext = {
     getMiscellaneous?: (id: string, version: Version) => unknown;
     getSet?: (id: string, version: Version) => unknown;
     getArmor?: (id: string, version: Version) => unknown;
+    getWeapon?: (id: string, version: Version) => unknown;
 };
 
 type CircularDependencyNode = {

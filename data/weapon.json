@@ -1,0 +1,399 @@
+{
+    "wornOutPistol": {
+        "demo": {
+            "stackLimit": 0,
+            "type": "ranged",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 300
+                }
+            ],
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "C"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "brokenBlade": {
+        "demo": {
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 195
+                }
+            ],
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "C"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 90
+                }
+            },
+            "required": {}
+        }
+    },
+    "blankSaber": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 250
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "A"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "posturePointsIncrease",
+                    "pointAmount": 1
+                }
+            ],
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "reliableSaber": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 250
+                }
+            ],
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "S"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "posturePointsIncrease",
+                    "pointAmount": 1
+                },
+                {
+                    "type": "percentageReducedAttackStaminaConsumption",
+                    "percentageReduction": 20
+                }
+            ],
+            "required": {}
+        }
+    },
+    "executioner": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "crude",
+                    "amount": 335
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "strength",
+                    "class": "C"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "rageStackOnEnemyKill",
+                    "critHitChanceIncreasePerStack": 10,
+                    "maxCritHitChanceIncrease": 30
+                }
+            ],
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "rapierOfAThousandCuts": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 120
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "C"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "bleedingStackUponDamageDealt",
+                    "maxStacks": 5,
+                    "damagePerSecondPerStack": 40
+                }
+            ],
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "razor": {
+        "demo": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 245
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "A"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "baseCriticalHitChanceIncrease",
+                    "criticalHitChanceIncreasePercent": 10
+                }
+            ],
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "reliableMusket": {
+        "demo": {
+            "stackLimit": 0,
+            "type": "ranged",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 600
+                }
+            ],
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "A"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "fasterReloadThanOtherMuskets"
+                }
+            ],
+            "required": {
+                "wood": 10,
+                "copperIngot": 7
+            }
+        }
+    },
+    "club": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "crude",
+                    "amount": 240
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "strength",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "required": {
+                "wood": 10,
+                "copperIngot": 5
+            }
+        }
+    },
+    "rapier": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 230
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "saber": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 225
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "required": {
+                "copperIngot": 7,
+                "roughHide": 2
+            }
+        }
+    },
+    "pistol": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "type": "ranged",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 360
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "required": {
+                "wood": 10,
+                "copperIngot": 5
+            }
+        }
+    }
+}

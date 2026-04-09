@@ -22,3 +22,9 @@ export type Damage = {
     "type": DamageType,
     "amount": number
 }
+
+export type StatDetails = StatDetail[];
+export type StatDetail = {
+    "affinity": StatAffinity,
+    "class": StatAffinityClass
+}
