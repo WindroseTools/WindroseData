@@ -303,5 +303,30 @@
                 ""
             ]]
         }
+    },
+    "woodenPlank": {
+        "demo": {
+            "name": "Wooden Plank",
+            "description": [[
+                "Required for shipbuilding"
+            ]]
+        }
+    },
+    "timber": {
+        "demo": {
+            "name": "Timber",
+            "description": [[
+                "Shipbuilding material.",
+                "Made from divi-divi wood found in the Foothills."
+            ]]
+        }
+    },
+    "tarredPlanks": {
+        "demo": {
+            "name": "Tarred Planks",
+            "description": [[
+                "Resist moisture exceptionally well - essential for shipbuilding."
+            ]]
+        }
     }
 }

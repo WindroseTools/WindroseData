@@ -274,5 +274,23 @@
             "rarity": "uncommon",
             "stackLimit": 0
         }
+    },
+    "woodenPlank": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "timber": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "tarredPlanks": {
+        "demo": {
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
     }
 }
