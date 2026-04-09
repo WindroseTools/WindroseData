@@ -44,7 +44,11 @@
             "name": "Survivor's Boots",
             "description": [[
                 "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
-            ]]
+            ]],
+            "comment": [
+                "Each time we journey to where the sky meets the sea, we begin a new legend.",
+                "- Exquemelin, a traveler"
+            ]
         }
     },
     "survivorsGloves": {
@@ -52,7 +56,11 @@
             "name": "Survivor's Gloves",
             "description": [[
                 "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
-            ]]
+            ]],
+            "comment": [
+                "Each time we journey to where the sky meets the sea, we begin a new legend.",
+                "- Exquemelin, a traveler"
+            ]
         }
     },
     "survivorsBandana": {
@@ -60,7 +68,11 @@
             "name": "Survivor's Bandana",
             "description": [[
                 "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
-            ]]
+            ]],
+            "comment": [
+                "Each time we journey to where the sky meets the sea, we begin a new legend.",
+                "- Exquemelin, a traveler"
+            ]
         }
     },
     "survivorsPants": {
@@ -68,7 +80,11 @@
             "name": "Survivor's Pants",
             "description": [[
                 "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
-            ]]
+            ]],
+            "comment": [
+                "Each time we journey to where the sky meets the sea, we begin a new legend.",
+                "- Exquemelin, a traveler"
+            ]
         }
     },
     "survivorsJacket": {
@@ -76,7 +92,11 @@
             "name": "Survivor's Jacket",
             "description": [[
                 "A roughly made outfit, well suited for hacking through jungle thickets and fending off boar tusks."
-            ]]
+            ]],
+            "comment": [
+                "Each time we journey to where the sky meets the sea, we begin a new legend.",
+                "- Exquemelin, a traveler"
+            ]
         }
     },
     "marksmansTricorn": {
@@ -85,7 +105,10 @@
             "description": [[
                 "Tortuga's marksmen favor attire made of light fabric.",
                 "It allows easier movement across rough terrain and steadier shots at moving targets."
-            ]]
+            ]],
+            "comment": [
+                "Shoot first, ask questions second."
+            ]
         }
     },
     "marksmansPants": {
@@ -94,7 +117,10 @@
             "description": [[
                 "Tortuga's marksmen favor attire made of light fabric.",
                 "It allows easier movement across rough terrain and steadier shots at moving targets."
-            ]]
+            ]],
+            "comment": [
+                "Shoot first, ask questions second."
+            ]
         }
     },
     "marksmansDoublet": {
@@ -103,7 +129,10 @@
             "description": [[
                 "Tortuga's marksmen favor attire made of light fabric.",
                 "It allows easier movement across rough terrain and steadier shots at moving targets."
-            ]]
+            ]],
+            "comment": [
+                "Shoot first, ask questions second."
+            ]
         }
     },
     "flibustiersBoots": {
@@ -112,7 +141,11 @@
             "description": [[
                 "This outfit, sewn from coarse fabric, isn't about protection - it's about speed.",
                 "It allows swift movement and easy use of the blade."
-            ]]
+            ]],
+            "comment": [
+                "Armor is for cowards.",
+                "Your best protection is a blade that pierces the enemy's heart."
+            ]
         }
     },
     "flibustiersGloves": {
@@ -121,7 +154,11 @@
             "description": [[
                 "This outfit, sewn from coarse fabric, isn't about protection - it's about speed.",
                 "It allows swift movement and easy use of the blade."
-            ]]
+            ]],
+            "comment": [
+                "Armor is for cowards.",
+                "Your best protection is a blade that pierces the enemy's heart."
+            ]
         }
     },
     "privateersHat": {
@@ -130,7 +167,12 @@
             "description": [[
                 "An elegant attire worn by captains.",
                 "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
-            ]]
+            ]],
+            "comment": [
+                "We are not pirates. We are privateers.",
+                "We have papers, seals, and good lawyers.",
+                "- captain Benjamin Hornigold"
+            ]
         }
     },
     "privateersDoublet": {
@@ -139,7 +181,12 @@
             "description": [[
                 "An elegant attire worn by captains.",
                 "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
-            ]]
+            ]],
+            "comment": [
+                "We are not pirates. We are privateers.",
+                "We have papers, seals, and good lawyers.",
+                "- captain Benjamin Hornigold"
+            ]
         }
     },
     "privateersPants": {
@@ -148,7 +195,12 @@
             "description": [[
                 "An elegant attire worn by captains.",
                 "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
-            ]]
+            ]],
+            "comment": [
+                "We are not pirates. We are privateers.",
+                "We have papers, seals, and good lawyers.",
+                "- captain Benjamin Hornigold"
+            ]
         }
     },
     "privateersGloves": {
@@ -157,7 +209,12 @@
             "description": [[
                 "An elegant attire worn by captains.",
                 "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
-            ]]
+            ]],
+            "comment": [
+                "We are not pirates. We are privateers.",
+                "We have papers, seals, and good lawyers.",
+                "- captain Benjamin Hornigold"
+            ]
         }
     },
     "privateersBoots": {
@@ -166,7 +223,12 @@
             "description": [[
                 "An elegant attire worn by captains.",
                 "It's just as easy to deal lethal blows during a boarding operation as to strut about at the governor's reception."
-            ]]
+            ]],
+            "comment": [
+                "We are not pirates. We are privateers.",
+                "We have papers, seals, and good lawyers.",
+                "- captain Benjamin Hornigold"
+            ]
         }
     }
 }
