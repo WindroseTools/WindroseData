@@ -79,6 +79,12 @@
                     "pointAmount": 1
                 }
             ],
+            "ascension": {
+                "id": "reliableSaber",
+                "required": {
+                    "tumbagaIngot": 1
+                }
+            },
             "required": {
                 "copperIngot": 7,
                 "roughHide": 2
@@ -146,6 +152,12 @@
                     "attackScore": 100
                 }
             },
+            "ascension": {
+                "id": "executionerEpic",
+                "required": {
+                    "tumbagaIngot": 1
+                }
+            },
             "effects": [
                 {
                     "type": "rageStackOnEnemyKill",
@@ -156,6 +168,49 @@
             "required": {
                 "copperIngot": 7,
                 "roughHide": 2
+            }
+        }
+    },
+    "executionerEpic": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "crude",
+                    "amount": 335
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "strength",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "rageStackOnEnemyKill",
+                    "critHitChanceIncreasePerStack": 10,
+                    "maxCritHitChanceIncrease": 30
+                },
+                {
+                    "type": "wainEffectWhileRageEffectIsActive",
+                    "damageResistancePercentIncrease": 15
+                }
+            ],
+            "required": {
+                "executioner": 1,
+                "tumbagaIngot": 1
             }
         }
     },
@@ -192,9 +247,57 @@
                     "damagePerSecondPerStack": 40
                 }
             ],
+            "ascension": {
+                "id": "roseRapierOfAThousandCuts",
+                "required": {
+                    "tumbagaIngot": 1
+                }
+            },
             "required": {
                 "copperIngot": 7,
                 "roughHide": 2
+            }
+        }
+    },
+    "roseRapierOfAThousandCuts": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 120
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "B"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "bleedingStackUponDamageDealt",
+                    "maxStacks": 5,
+                    "damagePerSecondPerStack": 40
+                },
+                {
+                    "type": "bleedingStackTransferOnEnemyDeath"
+                }
+            ],
+            "required": {
+                "rapierOfAThousandCuts": 1,
+                "tumbagaIngot": 1
             }
         }
     },
@@ -230,14 +333,62 @@
                     "criticalHitChanceIncreasePercent": 10
                 }
             ],
+            "ascension": {
+                "id": "razorEpic",
+                "required": {
+                    "tumbagaIngot": 1
+                }
+            },
             "required": {
                 "copperIngot": 7,
                 "roughHide": 2
             }
         }
     },
+    "razorEpic": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "type": "melee",
+            "damages": [
+                {
+                    "type": "slash",
+                    "amount": 245
+                }
+            ],
+            "station": {
+                "id": "weaponsmithWorkshop",
+                "level": 1
+            },
+            "stats": [
+                {
+                    "affinity": "agility",
+                    "class": "S"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "baseCriticalHitChanceIncrease",
+                    "criticalHitChanceIncreasePercent": 10
+                },
+                {
+                    "type": "perfectBlockOpportunityWindowIncrease"
+                }
+            ],
+            "required": {
+                "razor": 1,
+                "tumbagaIngot": 1
+            }
+        }
+    },
     "reliableMusket": {
         "demo": {
+            "rarity": "rare",
             "stackLimit": 0,
             "type": "ranged",
             "damages": [
@@ -262,9 +413,52 @@
                     "type": "fasterReloadThanOtherMuskets"
                 }
             ],
+            "ascension": {
+                "id": "reliableMusketEpic",
+                "required": {
+                    "tumbagaIngot": 1
+                }
+            },
             "required": {
                 "wood": 10,
                 "copperIngot": 7
+            }
+        }
+    },
+    "reliableMusketEpic": {
+        "demo": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "type": "ranged",
+            "damages": [
+                {
+                    "type": "pierce",
+                    "amount": 600
+                }
+            ],
+            "stats": [
+                {
+                    "affinity": "precision",
+                    "class": "S"
+                }
+            ],
+            "levels": {
+                "1": {
+                    "attackScore": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "fasterReloadThanOtherMuskets"
+                },
+                {
+                    "type": "percentageCriticalDamageIncrease",
+                    "criticalDamageIncreasePercent": 20
+                }
+            ],
+            "required": {
+                "reliableMusket": 1,
+                "tumbagaIngot": 1
             }
         }
     },

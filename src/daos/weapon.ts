@@ -3,7 +3,7 @@ import { Damages, StatDetails, Station } from "../types/Common";
 import { Effect } from "../types/Effect";
 import { AttackLevels } from "../types/Level";
 import { Rarity } from "../types/Rarity";
-import { WeaponType } from "../types/Weapon";
+import { Ascension, WeaponType } from "../types/Weapon";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
@@ -18,6 +18,7 @@ type WeaponData<TRequired = number> = {
     stats: StatDetails;
     levels: AttackLevels;
     effects?: Effect[];
+    ascension?: Ascension;
     required: Record<string, TRequired>;
 };
 
@@ -37,6 +38,7 @@ export class Weapon {
     public stats: StatDetails;
     public levels: AttackLevels;
     public effects?: Effect[];
+    public ascension?: Ascension;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: WeaponResolvedData) {
@@ -50,6 +52,7 @@ export class Weapon {
         this.stats = data.stats;
         this.levels = data.levels;
         this.effects = data.effects;
+        this.ascension = data.ascension;
         this.required = data.required;
     }
 

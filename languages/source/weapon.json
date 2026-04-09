@@ -56,6 +56,17 @@
             ]
         }
     },
+    "executionerEpic": {
+        "demo": {
+            "name": "Executioner",
+            "description": [[
+                "The blade of this halberd bears the memory of every criminal executed for the glory of the Spanish Crown."
+            ]],
+            "comment": [
+                "Takes their head off in one swing! Well... sometimes two."
+            ]
+        }
+    },
     "rapierOfAThousandCuts": {
         "demo": {
             "name": "Rapier of a Thousand Cuts",
@@ -65,6 +76,18 @@
             ]],
             "comment": [
                 "You ask how he died? Two ways. Gradually, then suddenly."
+            ]
+        }
+    },
+    "roseRapierOfAThousandCuts": {
+        "demo": {
+            "name": "Rapier of a Thousand Cuts",
+            "description": [[
+                "The scarlet rose on the guard of this elegant rapier blooms by magic when drops of blood fall upon it."
+            ]],
+            "comment": [
+                "It is said the first wielder received it in exchange for a soul.",
+                "Lies, most likely."
             ]
         }
     },
@@ -81,7 +104,31 @@
             ]
         }
     },
+    "razorEpic": {
+        "demo": {
+            "name": "Razor",
+            "description": [[
+                "Nassau pirates prefer swift and brutal weapons.",
+                "This saber, razor-sharp and battle-hardened, is getting their highest praise."
+            ]],
+            "comment": [
+                "Feints, eh? Blade to the throat - then overboard.",
+                "- Israel Hands"
+            ]
+        }
+    },
     "reliableMusket": {
+        "demo": {
+            "name": "Reliable Musket",
+            "description": [[
+                "It won't win any prizes for accuracy, but it never misfires - even in the foulest weather."
+            ]],
+            "comment": [
+                "Pirate wisdom says: You won't miss if you shoot at point-blank range."
+            ]
+        }
+    },
+    "reliableMusketEpic": {
         "demo": {
             "name": "Reliable Musket",
             "description": [[

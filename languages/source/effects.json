@@ -235,5 +235,37 @@
                 "Reloads faster than other muskets."
             ]]
         }
+    },
+    "wainEffectWhileRageEffectIsActive": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "While the Rage effect is active, you gain Ward effect granting {{damageResistancePercentIncrease}}% Damage Resistance."
+            ]]
+        }
+    },
+    "bleedingStackTransferOnEnemyDeath": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "When a target dies, all remaining Bleeding stacks transfer to the nearest enemy."
+            ]]
+        }
+    },
+    "perfectBlockOpportunityWindowIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases the Perfect Block opportunity window."
+            ]]
+        }
+    },
+    "percentageCriticalDamageIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Critical Damage by {{criticalDamageIncreasePercent}}%."
+            ]]
+        }
     }
 }
