@@ -1,16 +1,16 @@
-import weaponsData from "../../data/weapon.json";
+import meleeWeaponsData from "../../data/meleeWeapon.json";
 import { Damages, StatDetails, Station } from "../types/Common";
 import { Effect } from "../types/Effect";
 import { AttackLevels } from "../types/Level";
 import { Rarity } from "../types/Rarity";
-import { Ascension, WeaponType } from "../types/Weapon";
+import { Ascension, MeleeWeaponType } from "../types/Weapon";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
 
-type WeaponKey = keyof typeof weaponsData;
-type WeaponData<TRequired = number> = {
-    type: WeaponType;
+type MeleeWeaponKey = keyof typeof meleeWeaponsData;
+type MeleeWeaponData<TRequired = number> = {
+    type: MeleeWeaponType;
     rarity?: Rarity;
     stackLimit: number;
     station?: Station;
@@ -22,15 +22,15 @@ type WeaponData<TRequired = number> = {
     required: Record<string, TRequired>;
 };
 
-type WeaponRawData = WeaponData<number>;
-type WeaponResolvedData = WeaponData<RequirementEntry>;
+type MeleeWeaponRawData = MeleeWeaponData<number>;
+type MeleeWeaponResolvedData = MeleeWeaponData<RequirementEntry>;
 
-type WeaponsByVersion = MultiVersion<WeaponKey, Weapon>;
+type MeleeWeaponsByVersion = MultiVersion<MeleeWeaponKey, MeleeWeapon>;
 
-export class Weapon {
+export class MeleeWeapon {
     public id: string;
-    public type: WeaponType;
-    public dataType: "weapon";
+    public type: MeleeWeaponType;
+    public dataType: "meleeWeapon";
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -41,10 +41,10 @@ export class Weapon {
     public ascension?: Ascension;
     public required: Record<string, RequirementEntry>;
 
-    constructor(id: string, data: WeaponResolvedData) {
+    constructor(id: string, data: MeleeWeaponResolvedData) {
         this.id = id;
         this.type = data.type;
-        this.dataType = "weapon";
+        this.dataType = "meleeWeapon";
         this.rarity = data.rarity ?? "common";
         this.stackLimit = data.stackLimit;
         this.station = data.station;
@@ -56,21 +56,21 @@ export class Weapon {
         this.required = data.required;
     }
 
-    static loadWeaponsByVersion(): WeaponsByVersion {
+    static loadMeleeWeaponsByVersion(): MeleeWeaponsByVersion {
         const rawByVersion = createVersionedRawStore(
-            weaponsData as Record<WeaponKey, Partial<Record<Version, WeaponRawData>>>,
+            meleeWeaponsData as Record<MeleeWeaponKey, Partial<Record<Version, MeleeWeaponRawData>>>,
         );
-        const weaponsByVersion = instantiateVersionedEntries(
+        const meleeWeaponsByVersion = instantiateVersionedEntries(
             rawByVersion,
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Weapon(id, { ...baseData, required: {} });
+                return new MeleeWeapon(id, { ...baseData, required: {} });
             },
-        ) as WeaponsByVersion;
+        ) as MeleeWeaponsByVersion;
 
         RequirementUtils.registerLookupContext({
-            getWeapon: (id, version) => weaponsByVersion[version][id as WeaponKey],
+            getMeleeWeapon: (id, version) => meleeWeaponsByVersion[version][id as MeleeWeaponKey],
         });
 
         const resolvers = [
@@ -79,16 +79,16 @@ export class Weapon {
 
         resolveVersionedRequirements(
             rawByVersion,
-            weaponsByVersion,
+            meleeWeaponsByVersion,
             (data) => data.required,
-            (weapon, required) => {
-                weapon.required = required ?? {};
+            (meleeWeapon, required) => {
+                meleeWeapon.required = required ?? {};
             },
             resolvers,
         );
 
-        return weaponsByVersion;
+        return meleeWeaponsByVersion;
     }
 }
 
-export const Weapons: WeaponsByVersion = Weapon.loadWeaponsByVersion();
+export const MeleeWeapons: MeleeWeaponsByVersion = MeleeWeapon.loadMeleeWeaponsByVersion();

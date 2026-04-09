@@ -1,32 +1,8 @@
 {
-    "wornOutPistol": {
-        "demo": {
-            "stackLimit": 0,
-            "type": "ranged",
-            "damages": [
-                {
-                    "type": "pierce",
-                    "amount": 300
-                }
-            ],
-            "stats": [
-                {
-                    "affinity": "precision",
-                    "class": "C"
-                }
-            ],
-            "levels": {
-                "1": {
-                    "attackScore": 90
-                }
-            },
-            "required": {}
-        }
-    },
     "brokenBlade": {
         "demo": {
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -51,7 +27,7 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -95,7 +71,7 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -130,7 +106,7 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "halberd",
             "damages": [
                 {
                     "type": "crude",
@@ -175,7 +151,7 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "halberd",
             "damages": [
                 {
                     "type": "crude",
@@ -218,7 +194,7 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "rapier",
             "damages": [
                 {
                     "type": "pierce",
@@ -263,7 +239,7 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "rapier",
             "damages": [
                 {
                     "type": "pierce",
@@ -305,7 +281,7 @@
         "demo": {
             "rarity": "rare",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -349,7 +325,7 @@
         "demo": {
             "rarity": "epic",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -386,87 +362,11 @@
             }
         }
     },
-    "reliableMusket": {
-        "demo": {
-            "rarity": "rare",
-            "stackLimit": 0,
-            "type": "ranged",
-            "damages": [
-                {
-                    "type": "pierce",
-                    "amount": 600
-                }
-            ],
-            "stats": [
-                {
-                    "affinity": "precision",
-                    "class": "A"
-                }
-            ],
-            "levels": {
-                "1": {
-                    "attackScore": 100
-                }
-            },
-            "effects": [
-                {
-                    "type": "fasterReloadThanOtherMuskets"
-                }
-            ],
-            "ascension": {
-                "id": "reliableMusketEpic",
-                "required": {
-                    "tumbagaIngot": 1
-                }
-            },
-            "required": {
-                "wood": 10,
-                "copperIngot": 7
-            }
-        }
-    },
-    "reliableMusketEpic": {
-        "demo": {
-            "rarity": "epic",
-            "stackLimit": 0,
-            "type": "ranged",
-            "damages": [
-                {
-                    "type": "pierce",
-                    "amount": 600
-                }
-            ],
-            "stats": [
-                {
-                    "affinity": "precision",
-                    "class": "S"
-                }
-            ],
-            "levels": {
-                "1": {
-                    "attackScore": 100
-                }
-            },
-            "effects": [
-                {
-                    "type": "fasterReloadThanOtherMuskets"
-                },
-                {
-                    "type": "percentageCriticalDamageIncrease",
-                    "criticalDamageIncreasePercent": 20
-                }
-            ],
-            "required": {
-                "reliableMusket": 1,
-                "tumbagaIngot": 1
-            }
-        }
-    },
     "club": {
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "club",
             "damages": [
                 {
                     "type": "crude",
@@ -498,7 +398,7 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "rapier",
             "damages": [
                 {
                     "type": "pierce",
@@ -530,7 +430,7 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
-            "type": "melee",
+            "type": "saber",
             "damages": [
                 {
                     "type": "slash",
@@ -555,38 +455,6 @@
             "required": {
                 "copperIngot": 7,
                 "roughHide": 2
-            }
-        }
-    },
-    "pistol": {
-        "demo": {
-            "rarity": "uncommon",
-            "stackLimit": 0,
-            "type": "ranged",
-            "damages": [
-                {
-                    "type": "pierce",
-                    "amount": 360
-                }
-            ],
-            "station": {
-                "id": "weaponsmithWorkshop",
-                "level": 1
-            },
-            "stats": [
-                {
-                    "affinity": "precision",
-                    "class": "B"
-                }
-            ],
-            "levels": {
-                "1": {
-                    "attackScore": 100
-                }
-            },
-            "required": {
-                "wood": 10,
-                "copperIngot": 5
             }
         }
     }
