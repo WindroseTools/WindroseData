@@ -12,7 +12,7 @@
             "accuracy": "B",
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "required": {

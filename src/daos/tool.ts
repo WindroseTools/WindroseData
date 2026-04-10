@@ -11,7 +11,7 @@ type ToolData<TRequired = number> = {
     stackLimit: number;
     station?: Station;
     damages: Damages;
-    attackScore: number;
+    attackPower: number;
     required: Record<string, TRequired>;
 };
 
@@ -27,7 +27,7 @@ export class Tool {
     public stackLimit: number;
     public station?: Station;
     public damages: Damages;
-    public attackScore: number;
+    public attackPower: number;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: ToolResolvedData) {
@@ -37,7 +37,7 @@ export class Tool {
         this.stackLimit = data.stackLimit;
         this.station = data.station;
         this.damages = data.damages;
-        this.attackScore = data.attackScore;
+        this.attackPower = data.attackPower;
         this.required = data.required;
     }
 

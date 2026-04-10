@@ -13,7 +13,7 @@
                     "amount": 255
                 }
             ],
-            "attackScore": 140,
+            "attackPower": 140,
             "required": {
                 "copperIngot": 5,
                 "wood": 5
@@ -34,7 +34,7 @@
                     "amount": 270
                 }
             ],
-            "attackScore": 140,
+            "attackPower": 140,
             "required": {
                 "copperIngot": 5,
                 "wood": 5
@@ -54,7 +54,7 @@
                     "amount": 240
                 }
             ],
-            "attackScore": 100,
+            "attackPower": 100,
             "required": {
                 "stone": 3,
                 "wood": 3
@@ -74,7 +74,7 @@
                     "amount": 255
                 }
             ],
-            "attackScore": 100,
+            "attackPower": 100,
             "required": {
                 "stone": 3,
                 "wood": 3
@@ -95,7 +95,7 @@
                     "amount": 300
                 }
             ],
-            "attackScore": 100,
+            "attackPower": 100,
             "required": {
                 "copperIngot": 3,
                 "wood": 10

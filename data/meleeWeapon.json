@@ -17,7 +17,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 90
+                    "attackPower": 90
                 }
             },
             "required": {}
@@ -46,7 +46,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -86,7 +86,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -125,7 +125,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "ascension": {
@@ -170,7 +170,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -213,7 +213,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -258,7 +258,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -300,7 +300,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -344,7 +344,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "effects": [
@@ -385,7 +385,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "required": {
@@ -417,7 +417,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "required": {
@@ -449,7 +449,7 @@
             ],
             "levels": {
                 "1": {
-                    "attackScore": 100
+                    "attackPower": 100
                 }
             },
             "required": {
