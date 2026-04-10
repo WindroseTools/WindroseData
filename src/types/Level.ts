@@ -10,5 +10,5 @@ export type AttackLevel = Level & {
 
 export type DefenseLevels = Record<string, DefenseLevel>;
 export type DefenseLevel = Level & {
-    defenseScore: number;
+    defensePower: number;
 }

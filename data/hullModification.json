@@ -8,7 +8,7 @@
             },
             "levels": {
                 "1": {
-                    "defenseScore": 100
+                    "defensePower": 100
                 }
             },
             "required": {
