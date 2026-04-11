@@ -98,7 +98,10 @@
                     "percentageReduction": 20
                 }
             ],
-            "required": {}
+            "required": {
+                "blankSaber": 1,
+                "tumbagaIngot": 1
+            }
         }
     },
     "executioner": {
