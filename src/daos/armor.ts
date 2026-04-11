@@ -1,4 +1,5 @@
 import armorsData from "../../data/armor.json";
+import { ArmorType } from "../types/Armor";
 import { Station } from "../types/Common";
 import { DefenseLevels } from "../types/Level";
 import { Rarity } from "../types/Rarity";
@@ -8,6 +9,7 @@ import { RequirementEntry, RequirementUtils } from "./requirements";
 
 type ArmorKey = keyof typeof armorsData;
 type ArmorData<TRequired = number> = {
+    type: ArmorType;
     rarity: Rarity;
     stackLimit: number;
     station?: Station;
@@ -24,6 +26,7 @@ type ArmorsByVersion = MultiVersion<ArmorKey, Armor>;
 export class Armor {
     public id: string;
     public dataType: "armor";
+    public type: ArmorType;
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
@@ -34,6 +37,7 @@ export class Armor {
     constructor(id: string, data: ArmorResolvedData) {
         this.id = id;
         this.dataType = "armor";
+        this.type = data.type;
         this.rarity = data.rarity;
         this.stackLimit = data.stackLimit;
         this.station = data.station;

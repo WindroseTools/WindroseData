@@ -1,6 +1,7 @@
 {
     "headband": {
         "demo": {
+            "type": "headwear",
             "rarity": "common",
             "stackLimit": 0,
             "levels": {
@@ -13,6 +14,7 @@
     },
     "tornDoublet": {
         "demo": {
+            "type": "torso",
             "rarity": "common",
             "stackLimit": 0,
             "levels": {
@@ -25,6 +27,7 @@
     },
     "tornPants": {
         "demo": {
+            "type": "pants",
             "rarity": "common",
             "stackLimit": 0,
             "levels": {
@@ -37,6 +40,7 @@
     },
     "tornGloves": {
         "demo": {
+            "type": "gloves",
             "rarity": "common",
             "stackLimit": 0,
             "levels": {
@@ -49,6 +53,7 @@
     },
     "tornBoots": {
         "demo": {
+            "type": "footwear",
             "rarity": "common",
             "stackLimit": 0,
             "levels": {
@@ -61,6 +66,7 @@
     },
     "survivorsBoots": {
         "demo": {
+            "type": "footwear",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -80,6 +86,7 @@
     },
     "survivorsGloves": {
         "demo": {
+            "type": "gloves",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -99,6 +106,7 @@
     },
     "survivorsBandana": {
         "demo": {
+            "type": "headwear",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -118,6 +126,7 @@
     },
     "survivorsPants": {
         "demo": {
+            "type": "pants",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -137,6 +146,7 @@
     },
     "survivorsJacket": {
         "demo": {
+            "type": "torso",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -156,6 +166,7 @@
     },
     "marksmansTricorn": {
         "demo": {
+            "type": "headwear",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "marksmansRig",
@@ -176,6 +187,7 @@
     },
     "marksmansPants": {
         "demo": {
+            "type": "pants",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "marksmansRig",
@@ -196,6 +208,7 @@
     },
     "marksmansDoublet": {
         "demo": {
+            "type": "torso",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "marksmansRig",
@@ -216,6 +229,7 @@
     },
     "flibustiersBoots": {
         "demo": {
+            "type": "footwear",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "flibustiersAttire",
@@ -236,6 +250,7 @@
     },
     "flibustiersGloves": {
         "demo": {
+            "type": "gloves",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "flibustiersAttire",
@@ -256,6 +271,7 @@
     },
     "privateersHat": {
         "demo": {
+            "type": "headwear",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "privateersRegalia",
@@ -269,6 +285,7 @@
     },
     "privateersDoublet": {
         "demo": {
+            "type": "torso",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "privateersRegalia",
@@ -282,6 +299,7 @@
     },
     "privateersPants": {
         "demo": {
+            "type": "pants",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "privateersRegalia",
@@ -295,6 +313,7 @@
     },
     "privateersGloves": {
         "demo": {
+            "type": "gloves",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "privateersRegalia",
@@ -308,6 +327,7 @@
     },
     "privateersBoots": {
         "demo": {
+            "type": "footwear",
             "rarity": "rare",
             "stackLimit": 0,
             "set": "privateersRegalia",
