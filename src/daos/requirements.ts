@@ -8,11 +8,9 @@ export type ResolvedRequirement = {
 export type RequirementResolver = (id: string, version: Version) => ResolvedRequirement | undefined;
 
 type RequirementLookupContext = {
-    getMetal?: (id: string, version: Version) => unknown;
-    getResource?: (id: string, version: Version) => unknown;
-    getTool?: (id: string, version: Version) => unknown;
     getAlchemy?: (id: string, version: Version) => unknown;
     getAmmo?: (id: string, version: Version) => unknown;
+    getArmor?: (id: string, version: Version) => unknown;
     getBackpack?: (id: string, version: Version) => unknown;
     getBuildingElement?: (id: string, version: Version) => unknown;
     getCannon?: (id: string, version: Version) => unknown;
@@ -21,13 +19,15 @@ type RequirementLookupContext = {
     getHullModification?: (id: string, version: Version) => unknown;
     getItem?: (id: string, version: Version) => unknown;
     getMedicine?: (id: string, version: Version) => unknown;
-    getMiscellaneous?: (id: string, version: Version) => unknown;
-    getSet?: (id: string, version: Version) => unknown;
-    getArmor?: (id: string, version: Version) => unknown;
-    getNecklace?: (id: string, version: Version) => unknown;
-    getRing?: (id: string, version: Version) => unknown;
     getMeleeWeapon?: (id: string, version: Version) => unknown;
+    getMetal?: (id: string, version: Version) => unknown;
+    getMiscellaneous?: (id: string, version: Version) => unknown;
+    getNecklace?: (id: string, version: Version) => unknown;
     getRangedWeapon?: (id: string, version: Version) => unknown;
+    getResource?: (id: string, version: Version) => unknown;
+    getRing?: (id: string, version: Version) => unknown;
+    getSet?: (id: string, version: Version) => unknown;
+    getTool?: (id: string, version: Version) => unknown;
 };
 
 type CircularDependencyNode = {
@@ -65,39 +65,6 @@ export class RequirementUtils {
     static createDefaultRequirementResolvers(): RequirementResolver[] {
         return [
             (id, version) => {
-                const metal = RequirementUtils.lookupContext.getMetal?.(id, version);
-                if (!metal) {
-                    return undefined;
-                }
-
-                return {
-                    type: "metal",
-                    value: metal,
-                };
-            },
-            (id, version) => {
-                const resource = RequirementUtils.lookupContext.getResource?.(id, version);
-                if (!resource) {
-                    return undefined;
-                }
-
-                return {
-                    type: "resource",
-                    value: resource,
-                };
-            },
-            (id, version) => {
-                const tool = RequirementUtils.lookupContext.getTool?.(id, version);
-                if (!tool) {
-                    return undefined;
-                }
-
-                return {
-                    type: "tool",
-                    value: tool,
-                };
-            },
-            (id, version) => {
                 const alchemy = RequirementUtils.lookupContext.getAlchemy?.(id, version);
                 if (!alchemy) {
                     return undefined;
@@ -106,6 +73,28 @@ export class RequirementUtils {
                 return {
                     type: "alchemy",
                     value: alchemy,
+                };
+            },
+            (id, version) => {
+                const ammo = RequirementUtils.lookupContext.getAmmo?.(id, version);
+                if (!ammo) {
+                    return undefined;
+                }
+
+                return {
+                    type: "ammo",
+                    value: ammo,
+                };
+            },
+            (id, version) => {
+                const armor = RequirementUtils.lookupContext.getArmor?.(id, version);
+                if (!armor) {
+                    return undefined;
+                }
+
+                return {
+                    type: "armor",
+                    value: armor,
                 };
             },
             (id, version) => {
@@ -208,6 +197,28 @@ export class RequirementUtils {
                 };
             },
             (id, version) => {
+                const meleeWeapon = RequirementUtils.lookupContext.getMeleeWeapon?.(id, version);
+                if (!meleeWeapon) {
+                    return undefined;
+                }
+
+                return {
+                    type: "meleeWeapon",
+                    value: meleeWeapon,
+                };
+            },
+            (id, version) => {
+                const metal = RequirementUtils.lookupContext.getMetal?.(id, version);
+                if (!metal) {
+                    return undefined;
+                }
+
+                return {
+                    type: "metal",
+                    value: metal,
+                };
+            },
+            (id, version) => {
                 const miscellaneous = RequirementUtils.lookupContext.getMiscellaneous?.(id, version);
                 if (!miscellaneous) {
                     return undefined;
@@ -216,6 +227,72 @@ export class RequirementUtils {
                 return {
                     type: "miscellaneous",
                     value: miscellaneous,
+                };
+            },
+            (id, version) => {
+                const necklace = RequirementUtils.lookupContext.getNecklace?.(id, version);
+                if (!necklace) {
+                    return undefined;
+                }
+
+                return {
+                    type: "necklace",
+                    value: necklace,
+                };
+            },
+            (id, version) => {
+                const rangedWeapon = RequirementUtils.lookupContext.getRangedWeapon?.(id, version);
+                if (!rangedWeapon) {
+                    return undefined;
+                }
+
+                return {
+                    type: "rangedWeapon",
+                    value: rangedWeapon,
+                };
+            },
+            (id, version) => {
+                const resource = RequirementUtils.lookupContext.getResource?.(id, version);
+                if (!resource) {
+                    return undefined;
+                }
+
+                return {
+                    type: "resource",
+                    value: resource,
+                };
+            },
+            (id, version) => {
+                const ring = RequirementUtils.lookupContext.getRing?.(id, version);
+                if (!ring) {
+                    return undefined;
+                }
+
+                return {
+                    type: "ring",
+                    value: ring,
+                };
+            },
+            (id, version) => {
+                const set = RequirementUtils.lookupContext.getSet?.(id, version);
+                if (!set) {
+                    return undefined;
+                }
+
+                return {
+                    type: "set",
+                    value: set,
+                };
+            },
+            (id, version) => {
+                const tool = RequirementUtils.lookupContext.getTool?.(id, version);
+                if (!tool) {
+                    return undefined;
+                }
+
+                return {
+                    type: "tool",
+                    value: tool,
                 };
             },
         ];
