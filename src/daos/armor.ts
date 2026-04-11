@@ -15,7 +15,7 @@ type ArmorData<TRequired = number> = {
     station?: Station;
     set?: string;
     levels: DefenseLevels;
-    required: Record<string, TRequired>;
+    required?: Record<string, TRequired>;
 };
 
 type ArmorRawData = ArmorData<number>;
@@ -32,7 +32,7 @@ export class Armor {
     public station?: Station;
     public set?: string;
     public levels: DefenseLevels;
-    public required: Record<string, RequirementEntry>;
+    public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: ArmorResolvedData) {
         this.id = id;
@@ -55,7 +55,7 @@ export class Armor {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Armor(id, { ...baseData, required: {} });
+                return new Armor(id, { ...baseData });
             },
         ) as ArmorsByVersion;
 

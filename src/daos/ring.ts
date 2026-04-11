@@ -12,7 +12,7 @@ type RingData<TRequired = number> = {
     stackLimit: number;
     station?: Station;
     effects: Effect[];
-    required: Record<string, TRequired>;
+    required?: Record<string, TRequired>;
 };
 
 type RingRawData = RingData<number>;
@@ -27,7 +27,7 @@ export class Ring {
     public stackLimit: number;
     public station?: Station;
     public effects: Effect[];
-    public required: Record<string, RequirementEntry>;
+    public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: RingResolvedData) {
         this.id = id;
@@ -48,7 +48,7 @@ export class Ring {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Ring(id, { ...baseData, required: {} });
+                return new Ring(id, { ...baseData });
             },
         ) as RingsByVersion;
 

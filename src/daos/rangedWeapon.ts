@@ -19,7 +19,7 @@ type RangedWeaponData<TRequired = number> = {
     levels: AttackLevels;
     effects?: Effect[];
     ascension?: Ascension;
-    required: Record<string, TRequired>;
+    required?: Record<string, TRequired>;
 };
 
 type RangedWeaponRawData = RangedWeaponData<number>;
@@ -39,7 +39,7 @@ export class RangedWeapon {
     public levels: AttackLevels;
     public effects?: Effect[];
     public ascension?: Ascension;
-    public required: Record<string, RequirementEntry>;
+    public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: RangedWeaponResolvedData) {
         this.id = id;
@@ -65,7 +65,7 @@ export class RangedWeapon {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new RangedWeapon(id, { ...baseData, required: {} });
+                return new RangedWeapon(id, { ...baseData });
             },
         ) as RangedWeaponsByVersion;
 

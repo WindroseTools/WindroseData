@@ -3,7 +3,6 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0,
-            "required": {},
             "effects": [
                 {
                     "type": "percentageReducedStaminaConsumptionForResourceGathering",

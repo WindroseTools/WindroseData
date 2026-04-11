@@ -19,7 +19,7 @@ type MeleeWeaponData<TRequired = number> = {
     levels: AttackLevels;
     effects?: Effect[];
     ascension?: Ascension;
-    required: Record<string, TRequired>;
+    required?: Record<string, TRequired>;
 };
 
 type MeleeWeaponRawData = MeleeWeaponData<number>;
@@ -39,7 +39,7 @@ export class MeleeWeapon {
     public levels: AttackLevels;
     public effects?: Effect[];
     public ascension?: Ascension;
-    public required: Record<string, RequirementEntry>;
+    public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: MeleeWeaponResolvedData) {
         this.id = id;
@@ -65,7 +65,7 @@ export class MeleeWeapon {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new MeleeWeapon(id, { ...baseData, required: {} });
+                return new MeleeWeapon(id, { ...baseData });
             },
         ) as MeleeWeaponsByVersion;
 

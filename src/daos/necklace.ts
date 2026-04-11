@@ -12,7 +12,7 @@ type NecklaceData<TRequired = number> = {
     stackLimit: number;
     station?: Station;
     effects: Effect[];
-    required: Record<string, TRequired>;
+    required?: Record<string, TRequired>;
 };
 
 type NecklaceRawData = NecklaceData<number>;
@@ -27,7 +27,7 @@ export class Necklace {
     public stackLimit: number;
     public station?: Station;
     public effects: Effect[];
-    public required: Record<string, RequirementEntry>;
+    public required?: Record<string, RequirementEntry>;
 
     constructor(id: string, data: NecklaceResolvedData) {
         this.id = id;
@@ -48,7 +48,7 @@ export class Necklace {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Necklace(id, { ...baseData, required: {} });
+                return new Necklace(id, { ...baseData });
             },
         ) as NecklacesByVersion;
 
