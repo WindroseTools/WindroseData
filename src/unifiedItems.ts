@@ -1,5 +1,6 @@
 import { Alchemies, Alchemy } from "./daos/alchemy";
 import { Ammos, Ammo } from "./daos/ammo";
+import { Armor, Armors } from "./daos/armor";
 import { Backpacks, Backpack } from "./daos/backpack";
 import { BuildingElement, BuildingElements } from "./daos/buildingElement";
 import { Cannon, Cannons } from "./daos/cannon";
@@ -8,15 +9,21 @@ import { Food, Foods } from "./daos/food";
 import { HullModification, HullModifications } from "./daos/hullModification";
 import { Item, Items } from "./daos/item";
 import { Medicine, Medicines } from "./daos/medicine";
+import { MeleeWeapon, MeleeWeapons } from "./daos/meleeWeapon";
 import { Metal, Metals } from "./daos/metal";
 import { Miscellanies, Miscellaneous } from "./daos/miscellaneous";
+import { Necklace, Necklaces } from "./daos/necklace";
+import { RangedWeapon, RangedWeapons } from "./daos/rangedWeapon";
 import { Resource, Resources } from "./daos/resource";
+import { Ring, Rings } from "./daos/ring";
+import { Set, Sets } from "./daos/set";
 import { Tool, Tools } from "./daos/tool";
 import { Version, Versions } from "./versions";
 
 type AllDaoTypes =
     | Alchemy
     | Ammo
+    | Armor
     | Backpack
     | BuildingElement
     | Cannon
@@ -25,9 +32,14 @@ type AllDaoTypes =
     | HullModification
     | Item
     | Medicine
+    | MeleeWeapon
     | Metal
     | Miscellanies
+    | Necklace
+    | RangedWeapon
     | Resource
+    | Ring
+    | Set
     | Tool;
 
 type AllKeysOf<U> = U extends unknown ? keyof U : never;
@@ -44,6 +56,7 @@ type VersionedLookupStore<T> = Record<Version, Record<string, T | undefined>>;
 const stores: Array<VersionedLookupStore<UnifiedItem>> = [
     Alchemies as unknown as VersionedLookupStore<Alchemy>,
     Ammos as unknown as VersionedLookupStore<Ammo>,
+    Armors as unknown as VersionedLookupStore<Armor>,
     Backpacks as unknown as VersionedLookupStore<Backpack>,
     BuildingElements as unknown as VersionedLookupStore<BuildingElement>,
     Cannons as unknown as VersionedLookupStore<Cannon>,
@@ -52,9 +65,14 @@ const stores: Array<VersionedLookupStore<UnifiedItem>> = [
     HullModifications as unknown as VersionedLookupStore<HullModification>,
     Items as unknown as VersionedLookupStore<Item>,
     Medicines as unknown as VersionedLookupStore<Medicine>,
+    MeleeWeapons as unknown as VersionedLookupStore<MeleeWeapon>,
     Metals as unknown as VersionedLookupStore<Metal>,
     Miscellaneous as unknown as VersionedLookupStore<Miscellanies>,
+    Necklaces as unknown as VersionedLookupStore<Necklace>,
+    RangedWeapons as unknown as VersionedLookupStore<RangedWeapon>,
     Resources as unknown as VersionedLookupStore<Resource>,
+    Rings as unknown as VersionedLookupStore<Ring>,
+    Sets as unknown as VersionedLookupStore<Set>,
     Tools as unknown as VersionedLookupStore<Tool>,
 ];
 
