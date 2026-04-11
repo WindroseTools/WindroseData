@@ -65,7 +65,7 @@ export class MeleeWeapon {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new MeleeWeapon(id, { ...baseData });
+                return new MeleeWeapon(id, baseData);
             },
         ) as MeleeWeaponsByVersion;
 
@@ -82,7 +82,7 @@ export class MeleeWeapon {
             meleeWeaponsByVersion,
             (data) => data.required,
             (meleeWeapon, required) => {
-                meleeWeapon.required = required ?? {};
+                meleeWeapon.required = required;
             },
             resolvers,
         );

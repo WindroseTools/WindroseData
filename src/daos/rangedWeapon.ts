@@ -65,7 +65,7 @@ export class RangedWeapon {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new RangedWeapon(id, { ...baseData });
+                return new RangedWeapon(id, baseData);
             },
         ) as RangedWeaponsByVersion;
 
@@ -82,7 +82,7 @@ export class RangedWeapon {
             rangedWeaponsByVersion,
             (data) => data.required,
             (rangedWeapon, required) => {
-                rangedWeapon.required = required ?? {};
+                rangedWeapon.required = required;
             },
             resolvers,
         );

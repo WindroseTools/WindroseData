@@ -48,7 +48,7 @@ export class Necklace {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Necklace(id, { ...baseData });
+                return new Necklace(id, baseData);
             },
         ) as NecklacesByVersion;
 
@@ -65,7 +65,7 @@ export class Necklace {
             necklacesByVersion,
             (data) => data.required,
             (necklace, required) => {
-                necklace.required = required ?? {};
+                necklace.required = required;
             },
             resolvers,
         );

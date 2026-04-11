@@ -48,7 +48,7 @@ export class Ring {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Ring(id, { ...baseData });
+                return new Ring(id, baseData);
             },
         ) as RingsByVersion;
 
@@ -65,7 +65,7 @@ export class Ring {
             ringsByVersion,
             (data) => data.required,
             (ring, required) => {
-                ring.required = required ?? {};
+                ring.required = required;
             },
             resolvers,
         );

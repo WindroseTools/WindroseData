@@ -55,7 +55,7 @@ export class Armor {
             (id, data) => {
                 const { required: _required, ...baseData } = data;
 
-                return new Armor(id, { ...baseData });
+                return new Armor(id, baseData);
             },
         ) as ArmorsByVersion;
 
@@ -72,7 +72,7 @@ export class Armor {
             armorsByVersion,
             (data) => data.required,
             (armor, required) => {
-                armor.required = required ?? {};
+                armor.required = required;
             },
             resolvers,
         );
