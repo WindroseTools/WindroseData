@@ -1,6 +1,7 @@
 // EN/Source
 import alchemy from "../languages/source/alchemy.json";
 import ammo from "../languages/source/ammo.json";
+import armor from "../languages/source/armor.json";
 import backpack from "../languages/source/backpack.json";
 import buildingElements from "../languages/source/buildingElement.json";
 import cannon from "../languages/source/cannon.json";
@@ -10,9 +11,14 @@ import food from "../languages/source/food.json";
 import hullModification from "../languages/source/hullModification.json";
 import item from "../languages/source/item.json";
 import medicine from "../languages/source/medicine.json";
+import meleeWeapon from "../languages/source/meleeWeapon.json";
 import metal from "../languages/source/metal.json";
 import miscellaneous from "../languages/source/miscellaneous.json";
+import necklace from "../languages/source/necklace.json";
+import rangedWeapon from "../languages/source/rangedWeapon.json";
 import resource from "../languages/source/resource.json";
+import ring from "../languages/source/ring.json";
+import set from "../languages/source/set.json";
 import tool from "../languages/source/tool.json";
 
 // DE
@@ -23,6 +29,7 @@ import { loadVersionedData, MultiVersion, Version } from "./versions";
 const enLanguageEntries = {
     ...alchemy,
     ...ammo,
+    ...armor,
     ...backpack,
     ...buildingElements,
     ...cannon,
@@ -34,7 +41,12 @@ const enLanguageEntries = {
     ...medicine,
     ...metal,
     ...miscellaneous,
+    ...necklace,
+    ...meleeWeapon,
+    ...rangedWeapon,
     ...resource,
+    ...ring,
+    ...set,
     ...tool,
 };
 
