@@ -242,6 +242,10 @@
     "sweetPotato": {
         "demo": {
             "rarity": "common",
+            "stackLimit": 0
+        },
+        "EA0_10": {
+            "rarity": "common",
             "stackLimit": 50
         }
     },
@@ -253,6 +257,10 @@
     },
     "coffeeBeans": {
         "demo": {
+            "rarity": "rare",
+            "stackLimit": 0
+        },
+        "EA0_10": {
             "rarity": "rare",
             "stackLimit": 30
         }

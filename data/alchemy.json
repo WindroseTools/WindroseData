@@ -23,6 +23,10 @@
     "undeadEssence": {
         "demo": {
             "rarity": "rare",
+            "stackLimit": 0
+        },
+        "EA0_10": {
+            "rarity": "rare",
             "stackLimit": 40
         }
     },
