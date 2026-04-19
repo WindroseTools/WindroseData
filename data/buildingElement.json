@@ -217,6 +217,17 @@
                 "plantFiber": 5,
                 "wood": 3
             }
+        },
+        "EA0_0_10": {
+            "internalId": "Building_Bedroll01",
+            "type": "bed",
+            "workingRestriction": "roofRequired",
+            "revivalPoint": true,
+            "comfort": 1,
+            "required": {
+                "plantFiber": 5,
+                "wood": 3
+            }
         }
     },
     "storageBasket": {
@@ -1952,6 +1963,35 @@
             "required": {
                 "wood": 3,
                 "rope": 1
+            }
+        }
+    },
+    "simpleBedWithHeadboard": {
+        "EA0_0_10": {
+            "internalId": "Building_Bedroll02",
+            "type": "bed",
+            "workingRestriction": "roofRequired",
+            "revivalPoint": true,
+            "comfort": 2,
+            "required": {
+                "plantFiber": 5,
+                "wood": 3,
+                "rope": 2,
+                "tritonsHorn": 5
+            }
+        }
+    },
+    "elegantBed": {
+        "EA0_0_10": {
+            "internalId": ["Decorations_BedrollT04_01","RD_BuildObject_Utility_Bed_T04","Building_Bedroll_T04"],
+            "type": "bed",
+            "workingRestriction": "roofRequired",
+            "revivalPoint": true,
+            "comfort": 2,
+            "required": {
+                "hardwood": 10,
+                "linenFabric": 10,
+                "feather": 10
             }
         }
     }

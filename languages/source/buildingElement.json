@@ -1681,5 +1681,21 @@
                 "Rope railings used even by the bravest… or the most drunk."
             ]]
         }
+    },
+    "simpleBedWithHeadboard": {
+        "EA0_0_10": {
+            "name": "Simple Bed with Headboard",
+            "description": [[
+                "Simple bed with a decorated headboard"
+            ]]
+        }
+    },
+    "elegantBed": {
+        "EA0_0_10": {
+            "name": "Elegant Bed",
+            "description": [[
+                "A sturdy, well-made bed where reliability meets elegance"
+            ]]
+        }
     }
 }
