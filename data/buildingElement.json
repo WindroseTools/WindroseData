@@ -2200,5 +2200,128 @@
                 "millstoneParts": 1
             }
         }
+    },
+    "wallCandlestickOneSimple": {
+        "EA0_10": {
+            "internalId": ["Decorations_WallLampT04_01","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "wallCandlestickOne": {
+        "EA0_10": {
+            "internalId": ["Decorations_WallLampT04_02","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "wallCandlestickTwo": {
+        "EA0_10": {
+            "internalId": ["Decorations_WallLampT04_03","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "mountingRestriction": "wallOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableCandlestickSimpleOne": {
+        "EA0_10": {
+            "internalId": ["Decorations_TableLampT04_01","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableLampGlass": {
+        "EA0_10": {
+            "internalId": ["Decorations_TableLampT04_02","Decorations_IronLighting_T04"],
+            "type": "lamp",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableLampGlassEnclosed": {
+        "EA0_10": {
+            "internalId": ["Decorations_TableLampT04_03","Decorations_IronLighting_T04"],
+            "type": "lamp",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableCandlestickOne": {
+        "EA0_10": {
+            "internalId": ["Decorations_LampT04_01","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableCandlestickThree": {
+        "EA0_10": {
+            "internalId": ["Decorations_LampT04_02","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "tableCandlestickFour": {
+        "EA0_10": {
+            "internalId": ["Decorations_LampT04_03","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
+    },
+    "floorStandingCandlestickFour": {
+        "EA0_10": {
+            "internalId": ["Decorations_LampT04_04","Decorations_IronLighting_T04"],
+            "type": "candle",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 2,
+                "animalFat": 3
+            }
+        }
     }
 }

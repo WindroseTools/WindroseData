@@ -1761,5 +1761,85 @@
                 "Allows you to make powdered materials."
             ]]
         }
+    },
+    "wallCandlestickOneSimple": {
+        "EA0_10": {
+            "name": "Wall Candlestick (Simple, One Candle)",
+            "description": [[
+                "A wrought iron lamp with one candle, defined by elegant, simple shapes."
+            ]]
+        }
+    },
+    "wallCandlestickOne": {
+        "EA0_10": {
+            "name": "Wall Candlestick (One Candle)",
+            "description": [[
+                "A wrought iron lamp with one candle, defined by elegant, simple shapes."
+            ]]
+        }
+    },
+    "wallCandlestickTwo": {
+        "EA0_10": {
+            "name": "Wall Candlestick (Two Candles)",
+            "description": [[
+                "A wrought iron lamp with two candles, defined by elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableCandlestickSimpleOne": {
+        "EA0_10": {
+            "name": "Table Candlestick (Simple, One Candle)",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableLampGlass": {
+        "EA0_10": {
+            "name": "Table Lamp (Glass)",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableLampGlassEnclosed": {
+        "EA0_10": {
+            "name": "Table Lamp (Glass, Enclosed)",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableCandlestickOne": {
+        "EA0_10": {
+            "name": "Table Candlestick (One Candle)",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableCandlestickThree": {
+        "EA0_10": {
+            "name": "Table Candlestick (Three Candles)",
+            "description": [[
+                "A wrought iron lamp with three candles, defined by elegant, simple shapes."
+            ]]
+        }
+    },
+    "tableCandlestickFour": {
+        "EA0_10": {
+            "name": "Table Candlestick (Four Candles)",
+            "description": [[
+                "A wrought iron lamp with four candles, defined by elegant, simple shapes."
+            ]]
+        }
+    },
+    "floorStandingCandlestickFour": {
+        "EA0_10": {
+            "name": "Floor-Standing Candlestick (Four Candles)",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
     }
 }
