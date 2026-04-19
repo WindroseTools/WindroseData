@@ -242,7 +242,7 @@
     "sweetPotato": {
         "demo": {
             "rarity": "common",
-            "stackLimit": 0
+            "stackLimit": 50
         }
     },
     "batataSeeds": {
@@ -254,7 +254,7 @@
     "coffeeBeans": {
         "demo": {
             "rarity": "rare",
-            "stackLimit": 0
+            "stackLimit": 30
         }
     },
     "tritonsHorn": {
@@ -297,6 +297,97 @@
         "EA0_10": {
             "internalId": "DID_Resource_Iron_T02",
             "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "fertileSoil": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Soil_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "hardwood": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Hardwood_T02",
+            "rarity": "common",
+            "stackLimit": 30
+        }
+    },
+    "treeBark": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Bark_T02",
+            "rarity": "common",
+            "stackLimit": 30
+        }
+    },
+    "flaxFiber": {
+        "EA0_10": {
+            "internalId": "DID_Resource_FlaxFiber_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "silverIngot": {
+        "EA0_10": {
+            "internalId": "DID_Resource_SilverIngot_T02",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "sulfur": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Sulfur_T01",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "wolfFang": {
+        "EA0_10": {
+            "internalId": "DID_Resource_WolfFang_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "bezoar": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Bezoar_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "nuts": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Peanut_T02",
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "limeSeeds": {
+        "EA0_10": {
+            "internalId": "DID_Resource_LimeTreeSeeds_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "aloeLeaf": {
+        "EA0_10": {
+            "internalId": "DID_Resource_Aloe_T02",
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "caneSugar": {
+        "EA0_10": {
+            "internalId": "DID_Resource_CaneSugar_T03",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "wolfHead": {
+        "EA0_10": {
+            "internalId": "DID_Resource_WolfHead_T02",
+            "rarity": "uncommon",
             "stackLimit": 0
         }
     }

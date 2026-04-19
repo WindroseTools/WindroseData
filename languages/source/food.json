@@ -256,5 +256,59 @@
                 "- Doctor Galen Skelton"
             ]
         }
+    },
+    "corn": {
+        "EA0_10": {
+            "name": "Corn",
+            "description": [
+                [
+                    "Fresh corn.",
+                    "It can be ground, roasted, boiled, pickled, baked, added to other dishes - and that's not even the full list."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ]
+        }
+    },
+    "lime": {
+        "EA0_10": {
+            "name": "Lime",
+            "description": [
+                [
+                    "Grows in the Foothills."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ],
+            "comment": [
+                "The best remedy for scurvy."
+            ]
+        }
+    },
+    "tomato": {
+        "EA0_10": {
+            "name": "Tomato",
+            "description": [
+                [
+                    "Lush red tomatoes.",
+                    "They've been cultivated by ancient civilizations for centuries."
+                ],
+                [
+                    "Grows in the Foothills."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 7 minutes"
+                ]
+            ],
+            "comment": [
+                "Poisonous, not poisonous... If you can chew it, it'll do!",
+                "- Captain Thomas Richards, perpetually hungry"
+            ]
+        }
     }
 }

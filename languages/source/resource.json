@@ -341,5 +341,113 @@
                 ]
             ]
         }
+    },
+    "fertileSoil": {
+        "EA0_10": {
+            "name": "Fertile Soil",
+            "description": [[]]
+        }
+    },
+    "hardwood": {
+        "EA0_10": {
+            "name": "Hardwood",
+            "description": [[
+                "used for making weapons, ship materials and much more."
+            ]]
+        }
+    },
+    "treeBark": {
+        "EA0_10": {
+            "name": "Tree Bark",
+            "description": [[
+                "Divi-divi tree bark, harvested only from large trees."
+            ]]
+        }
+    },
+    "flaxFiber": {
+        "EA0_10": {
+            "name": "Flax Fiber",
+            "description": [[
+                "Used to make fabric."
+            ]]
+        }
+    },
+    "silverIngot": {
+        "EA0_10": {
+            "name": "Silver Ingot",
+            "description": [[
+                "A silver ingot, required for upgrading jewelry."
+            ]]
+        }
+    },
+    "sulfur": {
+        "EA0_10": {
+            "name": "Sulfur",
+            "description": [[
+                "You better cross yourself, just in case."
+            ]]
+        }
+    },
+    "wolfFang": {
+        "EA0_10": {
+            "name": "Wolf Fang",
+            "description": [[
+                "Alchemical ingredient.",
+                "Also used as a material for jewelry."
+            ]]
+        }
+    },
+    "bezoar": {
+        "EA0_10": {
+            "name": "Bezoar",
+            "description": [[
+                "Alchemical ingredient.",
+                "Found in goat stomachs."
+            ]]
+        }
+    },
+    "nuts": {
+        "EA0_10": {
+            "name": "Nuts",
+            "description": [[
+                "Easy to eat on the move.",
+                "A pirate's favorite bite."
+            ]]
+        }
+    },
+    "limeSeeds": {
+        "EA0_10": {
+            "name": "Lime Seeds",
+            "description": [[
+                "Used to grow Limes."
+            ]]
+        }
+    },
+    "aloeLeaf": {
+        "EA0_10": {
+            "name": "Aloe Leaf",
+            "description": [[
+                "Found in the Foothills."
+            ]]
+        }
+    },
+    "caneSugar": {
+        "EA0_10": {
+            "name": "Cane Sugar",
+            "description": [[
+                "Cooking ingredient."
+            ]]
+        }
+    },
+    "wolfHead": {
+        "EA0_10": {
+            "name": "Wolf Head",
+            "description": [[
+                "A trophy.",
+                "Ancient peoples served a roasted head as a ritual dish to their chiefs.",
+                "The real trick was not breaking your teeth on the bones.",
+                "Perhaps that's why ancient chiefs rarely smiled..."
+            ]]
+        }
     }
 }

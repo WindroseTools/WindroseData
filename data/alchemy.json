@@ -23,7 +23,7 @@
     "undeadEssence": {
         "demo": {
             "rarity": "rare",
-            "stackLimit": 0
+            "stackLimit": 40
         }
     },
     "elixirOfFirmHand": {

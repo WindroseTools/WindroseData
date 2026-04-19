@@ -215,5 +215,26 @@
                 }
             ]
         }
+    },
+    "corn": {
+        "EA0_10": {
+            "internalId": "CID_Food_Raw_Corn_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "lime": {
+        "EA0_10": {
+            "internalId": "CID_Food_Raw_Lime_T02",
+            "rarity": "common",
+            "stackLimit": 50
+        }
+    },
+    "tomato": {
+        "EA0_10": {
+            "internalId": "CID_Food_Raw_Tomato_T02",
+            "rarity": "common",
+            "stackLimit": 50
+        }
     }
 }
