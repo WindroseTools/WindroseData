@@ -19,6 +19,7 @@ type BuildingElementData<TRequired = number> = {
     capacity?: number;
     comfort?: number;
     levels?: BuildingLevels;
+    yield?: string[];
 };
 
 type BuildingElementRawData = BuildingElementData<number>;
@@ -41,6 +42,7 @@ export class BuildingElement {
     public capacity?: number;
     public comfort?: number;
     public levels?: BuildingLevels;
+    public yield?: string[];
 
     constructor(id: string, data: BuildingElementResolvedData) {
         this.id = id;
@@ -58,6 +60,7 @@ export class BuildingElement {
         this.capacity = data.capacity;
         this.comfort = data.comfort;
         this.levels = data.levels;
+        this.yield = data.yield;
     }
 
     static loadBuildingElementsByVersion(): BuildingElementsByVersion {
