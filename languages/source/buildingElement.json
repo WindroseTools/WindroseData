@@ -1913,5 +1913,101 @@
                 "Sturdy iron dishes."
             ]]
         }
+    },
+    "mugOfGrog": {
+        "EA0_10": {
+            "name": "Mug of Grog",
+            "description": [[
+                "A bit of grog to warm up after a long voyage."
+            ]]
+        }
+    },
+    "stewBowl": {
+        "EA0_10": {
+            "name": "Stew Bowl",
+            "description": [[
+                "A hearty Stew Bowl to sustain the crew."
+            ]]
+        }
+    },
+    "cornSoup": {
+        "EA0_10": {
+            "name": "Corn Soup",
+            "description": [[
+                "Some corn soup to raise the spirits after a storm."
+            ]]
+        }
+    },
+    "dessertPlatter": {
+        "EA0_10": {
+            "name": "Dessert Platter",
+            "description": [[
+                "Sweets pirates usually enjoy at night, swinging in their hammocks."
+            ]]
+        }
+    },
+    "meatPlatter": {
+        "EA0_10": {
+            "name": "Meat Platter",
+            "description": [[
+                "Nutritious and filling meat from a raid on a well-stocked caravan."
+            ]]
+        }
+    },
+    "seafoodPlatter": {
+        "EA0_10": {
+            "name": "Seafood Platter",
+            "description": [[
+                "Fresh fish straight from the team's nets."
+            ]]
+        }
+    },
+    "mushroomBowl": {
+        "EA0_10": {
+            "name": "Mushroom Bowl",
+            "description": [[
+                "A plate of forest mushrooms from a mysterious island."
+            ]]
+        }
+    },
+    "mushroomSoup": {
+        "EA0_10": {
+            "name": "Mushroom Soup",
+            "description": [[
+                "A thick stew scented with forest-foraged ingredients."
+            ]]
+        }
+    },
+    "fruitPlatter": {
+        "EA0_10": {
+            "name": "Fruit Platter",
+            "description": [[
+                "Exotic fruits brought back from pirate raids."
+            ]]
+        }
+    },
+    "vegetablesOnACuttingBoard": {
+        "EA0_10": {
+            "name": "Vegetables on a Cutting Board",
+            "description": [[
+                "Adds a bit of variety to a seafarer's diet."
+            ]]
+        }
+    },
+    "freshFruitPlatter": {
+        "EA0_10": {
+            "name": "Fresh Fruit Platter",
+            "description": [[
+                "Juicy fruits to ward off travel blues."
+            ]]
+        }
+    },
+    "luxuriousDinner": {
+        "EA0_10": {
+            "name": "Luxurious Dinner",
+            "description": [[
+                "A feast for the captain and the whole crew."
+            ]]
+        }
     }
 }

@@ -2432,5 +2432,166 @@
                 "foothillsIronIngot": 5
             }
         }
+    },
+    "mugOfGrog": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_01","RD_BuildObject_Deco_Kitchen_T02_Food_01"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "rumBottle": 1
+            }
+        }
+    },
+    "stewBowl": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_03","RD_BuildObject_Deco_Kitchen_T02_Food_03"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "cayennePepper": 2,
+                "meat": 3,
+                "tomato": 1
+            }
+        }
+    },
+    "cornSoup": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_04","RD_BuildObject_Deco_Kitchen_T02_Food_04"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "corn": 3,
+                "cayennePepper": 3
+            }
+        }
+    },
+    "dessertPlatter": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_07","RD_BuildObject_Deco_Kitchen_T02_Food_07"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "cornmeal": 3,
+                "caneSugar": 1
+            }
+        }
+    },
+    "meatPlatter": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_10","RD_BuildObject_Deco_Kitchen_T02_Food_10"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "meat": 3,
+                "birdMeat": 2,
+                "crabMeat": 1
+            }
+        }
+    },
+    "seafoodPlatter": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_09","RD_BuildObject_Deco_Kitchen_T02_Food_09"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "fishFillet": 2,
+                "crabMeat": 1
+            }
+        }
+    },
+    "mushroomBowl": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_02","RD_BuildObject_Deco_Kitchen_T02_Food_02"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "lobsterMushroom": 3,
+                "leek": 1
+            }
+        }
+    },
+    "mushroomSoup": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_05","RD_BuildObject_Deco_Kitchen_T02_Food_05"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "lobsterMushroom": 3,
+                "meat": 1
+            }
+        }
+    },
+    "fruitPlatter": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_06","RD_BuildObject_Deco_Kitchen_T02_Food_06"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "banana": 1,
+                "cocoplum": 2
+            }
+        }
+    },
+    "vegetablesOnACuttingBoard": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_12","RD_BuildObject_Deco_Kitchen_T02_Food_12"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "leek": 1,
+                "tomato": 1,
+                "cayennePepper": 1,
+                "sweetPotato": 1
+            }
+        }
+    },
+    "freshFruitPlatter": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_08","RD_BuildObject_Deco_Kitchen_T02_Food_08"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "cocoplum": 1,
+                "banana": 1,
+                "coconut": 1,
+                "lime": 1
+            }
+        }
+    },
+    "luxuriousDinner": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorativeFood_11","RD_BuildObject_Deco_Kitchen_T02_Food_11"],
+            "type": "foodDisplay",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 1,
+                "meat": 3,
+                "lobsterMushroom": 1
+            }
+        }
     }
 }
