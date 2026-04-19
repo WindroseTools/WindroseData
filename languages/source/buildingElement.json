@@ -1635,5 +1635,35 @@
                 ""
             ]]
         }
+    },
+    "signalFire": {
+        "EA0_0_10": {
+            "name": "Signal Fire",
+            "description": [
+                [
+                    "Where was the Royal Fleet when Tortuga fell?"
+                ],
+                [
+                    "The light of the signal fire can be seen from afar.",
+                    "Only 3 signal fires can be placed in the world."
+                ]
+            ]
+        }
+    },
+    "disassemblyTable": {
+        "EA0_0_10": {
+            "name": "Disassembly Table",
+            "description": [[
+                "Allows you to disassemble equipment and recover the resources used to craft it."
+            ]]
+        }
+    },
+    "toolbox": {
+        "EA0_0_10": {
+            "name": "Toolbox",
+            "description": [[
+                "Workbench upgrade."
+            ]]
+        }
     }
 }

@@ -61,6 +61,23 @@
             "required": {
                 "wood": 5
             }
+        },
+        "EA0_0_10": {
+            "type": "crafting",
+            "levels": {
+                "1": {
+                    "requiresBonfire": true
+                },
+                "2": {
+                    "requiredAddons": ["sawhorse"]
+                },
+                "3": {
+                    "requiredAddons": ["sawhorse", "toolbox"]
+                }
+            },
+            "required": {
+                "wood": 5
+            }
         }
     },
     "sawhorse": {
@@ -1873,6 +1890,42 @@
             "type": "prebuiltStructure",
             "required": {
                 "plantFiber": 22
+            }
+        }
+    },
+    "signalFire": {
+        "EA0_0_10": {
+            "internalId": "Decorations_SignalFire",
+            "type": "essential",
+            "comfort": 1,
+            "limit": 3,
+            "required": {
+                "wood": 20,
+                "animalFat": 10
+            }
+        }
+    },
+    "disassemblyTable": {
+        "EA0_0_10": {
+            "internalId": "Craftstation_DisassemblyBench",
+            "type": "essential",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 10,
+                "clay": 10,
+                "copperIngot": 4
+            }
+        }
+    },
+    "toolbox": {
+        "EA0_0_10": {
+            "internalId": "Craftstation_WorkbenchToolboxT01",
+            "type": "crafting",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 10,
+                "nails": 20,
+                "foothillsIronIngot": 5
             }
         }
     }
