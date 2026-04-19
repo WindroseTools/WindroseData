@@ -2652,7 +2652,7 @@
     "scrolls": {
         "EA0_10": {
             "internalId": ["Decorations_DecorScrollT02_01","Decorations_Books_Scroll"],
-            "type": "book",
+            "type": "scroll",
             "requiresBonfire": true,
             "comfort": 1,
             "required": {
@@ -2663,7 +2663,7 @@
     "openScroll": {
         "EA0_10": {
             "internalId": ["Decorations_DecorScrollT02_02","Decorations_Books_ScrollSingle"],
-            "type": "book",
+            "type": "scroll",
             "requiresBonfire": true,
             "comfort": 1,
             "required": {
