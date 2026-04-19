@@ -1,11 +1,13 @@
 # Windrose Data
 Welcome to the inofficial data repository for Windrose.
 
-The repository hosts data and translations for most things in the game and is currently in the build-up, but will in the end feature information like required materials for **tools**, **building structures/elements** and various other information specific to the type of data.
+The repository hosts data, translations and fully typed daos for most things in the game and is currently in the build-up as part of the Early Access of the game.
 
-> [!NOTE]
-> The current release, 0.0.X, is based on the **demo** version of the game and acts as a starting point.\
-> With the Early Access release will the data receive a bigger update and starts the regular version schema of 0.1.X.
+## Release Schema
+This repo follows the games version, with the game version 0.10.X being the first early access version and as such equals to 0.1.X in the repository.\
+Game version 0.11.X would then be 0.2.X and so on.
+
+All demo related releases start with 0.0.X.
 
 ## Data Structure Concept
 Before using it, its important to understand that both the data and translations are structured in a **version historic** way, so each data object and translation contains its own history across the various versions. This offers the big feature of being able to load the data and translation for a specific game version on the fly via the npm package (see below).
