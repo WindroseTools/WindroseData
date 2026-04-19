@@ -2009,5 +2009,63 @@
                 "A feast for the captain and the whole crew."
             ]]
         }
+    },
+    "book": {
+        "EA0_10": {
+            "name": "Book",
+            "description": [[
+                "Clearly meant as a practical guide to navigation.",
+                "It contains remarks such as: \"Spotting a reef is bad news. Not spotting it is worse.\""
+            ]]
+        }
+    },
+    "stackOfBooks": {
+        "EA0_10": {
+            "name": "Stack of Books",
+            "description": [[
+                "Tomes of weathered pages, scribbled with notes about storms, locations, and shady deals."
+            ]]
+        }
+    },
+    "greatStackOfBooks": {
+        "EA0_10": {
+            "name": "Stack of Books (Great)",
+            "description": [[
+                "Tomes of weathered pages, scribbled with notes about storms, locations, and shady deals."
+            ]]
+        }
+    },
+    "rowOfBooks": {
+        "EA0_10": {
+            "name": "Row of Books",
+            "description": [[
+                "Tomes of weathered pages, scribbled with notes about storms, locations, and shady deals."
+            ]]
+        }
+    },
+    "openBook": {
+        "EA0_10": {
+            "name": "Open Book",
+            "description": [[
+                "A list of stolen goods. Some items marked as sold, sunk or pocketed."
+            ]]
+        }
+    },
+    "scrolls": {
+        "EA0_10": {
+            "name": "Scrolls",
+            "description": [[
+                "Scrolls with strange symbols that mark the route of illegal freight."
+            ]]
+        }
+    },
+    "openScroll": {
+        "EA0_10": {
+            "name": "Open Scroll",
+            "description": [[
+                "The page depicts some kind of mechanism, though half of it is blacked out with ink.",
+                "A note at the bottom reads: \"If something breaks, pretend it's the intended behavior.\""
+            ]]
+        }
     }
 }

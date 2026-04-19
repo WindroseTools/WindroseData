@@ -2593,5 +2593,82 @@
                 "lobsterMushroom": 1
             }
         }
+    },
+    "book": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorBooksT02_01","Decorations_Books_Single"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "stackOfBooks": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorBooksT02_02","Decorations_Books"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "greatStackOfBooks": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorBooksT02_03","Decorations_Books"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "rowOfBooks": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorBooksT02_04","Decorations_Books"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "openBook": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorBooksT02_05","Decorations_Books_Open"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "scrolls": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorScrollT02_01","Decorations_Books_Scroll"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
+    },
+    "openScroll": {
+        "EA0_10": {
+            "internalId": ["Decorations_DecorScrollT02_02","Decorations_Books_ScrollSingle"],
+            "type": "book",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 3
+            }
+        }
     }
 }
