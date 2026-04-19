@@ -2323,5 +2323,81 @@
                 "animalFat": 3
             }
         }
+    },
+    "helmChandelier": {
+        "EA0_10": {
+            "internalId": "Decorations_Chandelier",
+            "type": "chandelier",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "copperIngot": 2,
+                "animalFat": 4
+            }
+        }
+    },
+    "ceilingChain": {
+        "EA0_10": {
+            "internalId": ["Decorations_ChainT04_01","RD_BuildObject_Deco_IronLights_T04"],
+            "type": "chandelier",
+            "requiresBonfire": true,
+            "required": {
+                "foothillsIronIngot": 1
+            }
+        }
+    },
+    "hangingLamp": {
+        "EA0_10": {
+            "internalId": "Decorations_ChandelierT04_01",
+            "type": "lamp",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "animalFat": 4
+            }
+        }
+    },
+    "smallChandelier": {
+        "EA0_10": {
+            "internalId": "Decorations_ChandelierT04_02",
+            "type": "chandelier",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "animalFat": 4
+            }
+        }
+    },
+    "mediumChandelier": {
+        "EA0_10": {
+            "internalId": "Decorations_ChandelierT04_03",
+            "type": "chandelier",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "animalFat": 4
+            }
+        }
+    },
+    "largeChandelier": {
+        "EA0_10": {
+            "internalId": "Decorations_ChandelierT04_04",
+            "type": "chandelier",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "animalFat": 4
+            }
+        }
     }
 }

@@ -1841,5 +1841,53 @@
                 "A wrought iron lamp with elegant, simple shapes."
             ]]
         }
+    },
+    "helmChandelier": {
+        "EA0_10": {
+            "name": "Helm Chandelier",
+            "description": [[
+                "The ship may never sail again, but its steering wheel is still useful around the house."
+            ]]
+        }
+    },
+    "ceilingChain": {
+        "EA0_10": {
+            "name": "Ceiling Chain",
+            "description": [[
+                "A sturdy wrought iron chain for elegant hanging lamps."
+            ]]
+        }
+    },
+    "hangingLamp": {
+        "EA0_10": {
+            "name": "Hanging Lamp",
+            "description": [[
+                "A wrought iron lamp with elegant, simple shapes."
+            ]]
+        }
+    },
+    "smallChandelier": {
+        "EA0_10": {
+            "name": "Small Chandelier",
+            "description": [[
+                "Elegant chandeliers casting a noble light."
+            ]]
+        }
+    },
+    "mediumChandelier": {
+        "EA0_10": {
+            "name": "Medium Chandelier",
+            "description": [[
+                "Elegant chandeliers casting a noble light."
+            ]]
+        }
+    },
+    "largeChandelier": {
+        "EA0_10": {
+            "name": "Large Chandelier",
+            "description": [[
+                "Elegant chandeliers casting a noble light."
+            ]]
+        }
     }
 }
