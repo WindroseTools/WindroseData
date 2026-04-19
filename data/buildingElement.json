@@ -2399,5 +2399,38 @@
                 "animalFat": 4
             }
         }
+    },
+    "crudePlate": {
+        "EA0_10": {
+            "internalId": "Decorations_Plate_01",
+            "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 5
+            }
+        }
+    },
+    "crudeFryingPan": {
+        "EA0_10": {
+            "internalId": "Decorations_FryingPan_01",
+            "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 5
+            }
+        }
+    },
+    "crudeKettle": {
+        "EA0_10": {
+            "internalId": "Decorations_Teapot_01",
+            "type": "dish",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 5
+            }
+        }
     }
 }

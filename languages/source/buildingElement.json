@@ -1889,5 +1889,29 @@
                 "Elegant chandeliers casting a noble light."
             ]]
         }
+    },
+    "crudePlate": {
+        "EA0_10": {
+            "name": "Crude Plate",
+            "description": [[
+                "Sturdy iron dishes."
+            ]]
+        }
+    },
+    "crudeFryingPan": {
+        "EA0_10": {
+            "name": "Crude Frying Pan",
+            "description": [[
+                "Sturdy iron dishes."
+            ]]
+        }
+    },
+    "crudeKettle": {
+        "EA0_10": {
+            "name": "Crude Kettle",
+            "description": [[
+                "Sturdy iron dishes."
+            ]]
+        }
     }
 }
