@@ -1,5 +1,5 @@
 import buildingElementData from "../../data/buildingElement.json";
-import { BEType, BuildingLevels, MountingRestriction, WorkingRestriction } from "../types/BuildingElement";
+import { BEType, BuildingLevels, MountingRestriction, PlacementRestriction, WorkingRestriction } from "../types/BuildingElement";
 import { MultiVersion, Version } from "../versions";
 import { createVersionedRawStore, instantiateVersionedEntries, resolveVersionedRequirements } from "./helpers";
 import { RequirementEntry, RequirementUtils } from "./requirements";
@@ -12,7 +12,9 @@ type BuildingElementData<TRequired = number> = {
     revivalPoint?: boolean;
     requiresBonfire?: boolean;
     requiresShoreline?: boolean;
+    requiresSeedbed?: boolean;
     workingRestriction?: WorkingRestriction;
+    placementRestriction?: PlacementRestriction;
     mountingRestriction?: MountingRestriction;
     capacity?: number;
     comfort?: number;
@@ -32,7 +34,9 @@ export class BuildingElement {
     public revivalPoint?: boolean;
     public requiresBonfire?: boolean;
     public requiresShoreline?: boolean;
+    public requiresSeedbed?: boolean;
     public workingRestriction?: WorkingRestriction;
+    public placementRestriction?: PlacementRestriction;
     public mountingRestriction?: MountingRestriction;
     public capacity?: number;
     public comfort?: number;
@@ -47,7 +51,9 @@ export class BuildingElement {
         this.revivalPoint = data.revivalPoint ?? false;
         this.requiresBonfire = data.requiresBonfire ?? false;
         this.requiresShoreline = data.requiresShoreline ?? false;
+        this.requiresSeedbed = data.requiresSeedbed ?? false;
         this.workingRestriction = data.workingRestriction ?? "none";
+        this.placementRestriction = data.placementRestriction ?? "none";
         this.mountingRestriction = data.mountingRestriction ?? "none";
         this.capacity = data.capacity;
         this.comfort = data.comfort;

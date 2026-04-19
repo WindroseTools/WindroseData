@@ -2900,5 +2900,113 @@
                 "linenFabric": 2
             }
         }
+    },
+    "seedbed": {
+        "EA0_10": {
+            "internalId": "Soil_BEB_A",
+            "type": "farming",
+            "placementRestriction": "groundRequired",
+            "required": {
+                "fertileSoil": 5
+            }
+        }
+    },
+    "pepperSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushPepper",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "cayennePepperSeeds": 1
+            },
+            "yield": ["cayennePepperSeeds","cayennePepper"]
+        }
+    },
+    "sweetPotatoSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushPotato",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "sweetPotatoSeeds": 1
+            },
+            "yield": ["sweetPotatoSeeds","sweetPotato"]
+        }
+    },
+    "aloeSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushAloe",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "aloeSeeds": 1
+            },
+            "yield": ["aloeSeeds","aloe"]
+        }
+    },
+    "tomatoSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushTomato",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "tomatoSeeds": 1
+            },
+            "yield": ["tomatoSeeds","tomato"]
+        }
+    },
+    "cornSapling": {
+        "EA0_10": {
+            "internalId": "Farming_Corn_Poor",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "cornSeeds": 1
+            },
+            "yield": ["cornSeeds","corn"]
+        }
+    },
+    "flaxSapling": {
+        "EA0_10": {
+            "internalId": "Farming_Flax",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "flaxSeeds": 1
+            },
+            "yield": ["flaxSeeds","flax"]
+        }
+    },
+    "bananaSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushBanana",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "bananaSeeds": 1
+            },
+            "yield": ["bananaSeeds","banana"]
+        }
+    },
+    "limeSapling": {
+        "EA0_10": {
+            "internalId": "Farming_LimeTree",
+            "type": "farming",
+            "requiresSeedbed": true,
+            "required": {
+                "limeSeeds": 1
+            },
+            "yield": ["limeSeeds","lime"]
+        }
+    },
+    "shrubSapling": {
+        "EA0_10": {
+            "internalId": "Farming_BushMancinella",
+            "type": "farming",
+            "placementRestriction": "groundRequired",
+            "required": {
+                "shrubSeeds": 1
+            }
+        }
     }
 }

@@ -2212,5 +2212,65 @@
                 "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
             ]]
         }
+    },
+    "seedbed": {
+        "EA0_10": {
+            "name": "Seedbed",
+            "description": [[]]
+        }
+    },
+    "pepperSapling": {
+        "EA0_10": {
+            "name": "Pepper Sapling",
+            "description": [[]]
+        }
+    },
+    "sweetPotatoSapling": {
+        "EA0_10": {
+            "name": "Sweet Potato Sapling",
+            "description": [[]]
+        }
+    },
+    "aloeSapling": {
+        "EA0_10": {
+            "name": "Aloe Sapling",
+            "description": [[]]
+        }
+    },
+    "tomatoSapling": {
+        "EA0_10": {
+            "name": "Tomato Sapling",
+            "description": [[]]
+        }
+    },
+    "cornSapling": {
+        "EA0_10": {
+            "name": "Corn Sapling",
+            "description": [[]]
+        }
+    },
+    "flaxSapling": {
+        "EA0_10": {
+            "name": "Flax Sapling",
+            "description": [[]]
+        }
+    },
+    "bananaSapling": {
+        "EA0_10": {
+            "name": "Banana Sapling",
+            "description": [[]]
+        }
+    },
+    "limeSapling": {
+        "EA0_10": {
+            "name": "Lime Sapling",
+            "description": [[]]
+        }
+    },
+    "shrubSapling": {
+        "EA0_10": {
+            "name": "Shrub Sapling",
+            "description": [[]]
+        }
     }
 }
