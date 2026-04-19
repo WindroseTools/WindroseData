@@ -16,5 +16,13 @@
                 "Some say he collapsed from exhaustion, dead atop the beast's corpse."
             ]]
         }
+    },
+    "tinyNecklaceOfVitality": {
+        "demo": {
+            "name": "Tiny Necklace of Vitality",
+            "description": [[
+                "Priests of ancient people once wore necklaces like these as a mark of devotion to a fertility god."
+            ]]
+        }
     }
 }

@@ -9,6 +9,25 @@
                     "pointAmount": 4
                 }
             ]
+        },
+        "EA0_10": {
+            "internalId": "EID_Necklace_Vitality_Minor_02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "jeweleryTable",
+                "level": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 7
+                }
+            ],
+            "required": {
+                "tinyNecklaceOfVitality": 1,
+                "silverIngot": 10
+            }
         }
     },
     "minorAmuletOfStamina": {
@@ -21,6 +40,26 @@
                     "pointAmount": 4
                 }
             ]
+        }
+    },
+    "tinyNecklaceOfVitality": {
+        "EA0_10": {
+            "internalId": "EID_Necklace_Vitality_Minor",
+            "rarity": "common",
+            "stackLimit": 0,
+            "station": {
+                "id": "jeweleryTable",
+                "level": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 5
+                }
+            ],
+            "required": {
+                "silverIngot": 3
+            }
         }
     }
 }
