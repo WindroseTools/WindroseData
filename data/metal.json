@@ -11,5 +11,19 @@
                 "charcoal": 1
             }
         }
+    },
+    "foothillsIronIngot": {
+        "EA0_0_10": {
+            "internalId": "DID_Resource_Iron_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "smeltingFurnace"
+            },
+            "required": {
+                "foothillsIronOre": 3,
+                "charcoal": 1
+            }
+        }
     }
 }

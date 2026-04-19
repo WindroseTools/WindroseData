@@ -328,5 +328,18 @@
                 "Resist moisture exceptionally well - essential for shipbuilding."
             ]]
         }
+    },
+    "foothillsIronOre": {
+        "EA0_0_10": {
+            "name": "Foothills Iron Ore",
+            "description": [
+                [
+                    "Can be used to make Foothills Iron Ingots."
+                ],
+                [
+                    "Found in the natural quarries of the Foothills."
+                ]
+            ]
+        }
     }
 }

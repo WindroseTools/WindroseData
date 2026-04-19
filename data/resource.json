@@ -292,5 +292,12 @@
             "rarity": "uncommon",
             "stackLimit": 0
         }
+    },
+    "foothillsIronOre": {
+        "EA0_0_10": {
+            "internalId": "DID_Resource_Iron_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
     }
 }
