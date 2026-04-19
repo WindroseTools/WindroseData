@@ -2718,5 +2718,187 @@
                 "hardwood": 10
             }
         }
+    },
+    "simpleBlackFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_01",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simpleWhiteFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_02",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simpleRedFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_03",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simpleOrangeFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_04",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simpleGreenFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_05",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simpleBlueFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_06",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "simplePurpleFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT01_07",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "rope": 2,
+                "coarseFabric": 2
+            }
+        }
+    },
+    "fineBlackFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_01",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "fineWhiteFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_02",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "fineRedFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_03",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "fineOrangeFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_04",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "fineGreenFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_05",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "fineBlueFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_06",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
+    },
+    "finePurpleFlagpole": {
+        "EA0_10": {
+            "internalId": "Decorations_FlagpoleT03_07",
+            "type": "banner",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "hardwood": 5,
+                "rope": 2,
+                "linenFabric": 2
+            }
+        }
     }
 }

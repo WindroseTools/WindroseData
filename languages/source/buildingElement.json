@@ -2100,5 +2100,117 @@
                 "Stacking cannonballs can be fun, but rum is better."
             ]]
         }
+    },
+    "simpleBlackFlagpole": {
+        "EA0_10": {
+            "name": "Simple Black Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simpleWhiteFlagpole": {
+        "EA0_10": {
+            "name": "Simple White Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simpleRedFlagpole": {
+        "EA0_10": {
+            "name": "Simple Red Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simpleOrangeFlagpole": {
+        "EA0_10": {
+            "name": "Simple Orange Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simpleGreenFlagpole": {
+        "EA0_10": {
+            "name": "Simple Green Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simpleBlueFlagpole": {
+        "EA0_10": {
+            "name": "Simple Blue Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "simplePurpleFlagpole": {
+        "EA0_10": {
+            "name": "Simple Purple Flagpole",
+            "description": [[
+                "A simple flagpole encrusted with salt from the sea."
+            ]]
+        }
+    },
+    "fineBlackFlagpole": {
+        "EA0_10": {
+            "name": "Fine Black Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "fineWhiteFlagpole": {
+        "EA0_10": {
+            "name": "Fine White Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "fineRedFlagpole": {
+        "EA0_10": {
+            "name": "Fine Red Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "fineOrangeFlagpole": {
+        "EA0_10": {
+            "name": "Fine Orange Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "fineGreenFlagpole": {
+        "EA0_10": {
+            "name": "Fine Green Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "fineBlueFlagpole": {
+        "EA0_10": {
+            "name": "Fine Blue Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
+    },
+    "finePurpleFlagpole": {
+        "EA0_10": {
+            "name": "Fine Purple Flagpole",
+            "description": [[
+                "This flagpole has survived storms, battles, and the occasional strike of a boarding saber."
+            ]]
+        }
     }
 }
