@@ -14,7 +14,7 @@
     },
     "foothillsIronIngot": {
         "EA0_10": {
-            "internalId": "DID_Resource_Iron_T02",
+            "relatedInternalIds": "DID_Resource_Iron_T02",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {

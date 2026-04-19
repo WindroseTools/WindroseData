@@ -11,7 +11,7 @@
             ]
         },
         "EA0_10": {
-            "internalId": "EID_Necklace_Vitality_Minor_02",
+            "relatedInternalIds": "EID_Necklace_Vitality_Minor_02",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {
@@ -44,7 +44,7 @@
     },
     "tinyNecklaceOfVitality": {
         "EA0_10": {
-            "internalId": "EID_Necklace_Vitality_Minor",
+            "relatedInternalIds": "EID_Necklace_Vitality_Minor",
             "rarity": "common",
             "stackLimit": 0,
             "station": {

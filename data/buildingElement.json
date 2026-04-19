@@ -107,7 +107,7 @@
             }
         },
         "EA0_10": {
-            "internalId": ["Craftstation_CookingT01","RD_BuildObject_Craft_Cooking_Station"],
+            "relatedInternalIds": ["Craftstation_CookingT01","RD_BuildObject_Craft_Cooking_Station"],
             "type": "cooking",
             "levels": {
                 "1": {
@@ -150,7 +150,7 @@
             }
         },
         "EA0_10": {
-            "internalId": "Craftstation_EquipmentT01",
+            "relatedInternalIds": "Craftstation_EquipmentT01",
             "type": "personalEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
@@ -180,7 +180,7 @@
             }
         },
         "EA0_10": {
-            "internalId": ["Craftstation_BlacksmithT01","RD_BuildObject_Craft_WeaponTable_Station"],
+            "relatedInternalIds": ["Craftstation_BlacksmithT01","RD_BuildObject_Craft_WeaponTable_Station"],
             "type": "personalEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
@@ -211,7 +211,7 @@
             }
         },
         "EA0_10": {
-            "internalId": "Building_Dockyard_02",
+            "relatedInternalIds": "Building_Dockyard_02",
             "type": "shipEquipment",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
@@ -245,7 +245,7 @@
             }
         },
         "EA0_10": {
-            "internalId": ["Craftstation_AlchemyTableT01","RD_BuildObject_Craft_AlchemyTable_Station"],
+            "relatedInternalIds": ["Craftstation_AlchemyTableT01","RD_BuildObject_Craft_AlchemyTable_Station"],
             "type": "alchemy",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
@@ -285,7 +285,7 @@
             }
         },
         "EA0_10": {
-            "internalId": ["Craftstation_KilnT01","RD_BuildObject_Craft_Kiln_T02"],
+            "relatedInternalIds": ["Craftstation_KilnT01","RD_BuildObject_Craft_Kiln_T02"],
             "type": "refining",
             "workingRestriction": "placementOutside",
             "requiresBonfire": true,
@@ -305,7 +305,7 @@
             }
         },
         "EA0_10": {
-            "internalId": ["Craftstation_Furnace_Name","RD_BuildObject_Craft_Furnace_T01"],
+            "relatedInternalIds": ["Craftstation_Furnace_Name","RD_BuildObject_Craft_Furnace_T01"],
             "type": "refining",
             "workingRestriction": "placementOutside",
             "requiresBonfire": true,
@@ -326,7 +326,7 @@
             }
         },
         "EA0_10": {
-            "internalId": "Building_Bedroll01",
+            "relatedInternalIds": "Building_Bedroll01",
             "type": "bed",
             "workingRestriction": "roofRequired",
             "revivalPoint": true,
@@ -501,7 +501,7 @@
             }
         },
         "EA0_10": {
-            "internalId": "BuildingBrush_Brush_Pier_01",
+            "relatedInternalIds": "BuildingBrush_Brush_Pier_01",
             "type": "prebuiltStructure",
             "required": {
                 "wood": 16
@@ -2020,7 +2020,7 @@
     },
     "signalFire": {
         "EA0_10": {
-            "internalId": "Decorations_SignalFire",
+            "relatedInternalIds": "Decorations_SignalFire",
             "type": "essential",
             "comfort": 1,
             "limit": 3,
@@ -2032,7 +2032,7 @@
     },
     "disassemblyTable": {
         "EA0_10": {
-            "internalId": "Craftstation_DisassemblyBench",
+            "relatedInternalIds": "Craftstation_DisassemblyBench",
             "type": "essential",
             "requiresBonfire": true,
             "required": {
@@ -2044,7 +2044,7 @@
     },
     "toolbox": {
         "EA0_10": {
-            "internalId": "Craftstation_WorkbenchToolboxT01",
+            "relatedInternalIds": "Craftstation_WorkbenchToolboxT01",
             "type": "crafting",
             "requiresBonfire": true,
             "required": {
@@ -2056,7 +2056,7 @@
     },
     "ropeFence": {
         "EA0_10": {
-            "internalId": ["Building_FenceT02_A","Decoration_Pier_FenceT02_AAE_A"],
+            "relatedInternalIds": ["Building_FenceT02_A","Decoration_Pier_FenceT02_AAE_A"],
             "type": "fence",
             "required": {
                 "wood": 2
@@ -2065,7 +2065,7 @@
     },
     "ropeRailings": {
         "EA0_10": {
-            "internalId": ["Building_RailingsStairsPier_01","Decoration_Pier_RailingsStairs_01"],
+            "relatedInternalIds": ["Building_RailingsStairsPier_01","Decoration_Pier_RailingsStairs_01"],
             "type": "handrail",
             "required": {
                 "wood": 3,
@@ -2075,7 +2075,7 @@
     },
     "simpleBedWithHeadboard": {
         "EA0_10": {
-            "internalId": "Building_Bedroll02",
+            "relatedInternalIds": "Building_Bedroll02",
             "type": "bed",
             "workingRestriction": "roofRequired",
             "revivalPoint": true,
@@ -2090,7 +2090,7 @@
     },
     "elegantBed": {
         "EA0_10": {
-            "internalId": ["Decorations_BedrollT04_01","RD_BuildObject_Utility_Bed_T04","Building_Bedroll_T04"],
+            "relatedInternalIds": ["Decorations_BedrollT04_01","RD_BuildObject_Utility_Bed_T04","Building_Bedroll_T04"],
             "type": "bed",
             "workingRestriction": "roofRequired",
             "revivalPoint": true,
@@ -2104,7 +2104,7 @@
     },
     "cookwareShelf": {
         "EA0_10": {
-            "internalId": ["Craftstation_CookingShelfT01","RD_BuildObject_Craft_Cooking_Extender_Dishes"],
+            "relatedInternalIds": ["Craftstation_CookingShelfT01","RD_BuildObject_Craft_Cooking_Extender_Dishes"],
             "type": "cooking",
             "requiresBonfire": true,
             "required": {
@@ -2115,7 +2115,7 @@
     },
     "shoemakersBench": {
         "EA0_10": {
-            "internalId": ["Craftstation_EquipmentShoemakerT01","RD_BuildObject_Craft_ArmorTable_Extender_Shoes"],
+            "relatedInternalIds": ["Craftstation_EquipmentShoemakerT01","RD_BuildObject_Craft_ArmorTable_Extender_Shoes"],
             "type": "personalEquipment",
             "requiresBonfire": true,
             "required": {
@@ -2127,7 +2127,7 @@
     },
     "anvilUpgrade": {
         "EA0_10": {
-            "internalId": ["Craftstation_BlacksmithAnvilT01","RD_BuildObject_Craft_WeaponTable_Extender_Anvil"],
+            "relatedInternalIds": ["Craftstation_BlacksmithAnvilT01","RD_BuildObject_Craft_WeaponTable_Extender_Anvil"],
             "type": "personalEquipment",
             "requiresBonfire": true,
             "required": {
@@ -2138,7 +2138,7 @@
     },
     "reagentTable": {
         "EA0_10": {
-            "internalId": ["Craftstation_AlchemyExtraTableT01","RD_BuildObject_Craft_AlchemyTable_Extender_Reagents"],
+            "relatedInternalIds": ["Craftstation_AlchemyExtraTableT01","RD_BuildObject_Craft_AlchemyTable_Extender_Reagents"],
             "type": "alchemy",
             "requiresBonfire": true,
             "required": {
@@ -2152,7 +2152,7 @@
     },
     "jeweleryTable": {
         "EA0_10": {
-            "internalId": "Craftstation_JewelryCabinetT01",
+            "relatedInternalIds": "Craftstation_JewelryCabinetT01",
             "type": "jewelery",
             "workingRestriction": "roofRequired",
             "requiresBonfire": true,
@@ -2168,7 +2168,7 @@
     },
     "spinningWheel": {
         "EA0_10": {
-            "internalId": ["Craftstation_SpinningWheelT02","RD_BuildObject_Craft_SpinningWheel_T02"],
+            "relatedInternalIds": ["Craftstation_SpinningWheelT02","RD_BuildObject_Craft_SpinningWheel_T02"],
             "type": "refining",
             "workingRestriction": "roofRequired",
             "requiresBonfire": true,
@@ -2180,7 +2180,7 @@
     },
     "tanningRack": {
         "EA0_10": {
-            "internalId": ["Craftstation_TanneryT02","RD_BuildObject_Craft_Tannery_T02"],
+            "relatedInternalIds": ["Craftstation_TanneryT02","RD_BuildObject_Craft_Tannery_T02"],
             "type": "refining",
             "requiresBonfire": true,
             "required": {
@@ -2191,7 +2191,7 @@
     },
     "millstones": {
         "EA0_10": {
-            "internalId": ["Craftstation_MillstonesT02","RD_BuildObject_Craft_Millstones_T02"],
+            "relatedInternalIds": ["Craftstation_MillstonesT02","RD_BuildObject_Craft_Millstones_T02"],
             "type": "refining",
             "requiresBonfire": true,
             "workingRestriction": "roofRequired",
@@ -2203,7 +2203,7 @@
     },
     "wallCandlestickOneSimple": {
         "EA0_10": {
-            "internalId": ["Decorations_WallLampT04_01","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_WallLampT04_01","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "mountingRestriction": "wallOnly",
@@ -2216,7 +2216,7 @@
     },
     "wallCandlestickOne": {
         "EA0_10": {
-            "internalId": ["Decorations_WallLampT04_02","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_WallLampT04_02","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "mountingRestriction": "wallOnly",
@@ -2229,7 +2229,7 @@
     },
     "wallCandlestickTwo": {
         "EA0_10": {
-            "internalId": ["Decorations_WallLampT04_03","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_WallLampT04_03","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "mountingRestriction": "wallOnly",
@@ -2242,7 +2242,7 @@
     },
     "tableCandlestickSimpleOne": {
         "EA0_10": {
-            "internalId": ["Decorations_TableLampT04_01","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_TableLampT04_01","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2254,7 +2254,7 @@
     },
     "tableLampGlass": {
         "EA0_10": {
-            "internalId": ["Decorations_TableLampT04_02","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_TableLampT04_02","Decorations_IronLighting_T04"],
             "type": "lamp",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2266,7 +2266,7 @@
     },
     "tableLampGlassEnclosed": {
         "EA0_10": {
-            "internalId": ["Decorations_TableLampT04_03","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_TableLampT04_03","Decorations_IronLighting_T04"],
             "type": "lamp",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2278,7 +2278,7 @@
     },
     "tableCandlestickOne": {
         "EA0_10": {
-            "internalId": ["Decorations_LampT04_01","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_LampT04_01","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2290,7 +2290,7 @@
     },
     "tableCandlestickThree": {
         "EA0_10": {
-            "internalId": ["Decorations_LampT04_02","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_LampT04_02","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2302,7 +2302,7 @@
     },
     "tableCandlestickFour": {
         "EA0_10": {
-            "internalId": ["Decorations_LampT04_03","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_LampT04_03","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2314,7 +2314,7 @@
     },
     "floorStandingCandlestickFour": {
         "EA0_10": {
-            "internalId": ["Decorations_LampT04_04","Decorations_IronLighting_T04"],
+            "relatedInternalIds": ["Decorations_LampT04_04","Decorations_IronLighting_T04"],
             "type": "candle",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2326,7 +2326,7 @@
     },
     "helmChandelier": {
         "EA0_10": {
-            "internalId": "Decorations_Chandelier",
+            "relatedInternalIds": "Decorations_Chandelier",
             "type": "chandelier",
             "requiresBonfire": true,
             "mountingRestriction": "ceilingOnly",
@@ -2340,7 +2340,7 @@
     },
     "ceilingChain": {
         "EA0_10": {
-            "internalId": ["Decorations_ChainT04_01","RD_BuildObject_Deco_IronLights_T04"],
+            "relatedInternalIds": ["Decorations_ChainT04_01","RD_BuildObject_Deco_IronLights_T04"],
             "type": "chandelier",
             "requiresBonfire": true,
             "required": {
@@ -2350,7 +2350,7 @@
     },
     "hangingLamp": {
         "EA0_10": {
-            "internalId": "Decorations_ChandelierT04_01",
+            "relatedInternalIds": "Decorations_ChandelierT04_01",
             "type": "lamp",
             "requiresBonfire": true,
             "mountingRestriction": "ceilingOnly",
@@ -2363,7 +2363,7 @@
     },
     "smallChandelier": {
         "EA0_10": {
-            "internalId": "Decorations_ChandelierT04_02",
+            "relatedInternalIds": "Decorations_ChandelierT04_02",
             "type": "chandelier",
             "requiresBonfire": true,
             "mountingRestriction": "ceilingOnly",
@@ -2376,7 +2376,7 @@
     },
     "mediumChandelier": {
         "EA0_10": {
-            "internalId": "Decorations_ChandelierT04_03",
+            "relatedInternalIds": "Decorations_ChandelierT04_03",
             "type": "chandelier",
             "requiresBonfire": true,
             "mountingRestriction": "ceilingOnly",
@@ -2389,7 +2389,7 @@
     },
     "largeChandelier": {
         "EA0_10": {
-            "internalId": "Decorations_ChandelierT04_04",
+            "relatedInternalIds": "Decorations_ChandelierT04_04",
             "type": "chandelier",
             "requiresBonfire": true,
             "mountingRestriction": "ceilingOnly",
@@ -2402,7 +2402,7 @@
     },
     "crudePlate": {
         "EA0_10": {
-            "internalId": "Decorations_Plate_01",
+            "relatedInternalIds": "Decorations_Plate_01",
             "type": "dish",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2413,7 +2413,7 @@
     },
     "crudeFryingPan": {
         "EA0_10": {
-            "internalId": "Decorations_FryingPan_01",
+            "relatedInternalIds": "Decorations_FryingPan_01",
             "type": "dish",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2424,7 +2424,7 @@
     },
     "crudeKettle": {
         "EA0_10": {
-            "internalId": "Decorations_Teapot_01",
+            "relatedInternalIds": "Decorations_Teapot_01",
             "type": "dish",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2435,7 +2435,7 @@
     },
     "mugOfGrog": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_01","RD_BuildObject_Deco_Kitchen_T02_Food_01"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_01","RD_BuildObject_Deco_Kitchen_T02_Food_01"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2447,7 +2447,7 @@
     },
     "stewBowl": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_03","RD_BuildObject_Deco_Kitchen_T02_Food_03"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_03","RD_BuildObject_Deco_Kitchen_T02_Food_03"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2461,7 +2461,7 @@
     },
     "cornSoup": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_04","RD_BuildObject_Deco_Kitchen_T02_Food_04"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_04","RD_BuildObject_Deco_Kitchen_T02_Food_04"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2474,7 +2474,7 @@
     },
     "dessertPlatter": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_07","RD_BuildObject_Deco_Kitchen_T02_Food_07"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_07","RD_BuildObject_Deco_Kitchen_T02_Food_07"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2487,7 +2487,7 @@
     },
     "meatPlatter": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_10","RD_BuildObject_Deco_Kitchen_T02_Food_10"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_10","RD_BuildObject_Deco_Kitchen_T02_Food_10"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2501,7 +2501,7 @@
     },
     "seafoodPlatter": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_09","RD_BuildObject_Deco_Kitchen_T02_Food_09"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_09","RD_BuildObject_Deco_Kitchen_T02_Food_09"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2514,7 +2514,7 @@
     },
     "mushroomBowl": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_02","RD_BuildObject_Deco_Kitchen_T02_Food_02"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_02","RD_BuildObject_Deco_Kitchen_T02_Food_02"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2527,7 +2527,7 @@
     },
     "mushroomSoup": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_05","RD_BuildObject_Deco_Kitchen_T02_Food_05"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_05","RD_BuildObject_Deco_Kitchen_T02_Food_05"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2540,7 +2540,7 @@
     },
     "fruitPlatter": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_06","RD_BuildObject_Deco_Kitchen_T02_Food_06"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_06","RD_BuildObject_Deco_Kitchen_T02_Food_06"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2553,7 +2553,7 @@
     },
     "vegetablesOnACuttingBoard": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_12","RD_BuildObject_Deco_Kitchen_T02_Food_12"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_12","RD_BuildObject_Deco_Kitchen_T02_Food_12"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2568,7 +2568,7 @@
     },
     "freshFruitPlatter": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_08","RD_BuildObject_Deco_Kitchen_T02_Food_08"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_08","RD_BuildObject_Deco_Kitchen_T02_Food_08"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2583,7 +2583,7 @@
     },
     "luxuriousDinner": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorativeFood_11","RD_BuildObject_Deco_Kitchen_T02_Food_11"],
+            "relatedInternalIds": ["Decorations_DecorativeFood_11","RD_BuildObject_Deco_Kitchen_T02_Food_11"],
             "type": "foodDisplay",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2596,7 +2596,7 @@
     },
     "book": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorBooksT02_01","Decorations_Books_Single"],
+            "relatedInternalIds": ["Decorations_DecorBooksT02_01","Decorations_Books_Single"],
             "type": "book",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2607,7 +2607,7 @@
     },
     "stackOfBooks": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorBooksT02_02","Decorations_Books"],
+            "relatedInternalIds": ["Decorations_DecorBooksT02_02","Decorations_Books"],
             "type": "book",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2618,7 +2618,7 @@
     },
     "greatStackOfBooks": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorBooksT02_03","Decorations_Books"],
+            "relatedInternalIds": ["Decorations_DecorBooksT02_03","Decorations_Books"],
             "type": "book",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2629,7 +2629,7 @@
     },
     "rowOfBooks": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorBooksT02_04","Decorations_Books"],
+            "relatedInternalIds": ["Decorations_DecorBooksT02_04","Decorations_Books"],
             "type": "book",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2640,7 +2640,7 @@
     },
     "openBook": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorBooksT02_05","Decorations_Books_Open"],
+            "relatedInternalIds": ["Decorations_DecorBooksT02_05","Decorations_Books_Open"],
             "type": "book",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2651,7 +2651,7 @@
     },
     "scrolls": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorScrollT02_01","Decorations_Books_Scroll"],
+            "relatedInternalIds": ["Decorations_DecorScrollT02_01","Decorations_Books_Scroll"],
             "type": "scroll",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2662,7 +2662,7 @@
     },
     "openScroll": {
         "EA0_10": {
-            "internalId": ["Decorations_DecorScrollT02_02","Decorations_Books_ScrollSingle"],
+            "relatedInternalIds": ["Decorations_DecorScrollT02_02","Decorations_Books_ScrollSingle"],
             "type": "scroll",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2673,7 +2673,7 @@
     },
     "spyglass": {
         "EA0_10": {
-            "internalId": ["Decorations_Spyglass","RD_BuildObject_Deco_Misc_T01_Spyglass"],
+            "relatedInternalIds": ["Decorations_Spyglass","RD_BuildObject_Deco_Misc_T01_Spyglass"],
             "type": "decoration",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2685,7 +2685,7 @@
     },
     "spyglassSNF": {
         "EA0_10": {
-            "internalId": ["Decorations_SpyglassSNF","RD_BuildObject_Deco_Misc_T01_SpyglassSNF"],
+            "relatedInternalIds": ["Decorations_SpyglassSNF","RD_BuildObject_Deco_Misc_T01_SpyglassSNF"],
             "type": "decoration",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2697,7 +2697,7 @@
     },
     "ornamentalCannon": {
         "EA0_10": {
-            "internalId": "Decorations_Cannon_01",
+            "relatedInternalIds": "Decorations_Cannon_01",
             "type": "military",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2709,7 +2709,7 @@
     },
     "cannonballs": {
         "EA0_10": {
-            "internalId": "Decorations_Cannonballs_01",
+            "relatedInternalIds": "Decorations_Cannonballs_01",
             "type": "military",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2721,7 +2721,7 @@
     },
     "simpleBlackFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_01",
+            "relatedInternalIds": "Decorations_FlagpoleT01_01",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2734,7 +2734,7 @@
     },
     "simpleWhiteFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_02",
+            "relatedInternalIds": "Decorations_FlagpoleT01_02",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2747,7 +2747,7 @@
     },
     "simpleRedFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_03",
+            "relatedInternalIds": "Decorations_FlagpoleT01_03",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2760,7 +2760,7 @@
     },
     "simpleOrangeFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_04",
+            "relatedInternalIds": "Decorations_FlagpoleT01_04",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2773,7 +2773,7 @@
     },
     "simpleGreenFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_05",
+            "relatedInternalIds": "Decorations_FlagpoleT01_05",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2786,7 +2786,7 @@
     },
     "simpleBlueFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_06",
+            "relatedInternalIds": "Decorations_FlagpoleT01_06",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2799,7 +2799,7 @@
     },
     "simplePurpleFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT01_07",
+            "relatedInternalIds": "Decorations_FlagpoleT01_07",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2812,7 +2812,7 @@
     },
     "fineBlackFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_01",
+            "relatedInternalIds": "Decorations_FlagpoleT03_01",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2825,7 +2825,7 @@
     },
     "fineWhiteFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_02",
+            "relatedInternalIds": "Decorations_FlagpoleT03_02",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2838,7 +2838,7 @@
     },
     "fineRedFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_03",
+            "relatedInternalIds": "Decorations_FlagpoleT03_03",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2851,7 +2851,7 @@
     },
     "fineOrangeFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_04",
+            "relatedInternalIds": "Decorations_FlagpoleT03_04",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2864,7 +2864,7 @@
     },
     "fineGreenFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_05",
+            "relatedInternalIds": "Decorations_FlagpoleT03_05",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2877,7 +2877,7 @@
     },
     "fineBlueFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_06",
+            "relatedInternalIds": "Decorations_FlagpoleT03_06",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2890,7 +2890,7 @@
     },
     "finePurpleFlagpole": {
         "EA0_10": {
-            "internalId": "Decorations_FlagpoleT03_07",
+            "relatedInternalIds": "Decorations_FlagpoleT03_07",
             "type": "banner",
             "requiresBonfire": true,
             "comfort": 1,
@@ -2903,7 +2903,7 @@
     },
     "seedbed": {
         "EA0_10": {
-            "internalId": "Soil_BEB_A",
+            "relatedInternalIds": "Soil_BEB_A",
             "type": "farming",
             "placementRestriction": "groundRequired",
             "required": {
@@ -2913,7 +2913,7 @@
     },
     "pepperSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushPepper",
+            "relatedInternalIds": "Farming_BushPepper",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2924,7 +2924,7 @@
     },
     "sweetPotatoSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushPotato",
+            "relatedInternalIds": "Farming_BushPotato",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2935,7 +2935,7 @@
     },
     "aloeSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushAloe",
+            "relatedInternalIds": "Farming_BushAloe",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2946,7 +2946,7 @@
     },
     "tomatoSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushTomato",
+            "relatedInternalIds": "Farming_BushTomato",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2957,7 +2957,7 @@
     },
     "cornSapling": {
         "EA0_10": {
-            "internalId": "Farming_Corn_Poor",
+            "relatedInternalIds": "Farming_Corn_Poor",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2968,7 +2968,7 @@
     },
     "flaxSapling": {
         "EA0_10": {
-            "internalId": "Farming_Flax",
+            "relatedInternalIds": "Farming_Flax",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2979,7 +2979,7 @@
     },
     "bananaSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushBanana",
+            "relatedInternalIds": "Farming_BushBanana",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -2990,7 +2990,7 @@
     },
     "limeSapling": {
         "EA0_10": {
-            "internalId": "Farming_LimeTree",
+            "relatedInternalIds": "Farming_LimeTree",
             "type": "farming",
             "requiresSeedbed": true,
             "required": {
@@ -3001,7 +3001,7 @@
     },
     "shrubSapling": {
         "EA0_10": {
-            "internalId": "Farming_BushMancinella",
+            "relatedInternalIds": "Farming_BushMancinella",
             "type": "farming",
             "placementRestriction": "groundRequired",
             "required": {
