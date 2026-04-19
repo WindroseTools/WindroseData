@@ -78,7 +78,7 @@
         "demo": {
             "name": "Armor and Clothing Workshop",
             "description": [[
-                "Allows to make equipment."
+                "Allows you to make equipment."
             ]]
         }
     },
@@ -1695,6 +1695,70 @@
             "name": "Elegant Bed",
             "description": [[
                 "A sturdy, well-made bed where reliability meets elegance"
+            ]]
+        }
+    },
+    "cookwareShelf": {
+        "EA0_0_10": {
+            "name": "Cookware Shelf",
+            "description": [[
+                "Cooking Fire upgrade."
+            ]]
+        }
+    },
+    "shoemakersBench": {
+        "EA0_0_10": {
+            "name": "Shoemaker's Bench",
+            "description": [[
+                "Armor and Clothing Workshop upgrade."
+            ]]
+        }
+    },
+    "anvilUpgrade": {
+        "EA0_0_10": {
+            "name": "Anvil",
+            "description": [[
+                "Weaponsmith Workshop and Shipwright's Workshop upgrade."
+            ]]
+        }
+    },
+    "reagentTable": {
+        "EA0_0_10": {
+            "name": "Reagent Table",
+            "description": [[
+                "Alchemy table upgrade."
+            ]]
+        }
+    },
+    "jeweleryTable": {
+        "EA0_0_10": {
+            "name": "Jewelry Table",
+            "description": [[
+                "Allows you to craft and upgrade jewelery."
+            ]]
+        }
+    },
+    "spinningWheel": {
+        "EA0_0_10": {
+            "name": "Spinning Wheel",
+            "description": [[
+                "Allows you to make cloth."
+            ]]
+        }
+    },
+    "tanningRack": {
+        "EA0_0_10": {
+            "name": "Tanning Rack",
+            "description": [[
+                "Allows you to process hides."
+            ]]
+        }
+    },
+    "millstones": {
+        "EA0_0_10": {
+            "name": "Millstones",
+            "description": [[
+                "Allows you to make powdered materials."
             ]]
         }
     }

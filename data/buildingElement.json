@@ -105,6 +105,25 @@
                 "wood": 3,
                 "stone": 3
             }
+        },
+        "EA0_0_10": {
+            "internalId": ["Craftstation_CookingT01","RD_BuildObject_Craft_Cooking_Station"],
+            "type": "cooking",
+            "levels": {
+                "1": {
+                    "requiresBonfire": true
+                },
+                "2": {
+                    "requiredAddons": ["cuttingTable"]
+                },
+                "3": {
+                    "requiredAddons": ["cuttingTable", "cookwareShelf"]
+                }
+            },
+            "required": {
+                "wood": 3,
+                "stone": 3
+            }
         }
     },
     "cuttingTable": {
@@ -129,6 +148,22 @@
                 "wood": 5,
                 "coarseFabric": 10
             }
+        },
+        "EA0_0_10": {
+            "internalId": "Craftstation_EquipmentT01",
+            "type": "personalEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
+            "levels": {
+                "1": {},
+                "2": {
+                    "requiredAddons": ["shoemakersBench"]
+                }
+            },
+            "required": {
+                "wood": 5,
+                "coarseFabric": 10
+            }
         }
     },
     "weaponsmithWorkshop": {
@@ -143,6 +178,22 @@
                 "wood": 10,
                 "copperIngot": 5
             }
+        },
+        "EA0_0_10": {
+            "internalId": ["Craftstation_BlacksmithT01","RD_BuildObject_Craft_WeaponTable_Station"],
+            "type": "personalEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
+            "levels": {
+                "1": {},
+                "2": {
+                    "requiredAddons": ["anvilUpgrade"]
+                }
+            },
+            "required": {
+                "wood": 10,
+                "copperIngot": 5
+            }
         }
     },
     "shipwrightsWorkshop": {
@@ -152,6 +203,23 @@
             "workingRestriction": "roofRequired",
             "levels": {
                 "1": {}
+            },
+            "required": {
+                "wood": 15,
+                "coarseFabric": 10,
+                "copperIngot": 5
+            }
+        },
+        "EA0_0_10": {
+            "internalId": "Building_Dockyard_02",
+            "type": "shipEquipment",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
+            "levels": {
+                "1": {},
+                "2": {
+                    "requiredAddons": ["anvilUpgrade"]
+                }
             },
             "required": {
                 "wood": 15,
@@ -175,6 +243,25 @@
                     "requiredAddons": ["stoveAndPot"]
                 }
             }
+        },
+        "EA0_0_10": {
+            "internalId": ["Craftstation_AlchemyTableT01","RD_BuildObject_Craft_AlchemyTable_Station"],
+            "type": "alchemy",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
+            "required": {
+                "wood": 5,
+                "clayPot": 2
+            },
+            "levels": {
+                "1": {},
+                "2": {
+                    "requiredAddons": ["stoveAndPot"]
+                },
+                "3": {
+                    "requiredAddons": ["stoveAndPot", "reagentTable"]
+                }
+            }
         }
     },
     "stoveAndPot": {
@@ -196,12 +283,32 @@
                 "wood": 25,
                 "clay": 20
             }
+        },
+        "EA0_0_10": {
+            "internalId": ["Craftstation_KilnT01","RD_BuildObject_Craft_Kiln_T02"],
+            "type": "refining",
+            "workingRestriction": "placementOutside",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 25,
+                "clay": 20
+            }
         }
     },
     "smeltingFurnace": {
         "demo": {
             "type": "refining",
             "workingRestriction": "placementOutside",
+            "required": {
+                "clay": 15,
+                "stone": 30
+            }
+        },
+        "EA0_0_10": {
+            "internalId": ["Craftstation_Furnace_Name","RD_BuildObject_Craft_Furnace_T01"],
+            "type": "refining",
+            "workingRestriction": "placementOutside",
+            "requiresBonfire": true,
             "required": {
                 "clay": 15,
                 "stone": 30
@@ -1992,6 +2099,105 @@
                 "hardwood": 10,
                 "linenFabric": 10,
                 "feather": 10
+            }
+        }
+    },
+    "cookwareShelf": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_CookingShelfT01","RD_BuildObject_Craft_Cooking_Extender_Dishes"],
+            "type": "cooking",
+            "requiresBonfire": true,
+            "required": {
+                "hardwood": 10,
+                "ironware": 2
+            }
+        }
+    },
+    "shoemakersBench": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_EquipmentShoemakerT01","RD_BuildObject_Craft_ArmorTable_Extender_Shoes"],
+            "type": "personalEquipment",
+            "requiresBonfire": true,
+            "required": {
+                "hardwood": 30,
+                "tannedLeather": 20,
+                "linenFabric": 15
+            }
+        }
+    },
+    "anvilUpgrade": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_BlacksmithAnvilT01","RD_BuildObject_Craft_WeaponTable_Extender_Anvil"],
+            "type": "personalEquipment",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 10,
+                "anvil": 1
+            }
+        }
+    },
+    "reagentTable": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_AlchemyExtraTableT01","RD_BuildObject_Craft_AlchemyTable_Extender_Reagents"],
+            "type": "alchemy",
+            "requiresBonfire": true,
+            "required": {
+                "hardwood": 5,
+                "rumBottle": 2,
+                "silverIngot": 2,
+                "sulfur": 2,
+                "ironware": 1
+            }
+        }
+    },
+    "jeweleryTable": {
+        "EA0_0_10": {
+            "internalId": "Craftstation_JewelryCabinetT01",
+            "type": "jewelery",
+            "workingRestriction": "roofRequired",
+            "requiresBonfire": true,
+            "levels": {
+                "1": {}
+            },
+            "required": {
+                "wood": 10,
+                "foothillsIronIngot": 5,
+                "silverIngot": 3
+            }
+        }
+    },
+    "spinningWheel": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_SpinningWheelT02","RD_BuildObject_Craft_SpinningWheel_T02"],
+            "type": "refining",
+            "workingRestriction": "roofRequired",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 10,
+                "rope": 5
+            }
+        }
+    },
+    "tanningRack": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_TanneryT02","RD_BuildObject_Craft_Tannery_T02"],
+            "type": "refining",
+            "requiresBonfire": true,
+            "required": {
+                "wood": 10,
+                "rope": 5
+            }
+        }
+    },
+    "millstones": {
+        "EA0_0_10": {
+            "internalId": ["Craftstation_MillstonesT02","RD_BuildObject_Craft_Millstones_T02"],
+            "type": "refining",
+            "requiresBonfire": true,
+            "workingRestriction": "roofRequired",
+            "required": {
+                "wood": 15,
+                "millstoneParts": 1
             }
         }
     }
