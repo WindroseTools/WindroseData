@@ -381,6 +381,12 @@
             "required": {
                 "wood": 16
             }
+        },
+        "EA0_0_10": {
+            "type": "prebuiltStructure",
+            "required": {
+                "wood": 16
+            }
         }
     },
     "stoneFoundation": {
