@@ -5,7 +5,7 @@ export const Versions = {
         startDate: new Date("2026-02-17T00:00:00Z"),
         endDate: new Date("2026-04-13T23:59:59Z"),
     },
-    "EA0_0_10": {
+    "EA0_10": {
         index: 1,
         startDate: new Date("2026-04-14T00:00:00Z"),
         endDate: new Date("2026-12-30T23:59:59Z"),

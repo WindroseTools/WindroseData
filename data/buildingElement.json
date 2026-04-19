@@ -62,7 +62,7 @@
                 "wood": 5
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "type": "crafting",
             "levels": {
                 "1": {
@@ -106,7 +106,7 @@
                 "stone": 3
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_CookingT01","RD_BuildObject_Craft_Cooking_Station"],
             "type": "cooking",
             "levels": {
@@ -149,7 +149,7 @@
                 "coarseFabric": 10
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Craftstation_EquipmentT01",
             "type": "personalEquipment",
             "requiresBonfire": true,
@@ -179,7 +179,7 @@
                 "copperIngot": 5
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_BlacksmithT01","RD_BuildObject_Craft_WeaponTable_Station"],
             "type": "personalEquipment",
             "requiresBonfire": true,
@@ -210,7 +210,7 @@
                 "copperIngot": 5
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Building_Dockyard_02",
             "type": "shipEquipment",
             "requiresBonfire": true,
@@ -244,7 +244,7 @@
                 }
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_AlchemyTableT01","RD_BuildObject_Craft_AlchemyTable_Station"],
             "type": "alchemy",
             "requiresBonfire": true,
@@ -284,7 +284,7 @@
                 "clay": 20
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_KilnT01","RD_BuildObject_Craft_Kiln_T02"],
             "type": "refining",
             "workingRestriction": "placementOutside",
@@ -304,7 +304,7 @@
                 "stone": 30
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_Furnace_Name","RD_BuildObject_Craft_Furnace_T01"],
             "type": "refining",
             "workingRestriction": "placementOutside",
@@ -325,7 +325,7 @@
                 "wood": 3
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Building_Bedroll01",
             "type": "bed",
             "workingRestriction": "roofRequired",
@@ -500,7 +500,7 @@
                 "wood": 16
             }
         },
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "BuildingBrush_Brush_Pier_01",
             "type": "prebuiltStructure",
             "required": {
@@ -2019,7 +2019,7 @@
         }
     },
     "signalFire": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Decorations_SignalFire",
             "type": "essential",
             "comfort": 1,
@@ -2031,7 +2031,7 @@
         }
     },
     "disassemblyTable": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Craftstation_DisassemblyBench",
             "type": "essential",
             "requiresBonfire": true,
@@ -2043,7 +2043,7 @@
         }
     },
     "toolbox": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Craftstation_WorkbenchToolboxT01",
             "type": "crafting",
             "requiresBonfire": true,
@@ -2055,7 +2055,7 @@
         }
     },
     "ropeFence": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Building_FenceT02_A","Decoration_Pier_FenceT02_AAE_A"],
             "type": "fence",
             "required": {
@@ -2064,7 +2064,7 @@
         }
     },
     "ropeRailings": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Building_RailingsStairsPier_01","Decoration_Pier_RailingsStairs_01"],
             "type": "handrail",
             "required": {
@@ -2074,7 +2074,7 @@
         }
     },
     "simpleBedWithHeadboard": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Building_Bedroll02",
             "type": "bed",
             "workingRestriction": "roofRequired",
@@ -2089,7 +2089,7 @@
         }
     },
     "elegantBed": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Decorations_BedrollT04_01","RD_BuildObject_Utility_Bed_T04","Building_Bedroll_T04"],
             "type": "bed",
             "workingRestriction": "roofRequired",
@@ -2103,7 +2103,7 @@
         }
     },
     "cookwareShelf": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_CookingShelfT01","RD_BuildObject_Craft_Cooking_Extender_Dishes"],
             "type": "cooking",
             "requiresBonfire": true,
@@ -2114,7 +2114,7 @@
         }
     },
     "shoemakersBench": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_EquipmentShoemakerT01","RD_BuildObject_Craft_ArmorTable_Extender_Shoes"],
             "type": "personalEquipment",
             "requiresBonfire": true,
@@ -2126,7 +2126,7 @@
         }
     },
     "anvilUpgrade": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_BlacksmithAnvilT01","RD_BuildObject_Craft_WeaponTable_Extender_Anvil"],
             "type": "personalEquipment",
             "requiresBonfire": true,
@@ -2137,7 +2137,7 @@
         }
     },
     "reagentTable": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_AlchemyExtraTableT01","RD_BuildObject_Craft_AlchemyTable_Extender_Reagents"],
             "type": "alchemy",
             "requiresBonfire": true,
@@ -2151,7 +2151,7 @@
         }
     },
     "jeweleryTable": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": "Craftstation_JewelryCabinetT01",
             "type": "jewelery",
             "workingRestriction": "roofRequired",
@@ -2167,7 +2167,7 @@
         }
     },
     "spinningWheel": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_SpinningWheelT02","RD_BuildObject_Craft_SpinningWheel_T02"],
             "type": "refining",
             "workingRestriction": "roofRequired",
@@ -2179,7 +2179,7 @@
         }
     },
     "tanningRack": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_TanneryT02","RD_BuildObject_Craft_Tannery_T02"],
             "type": "refining",
             "requiresBonfire": true,
@@ -2190,7 +2190,7 @@
         }
     },
     "millstones": {
-        "EA0_0_10": {
+        "EA0_10": {
             "internalId": ["Craftstation_MillstonesT02","RD_BuildObject_Craft_Millstones_T02"],
             "type": "refining",
             "requiresBonfire": true,
