@@ -3,7 +3,7 @@ import { BuildingElement } from "../daos/buildingElement";
 export const BETypes = [
     "essential","crafting","cooking","personalEquipment","shipEquipment","alchemy","jewelery","refining","bed","storage","label","foundation","floor","wall","roof",
     "pillar","beam","corner","window","door","stair","fence","handrail","trophy","seating","table","shelf","wardrobe","canopy","lamp","torch","dish","supply",
-    "shellDecoration","candle","chandelier","foodDisplay","book",
+    "shellDecoration","candle","chandelier","foodDisplay","book","military",
     "pierDecoration","decoration","prebuiltStructure","other"
 ] as const;
 export type BEType = (typeof BETypes)[number];

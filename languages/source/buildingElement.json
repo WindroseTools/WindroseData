@@ -2084,5 +2084,21 @@
                 "Thank you for sailing these seas before anyone else."
             ]]
         }
+    },
+    "ornamentalCannon": {
+        "EA0_10": {
+            "name": "Ornamental Cannon",
+            "description": [[
+                "A cannon. They're loading it... Wait - they're going to fire!"
+            ]]
+        }
+    },
+    "cannonballs": {
+        "EA0_10": {
+            "name": "Cannonballs",
+            "description": [[
+                "Stacking cannonballs can be fun, but rum is better."
+            ]]
+        }
     }
 }

@@ -2694,5 +2694,29 @@
                 "copperIngot": 1
             }
         }
+    },
+    "ornamentalCannon": {
+        "EA0_10": {
+            "internalId": "Decorations_Cannon_01",
+            "type": "military",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "hardwood": 10
+            }
+        }
+    },
+    "cannonballs": {
+        "EA0_10": {
+            "internalId": "Decorations_Cannonballs_01",
+            "type": "military",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 10,
+                "hardwood": 10
+            }
+        }
     }
 }
