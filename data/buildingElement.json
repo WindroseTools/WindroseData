@@ -383,6 +383,7 @@
             }
         },
         "EA0_0_10": {
+            "internalId": "BuildingBrush_Brush_Pier_01",
             "type": "prebuiltStructure",
             "required": {
                 "wood": 16
@@ -1932,6 +1933,25 @@
                 "wood": 10,
                 "nails": 20,
                 "foothillsIronIngot": 5
+            }
+        }
+    },
+    "ropeFence": {
+        "EA0_0_10": {
+            "internalId": ["Building_FenceT02_A","Decoration_Pier_FenceT02_AAE_A"],
+            "type": "fence",
+            "required": {
+                "wood": 2
+            }
+        }
+    },
+    "ropeRailings": {
+        "EA0_0_10": {
+            "internalId": ["Building_RailingsStairsPier_01","Decoration_Pier_RailingsStairs_01"],
+            "type": "handrail",
+            "required": {
+                "wood": 3,
+                "rope": 1
             }
         }
     }

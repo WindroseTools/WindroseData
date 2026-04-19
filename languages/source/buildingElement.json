@@ -1665,5 +1665,21 @@
                 "Workbench upgrade."
             ]]
         }
+    },
+    "ropeFence": {
+        "EA0_0_10": {
+            "name": "Rope Fence",
+            "description": [[
+                "A reliable rope barrier for the edge of the pier."
+            ]]
+        }
+    },
+    "ropeRailings": {
+        "EA0_0_10": {
+            "name": "Rope Railings",
+            "description": [[
+                "Rope railings used even by the bravest… or the most drunk."
+            ]]
+        }
     }
 }
