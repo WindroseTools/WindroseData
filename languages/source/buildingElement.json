@@ -2067,5 +2067,22 @@
                 "A note at the bottom reads: \"If something breaks, pretend it's the intended behavior.\""
             ]]
         }
+    },
+    "spyglass": {
+        "EA0_10": {
+            "name": "Spyglass",
+            "description": [[
+                "They say a good captain spots the storm before the winds dare to shift."
+            ]]
+        }
+    },
+    "spyglassSNF": {
+        "EA0_10": {
+            "name": "Spyglass SNF",
+            "description": [[
+                "This spyglass shines because of you.",
+                "Thank you for sailing these seas before anyone else."
+            ]]
+        }
     }
 }

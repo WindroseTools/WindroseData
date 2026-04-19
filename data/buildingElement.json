@@ -2670,5 +2670,29 @@
                 "wood": 3
             }
         }
+    },
+    "spyglass": {
+        "EA0_10": {
+            "internalId": ["Decorations_Spyglass","RD_BuildObject_Deco_Misc_T01_Spyglass"],
+            "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "copperIngot": 1
+            }
+        }
+    },
+    "spyglassSNF": {
+        "EA0_10": {
+            "internalId": ["Decorations_SpyglassSNF","RD_BuildObject_Deco_Misc_T01_SpyglassSNF"],
+            "type": "decoration",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "wood": 5,
+                "copperIngot": 1
+            }
+        }
     }
 }
