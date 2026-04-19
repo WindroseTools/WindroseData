@@ -1,6 +1,7 @@
 {
     "marksmansRig": {
         "demo": {
+            "type": "armor",
             "pieces": [],
             "pieceBonuses": {
                 "2": [
@@ -20,6 +21,7 @@
     },
     "flibustiersAttire": {
         "demo": {
+            "type": "armor",
             "pieces": [],
             "pieceBonuses": {
                 "2": [
@@ -39,6 +41,7 @@
     },
     "privateersRegalia": {
         "demo": {
+            "type": "armor",
             "pieces": ["privateersHat","privateersDoublet","privateersPants","privateersGloves","privateersBoots"],
             "pieceBonuses": {
                 "2": [
