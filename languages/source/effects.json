@@ -309,5 +309,13 @@
                 "Stacks up to {{maxStacks}} times."
             ]]
         }
+    },
+    "noAffectOnDurationOfRepairKitsUponDamage": {
+        "EA0_10": {
+            "name": "",
+            "description": [[
+                "Taking damage no longer affects the duration of repair kits."
+            ]]
+        }
     }
 }

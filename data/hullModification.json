@@ -16,6 +16,49 @@
                 "copperIngot": 5,
                 "nails": 5
             }
+        },
+        "EA0_10": {
+            "relatedInternalIds": "EID_Ship_Hull_Blank_Base",
+            "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defensePower": 100
+                }
+            },
+            "required": {
+                "wood": 20,
+                "copperIngot": 5,
+                "nails": 5
+            }
+        }
+    },
+    "hullBracingKeelhold": {
+        "EA0_10": {
+            "relatedInternalIds": ["EID_Ship_Hull_ActiveDefence_Base","EID_Ship_Hull_ActiveDefence_Advanced"],
+            "rarity": "rare",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "levels": {
+                "1": {
+                    "defensePower": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "noAffectOnDurationOfRepairKitsUponDamage"
+                }
+            ],
+            "required": {
+                "woodenPlank": 10,
+                "copperIngot": 5,
+                "nails": 5
+            }
         }
     }
 }

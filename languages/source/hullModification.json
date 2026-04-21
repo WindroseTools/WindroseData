@@ -4,7 +4,22 @@
             "name": "Hull Bracing",
             "description": [[
                 "Standard timber bracing added to steady the hull under strain."
-            ]]
+            ]],
+            "comment": [
+                "Hold her together."
+            ]
+        }
+    },
+    "hullBracingKeelhold": {
+        "EA0_10": {
+            "name": "Hull Bracing: Keelhold",
+            "description": [[
+                "Bracing intended to steady the ship during repairs, keeping the keel true while the worst damage is brought under control."
+            ]],
+            "comment": [
+                "They said she wouldn't make it. She did.",
+                "- overheard in a tavern"
+            ]
         }
     }
 }
