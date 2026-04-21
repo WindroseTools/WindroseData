@@ -21,6 +21,7 @@
             }
         },
         "EA0_10": {
+            "relatedInternalIds": "EID_Cannon_12_Blank_Base",
             "rarity": "uncommon",
             "station": {
                 "id": "shipwrightsWorkshop",
@@ -43,6 +44,7 @@
     },
     "24Pounders": {
         "EA0_10": {
+            "relatedInternalIds": "EID_Cannon_24_Blank_Base",
             "rarity": "uncommon",
             "station": {
                 "id": "shipwrightsWorkshop",
@@ -65,6 +67,7 @@
     },
     "24PoundersDevastating": {
         "EA0_10": {
+            "relatedInternalIds": ["EID_Cannon_24_Vulnerability_Base","EID_Cannon_24_Vulnerability_Advanced"],
             "rarity": "rare",
             "station": {
                 "id": "shipwrightsWorkshop",
@@ -96,6 +99,7 @@
     },
     "36Pounders": {
         "EA0_10": {
+            "relatedInternalIds": "EID_Cannon_36_Blank_Base",
             "rarity": "uncommon",
             "station": {
                 "id": "shipwrightsWorkshop",
