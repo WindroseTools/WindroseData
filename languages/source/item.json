@@ -46,5 +46,30 @@
                 "Explains many decisions."
             ]
         }
+    },
+    "hardGrog": {
+        "EA0_10": {
+            "name": "Hard Grog",
+            "description": [[
+                "A fortified ration of grog, blended with brandy and lime.",
+                "Issues to help the crew withstand hardship, scurvy and remain at their posts under fire."
+            ]],
+            "comment": [
+                "For heavy weather."
+            ]
+        }
+    },
+    "deadeyeGrog": {
+        "EA0_10": {
+            "name": "Deadeye Grog",
+            "description": [[
+                "A sharp blend of rum, madeira, and strong coffee.",
+                "Clears the head, steadies the eye, and keeps the sights true when it matters most."
+            ]],
+            "comment": [
+                "One glass steadies the eye.",
+                "Two explains the miss."
+            ]
+        }
     }
 }

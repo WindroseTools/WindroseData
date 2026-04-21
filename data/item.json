@@ -84,5 +84,51 @@
                 }
             ]
         }
+    },
+    "hardGrog": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Ship_Rum_Defence",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 2
+            },
+            "required": {
+                "rumBottle": 4,
+                "brandy": 2,
+                "lime": 3
+            },
+            "effects": [
+                {
+                    "type": "percentageDamageResistanceIncreaseForMinutes",
+                    "damageResistanceIncreasePercent": 15,
+                    "duration": 30
+                }
+            ]
+        }
+    },
+    "deadeyeGrog": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Ship_Rum_Precision",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 2
+            },
+            "required": {
+                "rumBottle": 4,
+                "madeira": 2,
+                "coffeeBeans": 1
+            },
+            "effects": [
+                {
+                    "type": "percentageDamageIncreaseForMinutes",
+                    "damageIncreasePercent": 15,
+                    "duration": 30
+                }
+            ]
+        }
     }
 }
