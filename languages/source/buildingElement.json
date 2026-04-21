@@ -2272,5 +2272,37 @@
             "name": "Shrub Sapling",
             "description": [[]]
         }
+    },
+    "squareChairSticks": {
+        "EA0_10": {
+            "name": "Chair (Square, Sticks)",
+            "description": [[
+                "Creaks every time you sit on it."
+            ]]
+        }
+    },
+    "roundedArmchairSticks": {
+        "EA0_10": {
+            "name": "Armchair (Rounded, Sticks)",
+            "description": [[
+                "Creaks every time you sit on it."
+            ]]
+        }
+    },
+    "shapedArmchairSticks": {
+        "EA0_10": {
+            "name": "Armchair (Shaped, Sticks)",
+            "description": [[
+                "Creaks every time you sit on it."
+            ]]
+        }
+    },
+    "pendantLamp": {
+        "EA0_10": {
+            "name": "Pendant Lamp",
+            "description": [[
+                "Makes any place cozier."
+            ]]
+        }
     }
 }

@@ -3008,5 +3008,51 @@
                 "shrubSeeds": 1
             }
         }
+    },
+    "squareChairSticks": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Standing_Chair",
+            "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "roundedArmchairSticks": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Standing_Armchair02",
+            "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "shapedArmchairSticks": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Standing_Armchair01",
+            "type": "seating",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "plantFiber": 10
+            }
+        }
+    },
+    "pendantLamp": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Chandelier02",
+            "type": "lamp",
+            "requiresBonfire": true,
+            "mountingRestriction": "ceilingOnly",
+            "comfort": 1,
+            "required": {
+                "clay": 3,
+                "animalFat": 3
+            }
+        }
     }
 }
