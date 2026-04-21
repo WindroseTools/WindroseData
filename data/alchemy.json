@@ -69,6 +69,81 @@
                     "duration": 15
                 }
             ]
+        },
+        "EA0_10": {
+            "rarity": "rare",
+            "stackLimit": 0,
+            "effects": [
+                {
+                    "type": "percentageRangedDamageIncrease",
+                    "damageIncreasePercent": 10
+                },
+                {
+                    "type": "durationMinutes",
+                    "duration": 15
+                }
+            ],
+            "station": {
+                "id": "alchemyTable",
+                "level": 3
+            },
+            "required": {
+                "alchemicalBase": 1,
+                "mountainGoatHorn": 1,
+                "wolfFang": 1
+            }
+        }
+    },
+    "elixirOfConcentration": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Alchemy_Elixir_CritDamage",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "effects": [
+                {
+                    "type": "percentageCriticalDamageIncrease",
+                    "damageIncreasePercent": 30
+                },
+                {
+                    "type": "durationMinutes",
+                    "duration": 15
+                }
+            ],
+            "station": {
+                "id": "alchemyTable",
+                "level": 3
+            },
+            "required": {
+                "alchemicalBase": 1,
+                "bezoar": 1,
+                "aloeLeaf": 1
+            }
+        }
+    },
+    "elixirOfCruelty": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Alchemy_Elixir_GlobalDamage",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "effects": [
+                {
+                    "type": "percentageDamageIncrease",
+                    "damageIncreasePercent": 8
+                },
+                {
+                    "type": "durationMinutes",
+                    "duration": 15
+                }
+            ],
+            "station": {
+                "id": "alchemyTable",
+                "level": 2
+            },
+            "required": {
+                "alchemicalBase": 1,
+                "boarTusk": 1,
+                "pearl": 1
+            }
         }
     }
 }

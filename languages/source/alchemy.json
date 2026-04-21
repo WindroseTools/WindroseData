@@ -46,5 +46,30 @@
                 "- Marcel Boucher, buccaneer"
             ]
         }
+    },
+    "elixirOfConcentration": {
+        "EA0_10": {
+            "name": "Elixir of Concentration",
+            "description": [[
+                "A yellowish, glowing draught with a salty bite.",
+                "One sip, and spots appear on everyone around you - apparently to make hitting them easier."
+            ]],
+            "comment": [
+                "The product of vile religious rites practiced by a long-dead tribe."
+            ]
+        }
+    },
+    "elixirOfCruelty": {
+        "EA0_10": {
+            "name": "Elixir of Cruelty",
+            "description": [[
+                "A thick purple elixir with a sharp, spicy scent.",
+                "It rouses cruelty, making every blow heavier and more merciless."
+            ]],
+            "comment": [
+                "Cruelty is not a vice.",
+                "- Edward \"Blackbeard\" Teach"
+            ]
+        }
     }
 }

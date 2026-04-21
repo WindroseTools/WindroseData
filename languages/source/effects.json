@@ -275,5 +275,29 @@
                 "Resource gathering consumes {{percentReduction}}% less Stamina"
             ]]
         }
+    },
+    "percentageDamageIncrease": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Damage by {{damageIncreasePercent}}%."
+            ]]
+        }
+    },
+    "percentageDamageResistanceIncreaseForMinutes": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Damage Resistance by {{damageResistanceIncreasePercent}}% for {{duration}} min."
+            ]]
+        }
+    },
+    "percentageDamageIncreaseForMinutes": {
+        "demo": {
+            "name": "",
+            "description": [[
+                "Increases Damage by {{damageIncreasePercent}}% for {{duration}} min."
+            ]]
+        }
     }
 }
