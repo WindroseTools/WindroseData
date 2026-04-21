@@ -101,5 +101,65 @@
                 "wood": 10
             }
         }
+    },
+    "ironAxe": {
+        "EA0_10": {
+            "relatedInternalIds": "EID_Tool_Axe_T02",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 2
+            },
+            "damages": [
+                {
+                    "type": "crude",
+                    "amount": 255
+                }
+            ],
+            "attackPower": 200,
+            "required": {
+                "foothillsIronIngot": 5,
+                "wood": 5
+            }
+        }
+    },
+    "ironPickaxe": {
+        "EA0_10": {
+            "relatedInternalIds": "EID_Tool_Pickaxe_T02",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 2
+            },
+            "damages": [
+                {
+                    "type": "crude",
+                    "amount": 270
+                }
+            ],
+            "attackPower": 200,
+            "required": {
+                "foothillsIronIngot": 5,
+                "wood": 5
+            }
+        }
+    },
+    "simpleFishingRod": {
+        "EA0_10": {
+            "relatedInternalIds": "EID_Tool_FishingRod_T02",
+            "rarity": "rare",
+            "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 2
+            },
+            "required": {
+                "hardwood": 5,
+                "rope": 3,
+                "foothillsIronIngot": 2
+            }
+        }
     }
 }

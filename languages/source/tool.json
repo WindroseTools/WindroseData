@@ -40,5 +40,29 @@
                 "Perfect for digging up treasure, leveling ground, or piling up a mound."
             ]]
         }
+    },
+    "ironAxe": {
+        "EA0_10": {
+            "name": "Iron Axe",
+            "description": [[
+                "An iron axe - tough enough to bite into the Foothill's hardwood."
+            ]]
+        }
+    },
+    "ironPickaxe": {
+        "EA0_10": {
+            "name": "Iron Pickaxe",
+            "description": [[
+                "An iron pickaxe that makes mining ore much easier."
+            ]]
+        }
+    },
+    "simpleFishingRod": {
+        "EA0_10": {
+            "name": "Simple Fishing Rod",
+            "description": [[
+                "With this in hand, every day's a good day for fishing!"
+            ]]
+        }
     }
 }

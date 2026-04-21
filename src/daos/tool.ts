@@ -10,8 +10,8 @@ type ToolData<TRequired = number> = {
     rarity: Rarity;
     stackLimit: number;
     station?: Station;
-    damages: Damages;
-    attackPower: number;
+    damages?: Damages;
+    attackPower?: number;
     required: Record<string, TRequired>;
 };
 
@@ -26,8 +26,8 @@ export class Tool {
     public rarity: Rarity;
     public stackLimit: number;
     public station?: Station;
-    public damages: Damages;
-    public attackPower: number;
+    public damages?: Damages;
+    public attackPower?: number;
     public required: Record<string, RequirementEntry>;
 
     constructor(id: string, data: ToolResolvedData) {
