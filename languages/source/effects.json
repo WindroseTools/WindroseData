@@ -277,7 +277,7 @@
         }
     },
     "percentageDamageIncrease": {
-        "demo": {
+        "EA0_10": {
             "name": "",
             "description": [[
                 "Increases Damage by {{damageIncreasePercent}}%."
@@ -285,7 +285,7 @@
         }
     },
     "percentageDamageResistanceIncreaseForMinutes": {
-        "demo": {
+        "EA0_10": {
             "name": "",
             "description": [[
                 "Increases Damage Resistance by {{damageResistanceIncreasePercent}}% for {{duration}} min."
@@ -293,10 +293,20 @@
         }
     },
     "percentageDamageIncreaseForMinutes": {
-        "demo": {
+        "EA0_10": {
             "name": "",
             "description": [[
                 "Increases Damage by {{damageIncreasePercent}}% for {{duration}} min."
+            ]]
+        }
+    },
+    "rakedEffectOnVolleyHit": {
+        "EA0_10": {
+            "name": "",
+            "description": [[
+                "Hitting a target with more than {{percentageVolleyThreshold}}% of a volley applies Raked effect for {{durationSeconds}} seconds.",
+                "All Damage dealt to affected targets is increased by {{percentageDamageIncreasePerStack}}%.",
+                "Stacks up to {{maxStacks}} times."
             ]]
         }
     }

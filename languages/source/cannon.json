@@ -4,7 +4,45 @@
             "name": "12-Pounders",
             "description": [[
                 "Reliable cannons suited to a wide range of naval engagements."
-            ]]
+            ]],
+            "comment": [
+                "Beat to quarters!"
+            ]
+        }
+    },
+    "24Pounders": {
+        "EA0_10": {
+            "name": "24-Pounders",
+            "description": [[
+                "Powerful, well-balanced cannon forming the backbone of many naval batteries."
+            ]],
+            "comment": [
+                "The ship's voice."
+            ]
+        }
+    },
+    "24PoundersDevastating": {
+        "EA0_10": {
+            "name": "24-Pounders: Devastating",
+            "description": [[
+                "Guns favored for raking fire that punish alignment errors brutally.",
+                "Their shots tear through decks, guns, and crew alike, leaving damage that worsens with every blow."
+            ]],
+            "comment": [
+                "Shiver me timbers!"
+            ]
+        }
+    },
+    "36Pounders": {
+        "EA0_10": {
+            "name": "36-Pounders",
+            "description": [[
+                "Massive cannons built to deliver crushing blows.",
+                "Reserved for ships capable of bearing its weight and recoil."
+            ]],
+            "comment": [
+                "Let the heavy guns speak."
+            ]
         }
     }
 }

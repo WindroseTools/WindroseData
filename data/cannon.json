@@ -19,6 +19,101 @@
                 "copperIngot": 10,
                 "wood": 10
             }
+        },
+        "EA0_10": {
+            "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "damage": 1500,
+            "reloadTime": 1100,
+            "range": "A",
+            "accuracy": "B",
+            "levels": {
+                "1": {
+                    "attackPower": 100
+                }
+            },
+            "required": {
+                "copperIngot": 10,
+                "wood": 10
+            }
+        }
+    },
+    "24Pounders": {
+        "EA0_10": {
+            "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "damage": 2000,
+            "reloadTime": 1300,
+            "range": "B",
+            "accuracy": "B",
+            "levels": {
+                "1": {
+                    "attackPower": 100
+                }
+            },
+            "required": {
+                "copperIngot": 15,
+                "wood": 15
+            }
+        }
+    },
+    "24PoundersDevastating": {
+        "EA0_10": {
+            "rarity": "rare",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "damage": 2000,
+            "reloadTime": 1300,
+            "range": "A",
+            "accuracy": "A",
+            "levels": {
+                "1": {
+                    "attackPower": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "rakedEffectOnVolleyHit",
+                    "percentageVolleyThreshold": 50,
+                    "durationSeconds": 25,
+                    "percentageDamageIncreasePerStack": 10,
+                    "maxStacks": 3
+                }
+            ],
+            "required": {
+                "copperIngot": 15,
+                "woodenPlank": 7
+            }
+        }
+    },
+    "36Pounders": {
+        "EA0_10": {
+            "rarity": "uncommon",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "damage": 2500,
+            "reloadTime": 1400,
+            "range": "A",
+            "accuracy": "B",
+            "levels": {
+                "1": {
+                    "attackPower": 100
+                }
+            },
+            "required": {
+                "copperIngot": 20,
+                "wood": 20
+            }
         }
     }
 }
