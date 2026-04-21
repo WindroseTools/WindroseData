@@ -28,5 +28,22 @@
                 "copperIngot": 2
             }
         }
+    },
+    "bosunBackpack": {
+        "EA0_10": {
+            "relatedInternalIds": "EID_Backpack_L02_T01",
+            "rarity": "uncommon",
+            "stackLimit": 1,
+            "station": {
+                "id": "workbench",
+                "level": 3
+            },
+            "additionalSlots": 12,
+            "required": {
+                "sailorBackpack": 1,
+                "tannedLeather": 5,
+                "foothillsIronIngot": 2
+            }
+        }
     }
 }

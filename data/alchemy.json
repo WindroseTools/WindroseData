@@ -26,6 +26,7 @@
             "stackLimit": 0
         },
         "EA0_10": {
+            "relatedInternalIds": "DID_Resource_UndeadEssence_T01",
             "rarity": "rare",
             "stackLimit": 40
         }
@@ -71,6 +72,7 @@
             ]
         },
         "EA0_10": {
+            "relatedInternalIds": "CID_Alchemy_Elixir_RangeDamage",
             "rarity": "rare",
             "stackLimit": 0,
             "effects": [

@@ -14,5 +14,13 @@
                 "Capable of holding a week's worth of provisions and two bottles of rum."
             ]]
         }
+    },
+    "bosunBackpack": {
+        "EA0_10": {
+            "name": "Bosun Backpack",
+            "description": [[
+                "As reliable as an anchor, as spacious as a ship's deck."
+            ]]
+        }
     }
 }

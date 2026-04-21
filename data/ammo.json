@@ -46,6 +46,7 @@
             "stackLimit": 0
         },
         "EA0_10": {
+            "relatedInternalIds": "AID_Ammo_Gunpowder_Homemade_T02",
             "rarity": "uncommon",
             "stackLimit": 0,
             "station": {

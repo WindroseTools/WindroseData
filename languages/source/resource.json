@@ -573,5 +573,53 @@
                 "Required for crafting quality cannons and ship equipment."
             ]]
         }
+    },
+    "anvil": {
+        "EA0_10": {
+            "name": "Anvil",
+            "description": [[
+                "A blacksmith's tool."
+            ]]
+        }
+    },
+    "millstoneParts": {
+        "EA0_10": {
+            "name": "Millstone Parts",
+            "description": [[
+                "Required to craft a millstone."
+            ]]
+        }
+    },
+    "ironware": {
+        "EA0_10": {
+            "name": "Ironware",
+            "description": [[
+                "Useful for cooking meals and crafting poisons."
+            ]]
+        }
+    },
+    "piastre": {
+        "EA0_10": {
+            "name": "Piastre",
+            "description": [[
+                "A Spanish silver coin.",
+                "Recognized by every merchant and scoundrel, it is most often claimed by boarding and sinking ships."
+            ]],
+            "comment": [
+                "Pieces of eight! Pieces of eight!"
+            ]
+        }
+    },
+    "guinea": {
+        "EA0_10": {
+            "name": "Guinea",
+            "description": [[
+                "An English gold coin.",
+                "Essential for securing the finest black-market cargo available on Tortuga."
+            ]],
+            "comment": [
+                "Good for bribes, bets, and bad ideas."
+            ]
+        }
     }
 }
