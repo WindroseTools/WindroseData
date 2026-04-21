@@ -44,6 +44,17 @@
         "demo": {
             "rarity": "uncommon",
             "stackLimit": 0
+        },
+        "EA0_10": {
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "millstones"
+            },
+            "required": {
+                "sulfur": 1,
+                "ash": 2
+            }
         }
     },
     "ironBullet": {
