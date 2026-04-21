@@ -398,5 +398,130 @@
             "rarity": "uncommon",
             "stackLimit": 0
         }
+    },
+    "linenFabric": {
+        "EA0_10": {
+            "relatedInternalIds": ["DID_Resource_LinenFabric_T02","RD_DID_Resource_LinenFabric_T02"],
+            "rarity": "uncommon",
+            "stackLimit": 40,
+            "station": {
+                "id": "spinningWheel"
+            },
+            "required": {
+                "flaxFiber": 3
+            }
+        }
+    },
+    "cornmeal": {
+        "EA0_10": {
+            "relatedInternalIds": ["DID_Resource_Cornmeal_T02","RD_DID_Resource_Cornmeal_T02"],
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "millstones"
+            },
+            "required": {
+                "corn": 2
+            }
+        }
+    },
+    "tannedLeather": {
+        "EA0_10": {
+            "relatedInternalIds": ["DID_Resource_TanLeather_T02","RD_DID_Resource_TanLeather_T02"],
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "tanningRack"
+            },
+            "required": {
+                "roughHide": 3,
+                "tannin": 2
+            }
+        }
+    },
+    "tannin": {
+        "EA0_10": {
+            "relatedInternalIds": ["DID_Resource_Tannin_T02","RD_DID_Resource_Tannin_T02"],
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "alchemyTable",
+                "level": 3
+            },
+            "required": {
+                "clayBottle": 1,
+                "treeBark": 2
+            }
+        }
+    },
+    "mountainGoatHorn": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_GoatHorn_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "madeira": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_TradeCraft_Alcohol_Officer",
+            "rarity": "epic",
+            "stackLimit": 0
+        }
+    },
+    "brandy": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_TradeCraft_Alcohol_Lucky",
+            "rarity": "epic",
+            "stackLimit": 0
+        }
+    },
+    "crabShell": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_CrabShell_T01",
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "headOfAMountainGoatLeader": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_EliteGoatHead_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "crocodileHead": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_CrocodileHead_T03",
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "mastersTools": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_FineTools_01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "sewingTools": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_ThreadsNeedles_01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "smithingFlux": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_BlacksmithFlux_01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "shipwrightsTools": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_ShipTools_01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
     }
 }

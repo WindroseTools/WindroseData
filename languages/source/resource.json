@@ -449,5 +449,129 @@
                 "Perhaps that's why ancient chiefs rarely smiled..."
             ]]
         }
+    },
+    "linenFabric": {
+        "EA0_10": {
+            "name": "Linen Fabric",
+            "description": [[
+                "Used in tailoring."
+            ]]
+        }
+    },
+    "cornmeal": {
+        "EA0_10": {
+            "name": "Cornmeal",
+            "description": [[
+                "Cooking ingredient.",
+                "Obtained by grinding corn."
+            ]]
+        }
+    },
+    "tannedLeather": {
+        "EA0_10": {
+            "name": "Tanned Leather",
+            "description": [[
+                "Used in tailoring."
+            ]]
+        }
+    },
+    "tannin": {
+        "EA0_10": {
+            "name": "Tannin",
+            "description": [[
+                "Has tanning properties and a distinctive astringent taste.",
+                "Used in the treatment of hides and furs."
+            ]]
+        }
+    },
+    "mountainGoatHorn": {
+        "EA0_10": {
+            "name": "Mountain Goat Horn",
+            "description": [[
+                "Alchemical ingredient."
+            ]]
+        }
+    },
+    "madeira": {
+        "EA0_10": {
+            "name": "Madeira",
+            "description": [[
+                "A fortified wine shipped from the Island of Madeira under the Portuguese flag.",
+                "It withstands heat and long voyages, making it highly prized by officers, merchants, and shipwrights."
+            ]],
+            "comment": [
+                "Improved by the journey."
+            ]
+        }
+    },
+    "brandy": {
+        "EA0_10": {
+            "name": "Brandy",
+            "description": [[
+                "A strong distillate imported from France and Spain.",
+                "A versatile staple - currency in trade, alcohol for medicine, and a rare aid in shipboard and field work."
+            ]],
+            "comment": [
+                "A gentleman's fire."
+            ]
+        }
+    },
+    "crabShell": {
+        "EA0_10": {
+            "name": "Crab Shell",
+            "description": [[
+                "Can be hung on the wall as a trophy."
+            ]]
+        }
+    },
+    "headOfAMountainGoatLeader": {
+        "EA0_10": {
+            "name": "Head of a Mountain Goat Leader",
+            "description": [[
+                "A trophy.",
+                "They say if you state at it long enough, it will blink.",
+                "And if you state at it even longer, it can butt you."
+            ]]
+        }
+    },
+    "crocodileHead": {
+        "EA0_10": {
+            "name": "Crocodile Head",
+            "description": [[
+                "The head of a dangerous predator."
+            ]]
+        }
+    },
+    "mastersTools": {
+        "EA0_10": {
+            "name": "Master's Tools",
+            "description": [[
+                "Required for crafting quality firearms and leather armor."
+            ]]
+        }
+    },
+    "sewingTools": {
+        "EA0_10": {
+            "name": "Sewing Tools",
+            "description": [[
+                "Required for crafting quality clothing made of fabric."
+            ]]
+        }
+    },
+    "smithingFlux": {
+        "EA0_10": {
+            "name": "Smithing Flux",
+            "description": [[
+                "Required for crafting quality metal weapons and armor."
+            ]]
+        }
+    },
+    "shipwrightsTools": {
+        "EA0_10": {
+            "name": "Shipwright's Tools",
+            "description": [[
+                "Required for crafting quality cannons and ship equipment."
+            ]]
+        }
     }
 }

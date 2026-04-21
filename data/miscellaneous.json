@@ -100,5 +100,96 @@
             "rarity": "rare",
             "stackLimit": 0
         }
+    },
+    "munitions": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_TradeGoods_Munitions",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "insigniaOfABlackbeardCaptain": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_BlackBeardSign_04",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
+    },
+    "letterOfFavor": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Reputation_FactionSign_01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "contraband": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_TradeGoods_Contraband",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "luxuries": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_TradeGoods_Luxuries",
+            "rarity": "epic",
+            "stackLimit": 0
+        }
+    },
+    "silverSpoon": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_CheapDrownedStuff_01_T01",
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "silverButton": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_CheapDrownedStuff_02_T01",
+            "rarity": "uncommon",
+            "stackLimit": 0
+        }
+    },
+    "silverEarring": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_MidDrownedStuff_01_T01",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "ancientChalice": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_MidSenkamatiStuff_02_T01",
+            "rarity": "epic",
+            "stackLimit": 0
+        }
+    },
+    "potWithGoldenHorns": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_MidSenkamatiStuff_03_T01",
+            "rarity": "epic",
+            "stackLimit": 0
+        }
+    },
+    "goldMaskOfThePriest": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_ExpensiveSenkamatiStuff_01_T01",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
+    },
+    "goldTempleJug": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_ExpensiveSenkamatiStuff_02_T01",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
+    },
+    "goldVaseOfTheChief": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_ExpensiveSenkamatiStuff_03_T01",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
     }
 }

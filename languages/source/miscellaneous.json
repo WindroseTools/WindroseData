@@ -143,5 +143,170 @@
                 "Required to ascend equipment."
             ]]
         }
+    },
+    "munitions": {
+        "EA0_10": {
+            "name": "Munitions",
+            "description": [[
+                "A heavy shipment of powder and shot intended for sale.",
+                "Keep it dry, keep it sealed."
+            ]],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "insigniaOfABlackbeardCaptain": {
+        "EA0_10": {
+            "name": "Old Salt Insignia",
+            "description": [
+                [
+                    "A scarred, storied mark from a true sea-dog of Blackbeard's crews."
+                ],
+                [
+                    "Turn it in on Tortuga to any archipelago faction to gain reputation."
+                ]
+            ]
+        }
+    },
+    "letterOfFavor": {
+        "EA0_10": {
+            "name": "Letter of Favor",
+            "description": [
+                [
+                    "Whom it may concern: the bearer of this letter has earned their standing through deed and loyalty.",
+                    "Treat them as a captain of proven worth, one who can be trusted with coin, cargo, and sensitive work."
+                ],
+                [
+                    "Turn it in on Tortuga to any archipelago faction to gain reputation."
+                ]
+            ]
+        }
+    },
+    "contraband": {
+        "EA0_10": {
+            "name": "Contraband",
+            "description": [
+                [
+                    "Unmarked cargo meant to stay off the books."
+                ],
+                [
+                    "Could be sold to Smugglers."
+                ]
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "luxuries": {
+        "EA0_10": {
+            "name": "Luxuries",
+            "description": [
+                [
+                    "Refined goods sealed for shipment: fragile, expensive, and always in demand."
+                ],
+                [
+                    "Could be sold to Smugglers."
+                ]
+            ],
+            "comment": [
+                "Open it and you're out of the cut.",
+                "- scratched with a nail"
+            ]
+        }
+    },
+    "silverSpoon": {
+        "EA0_10": {
+            "name": "Silver Spoon",
+            "description": [
+                [
+                    "Antique spoon.",
+                    "It served one of the pioneers of the New World well."
+                ],
+                [
+                    "Could be sold to Smugglers."
+                ]
+            ]
+        }
+    },
+    "silverButton": {
+        "EA0_10": {
+            "name": "Silver Button",
+            "description": [
+                [
+                    "An old trinket - the silver has dulled a bit, but it's probably still worth something."
+                ],
+                [
+                    "Could be sold to Smugglers."
+                ]
+            ]
+        }
+    },
+    "silverEarring": {
+        "EA0_10": {
+            "name": "Silver Earring",
+            "description": [
+                [
+                    "Its original silver sheen faded long ago.",
+                    "It might still appeal to collectors and traders in old wares."
+                ],
+                [
+                    "Could be sold to Smugglers."
+                ]
+            ]
+        }
+    },
+    "ancientChalice": {
+        "EA0_10": {
+            "name": "Ancient Chalice",
+            "description": [
+                [
+                    "A rare artifact of an ancient people, preserved against all odds."
+                ]
+            ]
+        }
+    },
+    "potWithGoldenHorns": {
+        "EA0_10": {
+            "name": "Pot with Golden Horns",
+            "description": [
+                [
+                    "A rare artifact of an ancient people, preserved against all odds."
+                ]
+            ]
+        }
+    },
+    "goldMaskOfThePriest": {
+        "EA0_10": {
+            "name": "Gold Mask of the Priest",
+            "description": [
+                [
+                    "Made from pure gold, this mask is truly terrifying."
+                ]
+            ]
+        }
+    },
+    "goldTempleJug": {
+        "EA0_10": {
+            "name": "Gold Temple Jug",
+            "description": [
+                [
+                    "The jug, sparkling with gold and three huge rubies, is a rare and very expensive find."
+                ]
+            ]
+        }
+    },
+    "goldVaseOfTheChief": {
+        "EA0_10": {
+            "name": "Gold Vase of the Chief",
+            "description": [
+                [
+                    "With its elegant pattern and precious stones, this is no mere vase but a small fortune."
+                ]
+            ]
+        }
     }
 }
