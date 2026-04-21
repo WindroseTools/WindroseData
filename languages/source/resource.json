@@ -621,5 +621,13 @@
                 "Good for bribes, bets, and bad ideas."
             ]
         }
+    },
+    "fishFillet": {
+        "EA0_10": {
+            "name": "Fish Fillet",
+            "description": [[
+                "A nice-looking piece of fish - it just needs proper cooking!"
+            ]]
+        }
     }
 }

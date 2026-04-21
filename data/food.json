@@ -214,6 +214,24 @@
                     "pointAmount": 20
                 }
             ]
+        },
+        "EA0_10": {
+            "rarity": "epic",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "coffeeBeans": 4,
+                "caneSugar": 4
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 20
+                }
+            ]
         }
     },
     "corn": {
@@ -235,6 +253,300 @@
             "relatedInternalIds": "CID_Food_Raw_Tomato_T02",
             "rarity": "common",
             "stackLimit": 50
+        }
+    },
+    "burrito": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Dough_BurritoMeat_T02",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "cornmeal": 2,
+                "meat": 2,
+                "salt": 2
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseMastery",
+                    "pointAmount": 10
+                }
+            ]
+        }
+    },
+    "tortilla": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Dough_CornCasabe_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire"
+            },
+            "required": {
+                "cornmeal": 1
+            }
+        }
+    },
+    "pastechi": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Dough_Pastechi_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "meat": 1,
+                "cornmeal": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseMastery",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "sunmilkTonic": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Drink_CocoPeanut_T02",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "coconut": 2,
+                "aloeLeaf": 2,
+                "nuts": 2
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 10
+                }
+            ]
+        }
+    },
+    "refreshingTomatoJuice": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Drink_SourTomato_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "tomato": 1,
+                "lime": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "sweetLimeJuice": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Drink_SweetLime_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "lime": 1,
+                "caneSugar": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseEndurance",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "seafoodPlatter": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Second_SeafoodPlatter_T03",
+            "rarity": "epic",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 3
+            },
+            "required": {
+                "crabMeat": 3,
+                "lime": 4,
+                "fishFillet": 7,
+                "salt": 4
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 20
+                }
+            ]
+        }
+    },
+    "fishAndTostones": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Second_FishAndTostones_T02",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "fishFillet": 3,
+                "nuts": 2,
+                "banana": 3
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 10
+                }
+            ]
+        }
+    },
+    "seafoodSkewer": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Skewer_SeafoodHarpoon_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "crabMeat": 1,
+                "fishFillet": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseStrength",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "chowder": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Soup_Chowder_T02",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "fishFillet": 3,
+                "sweetPotato": 3,
+                "salt": 2
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseAgility",
+                    "pointAmount": 10
+                }
+            ]
+        }
+    },
+    "crabSoupWithDicedTomatoes": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Soup_TomatoCrab_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "crabMeat": 1,
+                "tomato": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseAgility",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "bananaMuffin": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Sweet_CupcakeBanana_T02",
+            "rarity": "rare",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 2
+            },
+            "required": {
+                "banana": 4,
+                "caneSugar": 2,
+                "cornmeal": 3,
+                "dodoEgg": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreasePrecision",
+                    "pointAmount": 10
+                }
+            ]
+        }
+    },
+    "tangyNutRoll": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Sweet_CornRoll_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "cornmeal": 2,
+                "nuts": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreasePrecision",
+                    "pointAmount": 5
+                }
+            ]
+        }
+    },
+    "meatSalad": {
+        "EA0_10": {
+            "relatedInternalIds": "CID_Food_Second_MeatSalad_T02",
+            "rarity": "uncommon",
+            "stackLimit": 0,
+            "station": {
+                "id": "cookingFire",
+                "level": 1
+            },
+            "required": {
+                "meat": 1,
+                "tomato": 1
+            },
+            "effects": [
+                {
+                    "type": "statPointIncreaseVitality",
+                    "pointAmount": 5
+                }
+            ]
         }
     }
 }

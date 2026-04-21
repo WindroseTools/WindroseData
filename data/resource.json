@@ -603,5 +603,12 @@
             "rarity": "rare",
             "stackLimit": 0
         }
+    },
+    "fishFillet": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_FishMeat_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
     }
 }

@@ -310,5 +310,255 @@
                 "- Captain Thomas Richards, perpetually hungry"
             ]
         }
+    },
+    "burrito": {
+        "EA0_10": {
+            "name": "Burrito",
+            "description": [
+                [
+                    "A hearty wrap of tender corn tortilla, stuffed with chopped meat and spices."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "One bite, and a sea storm will feel like a light breeze."
+            ]
+        }
+    },
+    "tortilla": {
+        "EA0_10": {
+            "name": "Tortilla",
+            "description": [
+                [
+                    "A thin corn tortilla.",
+                    "Not a feast, but enough to quiet a growling stomach."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "Before you know it, you will devour a whole stack and ask for more."
+            ]
+        }
+    },
+    "pastechi": {
+        "EA0_10": {
+            "name": "Pastechi",
+            "description": [
+                [
+                    "Fried corn dough with a meat filling inside.",
+                    "A traditional appetizer on the islands of Aruba, Bonaire and Curacao."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "On every ship, on every raid, there is bound to be some fool who swears pastechi with potatoes is better.",
+                "- Black Axel, cook"
+            ]
+        }
+    },
+    "sunmilkTonic": {
+        "EA0_10": {
+            "name": "Sunmilk Tonic",
+            "description": [
+                [
+                    "A healing drink of coconut milk, aloe pulp, and crunchy roasted nuts."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "Nuts in a drink? Unthinkable blasphemy!",
+                " Reverend Father Ignacio"
+            ]
+        }
+    },
+    "refreshingTomatoJuice": {
+        "EA0_10": {
+            "name": "Refreshing Tomato Juice",
+            "description": [
+                [
+                    "Made from ripe tomatoes, this bold red drink is full of flavour."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "An acquired taste.",
+                "The color and smell aren't doing it any favors either.",
+                "Salt and rum might help."
+            ]
+        }
+    },
+    "sweetLimeJuice": {
+        "EA0_10": {
+            "name": "Sweet Lime Juice",
+            "description": [
+                [
+                    "A sweet and sour drink made from freshly squeezed lime juice and cane sugar."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "Too sweet for the bosun, too sour for the cook, but just right for a cabin boy."
+            ]
+        }
+    },
+    "seafoodPlatter": {
+        "EA0_10": {
+            "name": "Seafood Platter",
+            "description": [
+                [
+                    "Fresh seafood, a sign of the ocean's generosity.",
+                    "Keeps hunger away for a long time."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "A favorite dish among Tortuga's most enthusiastic charmers."
+            ]
+        }
+    },
+    "fishAndTostones": {
+        "EA0_10": {
+            "name": "Fish and Tostones",
+            "description": [
+                [
+                    "Fish with golden, twice-fried banana slices.",
+                    "A familiar dish in the Caribbean."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "On land, fish and bananas are just food.",
+                "At sea, it is a royal feast."
+            ]
+        }
+    },
+    "seafoodSkewer": {
+        "EA0_10": {
+            "name": "Seafood Skewer",
+            "description": [
+                [
+                    "Builds patience and willpower."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "In case of failure, don't blame the fish.",
+                "- the fisherman's third rule"
+            ]
+        }
+    },
+    "chowder": {
+        "EA0_10": {
+            "name": "Chowder",
+            "description": [
+                [
+                    "A rich fish soup where you can toss in not just the fish, but whatever else came up with it."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "Any fish not sold during the day ends up in the evening soup."
+            ]
+        }
+    },
+    "crabSoupWithDicedTomatoes": {
+        "EA0_10": {
+            "name": "Crab Soup with Diced Tomatoes",
+            "description": [
+                [
+                    "This thick soup, made from freshly caught crab and ripe tomatoes, is equally suited to a hungry sailor and a wealthy merchant alike."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "Its aroma gathers the whole crew around the cauldron faster than a cry of \"Land ahoy!\""
+            ]
+        }
+    },
+    "bananaMuffin": {
+        "EA0_10": {
+            "name": "Banana Muffin",
+            "description": [
+                [
+                    "A sweet, moist muffin made from ripe bananas."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 30 minutes"
+                ]
+            ],
+            "comment": [
+                "It does not taste as good when made with rotten bananas."
+            ]
+        }
+    },
+    "tangyNutRoll": {
+        "EA0_10": {
+            "name": "Tangy Nut Roll",
+            "description": [
+                [
+                    "A rich pastry roll with a delicate nutty flavor."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "It leaves a tart aftertaste, a vivid reminder of former adventures."
+            ]
+        }
+    },
+    "meatSalad": {
+        "EA0_10": {
+            "name": "Meat Salad",
+            "description": [
+                [
+                    "A perfect dish when you have a bit of this, a bit of that, and whatever else you can find.",
+                    "The only trouble is chasing down the ingredients first."
+                ],
+                [
+                    "Increases Maximum Health.",
+                    "Lasts 15 minutes"
+                ]
+            ],
+            "comment": [
+                "You eat your grass.",
+                "I'll take the meat."
+            ]
+        }
     }
 }
