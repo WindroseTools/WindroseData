@@ -610,5 +610,47 @@
             "rarity": "common",
             "stackLimit": 0
         }
+    },
+    "goldIngot": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_GoldIngot_T03",
+            "rarity": "rare",
+            "stackLimit": 0
+        }
+    },
+    "flaxSeeds": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_FlaxSeeds_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "cornSeeds": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_CornSeeds_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "bananaSeeds": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_BananaSeeds_T01",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "tomatoSeeds": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_TomatoSeeds_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
+    },
+    "aloeSeeds": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Resource_AloeSeeds_T02",
+            "rarity": "common",
+            "stackLimit": 0
+        }
     }
 }

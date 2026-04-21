@@ -270,6 +270,12 @@
             "description": [[
                 "Used to grow sweet potatoes."
             ]]
+        },
+        "EA0_10": {
+            "name": "Sweet Potato Seeds",
+            "description": [[
+                "Used to grow Sweet Potato."
+            ]]
         }
     },
     "coffeeBeans": {
@@ -627,6 +633,54 @@
             "name": "Fish Fillet",
             "description": [[
                 "A nice-looking piece of fish - it just needs proper cooking!"
+            ]]
+        }
+    },
+    "goldIngot": {
+        "EA0_10": {
+            "name": "Gold Ingot",
+            "description": [[
+                "A gold ingot used to upgrade jewelry."
+            ]]
+        }
+    },
+    "flaxSeeds": {
+        "EA0_10": {
+            "name": "Flax Seeds",
+            "description": [[
+                "Used to grow Flax."
+            ]]
+        }
+    },
+    "cornSeeds": {
+        "EA0_10": {
+            "name": "Corn Seeds",
+            "description": [[
+                "Used to grow Corn."
+            ]]
+        }
+    },
+    "bananaSeeds": {
+        "EA0_10": {
+            "name": "Banana Seeds",
+            "description": [[
+                "Used to grow Bananas."
+            ]]
+        }
+    },
+    "tomatoSeeds": {
+        "EA0_10": {
+            "name": "Tomato Seeds",
+            "description": [[
+                "Used to grow Tomatoes."
+            ]]
+        }
+    },
+    "aloeSeeds": {
+        "EA0_10": {
+            "name": "Aloe Seeds",
+            "description": [[
+                "Used to grow Aloe."
             ]]
         }
     }
