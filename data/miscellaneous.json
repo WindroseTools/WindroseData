@@ -191,5 +191,26 @@
             "rarity": "legendary",
             "stackLimit": 0
         }
+    },
+    "richardsCrewKey": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_KeyForBBChest_T01",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
+    },
+    "handsCrewKey": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_KeyForBBChest_T01",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
+    },
+    "ancientFoothillsKey": {
+        "EA0_10": {
+            "relatedInternalIds": "DID_Misc_KeyForChest_T02",
+            "rarity": "legendary",
+            "stackLimit": 0
+        }
     }
 }

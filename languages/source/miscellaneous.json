@@ -341,5 +341,37 @@
                 ]
             ]
         }
+    },
+    "richardsCrewKey": {
+        "EA0_10": {
+            "name": "Richard's Crew Key",
+            "description": [
+                [
+                    "A sturdy key for a sturdy pirate chest.",
+                    "Found at the pirate base in the Coastal Jungle."
+                ]
+            ]
+        }
+    },
+    "handsCrewKey": {
+        "EA0_10": {
+            "name": "Hand's Crew Key",
+            "description": [
+                [
+                    "A sturdy key for a sturdy pirate chest.",
+                    "Found at the pirate base in the Foothills."
+                ]
+            ]
+        }
+    },
+    "ancientFoothillsKey": {
+        "EA0_10": {
+            "name": "Ancient Foothills Key",
+            "description": [
+                [
+                    "A round stone disk covered in faint, intricate patterns and mysterious inscriptions."
+                ]
+            ]
+        }
     }
 }
