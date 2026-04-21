@@ -22,6 +22,17 @@
                 "Blackbeard's sailors' special insignia.",
                 "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
             ]]
+        },
+        "EA0_10": {
+            "name": "Newhand Insignia",
+            "description": [
+                [
+                    "A fresh-pressed mark carried by Blackbeard's newest hands."
+                ],
+                [
+                    "Turn it in on Tortuga to any archipelago faction to gain reputation."
+                ]
+            ]
         }
     },
     "insigniaOfABlackbeardSergeant": {
@@ -31,6 +42,17 @@
                 "Blackbeard's sergeants' special insignia.",
                 "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
             ]]
+        },
+        "EA0_10": {
+            "name": "Deckhand Insignia",
+            "description": [
+                [
+                    "Worn by sailors who've survived a few hard runs under Blackbeard's flag."
+                ],
+                [
+                    "Turn it in on Tortuga to any archipelago faction to gain reputation."
+                ]
+            ]
         }
     },
     "insigniaOfABlackbeardLieutenant": {
@@ -40,6 +62,17 @@
                 "Blackbeard's lieutenants' special insignia.",
                 "Turn them in on Tortuga to any faction of the archipelago to increase your reputation."
             ]]
+        },
+        "EA0_10": {
+            "name": "Veteran Insignia",
+            "description": [
+                [
+                    "Only true cutthroats who know every dirty trick are worthy to carry one."
+                ],
+                [
+                    "Turn it in on Tortuga to any archipelago faction to gain reputation."
+                ]
+            ]
         }
     },
     "medicine": {
