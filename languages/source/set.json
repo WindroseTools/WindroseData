@@ -10,5 +10,17 @@
             "name": "Flibustier's Attire",
             "description": [[]]
         }
+    },
+    "oldWorld": {
+        "EA0_10": {
+            "name": "Old World Building",
+            "description": [[]]
+        }
+    },
+    "spanishCaribbean": {
+        "EA0_10": {
+            "name": "Spanish Caribbean Building",
+            "description": [[]]
+        }
     }
 }

@@ -59,5 +59,17 @@
                 ]
             }
         }
+    },
+    "oldWorld": {
+        "EA0_10": {
+            "type": "building",
+            "pieces": [""]
+        }
+    },
+    "spanishCaribbean": {
+        "EA0_10": {
+            "type": "building",
+            "pieces": [""]
+        }
     }
 }
