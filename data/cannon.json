@@ -67,7 +67,7 @@
     },
     "24PoundersDevastating": {
         "EA0_10": {
-            "relatedInternalIds": ["EID_Cannon_24_Vulnerability_Base","EID_Cannon_24_Vulnerability_Advanced"],
+            "relatedInternalIds": "EID_Cannon_24_Vulnerability_Base",
             "rarity": "rare",
             "station": {
                 "id": "shipwrightsWorkshop",
@@ -94,6 +94,42 @@
             "required": {
                 "copperIngot": 15,
                 "woodenPlank": 7
+            }
+        }
+    },
+    "24PoundersDevastatingAdvanced": {
+        "EA0_10": {
+            "relatedInternalIds": "EID_Cannon_24_Vulnerability_Advanced",
+            "rarity": "rare",
+            "station": {
+                "id": "shipwrightsWorkshop",
+                "level": 1
+            },
+            "damage": 2000,
+            "reloadTime": 1300,
+            "range": "B",
+            "accuracy": "B",
+            "levels": {
+                "1": {
+                    "attackPower": 100
+                }
+            },
+            "effects": [
+                {
+                    "type": "rakedEffectOnVolleyHit",
+                    "percentageVolleyThreshold": 50,
+                    "durationSeconds": 25,
+                    "percentageDamageIncreasePerStack": 10,
+                    "maxStacks": 3
+                },
+                {
+                    "type": "percentageReloadSpeedIncrease",
+                    "reloadSpeedIncreasePercent": 15
+                }
+            ],
+            "required": {
+                "24PoundersDevastating": 1,
+                "tumbagaIngot": 8
             }
         }
     },
