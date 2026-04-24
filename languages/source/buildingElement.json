@@ -2304,5 +2304,85 @@
                 "Makes any place cozier."
             ]]
         }
+    },
+    "largeLuxuriousBed": {
+        "EA0_10": {
+            "name": "Large Luxurious Bed",
+            "description": [[
+                "A luxurious bed, fit for those who are used to sleeping wrapped in softness and grandeur."
+            ]]
+        }
+    },
+    "metalCage": {
+        "EA0_10": {
+            "name": "Metal Cage",
+            "description": [[
+                "A parrot cage without a parrot means either it was too smart, or its owner was too kind."
+            ]]
+        }
+    },
+    "luxuriousFireplace": {
+        "EA0_10": {
+            "name": "Luxurious Fireplace",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "fireplacePipe": {
+        "EA0_10": {
+            "name": "Fireplace Pipe",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "fireplaceFoundation": {
+        "EA0_10": {
+            "name": "Fireplace Foundation",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "fireplaceWalls": {
+        "EA0_10": {
+            "name": "Fireplace Walls",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "fireplaceCover": {
+        "EA0_10": {
+            "name": "Fireplace Cover",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "chimney": {
+        "EA0_10": {
+            "name": "Chimney",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "chimneyCap": {
+        "EA0_10": {
+            "name": "Chimney Cap",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
+    },
+    "firewoodRack": {
+        "EA0_10": {
+            "name": "Firewood Rack",
+            "description": [[
+                "A fireplace where burning logs whisper tales of storms, reefs, and stolen rum."
+            ]]
+        }
     }
 }

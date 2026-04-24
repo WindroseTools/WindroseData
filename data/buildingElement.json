@@ -3054,5 +3054,130 @@
                 "animalFat": 3
             }
         }
+    },
+    "largeLuxuriousBed": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_BedrollT04_02",
+            "type": "bed",
+            "set": "spanishCaribbean",
+            "workingRestriction": "roofRequired",
+            "revivalPoint": true,
+            "comfort": 2,
+            "required": {
+                "hardwood": 20,
+                "linenFabric": 20,
+                "feather": 20
+            }
+        }
+    },
+    "metalCage": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_DecorIronCage_01",
+            "type": "decoration",
+            "set": "oldWorld",
+            "requiresBonfire": true,
+            "comfort": 1,
+            "required": {
+                "foothillsIronIngot": 5
+            }
+        }
+    },
+    "luxuriousFireplace": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Brush_FireplaceT04_01_p01",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 40,
+                "foothillsIronIngot": 5
+            }
+        }
+    },
+    "fireplacePipe": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Brush_FireplaceT04_01_p02",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 25
+            }
+        }
+    },
+    "fireplaceFoundation": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Fireplace_CEB_A",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "foothillsIronIngot": 5,
+                "stone": 10
+            }
+        }
+    },
+    "fireplaceWalls": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Fireplace_CAB_A",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 10
+            }
+        }
+    },
+    "fireplaceCover": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Fireplace_CBB_A",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 10
+            }
+        }
+    },
+    "chimney": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Fireplace_BBE_A",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 5
+            }
+        }
+    },
+    "chimneyCap": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_Fireplace_BBE_B",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "stone": 5
+            }
+        }
+    },
+    "firewoodRack": {
+        "EA0_10": {
+            "relatedInternalIds": "Decorations_LogHolderT04_01",
+            "type": "fireplace",
+            "set": "spanishCaribbean",
+            "requiresBonfire": true,
+            "comfort": 2,
+            "required": {
+                "wood": 5
+            }
+        }
     }
 }
