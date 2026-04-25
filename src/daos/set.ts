@@ -9,7 +9,7 @@ type SetKey = keyof typeof setsData;
 type SetData = {
     type: SetType;
     pieces: string[];
-    pieceBonuses: Record<string, Effect[]>;
+    pieceBonuses?: Record<string, Effect[]>;
 };
 
 type SetsByVersion = MultiVersion<SetKey, Set>;
@@ -19,7 +19,7 @@ export class Set {
     public type: SetType;
     public dataType: "set";
     public pieces: string[];
-    public pieceBonuses: Record<string, Effect[]>;
+    public pieceBonuses?: Record<string, Effect[]>;
 
     constructor(id: string, data: SetData) {
         this.id = id;
