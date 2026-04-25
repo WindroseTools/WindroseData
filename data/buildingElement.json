@@ -2499,7 +2499,7 @@
             }
         }
     },
-    "seafoodPlatter": {
+    "seafoodPlatterBE": {
         "EA0_10": {
             "relatedInternalIds": ["Decorations_DecorativeFood_09","RD_BuildObject_Deco_Kitchen_T02_Food_09"],
             "type": "foodDisplay",
